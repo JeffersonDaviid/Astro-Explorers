@@ -9,8 +9,15 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
-    <used-plugins />
-    <used-behaviors />
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -37,15 +44,86 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Nave" sid="355879244125928">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="177589557946280">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="157225701936886" speed="5">
+                    <frame duration="1" hotspotX="0.502075" hotspotY="0.5" original-source="C:\Users\INTEL\Desktop\Captura.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Suelo" sid="597325635004256">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="220314201096789">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="816031945231420">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958871306188827" speed="5">
+                    <frame duration="1" hotspotX="0.501333" hotspotY="0.501333" original-source="C:\Users\INTEL\Desktop\Mars_Valles_Marineris.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="248844813264613">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="913676568114917">
+                    <behavior id="custom" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854494753018480" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="954872662993536">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite" sid="261183832622199">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="163524270979673">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117542343510431" speed="5">
+                    <frame duration="1" hotspotX="0.500673" hotspotY="0.5" original-source="C:\Users\INTEL\Desktop\CapturaGOTY.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="412387717638085">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106432006115092" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Keyboard" uid="2" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
