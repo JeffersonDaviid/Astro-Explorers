@@ -15,6 +15,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <used-effects />
@@ -44,9 +45,9 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="TiledBackground" sid="946917199708718">
+        <object-type name="space" sid="946917199708718">
             <plugin id="TiledBg" />
-            <texture original-source="D:\Universidad\GAMES\Astro-Explorers\Files\images\background.jpg" />
+            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\outer-space-6988255_960_720.jpg" />
         </object-type>
         <object-type name="player" sid="766401329365260">
             <plugin id="Sprite" />
@@ -60,7 +61,50 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\images.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501401" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.363889" y="0.366947" />
+                            <point x="0.5" y="0.00560224" />
+                            <point x="0.636111" y="0.366947" />
+                            <point x="0.666667" y="0.498599" />
+                            <point x="0.830556" y="0.829132" />
+                            <point x="0.5" y="0.927171" />
+                            <point x="0.169444" y="0.829132" />
+                            <point x="0.330556" y="0.498599" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="275269373281030">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="590451911145299" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\png-clipart-meteor-meteor-fireball.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="995360232154633">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="539897457532011">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122859694678499" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
+                        <collision-poly>
+                            <point x="0.566278" y="0.364123" />
+                            <point x="0.499723" y="0.361983" />
+                            <point x="0.955075" y="0.0288873" />
+                            <point x="0.666112" y="0.5" />
+                            <point x="0.612313" y="0.750713" />
+                            <point x="0.499723" y="0.897646" />
+                            <point x="0.110372" y="0.92903" />
+                            <point x="0.346644" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
