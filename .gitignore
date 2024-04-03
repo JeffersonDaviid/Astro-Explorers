@@ -1,0 +1,26 @@
+# NO EDITAR ESTE ARCHIVO
+
+
+# Archivos de construcción y temporales:
+*.capx.backup
+*.capx.backup1
+*.capx.backup2
+*.uistate.xml
+
+#Archivos de exportación de Construct 2:
+/exporters/
+
+# Archivos de configuración del sistema
+.directory
+
+# Archivos de caché y temporales:
+
+/c2runtime/
+/NodeWebkitForC2/
+/preview.html
+/offline.appcache
+
+
+# Archivos de compilación:
+/compiled/
+/release/
