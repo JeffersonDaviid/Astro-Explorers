@@ -11,11 +11,11 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
-        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -74,40 +74,70 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="248844813264613">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="CustomMovement" sid="913676568114917">
-                    <behavior id="custom" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854494753018480" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Keyboard" sid="954872662993536">
             <plugin id="Keyboard" />
-        </object-type>
-        <object-type name="Sprite" sid="261183832622199">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Physics" sid="163524270979673">
-                    <behavior id="Physics" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117542343510431" speed="5">
-                    <frame duration="1" hotspotX="0.500673" hotspotY="0.5" original-source="C:\Users\INTEL\Desktop\CapturaGOTY.JPG" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="Sprite2" sid="412387717638085">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106432006115092" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="301044531528974">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="340120885173885">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="639124629928273" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mainMenu" sid="962390932525025">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="683375685211317">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284611727258858" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\INTEL\Desktop\pngtree-switch-button-of-graphical-user-interface-for-2d-and-3d-games-png-image_2359142.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="482655335400227">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Sprite3" sid="285274865603078">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773245659277868" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\INTEL\Downloads\Propuesta de Juego 2.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="656163578687000">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434276184641933" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\INTEL\Downloads\—Pngtree—retry button of graphical user_5526647.png">
+                        <collision-poly>
+                            <point x="0.3375" y="0.3375" />
+                            <point x="0.5" y="0.270833" />
+                            <point x="0.6625" y="0.3375" />
+                            <point x="0.73" y="0.5" />
+                            <point x="0.6675" y="0.6675" />
+                            <point x="0.5" y="0.740833" />
+                            <point x="0.3325" y="0.6675" />
+                            <point x="0.27" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -123,6 +153,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
+        <global-instance type="Mouse" uid="7" />
     </global-instances>
     <sounds-folder />
     <music-folder />
