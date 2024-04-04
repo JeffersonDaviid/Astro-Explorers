@@ -5,6 +5,7 @@
 *.capx.backup
 *.capx.backup*
 *.uistate.xml
+*.autosave*
 
 #Archivos de exportación de Construct 2:
 /exporters/

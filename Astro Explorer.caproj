@@ -14,7 +14,9 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -50,7 +52,13 @@
         <object-type name="space" sid="946917199708718">
             <plugin id="TiledBg" />
             <behaviors>
-                <behavior-type name="Sine" sid="315136865699925">
+                <behavior-type name="SineX" sid="181184705170544">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="SineY" sid="513298501840501">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="SineR" sid="226649156254055">
                     <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
@@ -91,6 +99,14 @@
         </object-type>
         <object-type name="meteoro_md" sid="746903110628293">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="758709641433584">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="173608005124077">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687157334240048" speed="5">
                     <frame duration="1" hotspotX="4.49206" hotspotY="-0.781818" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
@@ -108,6 +124,14 @@
         </object-type>
         <object-type name="meteoro_sm" sid="831572757207565">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="713661127588170">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="297417116737263">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="390296836297140" speed="5">
                     <frame duration="1" hotspotX="9.24" hotspotY="1.75" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
@@ -125,6 +149,14 @@
         </object-type>
         <object-type name="meteoro_n" sid="429960654704374">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="BulletX" sid="837577497751101">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="666038497703878">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665456152326476" speed="5">
                     <frame duration="1" hotspotX="-0.314286" hotspotY="-0.970588" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
@@ -142,24 +174,16 @@
         </object-type>
         <object-type name="meteoro_xl" sid="919956206269027">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="124460475518983">
-                    <behavior id="Sin" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="886133474214463">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579435436734961" speed="5">
                     <frame duration="1" hotspotX="0.772908" hotspotY="0.840164" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
                             <point x="0.187251" y="0.729508" />
-                            <point x="1" y="1" />
+                            <point x="0.940239" y="0.0368852" />
                             <point x="0.266932" y="0.840164" />
-                            <point x="1" y="0.979508" />
-                            <point x="0.199203" y="0.938525" />
-                            <point x="0.059761" y="0.840164" />
+                            <point x="0.191235" y="0.963115" />
+                            <point x="0.0557767" y="0.97541" />
+                            <point x="0.0398407" y="0.848361" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -167,6 +191,14 @@
         </object-type>
         <object-type name="meteoro_xm" sid="814175661011765">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="154909632769565">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="185851452932200">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365625004384249" speed="5">
                     <frame duration="1" hotspotX="-6.67568" hotspotY="1.40625" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
@@ -179,6 +211,19 @@
                             <point x="0" y="1" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="border" sid="537393625753519">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="604072847248482">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154822506471054" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="5.05556" />
                 </animation>
             </animation-folder>
         </object-type>
