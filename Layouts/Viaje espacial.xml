@@ -860,8 +860,30 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1083</x>
-                        <y>359</y>
+                        <x>1104</x>
+                        <y>294</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="26">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1078</x>
+                        <y>276</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
