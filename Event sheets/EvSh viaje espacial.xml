@@ -2,5 +2,14 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvSh viaje espacial</name>
-    <events />
+    <events>
+        <event-block sid="194943068196167">
+            <conditions>
+                <condition id="11" name="Collisions enabled" sid="841203063913011" type="player" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="956628912452209" type="meteoro_xl" />
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

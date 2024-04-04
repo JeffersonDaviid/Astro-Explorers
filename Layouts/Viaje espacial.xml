@@ -130,43 +130,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Reverse sawtooth</wave>
-                                <period>1000</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>4000</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1027</x>
-                        <y>308</y>
-                        <z>0</z>
-                        <width>251</width>
-                        <height>244</height>
-                        <depth>0</depth>
-                        <hotspotX>0.77290839</hotspotX>
-                        <hotspotY>0.840163946</hotspotY>
-                        <angle>0.296760798</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="meteoro_xm" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -239,12 +202,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1561</x>
-                        <y>260</y>
+                        <x>654</x>
+                        <y>288</y>
                         <z>0</z>
                         <width>168.719192505</width>
                         <height>124.855484009</height>
@@ -252,6 +220,48 @@
                         <hotspotX>0.49859944</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Reverse sawtooth</wave>
+                                <period>1000</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>4000</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1027</x>
+                        <y>308</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.296760798</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

@@ -18,6 +18,7 @@
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -66,6 +67,9 @@
                 </behavior-type>
                 <behavior-type name="8Direction" sid="619082154159884">
                     <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="429837056066860">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -141,6 +145,9 @@
             <behaviors>
                 <behavior-type name="Sine" sid="124460475518983">
                     <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="886133474214463">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
