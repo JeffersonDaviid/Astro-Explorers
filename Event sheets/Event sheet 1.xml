@@ -3,16 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <event-block sid="623748112948315">
-            <conditions>
-                <condition id="-18" name="On created" sid="559113482843901" type="Nave" />
-            </conditions>
-            <actions>
-                <action behavior="Physics" id="12" name="Set world gravity" sid="322516262999426" type="Nave">
-                    <param id="0" name="Gravity">0.50</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="971545273770461">
             <conditions>
                 <condition id="0" name="On key pressed" sid="302445328901065" type="Keyboard">
@@ -28,6 +18,9 @@
                 <action behavior="Physics" id="15" name="Set velocity" sid="206887140851673" type="Nave">
                     <param id="0" name="X component">30</param>
                     <param id="1" name="Y component">0</param>
+                </action>
+                <action behavior="Physics" id="6" name="Apply torque" sid="839852005101271" type="Nave">
+                    <param id="0" name="Torque">10</param>
                 </action>
             </actions>
         </event-block>
@@ -46,6 +39,48 @@
                 <action behavior="Physics" id="15" name="Set velocity" sid="991250750243314" type="Nave">
                     <param id="0" name="X component">-30</param>
                     <param id="1" name="Y component">0</param>
+                </action>
+                <action behavior="Physics" id="6" name="Apply torque" sid="495298177415205" type="Nave">
+                    <param id="0" name="Torque">-10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="152814702092511">
+            <conditions>
+                <condition id="-18" name="On created" sid="977464580721115" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="951796757561540" type="Sprite">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="623748112948315">
+            <conditions>
+                <condition id="-18" name="On created" sid="559113482843901" type="Nave" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="322516262999426" type="Nave">
+                    <param id="0" name="Gravity">0.50</param>
+                </action>
+                <action id="-18" name="Rotate clockwise" sid="793459891147301" type="Nave">
+                    <param id="0" name="Degrees">45</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="655394948246546" type="Nave">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="559255895614756">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="544648188930606" type="Nave">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="761055101853811" type="Nave" />
+                <action id="-2" name="Go to layout" sid="351236575348783" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
                 </action>
             </actions>
         </event-block>
