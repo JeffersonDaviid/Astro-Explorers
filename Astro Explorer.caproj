@@ -62,7 +62,7 @@
                     <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\outer-space-6988255_960_720.jpg" />
+            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\warped-space-3840x2160.jpg" />
         </object-type>
         <object-type name="player" sid="766401329365260">
             <plugin id="Sprite" />
