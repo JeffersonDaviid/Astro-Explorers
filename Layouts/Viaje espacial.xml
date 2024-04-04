@@ -70,7 +70,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>1</magnitude>
+                                <magnitude>3</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -108,12 +108,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -146,12 +140,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -188,12 +176,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -220,18 +202,12 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>-1</speed>
+                                <speed>-2</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -268,12 +244,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -306,12 +276,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -348,12 +312,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -380,18 +338,12 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>-1</speed>
+                                <speed>-2</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -428,12 +380,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -466,12 +412,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -508,12 +448,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -540,18 +474,12 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>-1</speed>
+                                <speed>-2</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -588,12 +516,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -628,18 +550,12 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2133</x>
-                        <y>198</y>
+                        <x>2086</x>
+                        <y>330</y>
                         <z>0</z>
                         <width>63</width>
                         <height>55</height>
@@ -668,18 +584,12 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2234</x>
-                        <y>-71</y>
+                        <x>2187</x>
+                        <y>61</y>
                         <z>0</z>
                         <width>63</width>
                         <height>55</height>
@@ -706,12 +616,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -748,12 +652,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -788,18 +686,12 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2122</x>
-                        <y>-76</y>
+                        <x>2075</x>
+                        <y>56</y>
                         <z>0</z>
                         <width>105</width>
                         <height>102</height>
@@ -828,12 +720,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -846,28 +732,6 @@
                         <depth>0</depth>
                         <hotspotX>9.239999771</hotspotX>
                         <hotspotY>1.75</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="meteoro_xl" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>987</x>
-                        <y>613</y>
-                        <z>0</z>
-                        <width>251</width>
-                        <height>244</height>
-                        <depth>0</depth>
-                        <hotspotX>0.77290839</hotspotX>
-                        <hotspotY>0.840163946</hotspotY>
                         <angle>0.34906584</angle>
                         <opacity>1</opacity>
                     </world>
@@ -888,12 +752,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -930,18 +788,12 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1786</x>
-                        <y>4</y>
+                        <x>1739</x>
+                        <y>136</y>
                         <z>0</z>
                         <width>25</width>
                         <height>24</height>
@@ -968,12 +820,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1010,12 +856,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1048,12 +888,6 @@
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Rotate">
-                            <properties>
-                                <speed>-1</speed>
-                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1099,23 +933,11 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="ScrollTo">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="CustomMovement">
-                            <properties>
-                                <stepping-mode>None</stepping-mode>
-                                <pixels-per-step>5</pixels-per-step>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>120</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <max-speed>100</max-speed>
+                                <acceleration>40</acceleration>
+                                <deceleration>20</deceleration>
                                 <directions>8 directions</directions>
                                 <set-angle>360 degree (smooth)</set-angle>
                                 <default-controls>Yes</default-controls>
@@ -1127,12 +949,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>939</x>
-                        <y>312</y>
+                        <x>62</x>
+                        <y>512</y>
                         <z>0</z>
                         <width>40</width>
                         <height>40</height>
@@ -1230,7 +1057,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="border" uid="10">
+                <instance type="meteoro_xl" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1238,8 +1065,13 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
+                        <behavior-instance type="Bullet">
                             <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -1247,16 +1079,152 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1591</x>
-                        <y>482</y>
+                        <x>741</x>
+                        <y>528</y>
                         <z>0</z>
-                        <width>916</width>
-                        <height>18</height>
+                        <width>251</width>
+                        <height>244</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>5.055555344</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>0</opacity>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="31">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1824</x>
+                        <y>413</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="32">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2257</x>
+                        <y>870</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="33">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1101</x>
+                        <y>959</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="34">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2165</x>
+                        <y>64</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

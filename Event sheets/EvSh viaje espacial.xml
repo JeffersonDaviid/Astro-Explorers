@@ -7,9 +7,7 @@
             <conditions>
                 <condition id="11" name="Collisions enabled" sid="841203063913011" type="player" />
             </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="956628912452209" type="meteoro_xl" />
-            </actions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

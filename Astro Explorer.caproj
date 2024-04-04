@@ -16,9 +16,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -67,17 +65,14 @@
         <object-type name="player" sid="766401329365260">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="ScrollTo" sid="197616514448132">
-                    <behavior id="scrollto" />
-                </behavior-type>
-                <behavior-type name="CustomMovement" sid="476605627460498">
-                    <behavior id="custom" />
-                </behavior-type>
                 <behavior-type name="8Direction" sid="619082154159884">
                     <behavior id="EightDir" />
                 </behavior-type>
                 <behavior-type name="Solid" sid="429837056066860">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="494909624948477">
+                    <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -103,9 +98,6 @@
                 <behavior-type name="Bullet" sid="758709641433584">
                     <behavior id="Bullet" />
                 </behavior-type>
-                <behavior-type name="Rotate" sid="173608005124077">
-                    <behavior id="Rotate" />
-                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687157334240048" speed="5">
@@ -127,9 +119,6 @@
             <behaviors>
                 <behavior-type name="Bullet" sid="713661127588170">
                     <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Rotate" sid="297417116737263">
-                    <behavior id="Rotate" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -153,9 +142,6 @@
                 <behavior-type name="BulletX" sid="837577497751101">
                     <behavior id="Bullet" />
                 </behavior-type>
-                <behavior-type name="Rotate" sid="666038497703878">
-                    <behavior id="Rotate" />
-                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665456152326476" speed="5">
@@ -174,12 +160,17 @@
         </object-type>
         <object-type name="meteoro_xl" sid="919956206269027">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="454237995145018">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579435436734961" speed="5">
                     <frame duration="1" hotspotX="0.772908" hotspotY="0.840164" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
                             <point x="0.187251" y="0.729508" />
-                            <point x="0.940239" y="0.0368852" />
+                            <point x="0.2749" y="0.754098" />
                             <point x="0.266932" y="0.840164" />
                             <point x="0.191235" y="0.963115" />
                             <point x="0.0557767" y="0.97541" />
@@ -194,9 +185,6 @@
             <behaviors>
                 <behavior-type name="Bullet" sid="154909632769565">
                     <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Rotate" sid="185851452932200">
-                    <behavior id="Rotate" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
