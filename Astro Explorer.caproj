@@ -16,6 +16,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <used-effects />
@@ -47,6 +48,11 @@
     <object-folder>
         <object-type name="space" sid="946917199708718">
             <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Sine" sid="315136865699925">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\outer-space-6988255_960_720.jpg" />
         </object-type>
         <object-type name="player" sid="766401329365260">
@@ -55,54 +61,115 @@
                 <behavior-type name="ScrollTo" sid="197616514448132">
                     <behavior id="scrollto" />
                 </behavior-type>
+                <behavior-type name="CustomMovement" sid="476605627460498">
+                    <behavior id="custom" />
+                </behavior-type>
                 <behavior-type name="8Direction" sid="619082154159884">
                     <behavior id="EightDir" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501401" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
+                    <frame duration="1" hotspotX="0.498599" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
                         <collision-poly>
-                            <point x="0.363889" y="0.366947" />
-                            <point x="0.5" y="0.00560224" />
-                            <point x="0.636111" y="0.366947" />
-                            <point x="0.666667" y="0.498599" />
-                            <point x="0.830556" y="0.829132" />
-                            <point x="0.5" y="0.927171" />
-                            <point x="0.169444" y="0.829132" />
-                            <point x="0.330556" y="0.498599" />
+                            <point x="0.633053" y="0.363889" />
+                            <point x="0.994398" y="0.5" />
+                            <point x="0.633053" y="0.636111" />
+                            <point x="0.501401" y="0.666667" />
+                            <point x="0.170868" y="0.830556" />
+                            <point x="0.0728291" y="0.5" />
+                            <point x="0.170868" y="0.169444" />
+                            <point x="0.501401" y="0.330556" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="275269373281030">
+        <object-type name="meteoro_md" sid="746903110628293">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="590451911145299" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\png-clipart-meteor-meteor-fireball.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687157334240048" speed="5">
+                    <frame duration="1" hotspotX="4.49206" hotspotY="-0.781818" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="995360232154633">
+        <object-type name="meteoro_sm" sid="831572757207565">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="390296836297140" speed="5">
+                    <frame duration="1" hotspotX="9.24" hotspotY="1.75" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
+                        <collision-poly>
+                            <point x="1" y="0.625" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="meteoro_n" sid="429960654704374">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665456152326476" speed="5">
+                    <frame duration="1" hotspotX="-0.314286" hotspotY="-0.970588" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.457143" y="0" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="meteoro_xl" sid="919956206269027">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Sine" sid="539897457532011">
+                <behavior-type name="Sine" sid="124460475518983">
                     <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122859694678499" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579435436734961" speed="5">
+                    <frame duration="1" hotspotX="0.772908" hotspotY="0.840164" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
-                            <point x="0.566278" y="0.364123" />
-                            <point x="0.499723" y="0.361983" />
-                            <point x="0.955075" y="0.0288873" />
-                            <point x="0.666112" y="0.5" />
-                            <point x="0.612313" y="0.750713" />
-                            <point x="0.499723" y="0.897646" />
-                            <point x="0.110372" y="0.92903" />
-                            <point x="0.346644" y="0.5" />
+                            <point x="0.187251" y="0.729508" />
+                            <point x="1" y="1" />
+                            <point x="0.266932" y="0.840164" />
+                            <point x="1" y="0.979508" />
+                            <point x="0.199203" y="0.938525" />
+                            <point x="0.059761" y="0.840164" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="meteoro_xm" sid="814175661011765">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365625004384249" speed="5">
+                    <frame duration="1" hotspotX="-6.67568" hotspotY="1.40625" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
+                        <collision-poly>
+                            <point x="0" y="0.5625" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
