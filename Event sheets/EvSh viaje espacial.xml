@@ -5,9 +5,23 @@
     <events>
         <event-block sid="194943068196167">
             <conditions>
-                <condition id="11" name="Collisions enabled" sid="841203063913011" type="player" />
+                <condition id="0" name="On collision with another object" sid="841203063913011" type="player">
+                    <param id="0" name="Object">meteoro_xl</param>
+                </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-9" name="Destroy" sid="143245578609120" type="player" />
+            </actions>
+        </event-block>
+        <event-block sid="132229793931592">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="982229744011286" type="player">
+                    <param id="0" name="Object">meteoro_n</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="832848216055892" type="player" />
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

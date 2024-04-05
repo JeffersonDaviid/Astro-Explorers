@@ -142,6 +142,9 @@
                 <behavior-type name="BulletX" sid="837577497751101">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="Solid" sid="428572766920806">
+                    <behavior id="solid" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665456152326476" speed="5">
@@ -163,6 +166,9 @@
             <behaviors>
                 <behavior-type name="Bullet" sid="454237995145018">
                     <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="761293289974758">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>

@@ -78,11 +78,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>851</x>
-                        <y>483</y>
+                        <x>846</x>
+                        <y>494</y>
                         <z>0</z>
-                        <width>1800</width>
-                        <height>1000</height>
+                        <width>1797</width>
+                        <height>985</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -120,40 +120,6 @@
                         <depth>0</depth>
                         <hotspotX>4.492063522</hotspotX>
                         <hotspotY>-0.781818211</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="meteoro_n" uid="4">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BulletX">
-                            <properties>
-                                <speed>-25</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>930</x>
-                        <y>204</y>
-                        <z>0</z>
-                        <width>105</width>
-                        <height>102</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.314285725</hotspotX>
-                        <hotspotY>-0.970588207</hotspotY>
                         <angle>0.34906584</angle>
                         <opacity>1</opacity>
                     </world>
@@ -256,40 +222,6 @@
                         <depth>0</depth>
                         <hotspotX>9.239999771</hotspotX>
                         <hotspotY>1.75</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="meteoro_n" uid="12">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BulletX">
-                            <properties>
-                                <speed>-25</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>560</x>
-                        <y>634</y>
-                        <z>0</z>
-                        <width>105</width>
-                        <height>102</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.314285725</hotspotX>
-                        <hotspotY>-0.970588207</hotspotY>
                         <angle>0.34906584</angle>
                         <opacity>1</opacity>
                     </world>
@@ -430,40 +362,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="17">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BulletX">
-                            <properties>
-                                <speed>-25</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>235</x>
-                        <y>232</y>
-                        <z>0</z>
-                        <width>105</width>
-                        <height>102</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.314285725</hotspotX>
-                        <hotspotY>-0.970588207</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="meteoro_xm" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -588,8 +486,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2187</x>
-                        <y>61</y>
+                        <x>1943</x>
+                        <y>9</y>
                         <z>0</z>
                         <width>63</width>
                         <height>55</height>
@@ -634,74 +532,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="23">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BulletX">
-                            <properties>
-                                <speed>-25</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1966</x>
-                        <y>303</y>
-                        <z>0</z>
-                        <width>105</width>
-                        <height>102</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.314285725</hotspotX>
-                        <hotspotY>-0.970588207</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="meteoro_n" uid="24">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BulletX">
-                            <properties>
-                                <speed>-25</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2075</x>
-                        <y>56</y>
-                        <z>0</z>
-                        <width>105</width>
-                        <height>102</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.314285725</hotspotX>
-                        <hotspotY>-0.970588207</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="meteoro_sm" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -732,40 +562,6 @@
                         <depth>0</depth>
                         <hotspotX>9.239999771</hotspotX>
                         <hotspotY>1.75</hotspotY>
-                        <angle>0.34906584</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="meteoro_n" uid="26">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="BulletX">
-                            <properties>
-                                <speed>-25</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1552</x>
-                        <y>541</y>
-                        <z>0</z>
-                        <width>105</width>
-                        <height>102</height>
-                        <depth>0</depth>
-                        <hotspotX>-0.314285725</hotspotX>
-                        <hotspotY>-0.970588207</hotspotY>
                         <angle>0.34906584</angle>
                         <opacity>1</opacity>
                     </world>
@@ -906,6 +702,474 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="meteoro_xl" uid="10">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>489</x>
+                        <y>194</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="35">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>728</x>
+                        <y>324</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="36">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>764</x>
+                        <y>551</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="37">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1497</x>
+                        <y>357</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="38">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1298</x>
+                        <y>703</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="39">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1625</x>
+                        <y>486</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_xl" uid="40">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>-50</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>201</x>
+                        <y>328</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>244</height>
+                        <depth>0</depth>
+                        <hotspotX>0.77290839</hotspotX>
+                        <hotspotY>0.840163946</hotspotY>
+                        <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="41">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1738</x>
+                        <y>-41</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="42">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1129</x>
+                        <y>-31</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="43">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1138</x>
+                        <y>-37</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="44">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>924</x>
+                        <y>-172</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="45">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1418</x>
+                        <y>-244</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -958,8 +1222,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>62</x>
-                        <y>512</y>
+                        <x>132</x>
+                        <y>548</y>
                         <z>0</z>
                         <width>40</width>
                         <height>40</height>
@@ -987,8 +1251,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>824</x>
-                        <y>113</y>
+                        <x>815</x>
+                        <y>89</y>
                         <z>0</z>
                         <width>1608</width>
                         <height>18</height>
@@ -1075,12 +1339,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>741</x>
-                        <y>528</y>
+                        <x>930</x>
+                        <y>724</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -1109,12 +1378,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1824</x>
-                        <y>413</y>
+                        <x>1858</x>
+                        <y>538</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -1143,12 +1417,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2257</x>
-                        <y>870</y>
+                        <x>317</x>
+                        <y>888</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -1174,6 +1453,11 @@
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -1211,12 +1495,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2165</x>
-                        <y>64</y>
+                        <x>1540</x>
+                        <y>827</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -1224,6 +1513,240 @@
                         <hotspotX>0.77290839</hotspotX>
                         <hotspotY>0.840163946</hotspotY>
                         <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="4">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1070</x>
+                        <y>207</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="12">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>560</x>
+                        <y>634</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="17">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>235</x>
+                        <y>232</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="23">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>194</x>
+                        <y>486</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="24">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>928</x>
+                        <y>90</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="meteoro_n" uid="26">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="BulletX">
+                            <properties>
+                                <speed>-25</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1744</x>
+                        <y>544</y>
+                        <z>0</z>
+                        <width>105</width>
+                        <height>102</height>
+                        <depth>0</depth>
+                        <hotspotX>-0.314285725</hotspotX>
+                        <hotspotY>-0.970588207</hotspotY>
+                        <angle>0.34906584</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
