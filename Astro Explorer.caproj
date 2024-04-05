@@ -54,11 +54,11 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="157225701936886" speed="5">
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.5" original-source="C:\Users\INTEL\Desktop\Captura.JPG" />
+                    <frame duration="1" hotspotX="0.526749" hotspotY="0.162921" original-source="C:\Users\INTEL\Desktop\Captura.JPG" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Suelo" sid="597325635004256">
+        <object-type name="Planeta" sid="597325635004256">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="220314201096789">
@@ -70,7 +70,22 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958871306188827" speed="5">
-                    <frame duration="1" hotspotX="0.501333" hotspotY="0.501333" original-source="C:\Users\INTEL\Desktop\Mars_Valles_Marineris.jpeg" />
+                    <frame duration="1" hotspotX="0.504" hotspotY="0.466667" original-source="C:\Users\INTEL\Desktop\Mars_Valles_Marineris.jpeg">
+                        <collision-poly>
+                            <point x="0.266667" y="0.056" />
+                            <point x="0.410667" y="0" />
+                            <point x="0.558667" y="0.00266665" />
+                            <point x="0.664" y="0.0213333" />
+                            <point x="0.761334" y="0.0733334" />
+                            <point x="0.866667" y="0.154667" />
+                            <point x="0.942667" y="0.254667" />
+                            <point x="0.992" y="0.402667" />
+                            <point x="0.474667" y="0.4" />
+                            <point x="0.00799999" y="0.4" />
+                            <point x="0.064" y="0.250667" />
+                            <point x="0.16" y="0.150667" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

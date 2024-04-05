@@ -10,17 +10,17 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Physics" id="3" name="Apply impulse" sid="258995317499850" type="Nave">
-                    <param id="0" name="Impulse X">30</param>
-                    <param id="1" name="Impulse Y">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
                 <action behavior="Physics" id="15" name="Set velocity" sid="206887140851673" type="Nave">
                     <param id="0" name="X component">30</param>
                     <param id="1" name="Y component">0</param>
                 </action>
-                <action behavior="Physics" id="6" name="Apply torque" sid="839852005101271" type="Nave">
-                    <param id="0" name="Torque">10</param>
+                <action behavior="Physics" id="9" name="Set angular velocity" sid="103193925911462" type="Nave">
+                    <param id="0" name="Angular velocity">40</param>
+                </action>
+                <action behavior="Physics" id="0" name="Apply force" sid="431178024944576" type="Nave">
+                    <param id="0" name="Force X">10</param>
+                    <param id="1" name="Force Y">0</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>
@@ -31,17 +31,17 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Physics" id="3" name="Apply impulse" sid="566363541561015" type="Nave">
-                    <param id="0" name="Impulse X">-30</param>
-                    <param id="1" name="Impulse Y">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
                 <action behavior="Physics" id="15" name="Set velocity" sid="991250750243314" type="Nave">
                     <param id="0" name="X component">-30</param>
                     <param id="1" name="Y component">0</param>
                 </action>
-                <action behavior="Physics" id="6" name="Apply torque" sid="495298177415205" type="Nave">
-                    <param id="0" name="Torque">-10</param>
+                <action behavior="Physics" id="9" name="Set angular velocity" sid="977012102711181" type="Nave">
+                    <param id="0" name="Angular velocity">-40</param>
+                </action>
+                <action behavior="Physics" id="0" name="Apply force" sid="692272082625902" type="Nave">
+                    <param id="0" name="Force X">-10</param>
+                    <param id="1" name="Force Y">0</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>
@@ -61,20 +61,27 @@
             </conditions>
             <actions>
                 <action behavior="Physics" id="12" name="Set world gravity" sid="322516262999426" type="Nave">
-                    <param id="0" name="Gravity">0.50</param>
-                </action>
-                <action id="-18" name="Rotate clockwise" sid="793459891147301" type="Nave">
-                    <param id="0" name="Degrees">45</param>
+                    <param id="0" name="Gravity">2</param>
                 </action>
                 <action id="11" name="Set collisions enabled" sid="655394948246546" type="Nave">
                     <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-18" name="Rotate clockwise" sid="439411463684606" type="Nave">
+                    <param id="0" name="Degrees">0</param>
+                </action>
+                <action id="-8" name="Set angle" sid="877319890351711" type="Nave">
+                    <param id="0" name="Angle">round(random(-36,36)) * 10</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="559255895614756">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="544648188930606" type="Nave">
-                    <param id="0" name="Object">Sprite</param>
+                <condition id="0" name="On collision with another object" sid="544648188930606" type="Nave">
+                    <param id="0" name="Object">Planeta</param>
+                </condition>
+                <condition id="-11" inverted="1" name="Is within angle" sid="574568287811552" type="Nave">
+                    <param id="0" name="Within">15</param>
+                    <param id="1" name="Angle">0</param>
                 </condition>
             </conditions>
             <actions>
