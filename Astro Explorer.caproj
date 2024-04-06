@@ -79,14 +79,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
                     <frame duration="1" hotspotX="0.498599" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
                         <collision-poly>
-                            <point x="0.633053" y="0.363889" />
+                            <point x="0.717087" y="0.369445" />
                             <point x="0.994398" y="0.5" />
-                            <point x="0.633053" y="0.636111" />
-                            <point x="0.501401" y="0.666667" />
-                            <point x="0.170868" y="0.830556" />
-                            <point x="0.0728291" y="0.5" />
-                            <point x="0.170868" y="0.169444" />
-                            <point x="0.501401" y="0.330556" />
+                            <point x="0.705882" y="0.630556" />
+                            <point x="0.546219" y="0.630556" />
+                            <point x="0.187675" y="0.997222" />
+                            <point x="0" y="0.5" />
+                            <point x="0.187675" y="0.0055551" />
+                            <point x="0.557423" y="0.372223" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -103,12 +103,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687157334240048" speed="5">
                     <frame duration="1" hotspotX="4.49206" hotspotY="-0.781818" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.0238094" y="0.868182" />
+                            <point x="0.063492" y="0.959091" />
+                            <point x="0.130952" y="0.959091" />
+                            <point x="0.178571" y="0.9" />
+                            <point x="0.242063" y="0.8" />
+                            <point x="0.15873" y="0.754545" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -125,12 +125,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="390296836297140" speed="5">
                     <frame duration="1" hotspotX="9.24" hotspotY="1.75" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
-                            <point x="1" y="0.625" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
+                            <point x="0.2875" y="0.674479" />
+                            <point x="0.125" y="0.710938" />
+                            <point x="0.06" y="0.791667" />
+                            <point x="0.125" y="0.914063" />
+                            <point x="0.25" y="0.911458" />
+                            <point x="0.31" y="0.830729" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -150,12 +150,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665456152326476" speed="5">
                     <frame duration="1" hotspotX="-0.314286" hotspotY="-0.970588" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.457143" y="0" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
-                            <point x="0" y="0" />
+                            <point x="0.0190476" y="0.838235" />
+                            <point x="0.0357144" y="0.941176" />
+                            <point x="0.145238" y="0.985294" />
+                            <point x="0.228571" y="0.909314" />
+                            <point x="0.197619" y="0.845588" />
+                            <point x="0.114286" y="0.794118" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -175,12 +175,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579435436734961" speed="5">
                     <frame duration="1" hotspotX="0.772908" hotspotY="0.840164" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
-                            <point x="0.187251" y="0.729508" />
-                            <point x="0.2749" y="0.754098" />
-                            <point x="0.266932" y="0.840164" />
+                            <point x="0.109562" y="0.79918" />
+                            <point x="0.199203" y="0.821721" />
+                            <point x="0.247012" y="0.870902" />
                             <point x="0.191235" y="0.963115" />
                             <point x="0.0557767" y="0.97541" />
-                            <point x="0.0398407" y="0.848361" />
+                            <point x="0.0239044" y="0.866804" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -197,12 +197,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365625004384249" speed="5">
                     <frame duration="1" hotspotX="-6.67568" hotspotY="1.40625" original-source="C:\Users\jeffe\Downloads\pngwing.com.png">
                         <collision-poly>
-                            <point x="0" y="0.5625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
+                            <point x="0.226351" y="0.845703" />
+                            <point x="0.199324" y="0.923828" />
+                            <point x="0.130068" y="0.970703" />
+                            <point x="0.0523649" y="0.927734" />
+                            <point x="0.0625" y="0.830078" />
+                            <point x="0.162162" y="0.794922" />
                         </collision-poly>
                     </frame>
                 </animation>
