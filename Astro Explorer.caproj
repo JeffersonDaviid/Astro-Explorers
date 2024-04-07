@@ -48,11 +48,30 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="637239236564624">
+        <object-type name="planet" sid="637239236564624">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564593247962685" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\marte.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background" sid="130935626402229">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894945278699117" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\Default_Imagina_una_vasta_extensin_de_espacio_infinito_donde_l_1.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -67,14 +86,5 @@
     <global-instances />
     <sounds-folder />
     <music-folder />
-    <files-folder>
-        <file-folder name="Icons">
-            <file name="icon-16.png" />
-            <file name="icon-32.png" />
-            <file name="icon-114.png" />
-            <file name="icon-128.png" />
-            <file name="icon-256.png" />
-            <file name="loading-logo.png" />
-        </file-folder>
-    </files-folder>
+    <files-folder />
 </c2project>
