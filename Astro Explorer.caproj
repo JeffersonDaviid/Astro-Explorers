@@ -12,10 +12,12 @@
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -218,6 +220,71 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154822506471054" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="5.05556" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FileChooser" sid="203957271763357">
+            <plugin id="filechooser" />
+        </object-type>
+        <object-type name="Sprite" sid="841933021089085">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="362752253785763">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="264885735639827">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278744385072042" speed="5">
+                    <frame duration="1" hotspotX="0.499458" hotspotY="0.5" original-source="C:\Users\HP\OneDrive\Escritorio\Desarrollo Videojuego\AtroExplorer\Astro-Explorers\Files\images\Black-Hole.png">
+                        <collision-poly>
+                            <point x="0.654388" y="0.723278" />
+                            <point x="0.451788" y="0.779097" />
+                            <point x="0.283857" y="0.674584" />
+                            <point x="0.262188" y="0.509501" />
+                            <point x="0.321777" y="0.359857" />
+                            <point x="0.488624" y="0.274347" />
+                            <point x="0.693391" y="0.35867" />
+                            <point x="0.720477" y="0.552256" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="838212721426560">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715506256910435" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="983369581678841">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="905900205487916">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="995055593182154">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940080260543028" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HP\OneDrive\Escritorio\Desarrollo Videojuego\AtroExplorer\Astro-Explorers\Files\images\Space-Planet.png">
+                        <collision-poly>
+                            <point x="0.156" y="0.153" />
+                            <point x="0.501" y="0.009" />
+                            <point x="0.845" y="0.151" />
+                            <point x="0.989" y="0.501" />
+                            <point x="0.845" y="0.85" />
+                            <point x="0.499" y="0.988" />
+                            <point x="0.153" y="0.842" />
+                            <point x="0.009" y="0.501" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

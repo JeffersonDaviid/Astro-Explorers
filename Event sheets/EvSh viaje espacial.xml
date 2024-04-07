@@ -23,5 +23,25 @@
                 <action id="-9" name="Destroy" sid="832848216055892" type="player" />
             </actions>
         </event-block>
+        <event-block sid="350882479327902">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="376484787411583" type="player">
+                    <param id="0" name="Object">Sprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="690177335860896" type="player" />
+            </actions>
+        </event-block>
+        <event-block sid="491536230906611">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="335720801132186" type="player">
+                    <param id="0" name="Object">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="0" name="Stop" sid="107702555695503" type="player" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
