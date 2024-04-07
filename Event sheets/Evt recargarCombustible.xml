@@ -2,5 +2,19 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Evt recargarCombustible</name>
-    <events />
+    <events>
+        <event-block sid="818918070499681">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="501444983503124" type="nave">
+                    <param id="0" name="Object">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="715875455791370" type="ProgressBar">
+                    <param id="0" name="Value">25</param>
+                </action>
+                <action id="2" name="Stop" sid="547767110012808" type="nave" />
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
