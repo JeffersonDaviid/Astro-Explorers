@@ -5,7 +5,7 @@
     <events>
         <event-block sid="861780795782215">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="842571608146039" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="842571608146039" type="z">
                     <param id="0" name="Object">dragon</param>
                 </condition>
             </conditions>
@@ -22,7 +22,7 @@
         </event-block>
         <event-block sid="542618452531288">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="553675720050457" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="553675720050457" type="z">
                     <param id="0" name="Object">dragon</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="711745487023221" type="dragon">
@@ -41,7 +41,7 @@
         </event-block>
         <event-block sid="354621143898027">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="580814018231477" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="580814018231477" type="z">
                     <param id="0" name="Object">cisne</param>
                 </condition>
             </conditions>
@@ -58,7 +58,7 @@
         </event-block>
         <event-block sid="100873233298514">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="833883863835353" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="833883863835353" type="z">
                     <param id="0" name="Object">cisne</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="113141495918015" type="cisne">
@@ -77,7 +77,7 @@
         </event-block>
         <event-block sid="340248043059032">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="557830628387383" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="557830628387383" type="z">
                     <param id="0" name="Object">osaMenor</param>
                 </condition>
             </conditions>
@@ -94,7 +94,7 @@
         </event-block>
         <event-block sid="701877394829986">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="424670837266879" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="424670837266879" type="z">
                     <param id="0" name="Object">osaMenor</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="919254580839832" type="osaMenor">
@@ -113,7 +113,7 @@
         </event-block>
         <event-block sid="464724144899455">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="915045755861784" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="915045755861784" type="z">
                     <param id="0" name="Object">aries</param>
                 </condition>
             </conditions>
@@ -130,7 +130,7 @@
         </event-block>
         <event-block sid="434077297312109">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="770341813962050" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="770341813962050" type="z">
                     <param id="0" name="Object">aries</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="597021999259745" type="aries">
@@ -149,7 +149,7 @@
         </event-block>
         <event-block sid="679505276337118">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="733550035664117" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="733550035664117" type="z">
                     <param id="0" name="Object">pegaso</param>
                 </condition>
             </conditions>
@@ -166,7 +166,7 @@
         </event-block>
         <event-block sid="987422733834512">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="818930913657877" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="818930913657877" type="z">
                     <param id="0" name="Object">pegaso</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="298215707227812" type="pegaso">
@@ -185,7 +185,7 @@
         </event-block>
         <event-block sid="585188348336520">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="577851558495443" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="577851558495443" type="z">
                     <param id="0" name="Object">andromeda</param>
                 </condition>
             </conditions>
@@ -202,7 +202,7 @@
         </event-block>
         <event-block sid="479148677125232">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="807055476599249" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="807055476599249" type="z">
                     <param id="0" name="Object">andromeda</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="781124470643951" type="andromeda">
@@ -221,7 +221,7 @@
         </event-block>
         <event-block sid="508522964949095">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="395643440711128" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="395643440711128" type="z">
                     <param id="0" name="Object">casiopea</param>
                 </condition>
             </conditions>
@@ -238,7 +238,7 @@
         </event-block>
         <event-block sid="905644388304212">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="103189259410159" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="103189259410159" type="z">
                     <param id="0" name="Object">casiopea</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="210743518917664" type="casiopea">
@@ -257,7 +257,7 @@
         </event-block>
         <event-block sid="635665284301404">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="823120496397231" type="Sprite">
+                <condition id="1" name="Is overlapping another object" sid="823120496397231" type="z">
                     <param id="0" name="Object">cefeo</param>
                 </condition>
             </conditions>
@@ -274,7 +274,7 @@
         </event-block>
         <event-block sid="477616926844695">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="920493120051612" type="Sprite">
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="920493120051612" type="z">
                     <param id="0" name="Object">cefeo</param>
                 </condition>
                 <condition id="-8" name="Is boolean instance variable set" sid="424828216044475" type="cefeo">
@@ -289,6 +289,122 @@
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="694388677138575">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="945650965893863" type="z">
+                    <param id="0" name="Object">ballena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="461471190575937" type="ballena">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="898335105922735" type="ballena" />
+                <action id="-13" name="Set boolean" sid="234529958105701" type="ballena">
+                    <param id="0" name="Instance variable">interact</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="886291522512091">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="594647815225863" type="z">
+                    <param id="0" name="Object">ballena</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="498941079461747" type="ballena">
+                    <param id="0" name="Instance variable">interact</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="234309710126560" type="ballena">
+                    <param id="0" name="Fade-out time">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="406785566266082" type="ballena">
+                    <param id="0" name="Instance variable">interact</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="204109750911171">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="165393495167018" type="z">
+                    <param id="0" name="Object">tauro</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="489247006529037" type="tauro">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="940515028528383" type="tauro" />
+                <action id="-13" name="Set boolean" sid="853404279808119" type="tauro">
+                    <param id="0" name="Instance variable">interact</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="112811929662480">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="148892425841112" type="z">
+                    <param id="0" name="Object">tauro</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="796752820550711" type="tauro">
+                    <param id="0" name="Instance variable">interact</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="351927534704384" type="tauro">
+                    <param id="0" name="Fade-out time">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="336278933042763" type="tauro">
+                    <param id="0" name="Instance variable">interact</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="121171364793048">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="363423221419785" type="z">
+                    <param id="0" name="Object">cochero</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="311166746362830" type="cochero">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="156104520092071" type="cochero" />
+                <action id="-13" name="Set boolean" sid="700606121543115" type="cochero">
+                    <param id="0" name="Instance variable">interact</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="502510364467974">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="492975961785580" type="z">
+                    <param id="0" name="Object">cochero</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="120572457528034" type="cochero">
+                    <param id="0" name="Instance variable">interact</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="230443509260478" type="cochero">
+                    <param id="0" name="Fade-out time">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="811377141257041" type="cochero">
+                    <param id="0" name="Instance variable">interact</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="907197932508172">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="855011161433297" type="z" />
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="0" name="Stop" sid="970125312620650" type="x" />
             </actions>
         </event-block>
     </events>

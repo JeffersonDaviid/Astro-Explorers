@@ -50,7 +50,7 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\tileFondoMenu.png" />
         </object-type>
-        <object-type name="Sprite" sid="127399095591443">
+        <object-type name="z" sid="127399095591443">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="743178626585345">
@@ -63,6 +63,10 @@
                     <behavior id="bound" />
                 </behavior-type>
             </behaviors>
+            <container>
+                <type>z</type>
+                <type>conteneedor</type>
+            </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -279,6 +283,112 @@
                             <point x="0.0474138" y="0.732353" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tauro" sid="541840318440589">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="933260480622146" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="440894964411958">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="207501338969079" speed="5">
+                    <frame duration="1" hotspotX="0.502164" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\tauro.png">
+                        <collision-poly>
+                            <point x="0.614719" y="0.518349" />
+                            <point x="0.225108" y="0.383027" />
+                            <point x="0.510822" y="0.00688071" />
+                            <point x="0.874459" y="0.316514" />
+                            <point x="0.952381" y="0.977064" />
+                            <point x="0.844156" y="0.963303" />
+                            <point x="0.718615" y="0.919725" />
+                            <point x="0.523809" y="0.915138" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cochero" sid="718273400769594">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="164542989908606" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="359438318681337">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="314512910634950" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cochero.png">
+                        <collision-poly>
+                            <point x="0.285156" y="0.184874" />
+                            <point x="0.734375" y="0.0126051" />
+                            <point x="0.992188" y="0.340336" />
+                            <point x="0.800781" y="0.5" />
+                            <point x="0.679688" y="0.655462" />
+                            <point x="0.4375" y="0.739495" />
+                            <point x="0.308594" y="0.714286" />
+                            <point x="0" y="0.743698" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ballena" sid="573992698233884">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="686734010056815" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="719342911284189">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839718823264652" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\ballena.png">
+                        <collision-poly>
+                            <point x="0.140411" y="0.133621" />
+                            <point x="0.359589" y="0.310345" />
+                            <point x="0.955479" y="0.103448" />
+                            <point x="0.969178" y="0.418103" />
+                            <point x="0.729452" y="0.409483" />
+                            <point x="0.592466" y="0.525863" />
+                            <point x="0.0445205" y="0.991379" />
+                            <point x="0.0719179" y="0.625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="x" sid="157479496067692">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="651095024389306">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339095825643083" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="conteneedor" sid="688628409497500">
+            <plugin id="Sprite" />
+            <container>
+                <type>z</type>
+                <type>conteneedor</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119307774036073" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
