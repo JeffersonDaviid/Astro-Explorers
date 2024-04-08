@@ -13,13 +13,16 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="darken">Darken</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -185,6 +188,68 @@
         <object-type name="Mouse" sid="862992504758575">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="cuadro" sid="948887841940627">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Darken">
+                    <effect id="darken" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325996185556816" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\fondo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fondo" sid="562561175043647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="633224735742315" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="866013825486370">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947366832357169" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\retroceder.png">
+                        <collision-poly>
+                            <point x="0.14786" y="0.14786" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.85214" y="0.14786" />
+                            <point x="0.998055" y="0.5" />
+                            <point x="0.85214" y="0.85214" />
+                            <point x="0.5" y="0.998055" />
+                            <point x="0.14786" y="0.85214" />
+                            <point x="0.00194553" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="879915709265670">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623253054701438" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\seguir.png">
+                        <collision-poly>
+                            <point x="0.14786" y="0.14786" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.85214" y="0.14786" />
+                            <point x="0.998055" y="0.5" />
+                            <point x="0.85214" y="0.85214" />
+                            <point x="0.5" y="0.998055" />
+                            <point x="0.14786" y="0.85214" />
+                            <point x="0.00194553" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="307490273866054">
+            <plugin id="Touch" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -195,6 +260,11 @@
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="9" />
+        <global-instance type="Touch" uid="14">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />
