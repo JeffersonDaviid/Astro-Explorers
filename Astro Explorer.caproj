@@ -63,10 +63,6 @@
                     <behavior id="bound" />
                 </behavior-type>
             </behaviors>
-            <container>
-                <type>z</type>
-                <type>conteneedor</type>
-            </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -367,28 +363,191 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="x" sid="157479496067692">
+        <object-type name="osaMayor" sid="855889965157536">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="149545098515179" type="boolean" />
+            </instance-variables>
             <behaviors>
-                <behavior-type name="8Direction" sid="651095024389306">
-                    <behavior id="EightDir" />
+                <behavior-type name="Fade" sid="497029416362749">
+                    <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339095825643083" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526334689504310" speed="5">
+                    <frame duration="1" hotspotX="0.500917" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\osaMayor.png">
+                        <collision-poly>
+                            <point x="0.541285" y="0.157205" />
+                            <point x="0.6" y="0.0305677" />
+                            <point x="0.908257" y="0.318777" />
+                            <point x="0.702752" y="0.482533" />
+                            <point x="0.746789" y="0.665939" />
+                            <point x="0.585321" y="0.962882" />
+                            <point x="0.361468" y="0.587336" />
+                            <point x="0.0513762" y="0.580786" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="conteneedor" sid="688628409497500">
+        <object-type name="boyero" sid="428839717346629">
             <plugin id="Sprite" />
-            <container>
-                <type>z</type>
-                <type>conteneedor</type>
-            </container>
+            <instance-variables>
+                <instance-variable name="interact" sid="202150236574957" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="621946815634889">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119307774036073" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827697931983690" speed="5">
+                    <frame duration="1" hotspotX="0.501629" hotspotY="0.501285" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\boyero.png">
+                        <collision-poly>
+                            <point x="0.172638" y="0.151671" />
+                            <point x="0.465798" y="0.179949" />
+                            <point x="0.798046" y="0.0308483" />
+                            <point x="0.560261" y="0.544987" />
+                            <point x="0.651466" y="0.982005" />
+                            <point x="0.0781759" y="0.809769" />
+                            <point x="0.283388" y="0.722365" />
+                            <point x="0.201954" y="0.449872" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cancer" sid="764130207977643">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="215014537524184" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="322151285476490">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="909708068665487" speed="5">
+                    <frame duration="1" hotspotX="0.501976" hotspotY="0.502203" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cancer.png">
+                        <collision-poly>
+                            <point x="0.44664" y="0.422907" />
+                            <point x="0.126482" y="0.0969163" />
+                            <point x="0.561265" y="0.290749" />
+                            <point x="1" y="0.325991" />
+                            <point x="0.944664" y="0.409691" />
+                            <point x="0.857707" y="0.475771" />
+                            <point x="0.671937" y="0.480176" />
+                            <point x="0.596838" y="0.810572" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="leon" sid="333064451928710">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="447870681485012" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="583552096484052">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764731866317295" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501441" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\leon.png">
+                        <collision-poly>
+                            <point x="0.514706" y="0.0432277" />
+                            <point x="0.794118" y="0.0115273" />
+                            <point x="0.605392" y="0.268012" />
+                            <point x="0.897059" y="0.389049" />
+                            <point x="0.269608" y="0.899136" />
+                            <point x="0.176471" y="0.913545" />
+                            <point x="0.169118" y="0.665706" />
+                            <point x="0.00980392" y="0.73487" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="geminis" sid="962215710779218">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="594188259246370" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="127714790878953">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741892478505369" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\geminis.png">
+                        <collision-poly>
+                            <point x="0.31962" y="0.228814" />
+                            <point x="0.60443" y="0.0141243" />
+                            <point x="0.962025" y="0.30226" />
+                            <point x="0.841772" y="0.584746" />
+                            <point x="0.553797" y="0.833333" />
+                            <point x="0.310127" y="0.700565" />
+                            <point x="0.189873" y="0.511299" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="corona" sid="934729070065162">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="464951962303197" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="798888888961618">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211088283190647" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503145" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\corona.png">
+                        <collision-poly>
+                            <point x="0.274336" y="0.289308" />
+                            <point x="0.327434" y="0.54717" />
+                            <point x="0.535399" y="0.427673" />
+                            <point x="0.557523" y="0.603774" />
+                            <point x="0.548673" y="0.805031" />
+                            <point x="0.30531" y="0.886792" />
+                            <point x="0.137168" y="0.805031" />
+                            <point x="0.128319" y="0.226415" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="perseo" sid="608032477084477">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="interact" sid="790258450464368" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="739726946169716">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686694586222461" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501992" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\perseo.png">
+                        <collision-poly>
+                            <point x="0.425" y="0.314741" />
+                            <point x="0.54375" y="0.0956175" />
+                            <point x="0.9875" y="0.286853" />
+                            <point x="0.85" y="0.605578" />
+                            <point x="0.675" y="0.681275" />
+                            <point x="0.615625" y="0.948207" />
+                            <point x="0.0906251" y="0.63745" />
+                            <point x="0.346875" y="0.494024" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -398,7 +557,7 @@
         <layout>background.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>eventosMenu.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
