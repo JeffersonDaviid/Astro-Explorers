@@ -6,7 +6,17 @@
         <event-block sid="818918070499681">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="501444983503124" type="nave">
-                    <param id="0" name="Object">Sprite2</param>
+                    <param id="0" name="Object">combustible</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="332840763951422">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="580932424519140" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">play</param>
                 </condition>
             </conditions>
             <actions>
@@ -14,6 +24,9 @@
                     <param id="0" name="Value">25</param>
                 </action>
                 <action id="2" name="Stop" sid="547767110012808" type="nave" />
+                <action id="-9" name="Destroy" sid="741237434115645" type="Info" />
+                <action id="-9" name="Destroy" sid="851484836511480" type="play" />
+                <action id="-9" name="Destroy" sid="311847100762901" type="text" />
             </actions>
         </event-block>
     </events>

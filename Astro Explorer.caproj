@@ -10,7 +10,9 @@
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
@@ -56,14 +58,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="221276724862619" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\nave.png">
                         <collision-poly>
-                            <point x="0.294922" y="0.294922" />
-                            <point x="0.5" y="0" />
-                            <point x="0.705078" y="0.294922" />
-                            <point x="0.732422" y="0.5" />
-                            <point x="0.845703" y="0.845703" />
-                            <point x="0.5" y="1" />
-                            <point x="0.154297" y="0.845703" />
-                            <point x="0.267578" y="0.5" />
+                            <point x="0.209945" y="0.29572" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.790055" y="0.29572" />
+                            <point x="0.828729" y="0.5" />
+                            <point x="0.98895" y="0.844358" />
+                            <point x="0.5" y="0.998055" />
+                            <point x="0.0110499" y="0.844358" />
+                            <point x="0.171271" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -80,14 +82,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564593247962685" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\marte.png">
                         <collision-poly>
-                            <point x="0.146484" y="0.146484" />
-                            <point x="0.5" y="0" />
-                            <point x="0.853516" y="0.146484" />
-                            <point x="1" y="0.5" />
-                            <point x="0.853516" y="0.853516" />
-                            <point x="0.5" y="1" />
-                            <point x="0.146484" y="0.853516" />
-                            <point x="0" y="0.5" />
+                            <point x="0.14786" y="0.14786" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.85214" y="0.14786" />
+                            <point x="0.998055" y="0.5" />
+                            <point x="0.85214" y="0.85214" />
+                            <point x="0.5" y="0.998055" />
+                            <point x="0.14786" y="0.85214" />
+                            <point x="0.00194553" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -101,32 +103,87 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="732357656771486">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764793350845167" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\estacion.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2" sid="339337778512531">
+        <object-type name="combustible" sid="339337778512531">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144560850356904" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3" sid="352624534333260">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782517252364179" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501587" hotspotY="0.502585" original-source="D:\Users\Camila\Pictures\dispensador.png">
+                        <collision-poly>
+                            <point x="0.997884" y="0.98759" />
+                            <point x="0.501587" y="0.998966" />
+                            <point x="0.0793651" y="0.915202" />
+                            <point x="0.121693" y="0.502585" />
+                            <point x="0.0042328" y="0.016546" />
+                            <point x="0.501587" y="0.0124095" />
+                            <point x="0.91746" y="0.0961737" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="ProgressBar" sid="401349559839826">
             <plugin id="progressbar" />
+        </object-type>
+        <object-type name="alien" sid="677915488178662">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693668611313083" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.510949" original-source="D:\Users\Camila\Pictures\Marciano.png">
+                        <collision-poly>
+                            <point x="0.258037" y="0.443796" />
+                            <point x="0.502538" y="0.116788" />
+                            <point x="0.746193" y="0.445255" />
+                            <point x="0.934856" y="0.510949" />
+                            <point x="0.823181" y="0.709489" />
+                            <point x="0.502538" y="0.877372" />
+                            <point x="0.180203" y="0.712409" />
+                            <point x="0.0668359" y="0.510949" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Info" sid="136639565910728">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="text" sid="689927482531491">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978861194537764" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500659" original-source="D:\Users\Camila\Pictures\chat.png">
+                        <collision-poly>
+                            <point x="0.0359375" y="0.0909091" />
+                            <point x="0.5" y="0" />
+                            <point x="0.964063" y="0.0909091" />
+                            <point x="1" y="0.499341" />
+                            <point x="0.931771" y="0.827404" />
+                            <point x="0.5" y="0.8722" />
+                            <point x="0.0682292" y="0.827404" />
+                            <point x="0" y="0.499341" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play" sid="492314158900709">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689343651280004" speed="5">
+                    <frame duration="1" hotspotX="0.471787" hotspotY="0.805732" original-source="D:\Users\Camila\Pictures\play.png">
+                        <collision-poly>
+                            <point x="0.0768025" y="0.00318471" />
+                            <point x="0.866771" y="0.00318471" />
+                            <point x="0.979624" y="0.805732" />
+                            <point x="0.547022" y="0.958599" />
+                            <point x="0.396552" y="0.958599" />
+                            <point x="0.0203762" y="0.805732" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="862992504758575">
+            <plugin id="Mouse" />
         </object-type>
     </object-folder>
     <families />
@@ -136,7 +193,9 @@
     <event-folder>
         <event-sheet>Evt recargarCombustible.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="9" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
