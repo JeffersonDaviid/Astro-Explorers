@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
@@ -162,15 +163,35 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="LetraI" sid="837690762655472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977659402161936" speed="5">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.599251" original-source="C:\Users\DETPC\Pictures\Letra I.png">
+                        <collision-poly>
+                            <point x="0.02" y="0.5" />
+                            <point x="0.55" y="0.00187266" />
+                            <point x="0.98" y="0.518727" />
+                            <point x="0.98" y="0.679775" />
+                            <point x="0.55" y="0.998127" />
+                            <point x="0.02" y="0.698502" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="829684667775325">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
-        <layout>Layout 2.xml</layout>
+        <layout>descensoCoheteAlPlaneta.xml</layout>
+        <layout>Escena PlayAgain.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Eventos descensoCoheteAlPlaneta.xml</event-sheet>
+        <event-sheet>Evento PlayAgain.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
