@@ -10,7 +10,17 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="143245578609120" type="player" />
+                <action id="4" name="Set animation" sid="780783638245468" type="player">
+                    <param id="0" name="Animation">&quot;Destroy&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="989033699114931" type="player">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="8Direction" id="0" name="Stop" sid="910778476608146" type="player" />
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="929762651115489" type="player">
+                    <param id="0" name="Input">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="132229793931592">
@@ -26,7 +36,7 @@
         <event-block sid="350882479327902">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="376484787411583" type="player">
-                    <param id="0" name="Object">Sprite</param>
+                    <param id="0" name="Object">blackHole</param>
                 </condition>
             </conditions>
             <actions>
@@ -36,7 +46,7 @@
         <event-block sid="491536230906611">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="335720801132186" type="player">
-                    <param id="0" name="Object">Sprite3</param>
+                    <param id="0" name="Object">planet</param>
                 </condition>
             </conditions>
             <actions>

@@ -92,6 +92,112 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="9" loop="0" name="Destroy" pingpong="0" repeatcount="1" repeatto="0" sid="552013653972963" speed="5">
+                    <frame duration="1" hotspotX="0.16" hotspotY="2.51" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.246667" y="0.8" />
+                            <point x="0.246667" y="0.8" />
+                            <point x="0.76" y="0.45" />
+                            <point x="0.76" y="0.8" />
+                            <point x="0.76" y="0.8" />
+                            <point x="0.246667" y="0.8" />
+                            <point x="0.246667" y="0.8" />
+                            <point x="0.246667" y="0.8" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.62667" hotspotY="1.67" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.666667" y="0.23" />
+                            <point x="0.873333" y="0.28" />
+                            <point x="0.873333" y="0.12" />
+                            <point x="0.873333" y="0.89" />
+                            <point x="0.873333" y="0.89" />
+                            <point x="0.873333" y="0.89" />
+                            <point x="0.333333" y="0.89" />
+                            <point x="0.16" y="0.89" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-0.206667" hotspotY="1.67" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.0933333" y="0.23" />
+                            <point x="0.0933333" y="0.28" />
+                            <point x="0.906667" y="0.07" />
+                            <point x="0.906667" y="0.94" />
+                            <point x="0.453333" y="0.94" />
+                            <point x="0.0933333" y="0.94" />
+                            <point x="0.0933333" y="0.94" />
+                            <point x="0.0933333" y="0.94" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.686667" hotspotY="0.71" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.0466667" y="0.04" />
+                            <point x="0.686667" y="0.04" />
+                            <point x="0.96" y="0.04" />
+                            <point x="0.96" y="0.71" />
+                            <point x="0.96" y="0.96" />
+                            <point x="0.686667" y="0.96" />
+                            <point x="0.0466667" y="0.96" />
+                            <point x="0.0466667" y="0.71" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-0.266667" hotspotY="0.72" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.0266667" y="0.04" />
+                            <point x="0.0266667" y="0.04" />
+                            <point x="0.973333" y="0.04" />
+                            <point x="0.866667" y="0.72" />
+                            <point x="0.393333" y="0.97" />
+                            <point x="0.0266667" y="0.97" />
+                            <point x="0.0266667" y="0.97" />
+                            <point x="0.0266667" y="0.72" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.67333" hotspotY="-0.17" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.713333" y="0.08" />
+                            <point x="0.92" y="0.08" />
+                            <point x="0.92" y="0.08" />
+                            <point x="0.92" y="0.08" />
+                            <point x="0.92" y="0.82" />
+                            <point x="0.92" y="0.92" />
+                            <point x="0.38" y="0.92" />
+                            <point x="0.206667" y="0.08" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.746667" hotspotY="-0.18" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.113333" y="0.03" />
+                            <point x="0.746667" y="0.03" />
+                            <point x="0.886667" y="0.03" />
+                            <point x="0.886667" y="0.03" />
+                            <point x="0.886667" y="0.81" />
+                            <point x="0.746667" y="0.98" />
+                            <point x="0.113333" y="0.98" />
+                            <point x="0.113333" y="0.03" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-0.146667" hotspotY="-0.26" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.106667" y="0.05" />
+                            <point x="0.106667" y="0.05" />
+                            <point x="0.893333" y="0.05" />
+                            <point x="0.893333" y="0.05" />
+                            <point x="0.513333" y="0.73" />
+                            <point x="0.106667" y="0.96" />
+                            <point x="0.106667" y="0.96" />
+                            <point x="0.106667" y="0.05" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.51">
+                        <collision-poly>
+                            <point x="0.106667" y="0.05" />
+                            <point x="0.893333" y="0.05" />
+                            <point x="0.893333" y="0.96" />
+                            <point x="0.106667" y="0.96" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="meteoro_md" sid="746903110628293">
@@ -226,7 +332,7 @@
         <object-type name="FileChooser" sid="203957271763357">
             <plugin id="filechooser" />
         </object-type>
-        <object-type name="Sprite" sid="841933021089085">
+        <object-type name="blackHole" sid="841933021089085">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Rotate" sid="362752253785763">
@@ -261,7 +367,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="983369581678841">
+        <object-type name="planet" sid="983369581678841">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="905900205487916">
