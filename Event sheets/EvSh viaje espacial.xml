@@ -21,6 +21,15 @@
                 <action behavior="8Direction" id="2" name="Set ignoring input" sid="929762651115489" type="player">
                     <param id="0" name="Input">1</param>
                 </action>
+                <action id="-16" name="Wait" sid="372984501397372" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="616333699553306" type="System">
+                    <param id="0" name="Layout">FAILED</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="337655580598758" type="System">
+                    <param id="0" name="Layout">Viaje espacial</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="132229793931592">
@@ -31,6 +40,12 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="832848216055892" type="player" />
+                <action id="-16" name="Wait" sid="878539660371120" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="371426442544330" type="System">
+                    <param id="0" name="Layout">Viaje espacial</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="350882479327902">
@@ -41,6 +56,15 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="690177335860896" type="player" />
+                <action id="-16" name="Wait" sid="665161928094188" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="106244171219614" type="System">
+                    <param id="0" name="Layout">FAILED</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="673921347304798" type="System">
+                    <param id="0" name="Layout">Viaje espacial</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="491536230906611">
@@ -52,6 +76,14 @@
             <actions>
                 <action behavior="8Direction" id="0" name="Stop" sid="107702555695503" type="player" />
             </actions>
+        </event-block>
+        <event-block sid="174560752935233">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="898769866756992">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
