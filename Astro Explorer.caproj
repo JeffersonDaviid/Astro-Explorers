@@ -10,6 +10,7 @@
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
@@ -52,17 +53,6 @@
         </object-type>
         <object-type name="z" sid="127399095591443">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="8Direction" sid="743178626585345">
-                    <behavior id="EightDir" />
-                </behavior-type>
-                <behavior-type name="ScrollTo" sid="881796292884013">
-                    <behavior id="scrollto" />
-                </behavior-type>
-                <behavior-type name="BoundToLayout" sid="675954142643173">
-                    <behavior id="bound" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -514,7 +504,7 @@
                             <point x="0.274336" y="0.289308" />
                             <point x="0.327434" y="0.54717" />
                             <point x="0.535399" y="0.427673" />
-                            <point x="0.557523" y="0.603774" />
+                            <point x="0.946903" y="0.484277" />
                             <point x="0.548673" y="0.805031" />
                             <point x="0.30531" y="0.886792" />
                             <point x="0.137168" y="0.805031" />
@@ -551,6 +541,55 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="contenedor" sid="837805439237145">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="706379561922764">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="428415870498109">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="525826768096691">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341458606819875" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\contenedor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="nueva" sid="291890038403708">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584252601353086" speed="5">
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.5" original-source="D:\Dascargas 00\25 NP.png" />
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.5" original-source="D:\Dascargas 00\20NP.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cargar" sid="460028762412459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="561775660801359" speed="5">
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.5" original-source="D:\Dascargas 00\11CC.png" />
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.5" original-source="D:\Dascargas 00\10CC.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="salir" sid="195339536036581">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279659052453816" speed="5">
+                    <frame duration="1" hotspotX="0.508264" hotspotY="0.5" original-source="D:\Dascargas 00\10SS.png" />
+                    <frame duration="1" hotspotX="0.508264" hotspotY="0.5" original-source="D:\Dascargas 00\00SS.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="141378628703072">
+            <plugin id="Mouse" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -559,17 +598,12 @@
     <event-folder>
         <event-sheet>eventosMenu.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="24" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
-        <file-folder name="Icons">
-            <file name="icon-16.png" />
-            <file name="icon-32.png" />
-            <file name="icon-114.png" />
-            <file name="icon-128.png" />
-            <file name="icon-256.png" />
-            <file name="loading-logo.png" />
-        </file-folder>
+        <file-folder name="Icons" />
     </files-folder>
 </c2project>

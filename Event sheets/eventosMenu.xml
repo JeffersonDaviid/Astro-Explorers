@@ -409,7 +409,7 @@
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="600582879648619" type="osaMayor">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="711667804547451" type="cochero" />
+                <action behavior="Fade" id="1" name="Start fade" sid="711667804547451" type="osaMayor" />
                 <action id="-13" name="Set boolean" sid="969031456882384" type="osaMayor">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
@@ -648,6 +648,109 @@
                 <action id="-13" name="Set boolean" sid="301285597518085" type="boyero">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659246307774175">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="661324622984524" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="789578753275605" type="z">
+                    <param id="0" name="X">contenedor.X+210</param>
+                </action>
+                <action id="-2" name="Set Y" sid="559995677304736" type="z">
+                    <param id="0" name="Y">contenedor.Y</param>
+                </action>
+                <action id="-1" name="Set X" sid="213843447121187" type="nueva">
+                    <param id="0" name="X">contenedor.X-210</param>
+                </action>
+                <action id="-2" name="Set Y" sid="284514712876513" type="nueva">
+                    <param id="0" name="Y">contenedor.Y-55</param>
+                </action>
+                <action id="-1" name="Set X" sid="719064672112856" type="cargar">
+                    <param id="0" name="X">contenedor.X-210</param>
+                </action>
+                <action id="-2" name="Set Y" sid="606882319094184" type="cargar">
+                    <param id="0" name="Y">contenedor.Y+50</param>
+                </action>
+                <action id="-1" name="Set X" sid="975974202168140" type="salir">
+                    <param id="0" name="X">contenedor.X-210</param>
+                </action>
+                <action id="-2" name="Set Y" sid="369967036366490" type="salir">
+                    <param id="0" name="Y">contenedor.Y+155</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="872829519439262">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="327536108121511" type="Mouse">
+                    <param id="0" name="Object">nueva</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="524038704081114" type="nueva">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="735766367807426">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="203030575521296" type="Mouse">
+                    <param id="0" name="Object">cargar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="594964974694955" type="cargar">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="855714700340730">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="656647651304921" type="Mouse">
+                    <param id="0" name="Object">salir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="535251311845651" type="salir">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="198735970607290">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="384485812211119" type="Mouse">
+                    <param id="0" name="Object">nueva</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="469464423488580" type="nueva">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="373314544685474">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="237368842253739" type="Mouse">
+                    <param id="0" name="Object">cargar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="195771126631711" type="cargar">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="819755050139032">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="961313184266835" type="Mouse">
+                    <param id="0" name="Object">salir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="463667280422817" type="salir">
+                    <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
