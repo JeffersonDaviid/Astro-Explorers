@@ -5,11 +5,12 @@
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
-    <author-website>http://</author-website>
+    <author-website>http://google.com</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -55,7 +56,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.4" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\nave.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.333333" />
+                            <point x="0.5" y="0.0333333" />
+                            <point x="0.63" y="0.308333" />
+                            <point x="0.82" y="0.5" />
+                            <point x="0.63" y="0.691667" />
+                            <point x="0.5" y="0.891667" />
+                            <point x="0.15" y="0.875" />
+                            <point x="0.21" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -129,7 +141,7 @@
                             <point x="0.318182" y="0.513072" />
                             <point x="0.486014" y="0.0163399" />
                             <point x="0.685315" y="0.313726" />
-                            <point x="0.828671" y="0.490196" />
+                            <point x="0.968531" y="0.490196" />
                             <point x="0.751749" y="0.624183" />
                             <point x="0.940559" y="0.996732" />
                             <point x="0.377622" y="0.82353" />
@@ -590,6 +602,9 @@
         <object-type name="Mouse" sid="141378628703072">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="Keyboard" sid="375357419387599">
+            <plugin id="Keyboard" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -600,6 +615,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="24" />
+        <global-instance type="Keyboard" uid="25" />
     </global-instances>
     <sounds-folder />
     <music-folder />

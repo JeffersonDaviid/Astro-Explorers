@@ -660,7 +660,7 @@
                     <param id="0" name="X">contenedor.X+180</param>
                 </action>
                 <action id="-2" name="Set Y" sid="559995677304736" type="z">
-                    <param id="0" name="Y">contenedor.Y</param>
+                    <param id="0" name="Y">contenedor.Y+50</param>
                 </action>
                 <action id="-1" name="Set X" sid="213843447121187" type="nueva">
                     <param id="0" name="X">contenedor.X-210</param>
@@ -753,6 +753,118 @@
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="611582442050986">
+            <conditions>
+                <condition id="2" name="Key is down" sid="478201745788614" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="482205280690497" type="z">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="317922815634344">
+            <conditions>
+                <condition id="2" name="Key is down" sid="153254666652069" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="567374604861101" type="z">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="793911771743839">
+            <conditions>
+                <condition id="2" name="Key is down" sid="503454260917597" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="782315604232642" type="z">
+                    <param id="0" name="Angle">270</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="217221512333312">
+            <conditions>
+                <condition id="2" name="Key is down" sid="309894141844361" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="694053400474385" type="z">
+                    <param id="0" name="Angle">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="591188503509929">
+            <conditions>
+                <condition id="2" name="Key is down" sid="511237290184120" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="899468293070808" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="629463749979351" type="z">
+                    <param id="0" name="Angle">45</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="104940320068358">
+            <conditions>
+                <condition id="2" name="Key is down" sid="756065064217996" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="891323096065039" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="975254414781971" type="z">
+                    <param id="0" name="Angle">315</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="955492434628056">
+            <conditions>
+                <condition id="2" name="Key is down" sid="386300071386953" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="759517251769270" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="116792644549167" type="z">
+                    <param id="0" name="Angle">135</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="675480577662796">
+            <conditions>
+                <condition id="2" name="Key is down" sid="736559731483805" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="570980312124572" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="672941141073199" type="z">
+                    <param id="0" name="Angle">225</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="407240791311916">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
