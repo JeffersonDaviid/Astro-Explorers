@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="710049291511226">
+        <layer name="recargarCombustible" sid="710049291511226">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -73,12 +73,17 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>854</x>
-                        <y>560</y>
+                        <x>783</x>
+                        <y>555</y>
                         <z>0</z>
                         <width>141.40625</width>
                         <height>200.78125</height>
@@ -125,6 +130,13 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -140,27 +152,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ProgressBar" uid="4">
-                    <properties>
-                        <value>0</value>
-                        <maximum>100</maximum>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>628.5</x>
-                        <y>859</y>
-                        <z>0</z>
-                        <width>451</width>
-                        <height>44</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="iniciarLectura" sid="558749164014583">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="alien" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -171,8 +181,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>275</x>
-                        <y>267</y>
+                        <x>266</x>
+                        <y>280</y>
                         <z>0</z>
                         <width>447.190002441</width>
                         <height>298.368347168</height>
@@ -183,7 +193,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="text" uid="7">
+                <instance type="text" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -193,8 +203,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>560</x>
-                        <y>173</y>
+                        <x>551</x>
+                        <y>186</y>
                         <z>0</z>
                         <width>426</width>
                         <height>205</height>
@@ -205,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Info" uid="6">
+                <instance type="Info" uid="7">
                     <properties>
                         <text>Hola, soy Nyx para que puedas recargar la nave con combustible necesitas saber sobre mi planeta</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -220,8 +230,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436</x>
-                        <y>16</y>
+                        <x>427</x>
+                        <y>29</y>
                         <z>0</z>
                         <width>348</width>
                         <height>140</height>
@@ -242,8 +252,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>847.144165039</x>
-                        <y>762.52545166</y>
+                        <x>950</x>
+                        <y>775</y>
                         <z>0</z>
                         <width>243</width>
                         <height>79</height>
@@ -252,6 +262,68 @@
                         <hotspotY>0.805732489</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="return" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>650</x>
+                        <y>775</y>
+                        <z>0</z>
+                        <width>243</width>
+                        <height>79</height>
+                        <depth>0</depth>
+                        <hotspotX>0.471786827</hotspotX>
+                        <hotspotY>0.805732489</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="informacionPlaneta" sid="555201757044586">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="ProgressBar" uid="4">
+                    <properties>
+                        <value>0</value>
+                        <maximum>100</maximum>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <id-optional></id-optional>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>611</x>
+                        <y>818.75</y>
+                        <z>0</z>
+                        <width>451</width>
+                        <height>44</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
                 <instance type="cuadro" uid="10">
@@ -267,8 +339,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>797</x>
-                        <y>-432</y>
+                        <x>854</x>
+                        <y>417.75</y>
                         <z>0</z>
                         <width>683</width>
                         <height>641</height>
@@ -289,8 +361,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>797</x>
-                        <y>-453</y>
+                        <x>854</x>
+                        <y>396.75</y>
                         <z>0</z>
                         <width>563</width>
                         <height>494</height>
@@ -301,7 +373,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="12">
+                <instance type="der" uid="13">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -311,8 +383,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>717</x>
-                        <y>-156</y>
+                        <x>934</x>
+                        <y>693.75</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -323,7 +395,53 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="13">
+                <instance type="cuadro_inf" uid="15">
+                    <properties>
+                        <text>Estamos en la pagina 00 del layout 00</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>671.5</x>
+                        <y>232</y>
+                        <z>0</z>
+                        <width>365</width>
+                        <height>78</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="pg_01" sid="110482276298353">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="izq" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -333,8 +451,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>877</x>
-                        <y>-156</y>
+                        <x>774</x>
+                        <y>693.75</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>

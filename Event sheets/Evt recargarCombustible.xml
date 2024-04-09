@@ -3,30 +3,184 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Evt recargarCombustible</name>
     <events>
-        <event-block sid="818918070499681">
+        <variable constant="0" name="estaRecargando" sid="188963215966584" static="0" type="number">0</variable>
+        <variable constant="0" name="no_pg" sid="953094715183609" static="0" type="number">0</variable>
+        <variable constant="0" name="cuadro_informacion" sid="397358092024888" static="0" type="number">0</variable>
+        <event-block sid="406084216725087">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="501444983503124" type="nave">
-                    <param id="0" name="Object">combustible</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="332840763951422">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="580932424519140" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">play</param>
+                <condition id="-14" name="Compare variable" sid="181111755253220" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="3" name="Set progress" sid="715875455791370" type="ProgressBar">
-                    <param id="0" name="Value">25</param>
+                <action id="-4" name="Set layer visible" sid="282084956475448" type="System">
+                    <param id="0" name="Layer">&quot;iniciarLectura&quot;</param>
+                    <param id="1" name="Visibility">0</param>
                 </action>
-                <action id="2" name="Stop" sid="547767110012808" type="nave" />
+                <action id="-13" name="Set time scale" sid="197785742921679" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="241748880459779">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="516932530270635" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="560306863910336" type="System">
+                    <param id="0" name="Layer">&quot;iniciarLectura&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="962946214307427" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="765413127048662">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="950645094392734" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="340058836200397" type="System">
+                    <param id="0" name="Layer">&quot;informacionPlaneta&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="397481594691822">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="454875888349976" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="608426707453387" type="System">
+                    <param id="0" name="Layer">&quot;informacionPlaneta&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="467447415996277">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="597223721497200" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="392674446842492" type="System">
+                    <param id="0" name="Layer">&quot;pg_01&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="489469463526146">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="901169496093639" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="927296986415451" type="System">
+                    <param id="0" name="Layer">&quot;pg_01&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="863734909901298">
+            <conditions>
+                <condition id="3" name="On touched object" sid="988389834482137" type="Touch">
+                    <param id="0" name="Object">play</param>
+                </condition>
+            </conditions>
+            <actions>
                 <action id="-9" name="Destroy" sid="741237434115645" type="Info" />
                 <action id="-9" name="Destroy" sid="851484836511480" type="play" />
+                <action id="-9" name="Destroy" sid="883974238995948" type="return" />
                 <action id="-9" name="Destroy" sid="311847100762901" type="text" />
+                <action id="-9" name="Set value" sid="829334987591499" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="736696049156758">
+            <conditions>
+                <condition id="3" name="On touched object" sid="738277176911055" type="Touch">
+                    <param id="0" name="Object">der</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="773012778995459" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="3" name="Set progress" sid="652810517121876" type="ProgressBar">
+                    <param id="0" name="Value">35</param>
+                </action>
+                <action id="0" name="Set text" sid="749514392007632" type="cuadro_inf">
+                    <param id="0" name="Text">&quot;Estamos en la pagina 01 del layout 01&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="118586149377516">
+            <conditions>
+                <condition id="3" name="On touched object" sid="989348990967789" type="Touch">
+                    <param id="0" name="Object">izq</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="821480113053803" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="3" name="Set progress" sid="592268915428546" type="ProgressBar">
+                    <param id="0" name="Value">0</param>
+                </action>
+                <action id="0" name="Set text" sid="998939566372193" type="cuadro_inf">
+                    <param id="0" name="Text">&quot;Estamos en la pagina 00 del layout 00&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="799348665565163">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="395741622539542" type="nave">
+                    <param id="0" name="Object">combustible</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="642745516069736" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="828629763989295">
+            <conditions>
+                <condition id="3" name="On touched object" sid="558993637779951" type="Touch">
+                    <param id="0" name="Object">return</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="312383450627085" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
     </events>
