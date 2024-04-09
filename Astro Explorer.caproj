@@ -604,6 +604,13 @@
     <sounds-folder />
     <music-folder />
     <files-folder>
-        <file-folder name="Icons" />
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
     </files-folder>
 </c2project>

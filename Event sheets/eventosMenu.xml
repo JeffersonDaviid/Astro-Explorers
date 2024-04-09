@@ -31,7 +31,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="200413801854019" type="dragon">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="252116411041802" type="dragon">
                     <param id="0" name="Instance variable">interact</param>
@@ -67,7 +67,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="426937582494844" type="cisne">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="946416008639191" type="cisne">
                     <param id="0" name="Instance variable">interact</param>
@@ -103,7 +103,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="686256011984312" type="osaMenor">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="634412605294814" type="osaMenor">
                     <param id="0" name="Instance variable">interact</param>
@@ -139,7 +139,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="727959911147542" type="aries">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="769243707929421" type="aries">
                     <param id="0" name="Instance variable">interact</param>
@@ -175,7 +175,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="899766497773586" type="pegaso">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="545498493587068" type="pegaso">
                     <param id="0" name="Instance variable">interact</param>
@@ -211,7 +211,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="698874582477659" type="andromeda">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="899488125042092" type="andromeda">
                     <param id="0" name="Instance variable">interact</param>
@@ -247,7 +247,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="732313253236567" type="casiopea">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="340947218059804" type="casiopea">
                     <param id="0" name="Instance variable">interact</param>
@@ -283,7 +283,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="759830886256799" type="cefeo">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="584736395422019" type="cefeo">
                     <param id="0" name="Instance variable">interact</param>
@@ -319,7 +319,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="234309710126560" type="ballena">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="406785566266082" type="ballena">
                     <param id="0" name="Instance variable">interact</param>
@@ -355,7 +355,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="351927534704384" type="tauro">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="336278933042763" type="tauro">
                     <param id="0" name="Instance variable">interact</param>
@@ -391,7 +391,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="230443509260478" type="cochero">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="811377141257041" type="cochero">
                     <param id="0" name="Instance variable">interact</param>
@@ -427,7 +427,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="679923046868693" type="osaMayor">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="285583185897807" type="osaMayor">
                     <param id="0" name="Instance variable">interact</param>
@@ -463,7 +463,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="892775814378567" type="leon">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="222986039151243" type="leon">
                     <param id="0" name="Instance variable">interact</param>
@@ -499,7 +499,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="444546031916416" type="corona">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="901341722210185" type="corona">
                     <param id="0" name="Instance variable">interact</param>
@@ -535,7 +535,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="788077506684212" type="cancer">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="591794619706920" type="cancer">
                     <param id="0" name="Instance variable">interact</param>
@@ -571,7 +571,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="224309354498317" type="perseo">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="692151502743619" type="perseo">
                     <param id="0" name="Instance variable">interact</param>
@@ -607,7 +607,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="528698068922596" type="geminis">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="111172535266711" type="geminis">
                     <param id="0" name="Instance variable">interact</param>
@@ -643,7 +643,7 @@
             </conditions>
             <actions>
                 <action behavior="Fade" id="4" name="Set fade-out time" sid="694068260811053" type="boyero">
-                    <param id="0" name="Fade-out time">1</param>
+                    <param id="0" name="Fade-out time">2</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="301285597518085" type="boyero">
                     <param id="0" name="Instance variable">interact</param>
@@ -657,7 +657,7 @@
             </conditions>
             <actions>
                 <action id="-1" name="Set X" sid="789578753275605" type="z">
-                    <param id="0" name="X">contenedor.X+210</param>
+                    <param id="0" name="X">contenedor.X+180</param>
                 </action>
                 <action id="-2" name="Set Y" sid="559995677304736" type="z">
                     <param id="0" name="Y">contenedor.Y</param>
