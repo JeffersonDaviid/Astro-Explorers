@@ -229,7 +229,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="1andromeda" uid="7">
+                <instance type="1Andromeda" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

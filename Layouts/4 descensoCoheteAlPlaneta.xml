@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="4Sprite2" uid="3">
+                <instance type="4Sprite2" uid="110">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Nave" uid="0">
+                <instance type="4Nave" uid="111">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Particles" uid="4">
+                <instance type="4Particles" uid="112">
                     <properties>
                         <rate>50</rate>
                         <spray-cone>360</spray-cone>
@@ -128,7 +128,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4barrera" uid="5">
+                <instance type="4barrera" uid="113">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -150,7 +150,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4barrera" uid="9">
+                <instance type="4barrera" uid="114">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -172,7 +172,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Plaeta2" uid="10">
+                <instance type="4Plaeta2" uid="115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4LetraI" uid="6">
+                <instance type="4LetraI" uid="116">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -237,7 +237,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Text" uid="11">
+                <instance type="4Text" uid="117">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>

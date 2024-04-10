@@ -21,7 +21,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="807232915563666" type="System">
-                    <param id="0" name="Layout">3 Failed</param>
+                    <param id="0" name="Layout">4 descensoCoheteAlPlaneta</param>
                 </action>
             </actions>
         </event-block>

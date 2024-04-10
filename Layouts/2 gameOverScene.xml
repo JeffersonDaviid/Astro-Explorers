@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="2fondoFinDelJuego" uid="21">
+                <instance type="2fondoFinDelJuego" uid="47">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2finDelJuegoText" uid="25">
+                <instance type="2finDelJuegoText" uid="48">
                     <properties>
                         <text>Fin del Juego</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -78,7 +78,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2botonIntentarDeNuevo" uid="26">
+                <instance type="2botonIntentarDeNuevo" uid="49">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

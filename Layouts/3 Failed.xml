@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="3Failed_bg" uid="60">
+                <instance type="3Failed_bg" uid="108">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3Button" uid="61">
+                <instance type="3Button" uid="109">
                     <properties>
                         <type>Button</type>
                         <text>VOLVER?</text>

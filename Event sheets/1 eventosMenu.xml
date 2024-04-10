@@ -186,15 +186,15 @@
         <event-block sid="585188348336520">
             <conditions>
                 <condition id="1" name="Is overlapping another object" sid="577851558495443" type="1z">
-                    <param id="0" name="Object">1andromeda</param>
+                    <param id="0" name="Object">1Andromeda</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="985247821275848" type="1andromeda">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="985247821275848" type="1Andromeda">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="260931361524500" type="1andromeda" />
-                <action id="-13" name="Set boolean" sid="595890790185046" type="1andromeda">
+                <action behavior="Fade" id="1" name="Start fade" sid="260931361524500" type="1Andromeda" />
+                <action id="-13" name="Set boolean" sid="595890790185046" type="1Andromeda">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -203,17 +203,17 @@
         <event-block sid="479148677125232">
             <conditions>
                 <condition id="1" inverted="1" name="Is overlapping another object" sid="807055476599249" type="1z">
-                    <param id="0" name="Object">1andromeda</param>
+                    <param id="0" name="Object">1Andromeda</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="781124470643951" type="1andromeda">
+                <condition id="-8" name="Is boolean instance variable set" sid="781124470643951" type="1Andromeda">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="698874582477659" type="1andromeda">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="698874582477659" type="1Andromeda">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="899488125042092" type="1andromeda">
+                <action id="-13" name="Set boolean" sid="899488125042092" type="1Andromeda">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -692,6 +692,9 @@
                 <action id="5" name="Set frame" sid="524038704081114" type="1nueva">
                     <param id="0" name="Frame number">0</param>
                 </action>
+                <action id="-2" name="Go to layout" sid="725329779134227" type="System">
+                    <param id="0" name="Layout">2 menuSeleccionDePlaneta</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="735766367807426">
@@ -753,118 +756,6 @@
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="611582442050986">
-            <conditions>
-                <condition id="2" name="Key is down" sid="478201745788614" type="Keyboard">
-                    <param id="0" name="Key">40</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="482205280690497" type="1z">
-                    <param id="0" name="Angle">180</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="317922815634344">
-            <conditions>
-                <condition id="2" name="Key is down" sid="153254666652069" type="Keyboard">
-                    <param id="0" name="Key">38</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="567374604861101" type="1z">
-                    <param id="0" name="Angle">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="793911771743839">
-            <conditions>
-                <condition id="2" name="Key is down" sid="503454260917597" type="Keyboard">
-                    <param id="0" name="Key">37</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="782315604232642" type="1z">
-                    <param id="0" name="Angle">270</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="217221512333312">
-            <conditions>
-                <condition id="2" name="Key is down" sid="309894141844361" type="Keyboard">
-                    <param id="0" name="Key">39</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="694053400474385" type="1z">
-                    <param id="0" name="Angle">90</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="591188503509929">
-            <conditions>
-                <condition id="2" name="Key is down" sid="511237290184120" type="Keyboard">
-                    <param id="0" name="Key">38</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="899468293070808" type="Keyboard">
-                    <param id="0" name="Key">39</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="629463749979351" type="1z">
-                    <param id="0" name="Angle">45</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="104940320068358">
-            <conditions>
-                <condition id="2" name="Key is down" sid="756065064217996" type="Keyboard">
-                    <param id="0" name="Key">38</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="891323096065039" type="Keyboard">
-                    <param id="0" name="Key">37</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="975254414781971" type="1z">
-                    <param id="0" name="Angle">315</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="955492434628056">
-            <conditions>
-                <condition id="2" name="Key is down" sid="386300071386953" type="Keyboard">
-                    <param id="0" name="Key">40</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="759517251769270" type="Keyboard">
-                    <param id="0" name="Key">39</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="116792644549167" type="1z">
-                    <param id="0" name="Angle">135</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="675480577662796">
-            <conditions>
-                <condition id="2" name="Key is down" sid="736559731483805" type="Keyboard">
-                    <param id="0" name="Key">40</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="570980312124572" type="Keyboard">
-                    <param id="0" name="Key">37</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-8" name="Set angle" sid="672941141073199" type="1z">
-                    <param id="0" name="Angle">225</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="407240791311916">
-            <conditions />
-            <actions />
         </event-block>
     </events>
 </c2eventsheet>
