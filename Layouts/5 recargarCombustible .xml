@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>recargarCombustible </name>
+    <name>5 recargarCombustible </name>
     <sid>750083837942752</sid>
-    <event-sheet>Evt recargarCombustible</event-sheet>
+    <event-sheet>5 recargarCombustible</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="background" uid="2">
+                <instance type="5background" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="nave" uid="0">
+                <instance type="5nave" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -94,7 +94,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planet" uid="1">
+                <instance type="5planet" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -123,7 +123,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="combustible" uid="3">
+                <instance type="5combustible" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -171,7 +171,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="alien" uid="5">
+                <instance type="5alien" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -193,7 +193,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="text" uid="6">
+                <instance type="5text" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="cuadro_inf" uid="7">
+                <instance type="5cuadro_inf" uid="7">
                     <properties>
                         <text>Hola, soy Nyx para que puedas recargar la nave con combustible necesitas saber sobre mi planeta</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -242,7 +242,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="play" uid="8">
+                <instance type="5play" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -264,7 +264,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="return" uid="16">
+                <instance type="5return" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -305,7 +305,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ProgressBar" uid="4">
+                <instance type="5ProgressBar" uid="4">
                     <properties>
                         <value>0</value>
                         <maximum>100</maximum>
@@ -326,7 +326,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="cuadro" uid="10">
+                <instance type="5cuadro" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -351,7 +351,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fondo" uid="11">
+                <instance type="5fondo" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -373,7 +373,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="InfoPg1" uid="15">
+                <instance type="5InfoPg1" uid="15">
                     <properties>
                         <text>Estamos en la pagina 01 del layout 01</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -400,7 +400,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="dosDer" uid="12">
+                <instance type="5dosDer" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -441,7 +441,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="InfoPg2" uid="13">
+                <instance type="5InfoPg2" uid="13">
                     <properties>
                         <text>Estamos en la pagina 02 del layout 02</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -468,7 +468,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="uno" uid="17">
+                <instance type="5uno" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

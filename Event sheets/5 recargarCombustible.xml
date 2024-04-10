@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Evt recargarCombustible</name>
+    <name>5 recargarCombustible</name>
     <events>
         <variable constant="0" name="estaRecargando" sid="188963215966584" static="0" type="number">0</variable>
         <variable constant="0" name="no_pg" sid="953094715183609" static="0" type="number">1</variable>
@@ -74,8 +74,8 @@
         </event-block>
         <event-block sid="799348665565163">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="395741622539542" type="nave">
-                    <param id="0" name="Object">combustible</param>
+                <condition id="0" name="On collision with another object" sid="395741622539542" type="5nave">
+                    <param id="0" name="Object">5combustible</param>
                 </condition>
             </conditions>
             <actions>
@@ -88,7 +88,7 @@
         <event-block sid="828629763989295">
             <conditions>
                 <condition id="3" name="On touched object" sid="558993637779951" type="Touch">
-                    <param id="0" name="Object">return</param>
+                    <param id="0" name="Object">5return</param>
                 </condition>
             </conditions>
             <actions>
@@ -101,14 +101,14 @@
         <event-block sid="213502558332565">
             <conditions>
                 <condition id="3" name="On touched object" sid="257587242655339" type="Touch">
-                    <param id="0" name="Object">play</param>
+                    <param id="0" name="Object">5play</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="617664105746818" type="cuadro_inf" />
-                <action id="-9" name="Destroy" sid="411479115629396" type="play" />
-                <action id="-9" name="Destroy" sid="844654185295551" type="return" />
-                <action id="-9" name="Destroy" sid="862138936903920" type="text" />
+                <action id="-9" name="Destroy" sid="617664105746818" type="5cuadro_inf" />
+                <action id="-9" name="Destroy" sid="411479115629396" type="5play" />
+                <action id="-9" name="Destroy" sid="844654185295551" type="5return" />
+                <action id="-9" name="Destroy" sid="862138936903920" type="5text" />
                 <action id="-9" name="Set value" sid="471912418653747" type="System">
                     <param id="0" name="Variable">cuadro_informacion</param>
                     <param id="1" name="Value">1</param>
@@ -148,7 +148,7 @@
         <event-block sid="695162686934436">
             <conditions>
                 <condition id="3" name="On touched object" sid="566394286562665" type="Touch">
-                    <param id="0" name="Object">dosDer</param>
+                    <param id="0" name="Object">5dosDer</param>
                 </condition>
             </conditions>
             <actions>
@@ -156,7 +156,7 @@
                     <param id="0" name="Variable">no_pg</param>
                     <param id="1" name="Value">2</param>
                 </action>
-                <action id="3" name="Set progress" sid="889560552789247" type="ProgressBar">
+                <action id="3" name="Set progress" sid="889560552789247" type="5ProgressBar">
                     <param id="0" name="Value">25</param>
                 </action>
             </actions>
@@ -164,7 +164,7 @@
         <event-block sid="308597204710352">
             <conditions>
                 <condition id="3" name="On touched object" sid="960270069550609" type="Touch">
-                    <param id="0" name="Object">uno</param>
+                    <param id="0" name="Object">5uno</param>
                 </condition>
             </conditions>
             <actions>
@@ -172,10 +172,10 @@
                     <param id="0" name="Variable">no_pg</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="950051705407948" type="InfoPg1">
+                <action id="-15" name="Set visible" sid="950051705407948" type="5InfoPg1">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="3" name="Set progress" sid="105689735677862" type="ProgressBar">
+                <action id="3" name="Set progress" sid="105689735677862" type="5ProgressBar">
                     <param id="0" name="Value">0</param>
                 </action>
             </actions>

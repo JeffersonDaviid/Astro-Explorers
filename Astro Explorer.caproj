@@ -32,7 +32,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>recargarCombustible </first-layout>
+    <first-layout>5 recargarCombustible </first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -50,7 +50,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="nave" sid="158125063463082">
+        <object-type name="5nave" sid="158125063463082">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="806517772019093">
@@ -77,7 +77,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="planet" sid="637239236564624">
+        <object-type name="5planet" sid="637239236564624">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="728010300498103">
@@ -101,7 +101,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="background" sid="130935626402229">
+        <object-type name="5background" sid="130935626402229">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894945278699117" speed="5">
@@ -109,7 +109,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="combustible" sid="339337778512531">
+        <object-type name="5combustible" sid="339337778512531">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="698877926475166">
@@ -132,10 +132,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ProgressBar" sid="401349559839826">
+        <object-type name="5ProgressBar" sid="401349559839826">
             <plugin id="progressbar" />
         </object-type>
-        <object-type name="alien" sid="677915488178662">
+        <object-type name="5alien" sid="677915488178662">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693668611313083" speed="5">
@@ -154,10 +154,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="cuadro_inf" sid="136639565910728">
+        <object-type name="5cuadro_inf" sid="136639565910728">
             <plugin id="Text" />
         </object-type>
-        <object-type name="text" sid="689927482531491">
+        <object-type name="5text" sid="689927482531491">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978861194537764" speed="5">
@@ -176,7 +176,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="play" sid="492314158900709">
+        <object-type name="5play" sid="492314158900709">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689343651280004" speed="5">
@@ -196,7 +196,7 @@
         <object-type name="Mouse" sid="862992504758575">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="cuadro" sid="948887841940627">
+        <object-type name="5cuadro" sid="948887841940627">
             <plugin id="Sprite" />
             <effects>
                 <effect-type name="Darken">
@@ -209,7 +209,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="fondo" sid="562561175043647">
+        <object-type name="5fondo" sid="562561175043647">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="633224735742315" speed="5">
@@ -220,10 +220,10 @@
         <object-type name="Touch" sid="307490273866054">
             <plugin id="Touch" />
         </object-type>
-        <object-type name="InfoPg1" sid="233330493559017">
+        <object-type name="5InfoPg1" sid="233330493559017">
             <plugin id="Text" />
         </object-type>
-        <object-type name="return" sid="598651076069859">
+        <object-type name="5return" sid="598651076069859">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112414691725842" speed="5">
@@ -240,7 +240,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="dosDer" sid="672143444591045">
+        <object-type name="5dosDer" sid="672143444591045">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433709139137064" speed="5">
@@ -259,10 +259,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="InfoPg2" sid="256161247299446">
+        <object-type name="5InfoPg2" sid="256161247299446">
             <plugin id="Text" />
         </object-type>
-        <object-type name="uno" sid="795993276585211">
+        <object-type name="5uno" sid="795993276585211">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212832513717055" speed="5">
@@ -284,10 +284,10 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>recargarCombustible .xml</layout>
+        <layout>5 recargarCombustible .xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Evt recargarCombustible.xml</event-sheet>
+        <event-sheet>5 recargarCombustible.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="9" />
