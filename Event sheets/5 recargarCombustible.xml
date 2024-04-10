@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>5 recargarCombustible</name>
+    <events>
+        <variable constant="0" name="estaRecargando" sid="188963215966584" static="0" type="number">0</variable>
+        <variable constant="0" name="no_pg" sid="953094715183609" static="0" type="number">1</variable>
+        <variable constant="0" name="cuadro_informacion" sid="397358092024888" static="0" type="number">0</variable>
+        <event-block sid="406084216725087">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="181111755253220" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="282084956475448" type="System">
+                    <param id="0" name="Layer">&quot;iniciarLectura&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="197785742921679" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="241748880459779">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="516932530270635" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="560306863910336" type="System">
+                    <param id="0" name="Layer">&quot;iniciarLectura&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="962946214307427" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="765413127048662">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="950645094392734" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="244913115449603" type="System">
+                    <param id="0" name="Layer">&quot;pg_01&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="397481594691822">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="454875888349976" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="608426707453387" type="System">
+                    <param id="0" name="Layer">&quot;pg_01&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="799348665565163">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="395741622539542" type="5nave">
+                    <param id="0" name="Object">5combustible</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="642745516069736" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="828629763989295">
+            <conditions>
+                <condition id="3" name="On touched object" sid="558993637779951" type="Touch">
+                    <param id="0" name="Object">5return</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="312383450627085" type="System">
+                    <param id="0" name="Variable">estaRecargando</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="213502558332565">
+            <conditions>
+                <condition id="3" name="On touched object" sid="257587242655339" type="Touch">
+                    <param id="0" name="Object">5play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="617664105746818" type="5cuadro_inf" />
+                <action id="-9" name="Destroy" sid="411479115629396" type="5play" />
+                <action id="-9" name="Destroy" sid="844654185295551" type="5return" />
+                <action id="-9" name="Destroy" sid="862138936903920" type="5text" />
+                <action id="-9" name="Set value" sid="471912418653747" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="479633873187441">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="216510662825366" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="902335144994834" type="System">
+                    <param id="0" name="Layer">&quot;pg_02&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="862195500262448">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="911795509588701" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="546723587634254" type="System">
+                    <param id="0" name="Layer">&quot;pg_02&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="695162686934436">
+            <conditions>
+                <condition id="3" name="On touched object" sid="566394286562665" type="Touch">
+                    <param id="0" name="Object">5dosDer</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="338526555733955" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="3" name="Set progress" sid="889560552789247" type="5ProgressBar">
+                    <param id="0" name="Value">25</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="308597204710352">
+            <conditions>
+                <condition id="3" name="On touched object" sid="960270069550609" type="Touch">
+                    <param id="0" name="Object">5uno</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="819558333180989" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="950051705407948" type="5InfoPg1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="3" name="Set progress" sid="105689735677862" type="5ProgressBar">
+                    <param id="0" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

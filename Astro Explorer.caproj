@@ -736,15 +736,29 @@
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="darken">Darken</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>1708</width>
+        <height>960</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>5 recargarCombustible </first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -797,6 +811,13 @@
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="683375685211317">
+        <object-type name="5nave" sid="158125063463082">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="806517772019093">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="792792406639918">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
@@ -831,6 +852,17 @@
                             <point x="0.5" y="0.961148" />
                             <point x="0.160473" y="0.8125" />
                             <point x="0.0337838" y="0.472973" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="221276724862619" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\nave.png">
+                        <collision-poly>
+                            <point x="0.209945" y="0.29572" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.790055" y="0.29572" />
+                            <point x="0.828729" y="0.5" />
+                            <point x="0.98895" y="0.844358" />
+                            <point x="0.5" y="0.998055" />
+                            <point x="0.0110499" y="0.844358" />
+                            <point x="0.171271" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -844,6 +876,142 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903858519320996" speed="5">
+        <object-type name="5planet" sid="637239236564624">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="728010300498103">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564593247962685" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\marte.png">
+                        <collision-poly>
+                            <point x="0.14786" y="0.14786" />
+                            <point x="0.5" y="0.00194553" />
+                            <point x="0.85214" y="0.14786" />
+                            <point x="0.998055" y="0.5" />
+                            <point x="0.85214" y="0.85214" />
+                            <point x="0.5" y="0.998055" />
+                            <point x="0.14786" y="0.85214" />
+                            <point x="0.00194553" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5background" sid="130935626402229">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894945278699117" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\Default_Imagina_una_vasta_extensin_de_espacio_infinito_donde_l_1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5combustible" sid="339337778512531">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="698877926475166">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144560850356904" speed="5">
+                    <frame duration="1" hotspotX="0.501587" hotspotY="0.502585" original-source="D:\Users\Camila\Pictures\dispensador.png">
+                        <collision-poly>
+                            <point x="0.997884" y="0.98759" />
+                            <point x="0.501587" y="0.998966" />
+                            <point x="0.0793651" y="0.915202" />
+                            <point x="0.121693" y="0.502585" />
+                            <point x="0.0042328" y="0.016546" />
+                            <point x="0.501587" y="0.0124095" />
+                            <point x="0.91746" y="0.0961737" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5ProgressBar" sid="401349559839826">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="5alien" sid="677915488178662">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693668611313083" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.510949" original-source="D:\Users\Camila\Pictures\Marciano.png">
+                        <collision-poly>
+                            <point x="0.258037" y="0.443796" />
+                            <point x="0.502538" y="0.116788" />
+                            <point x="0.746193" y="0.445255" />
+                            <point x="0.934856" y="0.510949" />
+                            <point x="0.823181" y="0.709489" />
+                            <point x="0.502538" y="0.877372" />
+                            <point x="0.180203" y="0.712409" />
+                            <point x="0.0668359" y="0.510949" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5cuadro_inf" sid="136639565910728">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5text" sid="689927482531491">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978861194537764" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500659" original-source="D:\Users\Camila\Pictures\chat.png">
+                        <collision-poly>
+                            <point x="0.0359375" y="0.0909091" />
+                            <point x="0.5" y="0" />
+                            <point x="0.964063" y="0.0909091" />
+                            <point x="1" y="0.499341" />
+                            <point x="0.931771" y="0.827404" />
+                            <point x="0.5" y="0.8722" />
+                            <point x="0.0682292" y="0.827404" />
+                            <point x="0" y="0.499341" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5play" sid="492314158900709">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689343651280004" speed="5">
+                    <frame duration="1" hotspotX="0.471787" hotspotY="0.805732" original-source="D:\Users\Camila\Pictures\play.png">
+                        <collision-poly>
+                            <point x="0.0768025" y="0.00318471" />
+                            <point x="0.866771" y="0.00318471" />
+                            <point x="0.979624" y="0.805732" />
+                            <point x="0.547022" y="0.958599" />
+                            <point x="0.396552" y="0.958599" />
+                            <point x="0.0203762" y="0.805732" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="862992504758575">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="5cuadro" sid="948887841940627">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Darken">
+                    <effect id="darken" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325996185556816" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\fondo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5fondo" sid="562561175043647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="633224735742315" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -911,6 +1079,85 @@
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
         <global-instance type="Mouse" uid="7" />
+        <object-type name="Touch" sid="307490273866054">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="5InfoPg1" sid="233330493559017">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5return" sid="598651076069859">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112414691725842" speed="5">
+                    <frame duration="1" hotspotX="0.471787" hotspotY="0.805732" original-source="D:\Users\Camila\Pictures\play.png">
+                        <collision-poly>
+                            <point x="0.0768025" y="0.00318471" />
+                            <point x="0.866771" y="0.00318471" />
+                            <point x="0.979624" y="0.805732" />
+                            <point x="0.547022" y="0.958599" />
+                            <point x="0.396552" y="0.958599" />
+                            <point x="0.0203762" y="0.805732" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5dosDer" sid="672143444591045">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433709139137064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\2.png">
+                        <collision-poly>
+                            <point x="0.2125" y="0.2125" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.7875" y="0.2125" />
+                            <point x="0.9125" y="0.5" />
+                            <point x="0.7875" y="0.7875" />
+                            <point x="0.5" y="0.9125" />
+                            <point x="0.2125" y="0.7875" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5InfoPg2" sid="256161247299446">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5uno" sid="795993276585211">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212832513717055" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\1.png">
+                        <collision-poly>
+                            <point x="0.2125" y="0.2125" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.7875" y="0.2125" />
+                            <point x="0.9125" y="0.5" />
+                            <point x="0.7875" y="0.7875" />
+                            <point x="0.5" y="0.9125" />
+                            <point x="0.2125" y="0.7875" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>5 recargarCombustible .xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>5 recargarCombustible.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="9" />
+        <global-instance type="Touch" uid="14">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />
