@@ -83,7 +83,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973594785539211" speed="5">
-                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Escritorio\aries.png">
+                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\aries.png">
                         <collision-poly>
                             <point x="0.106383" y="0.212264" />
                             <point x="0.251064" y="0.278302" />
