@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>menuSeleccionDePlaneta</name>
+    <name>2 menuSeleccionDePlaneta</name>
     <sid>566806475484328</sid>
-    <event-sheet>eventosMenuSeleccionDePlaneta</event-sheet>
+    <event-sheet>2 eventosMenuSeleccionDePlaneta</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="meteoritosPuntajeExtra" uid="10">
+                <instance type="2meteoritosPuntajeExtra" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -70,7 +70,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Particles" uid="7">
+                <instance type="2Particles" uid="7">
                     <properties>
                         <rate>50</rate>
                         <spray-cone>83.0444</spray-cone>
@@ -109,7 +109,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="rotador" uid="0">
+                <instance type="2rotador" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -139,7 +139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planeta1" uid="1">
+                <instance type="2planeta1" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -175,7 +175,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planeta2" uid="2">
+                <instance type="2planeta2" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -211,7 +211,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="rotador2" uid="3">
+                <instance type="2rotador2" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -241,7 +241,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="rotador3" uid="5">
+                <instance type="2rotador3" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -271,7 +271,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planeta3" uid="6">
+                <instance type="2planeta3" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -307,7 +307,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="controladorDeVelocidad" uid="8">
+                <instance type="2controladorDeVelocidad" uid="8">
                     <properties>
                         <value>1</value>
                         <minimum>-10</minimum>
@@ -331,7 +331,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="speedValue" uid="9">
+                <instance type="2speedValue" uid="9">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -358,7 +358,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="puntaje" uid="11">
+                <instance type="2puntaje" uid="11">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -385,7 +385,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planeta1Text" uid="12">
+                <instance type="2planeta1Text" uid="12">
                     <properties>
                         <text>Planeta1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -412,7 +412,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoP1" uid="13">
+                <instance type="2infoP1" uid="13">
                     <properties>
                         <text>infoP1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -439,7 +439,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planeta2Text" uid="14">
+                <instance type="2planeta2Text" uid="14">
                     <properties>
                         <text>Planeta2</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -466,7 +466,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planeta3Text" uid="15">
+                <instance type="2planeta3Text" uid="15">
                     <properties>
                         <text>Planeta3</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -493,7 +493,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoP2" uid="16">
+                <instance type="2infoP2" uid="16">
                     <properties>
                         <text>infoP2</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -520,7 +520,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoP3" uid="17">
+                <instance type="2infoP3" uid="17">
                     <properties>
                         <text>infoP3</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -547,7 +547,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="botonDeViaje1" uid="18">
+                <instance type="2botonDeViaje1" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -569,7 +569,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="botonDeViaje2" uid="19">
+                <instance type="2botonDeViaje2" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -591,7 +591,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="botonDeViaje3" uid="20">
+                <instance type="2botonDeViaje3" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

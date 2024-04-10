@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>eventosMenuSeleccionDePlaneta</name>
+    <name>2 eventosMenuSeleccionDePlaneta</name>
     <events>
         <variable constant="0" name="puntajeTotal" sid="192385914891354" static="0" type="number">0</variable>
         <variable constant="0" name="radioMaximo" sid="974161023167693" static="0" type="number">0</variable>
@@ -16,61 +16,61 @@
                             <param id="0" name="Variable">radioMaximo</param>
                             <param id="1" name="Value">sqrt((WindowHeight^2) + (WindowWidth^2))</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="499755730879751" type="planeta1">
-                            <param id="0" name="Pin to">rotador</param>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="499755730879751" type="2planeta1">
+                            <param id="0" name="Pin to">2rotador</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="701235384120138" type="planeta1">
+                        <action id="-10" name="Set value" sid="701235384120138" type="2planeta1">
                             <param id="0" name="Instance variable">radioActual</param>
-                            <param id="1" name="Value">sqrt((planeta1.X^2) + (planeta1.Y^2))</param>
+                            <param id="1" name="Value">sqrt((2planeta1.X^2) + (2planeta1.Y^2))</param>
                         </action>
-                        <action id="-10" name="Set value" sid="492265936927551" type="planeta1">
+                        <action id="-10" name="Set value" sid="492265936927551" type="2planeta1">
                             <param id="0" name="Instance variable">posX</param>
-                            <param id="1" name="Value">planeta1.X</param>
+                            <param id="1" name="Value">2planeta1.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="752694886631225" type="planeta1">
+                        <action id="-10" name="Set value" sid="752694886631225" type="2planeta1">
                             <param id="0" name="Instance variable">posY</param>
-                            <param id="1" name="Value">planeta1.Y</param>
+                            <param id="1" name="Value">2planeta1.Y</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="256179948182096" type="planeta2">
-                            <param id="0" name="Pin to">rotador2</param>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="256179948182096" type="2planeta2">
+                            <param id="0" name="Pin to">2rotador2</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="110569832442157" type="planeta2">
+                        <action id="-10" name="Set value" sid="110569832442157" type="2planeta2">
                             <param id="0" name="Instance variable">radioActual</param>
-                            <param id="1" name="Value">sqrt((planeta2.X^2) + (planeta2.Y^2))</param>
+                            <param id="1" name="Value">sqrt((2planeta2.X^2) + (2planeta2.Y^2))</param>
                         </action>
-                        <action id="-10" name="Set value" sid="442012422272956" type="planeta2">
+                        <action id="-10" name="Set value" sid="442012422272956" type="2planeta2">
                             <param id="0" name="Instance variable">posX</param>
-                            <param id="1" name="Value">planeta2.X</param>
+                            <param id="1" name="Value">2planeta2.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="488287799263485" type="planeta2">
+                        <action id="-10" name="Set value" sid="488287799263485" type="2planeta2">
                             <param id="0" name="Instance variable">posY</param>
-                            <param id="1" name="Value">planeta2.Y</param>
+                            <param id="1" name="Value">2planeta2.Y</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="905443112796082" type="planeta3">
-                            <param id="0" name="Pin to">rotador3</param>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="905443112796082" type="2planeta3">
+                            <param id="0" name="Pin to">2rotador3</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="-10" name="Set value" sid="705271152291635" type="planeta3">
+                        <action id="-10" name="Set value" sid="705271152291635" type="2planeta3">
                             <param id="0" name="Instance variable">radioActual</param>
-                            <param id="1" name="Value">sqrt((planeta3.X^2) + (planeta3.Y^2))</param>
+                            <param id="1" name="Value">sqrt((2planeta3.X^2) + (2planeta3.Y^2))</param>
                         </action>
-                        <action id="-10" name="Set value" sid="562701502263866" type="planeta3">
+                        <action id="-10" name="Set value" sid="562701502263866" type="2planeta3">
                             <param id="0" name="Instance variable">posX</param>
-                            <param id="1" name="Value">planeta3.X</param>
+                            <param id="1" name="Value">2planeta3.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="338372368427496" type="planeta3">
+                        <action id="-10" name="Set value" sid="338372368427496" type="2planeta3">
                             <param id="0" name="Instance variable">posY</param>
-                            <param id="1" name="Value">planeta3.Y</param>
+                            <param id="1" name="Value">2planeta3.Y</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="169165167173975" type="rotador">
+                        <action id="-15" name="Set visible" sid="169165167173975" type="2rotador">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="278165180478373" type="rotador2">
+                        <action id="-15" name="Set visible" sid="278165180478373" type="2rotador2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="709670506310146" type="rotador3">
+                        <action id="-15" name="Set visible" sid="709670506310146" type="2rotador3">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -87,14 +87,14 @@
                     </conditions>
                     <actions>
                         <action id="-3" name="Create object" sid="418227821659007" type="System">
-                            <param id="0" name="Object to create">meteoritosPuntajeExtra</param>
+                            <param id="0" name="Object to create">2meteoritosPuntajeExtra</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">random(0,850)</param>
                             <param id="3" name="Y">0</param>
                         </action>
-                        <action id="-25" name="Move to bottom" sid="451625437067006" type="meteoritosPuntajeExtra" />
-                        <action behavior="Physics" id="12" name="Set world gravity" sid="552483476286253" type="meteoritosPuntajeExtra">
-                            <param id="0" name="Gravity">controladorDeVelocidad.Value * 1.5</param>
+                        <action id="-25" name="Move to bottom" sid="451625437067006" type="2meteoritosPuntajeExtra" />
+                        <action behavior="Physics" id="12" name="Set world gravity" sid="552483476286253" type="2meteoritosPuntajeExtra">
+                            <param id="0" name="Gravity">2controladorDeVelocidad.Value * 1.5</param>
                         </action>
                     </actions>
                 </event-block>
@@ -104,26 +104,26 @@
             <sub-events>
                 <event-block sid="655588115897097">
                     <conditions>
-                        <condition id="-9" name="Is visible" sid="242054269907851" type="planeta1" />
+                        <condition id="-9" name="Is visible" sid="242054269907851" type="2planeta1" />
                     </conditions>
                     <actions>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="249356066677491" type="rotador">
-                            <param id="0" name="Speed">(radioMaximo/sqrt(((planeta1.X)^2) + (WindowHeight-planeta1.Y)^2))^2</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="249356066677491" type="2rotador">
+                            <param id="0" name="Speed">(radioMaximo/sqrt(((2planeta1.X)^2) + (WindowHeight-2planeta1.Y)^2))^2</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="355330094716223" type="rotador2">
-                            <param id="0" name="Speed">(radioMaximo/sqrt(((planeta2.X)^2) + (WindowHeight-planeta2.Y)^2))^2</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="355330094716223" type="2rotador2">
+                            <param id="0" name="Speed">(radioMaximo/sqrt(((2planeta2.X)^2) + (WindowHeight-2planeta2.Y)^2))^2</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="659247772829050" type="rotador3">
-                            <param id="0" name="Speed">(radioMaximo/sqrt(((planeta3.X)^2) + (WindowHeight-planeta3.Y)^2))^2</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="659247772829050" type="2rotador3">
+                            <param id="0" name="Speed">(radioMaximo/sqrt(((2planeta3.X)^2) + (WindowHeight-2planeta3.Y)^2))^2</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="103061115639407" type="planeta1">
-                            <param id="0" name="Speed">planeta1.radioActual*360/radioMaximo</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="103061115639407" type="2planeta1">
+                            <param id="0" name="Speed">2planeta1.radioActual*360/radioMaximo</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="736516879870178" type="planeta2">
-                            <param id="0" name="Speed">planeta2.radioActual*360/radioMaximo</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="736516879870178" type="2planeta2">
+                            <param id="0" name="Speed">2planeta2.radioActual*360/radioMaximo</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="532343929465041" type="planeta3">
-                            <param id="0" name="Speed">planeta3.radioActual*360/radioMaximo</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="532343929465041" type="2planeta3">
+                            <param id="0" name="Speed">2planeta3.radioActual*360/radioMaximo</param>
                         </action>
                     </actions>
                 </event-block>
@@ -136,31 +136,31 @@
                         <condition id="6" name="On object clicked" sid="564569338142866" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">planeta1</param>
+                            <param id="2" name="Object clicked">2planeta1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="planeta1" />
-                        <action id="9" name="Set scale" sid="936355183183349" type="planeta1">
+                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2planeta1" />
+                        <action id="9" name="Set scale" sid="936355183183349" type="2planeta1">
                             <param id="0" name="Scale">1.25</param>
                         </action>
-                        <action id="-3" name="Set position" sid="827373537347950" type="planeta1">
-                            <param id="0" name="X">planeta1.posX</param>
-                            <param id="1" name="Y">planeta1.posY</param>
+                        <action id="-3" name="Set position" sid="827373537347950" type="2planeta1">
+                            <param id="0" name="X">2planeta1.posX</param>
+                            <param id="1" name="Y">2planeta1.posY</param>
                         </action>
-                        <action id="-3" name="Set position" sid="757758583846283" type="planeta1Text">
+                        <action id="-3" name="Set position" sid="757758583846283" type="2planeta1Text">
                             <param id="0" name="X">500</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-3" name="Set position" sid="392307470592521" type="infoP1">
+                        <action id="-3" name="Set position" sid="392307470592521" type="2infoP1">
                             <param id="0" name="X">500</param>
                             <param id="1" name="Y">200</param>
                         </action>
-                        <action id="-3" name="Set position" sid="741289082314218" type="botonDeViaje1">
-                            <param id="0" name="X">planeta1.X</param>
-                            <param id="1" name="Y">planeta1.Y+200</param>
+                        <action id="-3" name="Set position" sid="741289082314218" type="2botonDeViaje1">
+                            <param id="0" name="X">2planeta1.X</param>
+                            <param id="1" name="Y">2planeta1.Y+200</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="114553693503723" type="botonDeViaje1">
+                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonDeViaje1">
                             <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -170,31 +170,31 @@
                         <condition id="6" name="On object clicked" sid="267123597632897" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">planeta2</param>
+                            <param id="2" name="Object clicked">2planeta2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="planeta2" />
-                        <action id="9" name="Set scale" sid="824184381756495" type="planeta2">
+                        <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="2planeta2" />
+                        <action id="9" name="Set scale" sid="824184381756495" type="2planeta2">
                             <param id="0" name="Scale">1.25</param>
                         </action>
-                        <action id="-3" name="Set position" sid="649706687893882" type="planeta2">
-                            <param id="0" name="X">planeta2.posX</param>
-                            <param id="1" name="Y">planeta2.posY</param>
+                        <action id="-3" name="Set position" sid="649706687893882" type="2planeta2">
+                            <param id="0" name="X">2planeta2.posX</param>
+                            <param id="1" name="Y">2planeta2.posY</param>
                         </action>
-                        <action id="-3" name="Set position" sid="975176587932474" type="planeta2Text">
+                        <action id="-3" name="Set position" sid="975176587932474" type="2planeta2Text">
                             <param id="0" name="X">100</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-3" name="Set position" sid="124168772803080" type="infoP2">
+                        <action id="-3" name="Set position" sid="124168772803080" type="2infoP2">
                             <param id="0" name="X">700</param>
                             <param id="1" name="Y">200</param>
                         </action>
-                        <action id="-3" name="Set position" sid="568388261226013" type="botonDeViaje2">
-                            <param id="0" name="X">planeta2.X</param>
-                            <param id="1" name="Y">planeta2.Y+200</param>
+                        <action id="-3" name="Set position" sid="568388261226013" type="2botonDeViaje2">
+                            <param id="0" name="X">2planeta2.X</param>
+                            <param id="1" name="Y">2planeta2.Y+200</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="244588779089909" type="botonDeViaje2">
+                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonDeViaje2">
                             <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -204,31 +204,31 @@
                         <condition id="6" name="On object clicked" sid="885129649429650" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">planeta3</param>
+                            <param id="2" name="Object clicked">2planeta3</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="planeta3" />
-                        <action id="9" name="Set scale" sid="443107293793672" type="planeta3">
+                        <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="2planeta3" />
+                        <action id="9" name="Set scale" sid="443107293793672" type="2planeta3">
                             <param id="0" name="Scale">1.25</param>
                         </action>
-                        <action id="-3" name="Set position" sid="492115366636054" type="planeta3">
-                            <param id="0" name="X">planeta3.posX</param>
-                            <param id="1" name="Y">planeta3.posY</param>
+                        <action id="-3" name="Set position" sid="492115366636054" type="2planeta3">
+                            <param id="0" name="X">2planeta3.posX</param>
+                            <param id="1" name="Y">2planeta3.posY</param>
                         </action>
-                        <action id="-3" name="Set position" sid="760749806860707" type="planeta3Text">
+                        <action id="-3" name="Set position" sid="760749806860707" type="2planeta3Text">
                             <param id="0" name="X">200</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-3" name="Set position" sid="306229164902357" type="infoP3">
+                        <action id="-3" name="Set position" sid="306229164902357" type="2infoP3">
                             <param id="0" name="X">200</param>
                             <param id="1" name="Y">200</param>
                         </action>
-                        <action id="-3" name="Set position" sid="179083884103279" type="botonDeViaje3">
-                            <param id="0" name="X">planeta3.X</param>
-                            <param id="1" name="Y">planeta3.Y+200</param>
+                        <action id="-3" name="Set position" sid="179083884103279" type="2botonDeViaje3">
+                            <param id="0" name="X">2planeta3.X</param>
+                            <param id="1" name="Y">2planeta3.Y+200</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="814749860076269" type="botonDeViaje3">
+                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonDeViaje3">
                             <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -241,58 +241,58 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="9" name="Set scale" sid="786311961779639" type="planeta1">
+                        <action id="9" name="Set scale" sid="786311961779639" type="2planeta1">
                             <param id="0" name="Scale">0.4</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="327438490068009" type="planeta1">
-                            <param id="0" name="Pin to">rotador</param>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="327438490068009" type="2planeta1">
+                            <param id="0" name="Pin to">2rotador</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="9" name="Set scale" sid="936756182626224" type="planeta2">
+                        <action id="9" name="Set scale" sid="936756182626224" type="2planeta2">
                             <param id="0" name="Scale">0.4</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="879254195896482" type="planeta2">
-                            <param id="0" name="Pin to">rotador2</param>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="879254195896482" type="2planeta2">
+                            <param id="0" name="Pin to">2rotador2</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="9" name="Set scale" sid="329585123544089" type="planeta3">
+                        <action id="9" name="Set scale" sid="329585123544089" type="2planeta3">
                             <param id="0" name="Scale">0.4</param>
                         </action>
-                        <action behavior="Pin" id="0" name="Pin to object" sid="124065258645390" type="planeta3">
-                            <param id="0" name="Pin to">rotador3</param>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="124065258645390" type="2planeta3">
+                            <param id="0" name="Pin to">2rotador3</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="-3" name="Set position" sid="796986789584790" type="planeta1Text">
+                        <action id="-3" name="Set position" sid="796986789584790" type="2planeta1Text">
                             <param id="0" name="X">900</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-3" name="Set position" sid="282682349710349" type="infoP1">
+                        <action id="-3" name="Set position" sid="282682349710349" type="2infoP1">
                             <param id="0" name="X">900</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-3" name="Set position" sid="385703236399202" type="planeta2Text">
+                        <action id="-3" name="Set position" sid="385703236399202" type="2planeta2Text">
                             <param id="0" name="X">999</param>
                             <param id="1" name="Y">999</param>
                         </action>
-                        <action id="-3" name="Set position" sid="988619058842724" type="infoP2">
+                        <action id="-3" name="Set position" sid="988619058842724" type="2infoP2">
                             <param id="0" name="X">999</param>
                             <param id="1" name="Y">999</param>
                         </action>
-                        <action id="-3" name="Set position" sid="692211406410586" type="planeta3Text">
+                        <action id="-3" name="Set position" sid="692211406410586" type="2planeta3Text">
                             <param id="0" name="X">999</param>
                             <param id="1" name="Y">999</param>
                         </action>
-                        <action id="-3" name="Set position" sid="484420602186446" type="infoP3">
+                        <action id="-3" name="Set position" sid="484420602186446" type="2infoP3">
                             <param id="0" name="X">999</param>
                             <param id="1" name="Y">999</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="877838950936566" type="botonDeViaje1">
+                        <action id="-15" name="Set visible" sid="877838950936566" type="2botonDeViaje1">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="728643418712765" type="botonDeViaje2">
+                        <action id="-15" name="Set visible" sid="728643418712765" type="2botonDeViaje2">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="155089678462042" type="botonDeViaje3">
+                        <action id="-15" name="Set visible" sid="155089678462042" type="2botonDeViaje3">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -302,18 +302,18 @@
                         <condition id="6" name="On object clicked" sid="106217684238493" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">meteoritosPuntajeExtra</param>
+                            <param id="2" name="Object clicked">2meteoritosPuntajeExtra</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="200571797570084" type="System">
                             <param id="0" name="Variable">puntajeTotal</param>
-                            <param id="1" name="Value">puntajeTotal + (meteoritosPuntajeExtra.puntosExtra)*controladorDeVelocidad.Value</param>
+                            <param id="1" name="Value">puntajeTotal + (2meteoritosPuntajeExtra.puntosExtra)*2controladorDeVelocidad.Value</param>
                         </action>
-                        <action id="0" name="Set text" sid="858427801066987" type="puntaje">
+                        <action id="0" name="Set text" sid="858427801066987" type="2puntaje">
                             <param id="0" name="Text">puntajeTotal</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="349548270616106" type="meteoritosPuntajeExtra" />
+                        <action id="-9" name="Destroy" sid="349548270616106" type="2meteoritosPuntajeExtra" />
                     </actions>
                 </event-block>
                 <event-block sid="684469922729953">
@@ -321,12 +321,12 @@
                         <condition id="6" name="On object clicked" sid="432166313836270" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">botonDeViaje1</param>
+                            <param id="2" name="Object clicked">2botonDeViaje1</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="337721581069934" type="System">
-                            <param id="0" name="Layout">juegoTest</param>
+                            <param id="0" name="Layout">2 juegoTest</param>
                         </action>
                     </actions>
                 </event-block>
@@ -335,7 +335,7 @@
                         <condition id="6" name="On object clicked" sid="365620984674419" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">botonDeViaje2</param>
+                            <param id="2" name="Object clicked">2botonDeViaje2</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -345,7 +345,7 @@
                         <condition id="6" name="On object clicked" sid="902469979685582" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">botonDeViaje3</param>
+                            <param id="2" name="Object clicked">2botonDeViaje3</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -361,29 +361,29 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="378297178728465" type="planeta1">
-                            <param id="0" name="Speed">planeta1.Rotate.Speed*controladorDeVelocidad.Value</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="378297178728465" type="2planeta1">
+                            <param id="0" name="Speed">2planeta1.Rotate.Speed*2controladorDeVelocidad.Value</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="844219338351151" type="rotador">
-                            <param id="0" name="Speed">rotador.Rotate.Speed * controladorDeVelocidad.Value</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="844219338351151" type="2rotador">
+                            <param id="0" name="Speed">2rotador.Rotate.Speed * 2controladorDeVelocidad.Value</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="566482263830701" type="planeta2">
-                            <param id="0" name="Speed">planeta2.Rotate.Speed*controladorDeVelocidad.Value</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="566482263830701" type="2planeta2">
+                            <param id="0" name="Speed">2planeta2.Rotate.Speed*2controladorDeVelocidad.Value</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="977626727156160" type="rotador2">
-                            <param id="0" name="Speed">rotador2.Rotate.Speed * controladorDeVelocidad.Value</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="977626727156160" type="2rotador2">
+                            <param id="0" name="Speed">2rotador2.Rotate.Speed * 2controladorDeVelocidad.Value</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="171824191246089" type="planeta3">
-                            <param id="0" name="Speed">planeta3.Rotate.Speed*controladorDeVelocidad.Value</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="171824191246089" type="2planeta3">
+                            <param id="0" name="Speed">2planeta3.Rotate.Speed*2controladorDeVelocidad.Value</param>
                         </action>
-                        <action behavior="Rotate" id="0" name="Set speed" sid="700534177754806" type="rotador3">
-                            <param id="0" name="Speed">rotador3.Rotate.Speed * controladorDeVelocidad.Value</param>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="700534177754806" type="2rotador3">
+                            <param id="0" name="Speed">2rotador3.Rotate.Speed * 2controladorDeVelocidad.Value</param>
                         </action>
-                        <action id="0" name="Set text" sid="511134229228864" type="speedValue">
-                            <param id="0" name="Text">controladorDeVelocidad.Value</param>
+                        <action id="0" name="Set text" sid="511134229228864" type="2speedValue">
+                            <param id="0" name="Text">2controladorDeVelocidad.Value</param>
                         </action>
-                        <action id="13" name="Set acceleration" sid="146637486975640" type="Particles">
-                            <param id="0" name="Acceleration">controladorDeVelocidad.Value</param>
+                        <action id="13" name="Set acceleration" sid="146637486975640" type="2Particles">
+                            <param id="0" name="Acceleration">2controladorDeVelocidad.Value</param>
                         </action>
                     </actions>
                 </event-block>
@@ -393,18 +393,18 @@
             <sub-events>
                 <event-block sid="964717093348525">
                     <conditions>
-                        <condition id="-4" name="Is outside layout" sid="353973202576917" type="Particles" />
+                        <condition id="-4" name="Is outside layout" sid="353973202576917" type="2Particles" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="826751576981705" type="Particles" />
+                        <action id="-9" name="Destroy" sid="826751576981705" type="2Particles" />
                     </actions>
                 </event-block>
                 <event-block sid="240822851114713">
                     <conditions>
-                        <condition id="-4" name="Is outside layout" sid="543102421947519" type="meteoritosPuntajeExtra" />
+                        <condition id="-4" name="Is outside layout" sid="543102421947519" type="2meteoritosPuntajeExtra" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="850454463543897" type="meteoritosPuntajeExtra" />
+                        <action id="-9" name="Destroy" sid="850454463543897" type="2meteoritosPuntajeExtra" />
                     </actions>
                 </event-block>
             </sub-events>
