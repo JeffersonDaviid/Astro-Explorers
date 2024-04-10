@@ -10,31 +10,31 @@
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
-       <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
-        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
-        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="darken">Darken</effect>
@@ -67,7 +67,7 @@
     <object-folder>
         <object-type name="1TiledBackground" sid="860893517557780">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\tileFondoMenu.png" />
+            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\outer-space-6988255_960_720.jpg" />
         </object-type>
         <object-type name="1z" sid="127399095591443">
             <plugin id="Sprite" />
@@ -690,9 +690,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Mouse" sid="744748912426934">
-            <plugin id="Mouse" />
-        </object-type> -->
         <object-type name="2rotador3" sid="902986876406298">
             <plugin id="Sprite" />
             <behaviors>
@@ -1222,9 +1219,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Keyboard" sid="260970520268247">
-            <plugin id="Keyboard" />
-        </object-type> -->
         <object-type name="3Failed_bg" sid="430140600722115">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\LA VIEJA CONFIABLE F\326347553_2323648817802473_1335920700803968099_n.jpg" />
@@ -1232,7 +1226,6 @@
         <object-type name="3Button" sid="416675245549198">
             <plugin id="Button" />
         </object-type>
-
         <object-type name="4Nave" sid="355879244125928">
             <plugin id="Sprite" />
             <behaviors>
@@ -1246,9 +1239,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Keyboard" sid="954872662993536">
-            <plugin id="Keyboard" />
-        </object-type> -->
         <object-type name="4Sprite2" sid="412387717638085">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1277,9 +1267,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Mouse" sid="482655335400227">
-            <plugin id="Mouse" />
-        </object-type> -->
         <object-type name="4Sprite3" sid="285274865603078">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1512,9 +1499,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Mouse" sid="862992504758575">
-            <plugin id="Mouse" />
-        </object-type> -->
         <object-type name="5cuadro" sid="948887841940627">
             <plugin id="Sprite" />
             <effects>
@@ -1600,7 +1584,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-
     </object-folder>
     <families />
     <layout-folder>
@@ -1612,7 +1595,7 @@
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
         <layout>4 Escena PlayAgain.xml</layout>
-        <layout>5 recargarCombustible.xml</layout>
+        <layout>5 recargarCombustible .xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1 eventosMenu.xml</event-sheet>
@@ -1625,9 +1608,9 @@
         <event-sheet>5 recargarCombustible.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="59" />
-        <global-instance type="Mouse" uid="9" />
-        <global-instance type="Touch" uid="14">
+        <global-instance type="Keyboard" uid="136" />
+        <global-instance type="Mouse" uid="137" />
+        <global-instance type="Touch" uid="138">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
@@ -1644,5 +1627,5 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
-    </files-folder>   
+    </files-folder>
 </c2project>
