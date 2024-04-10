@@ -47,7 +47,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Nave" sid="355879244125928">
+        <object-type name="4Nave" sid="355879244125928">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Physics" sid="177589557946280">
@@ -63,7 +63,7 @@
         <object-type name="Keyboard" sid="954872662993536">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Sprite2" sid="412387717638085">
+        <object-type name="4Sprite2" sid="412387717638085">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106432006115092" speed="5">
@@ -78,7 +78,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="mainMenu" sid="962390932525025">
+        <object-type name="4mainMenu" sid="962390932525025">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="683375685211317">
@@ -94,7 +94,7 @@
         <object-type name="Mouse" sid="482655335400227">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="Sprite3" sid="285274865603078">
+        <object-type name="4Sprite3" sid="285274865603078">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773245659277868" speed="5">
@@ -102,7 +102,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite4" sid="656163578687000">
+        <object-type name="4Sprite4" sid="656163578687000">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434276184641933" speed="5">
@@ -121,11 +121,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Particles" sid="306266723974741">
+        <object-type name="4Particles" sid="306266723974741">
             <plugin id="Particles" />
             <texture />
         </object-type>
-        <object-type name="barrera" sid="453971129011781">
+        <object-type name="4barrera" sid="453971129011781">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903858519320996" speed="5">
@@ -133,7 +133,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Plaeta2" sid="641993537583773">
+        <object-type name="4Plaeta2" sid="641993537583773">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="272885359699398">
@@ -163,7 +163,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="LetraI" sid="837690762655472">
+        <object-type name="4LetraI" sid="837690762655472">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977659402161936" speed="5">
@@ -180,18 +180,18 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="829684667775325">
+        <object-type name="4Text" sid="829684667775325">
             <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>descensoCoheteAlPlaneta.xml</layout>
-        <layout>Escena PlayAgain.xml</layout>
+        <layout>4 descensoCoheteAlPlaneta.xml</layout>
+        <layout>4 Escena PlayAgain.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Eventos descensoCoheteAlPlaneta.xml</event-sheet>
-        <event-sheet>Evento PlayAgain.xml</event-sheet>
+        <event-sheet>4 descensoCoheteAlPlaneta.xml</event-sheet>
+        <event-sheet>4 PlayAgain.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />

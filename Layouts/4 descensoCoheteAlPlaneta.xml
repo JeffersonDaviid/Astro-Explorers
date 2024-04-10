@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>descensoCoheteAlPlaneta</name>
+    <name>4 descensoCoheteAlPlaneta</name>
     <sid>750083837942752</sid>
-    <event-sheet>Eventos descensoCoheteAlPlaneta</event-sheet>
+    <event-sheet>4 descensoCoheteAlPlaneta</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite2" uid="3">
+                <instance type="4Sprite2" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Nave" uid="0">
+                <instance type="4Nave" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Particles" uid="4">
+                <instance type="4Particles" uid="4">
                     <properties>
                         <rate>50</rate>
                         <spray-cone>360</spray-cone>
@@ -128,7 +128,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="barrera" uid="5">
+                <instance type="4barrera" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -150,7 +150,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="barrera" uid="9">
+                <instance type="4barrera" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -172,7 +172,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Plaeta2" uid="10">
+                <instance type="4Plaeta2" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LetraI" uid="6">
+                <instance type="4LetraI" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -237,7 +237,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="11">
+                <instance type="4Text" uid="11">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
