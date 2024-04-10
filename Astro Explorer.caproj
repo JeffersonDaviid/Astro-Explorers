@@ -48,11 +48,11 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="TiledBackground" sid="860893517557780">
+        <object-type name="1TiledBackground" sid="860893517557780">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\tileFondoMenu.png" />
         </object-type>
-        <object-type name="z" sid="127399095591443">
+        <object-type name="1z" sid="127399095591443">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="5">
@@ -71,7 +71,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="aries" sid="662129654523743">
+        <object-type name="1aries" sid="662129654523743">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="366793141530654" type="boolean" />
@@ -97,7 +97,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="osaMenor" sid="574377652491167">
+        <object-type name="1osaMenor" sid="574377652491167">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable comment="mira si se activo la interaccion" name="interact" sid="513871444013241" type="boolean" />
@@ -124,7 +124,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="cisne" sid="586082966400411">
+        <object-type name="1cisne" sid="586082966400411">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="373806777398838" type="boolean" />
@@ -151,7 +151,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="dragon" sid="586514436417141">
+        <object-type name="1dragon" sid="586514436417141">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="105107546251261" type="boolean" />
@@ -178,7 +178,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="pegaso" sid="675946476724910">
+        <object-type name="1pegaso" sid="675946476724910">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="583352205667943" type="boolean" />
@@ -205,7 +205,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="andromeda" sid="759240954768138">
+        <object-type name="1Andromeda" sid="759240954768138">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="848315872932183" type="boolean" />
@@ -232,7 +232,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="casiopea" sid="425496949792540">
+        <object-type name="1casiopea" sid="425496949792540">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="910602475547016" type="boolean" />
@@ -258,7 +258,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="cefeo" sid="737231678472415">
+        <object-type name="1cefeo" sid="737231678472415">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="170887010393057" type="boolean" />
@@ -284,7 +284,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="tauro" sid="541840318440589">
+        <object-type name="1tauro" sid="541840318440589">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="933260480622146" type="boolean" />
@@ -311,7 +311,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="cochero" sid="718273400769594">
+        <object-type name="1cochero" sid="718273400769594">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="164542989908606" type="boolean" />
@@ -338,7 +338,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ballena" sid="573992698233884">
+        <object-type name="1ballena" sid="573992698233884">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="686734010056815" type="boolean" />
@@ -365,7 +365,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="osaMayor" sid="855889965157536">
+        <object-type name="1osaMayor" sid="855889965157536">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="149545098515179" type="boolean" />
@@ -392,7 +392,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="boyero" sid="428839717346629">
+        <object-type name="1boyero" sid="428839717346629">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="202150236574957" type="boolean" />
@@ -419,7 +419,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="cancer" sid="764130207977643">
+        <object-type name="1cancer" sid="764130207977643">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="215014537524184" type="boolean" />
@@ -446,7 +446,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="leon" sid="333064451928710">
+        <object-type name="1leon" sid="333064451928710">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="447870681485012" type="boolean" />
@@ -473,7 +473,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="geminis" sid="962215710779218">
+        <object-type name="1geminis" sid="962215710779218">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="594188259246370" type="boolean" />
@@ -499,7 +499,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="corona" sid="934729070065162">
+        <object-type name="1corona" sid="934729070065162">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="464951962303197" type="boolean" />
@@ -526,7 +526,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="perseo" sid="608032477084477">
+        <object-type name="1perseo" sid="608032477084477">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="790258450464368" type="boolean" />
@@ -553,7 +553,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="contenedor" sid="837805439237145">
+        <object-type name="1contenedor" sid="837805439237145">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="706379561922764">
@@ -572,7 +572,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type global="1" name="nueva" sid="291890038403708">
+        <object-type global="1" name="1nueva" sid="291890038403708">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584252601353086" speed="5">
@@ -581,7 +581,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="cargar" sid="460028762412459">
+        <object-type name="1cargar" sid="460028762412459">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="561775660801359" speed="5">
@@ -590,7 +590,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="salir" sid="195339536036581">
+        <object-type name="1salir" sid="195339536036581">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279659052453816" speed="5">
@@ -608,10 +608,10 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>background.xml</layout>
+        <layout>1 background.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>eventosMenu.xml</event-sheet>
+        <event-sheet>1 eventosMenu.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="24" />

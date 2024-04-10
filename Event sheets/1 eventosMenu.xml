@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>eventosMenu</name>
+    <name>1 eventosMenu</name>
     <events>
         <event-block sid="861780795782215">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="842571608146039" type="z">
-                    <param id="0" name="Object">dragon</param>
+                <condition id="1" name="Is overlapping another object" sid="842571608146039" type="1z">
+                    <param id="0" name="Object">1dragon</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="622963827131399" type="dragon">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="622963827131399" type="1dragon">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="836666841607793" type="dragon" />
-                <action id="-13" name="Set boolean" sid="785564806011683" type="dragon">
+                <action behavior="Fade" id="1" name="Start fade" sid="836666841607793" type="1dragon" />
+                <action id="-13" name="Set boolean" sid="785564806011683" type="1dragon">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -22,18 +22,18 @@
         </event-block>
         <event-block sid="542618452531288">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="553675720050457" type="z">
-                    <param id="0" name="Object">dragon</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="553675720050457" type="1z">
+                    <param id="0" name="Object">1dragon</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="711745487023221" type="dragon">
+                <condition id="-8" name="Is boolean instance variable set" sid="711745487023221" type="1dragon">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="200413801854019" type="dragon">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="200413801854019" type="1dragon">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="252116411041802" type="dragon">
+                <action id="-13" name="Set boolean" sid="252116411041802" type="1dragon">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -41,16 +41,16 @@
         </event-block>
         <event-block sid="354621143898027">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="580814018231477" type="z">
-                    <param id="0" name="Object">cisne</param>
+                <condition id="1" name="Is overlapping another object" sid="580814018231477" type="1z">
+                    <param id="0" name="Object">1cisne</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="985459930670881" type="cisne">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="985459930670881" type="1cisne">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="909956903001459" type="cisne" />
-                <action id="-13" name="Set boolean" sid="278210742523984" type="cisne">
+                <action behavior="Fade" id="1" name="Start fade" sid="909956903001459" type="1cisne" />
+                <action id="-13" name="Set boolean" sid="278210742523984" type="1cisne">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -58,18 +58,18 @@
         </event-block>
         <event-block sid="100873233298514">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="833883863835353" type="z">
-                    <param id="0" name="Object">cisne</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="833883863835353" type="1z">
+                    <param id="0" name="Object">1cisne</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="113141495918015" type="cisne">
+                <condition id="-8" name="Is boolean instance variable set" sid="113141495918015" type="1cisne">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="426937582494844" type="cisne">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="426937582494844" type="1cisne">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="946416008639191" type="cisne">
+                <action id="-13" name="Set boolean" sid="946416008639191" type="1cisne">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -77,16 +77,16 @@
         </event-block>
         <event-block sid="340248043059032">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="557830628387383" type="z">
-                    <param id="0" name="Object">osaMenor</param>
+                <condition id="1" name="Is overlapping another object" sid="557830628387383" type="1z">
+                    <param id="0" name="Object">1osaMenor</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="288461509949590" type="osaMenor">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="288461509949590" type="1osaMenor">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="776631721610980" type="osaMenor" />
-                <action id="-13" name="Set boolean" sid="626115746306477" type="osaMenor">
+                <action behavior="Fade" id="1" name="Start fade" sid="776631721610980" type="1osaMenor" />
+                <action id="-13" name="Set boolean" sid="626115746306477" type="1osaMenor">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -94,18 +94,18 @@
         </event-block>
         <event-block sid="701877394829986">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="424670837266879" type="z">
-                    <param id="0" name="Object">osaMenor</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="424670837266879" type="1z">
+                    <param id="0" name="Object">1osaMenor</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="919254580839832" type="osaMenor">
+                <condition id="-8" name="Is boolean instance variable set" sid="919254580839832" type="1osaMenor">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="686256011984312" type="osaMenor">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="686256011984312" type="1osaMenor">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="634412605294814" type="osaMenor">
+                <action id="-13" name="Set boolean" sid="634412605294814" type="1osaMenor">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -113,16 +113,16 @@
         </event-block>
         <event-block sid="464724144899455">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="915045755861784" type="z">
-                    <param id="0" name="Object">aries</param>
+                <condition id="1" name="Is overlapping another object" sid="915045755861784" type="1z">
+                    <param id="0" name="Object">1aries</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="297175214482226" type="aries">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="297175214482226" type="1aries">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="454341035354512" type="aries" />
-                <action id="-13" name="Set boolean" sid="342436053261177" type="aries">
+                <action behavior="Fade" id="1" name="Start fade" sid="454341035354512" type="1aries" />
+                <action id="-13" name="Set boolean" sid="342436053261177" type="1aries">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -130,18 +130,18 @@
         </event-block>
         <event-block sid="434077297312109">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="770341813962050" type="z">
-                    <param id="0" name="Object">aries</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="770341813962050" type="1z">
+                    <param id="0" name="Object">1aries</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="597021999259745" type="aries">
+                <condition id="-8" name="Is boolean instance variable set" sid="597021999259745" type="1aries">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="727959911147542" type="aries">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="727959911147542" type="1aries">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="769243707929421" type="aries">
+                <action id="-13" name="Set boolean" sid="769243707929421" type="1aries">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -149,16 +149,16 @@
         </event-block>
         <event-block sid="679505276337118">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="733550035664117" type="z">
-                    <param id="0" name="Object">pegaso</param>
+                <condition id="1" name="Is overlapping another object" sid="733550035664117" type="1z">
+                    <param id="0" name="Object">1pegaso</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="831827280766537" type="pegaso">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="831827280766537" type="1pegaso">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="600939087956772" type="pegaso" />
-                <action id="-13" name="Set boolean" sid="548250853040370" type="pegaso">
+                <action behavior="Fade" id="1" name="Start fade" sid="600939087956772" type="1pegaso" />
+                <action id="-13" name="Set boolean" sid="548250853040370" type="1pegaso">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -166,18 +166,18 @@
         </event-block>
         <event-block sid="987422733834512">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="818930913657877" type="z">
-                    <param id="0" name="Object">pegaso</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="818930913657877" type="1z">
+                    <param id="0" name="Object">1pegaso</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="298215707227812" type="pegaso">
+                <condition id="-8" name="Is boolean instance variable set" sid="298215707227812" type="1pegaso">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="899766497773586" type="pegaso">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="899766497773586" type="1pegaso">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="545498493587068" type="pegaso">
+                <action id="-13" name="Set boolean" sid="545498493587068" type="1pegaso">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -185,16 +185,16 @@
         </event-block>
         <event-block sid="585188348336520">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="577851558495443" type="z">
-                    <param id="0" name="Object">andromeda</param>
+                <condition id="1" name="Is overlapping another object" sid="577851558495443" type="1z">
+                    <param id="0" name="Object">1Andromeda</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="985247821275848" type="andromeda">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="985247821275848" type="1Andromeda">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="260931361524500" type="andromeda" />
-                <action id="-13" name="Set boolean" sid="595890790185046" type="andromeda">
+                <action behavior="Fade" id="1" name="Start fade" sid="260931361524500" type="1Andromeda" />
+                <action id="-13" name="Set boolean" sid="595890790185046" type="1Andromeda">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -202,18 +202,18 @@
         </event-block>
         <event-block sid="479148677125232">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="807055476599249" type="z">
-                    <param id="0" name="Object">andromeda</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="807055476599249" type="1z">
+                    <param id="0" name="Object">1Andromeda</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="781124470643951" type="andromeda">
+                <condition id="-8" name="Is boolean instance variable set" sid="781124470643951" type="1Andromeda">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="698874582477659" type="andromeda">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="698874582477659" type="1Andromeda">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="899488125042092" type="andromeda">
+                <action id="-13" name="Set boolean" sid="899488125042092" type="1Andromeda">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -221,16 +221,16 @@
         </event-block>
         <event-block sid="508522964949095">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="395643440711128" type="z">
-                    <param id="0" name="Object">casiopea</param>
+                <condition id="1" name="Is overlapping another object" sid="395643440711128" type="1z">
+                    <param id="0" name="Object">1casiopea</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="293800855261432" type="casiopea">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="293800855261432" type="1casiopea">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="887854543683003" type="casiopea" />
-                <action id="-13" name="Set boolean" sid="702412536197778" type="casiopea">
+                <action behavior="Fade" id="1" name="Start fade" sid="887854543683003" type="1casiopea" />
+                <action id="-13" name="Set boolean" sid="702412536197778" type="1casiopea">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -238,18 +238,18 @@
         </event-block>
         <event-block sid="905644388304212">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="103189259410159" type="z">
-                    <param id="0" name="Object">casiopea</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="103189259410159" type="1z">
+                    <param id="0" name="Object">1casiopea</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="210743518917664" type="casiopea">
+                <condition id="-8" name="Is boolean instance variable set" sid="210743518917664" type="1casiopea">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="732313253236567" type="casiopea">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="732313253236567" type="1casiopea">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="340947218059804" type="casiopea">
+                <action id="-13" name="Set boolean" sid="340947218059804" type="1casiopea">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -257,16 +257,16 @@
         </event-block>
         <event-block sid="635665284301404">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="823120496397231" type="z">
-                    <param id="0" name="Object">cefeo</param>
+                <condition id="1" name="Is overlapping another object" sid="823120496397231" type="1z">
+                    <param id="0" name="Object">1cefeo</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="694214565805147" type="cefeo">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="694214565805147" type="1cefeo">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="368950379002364" type="cefeo" />
-                <action id="-13" name="Set boolean" sid="238550257439127" type="cefeo">
+                <action behavior="Fade" id="1" name="Start fade" sid="368950379002364" type="1cefeo" />
+                <action id="-13" name="Set boolean" sid="238550257439127" type="1cefeo">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -274,18 +274,18 @@
         </event-block>
         <event-block sid="477616926844695">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="920493120051612" type="z">
-                    <param id="0" name="Object">cefeo</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="920493120051612" type="1z">
+                    <param id="0" name="Object">1cefeo</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="424828216044475" type="cefeo">
+                <condition id="-8" name="Is boolean instance variable set" sid="424828216044475" type="1cefeo">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="759830886256799" type="cefeo">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="759830886256799" type="1cefeo">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="584736395422019" type="cefeo">
+                <action id="-13" name="Set boolean" sid="584736395422019" type="1cefeo">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -293,16 +293,16 @@
         </event-block>
         <event-block sid="694388677138575">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="945650965893863" type="z">
-                    <param id="0" name="Object">ballena</param>
+                <condition id="1" name="Is overlapping another object" sid="945650965893863" type="1z">
+                    <param id="0" name="Object">1ballena</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="461471190575937" type="ballena">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="461471190575937" type="1ballena">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="898335105922735" type="ballena" />
-                <action id="-13" name="Set boolean" sid="234529958105701" type="ballena">
+                <action behavior="Fade" id="1" name="Start fade" sid="898335105922735" type="1ballena" />
+                <action id="-13" name="Set boolean" sid="234529958105701" type="1ballena">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -310,18 +310,18 @@
         </event-block>
         <event-block sid="886291522512091">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="594647815225863" type="z">
-                    <param id="0" name="Object">ballena</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="594647815225863" type="1z">
+                    <param id="0" name="Object">1ballena</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="498941079461747" type="ballena">
+                <condition id="-8" name="Is boolean instance variable set" sid="498941079461747" type="1ballena">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="234309710126560" type="ballena">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="234309710126560" type="1ballena">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="406785566266082" type="ballena">
+                <action id="-13" name="Set boolean" sid="406785566266082" type="1ballena">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -329,16 +329,16 @@
         </event-block>
         <event-block sid="204109750911171">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="165393495167018" type="z">
-                    <param id="0" name="Object">tauro</param>
+                <condition id="1" name="Is overlapping another object" sid="165393495167018" type="1z">
+                    <param id="0" name="Object">1tauro</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="489247006529037" type="tauro">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="489247006529037" type="1tauro">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="940515028528383" type="tauro" />
-                <action id="-13" name="Set boolean" sid="853404279808119" type="tauro">
+                <action behavior="Fade" id="1" name="Start fade" sid="940515028528383" type="1tauro" />
+                <action id="-13" name="Set boolean" sid="853404279808119" type="1tauro">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -346,18 +346,18 @@
         </event-block>
         <event-block sid="112811929662480">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="148892425841112" type="z">
-                    <param id="0" name="Object">tauro</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="148892425841112" type="1z">
+                    <param id="0" name="Object">1tauro</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="796752820550711" type="tauro">
+                <condition id="-8" name="Is boolean instance variable set" sid="796752820550711" type="1tauro">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="351927534704384" type="tauro">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="351927534704384" type="1tauro">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="336278933042763" type="tauro">
+                <action id="-13" name="Set boolean" sid="336278933042763" type="1tauro">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -365,16 +365,16 @@
         </event-block>
         <event-block sid="121171364793048">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="363423221419785" type="z">
-                    <param id="0" name="Object">cochero</param>
+                <condition id="1" name="Is overlapping another object" sid="363423221419785" type="1z">
+                    <param id="0" name="Object">1cochero</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="311166746362830" type="cochero">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="311166746362830" type="1cochero">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="156104520092071" type="cochero" />
-                <action id="-13" name="Set boolean" sid="700606121543115" type="cochero">
+                <action behavior="Fade" id="1" name="Start fade" sid="156104520092071" type="1cochero" />
+                <action id="-13" name="Set boolean" sid="700606121543115" type="1cochero">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -382,18 +382,18 @@
         </event-block>
         <event-block sid="502510364467974">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="492975961785580" type="z">
-                    <param id="0" name="Object">cochero</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="492975961785580" type="1z">
+                    <param id="0" name="Object">1cochero</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="120572457528034" type="cochero">
+                <condition id="-8" name="Is boolean instance variable set" sid="120572457528034" type="1cochero">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="230443509260478" type="cochero">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="230443509260478" type="1cochero">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="811377141257041" type="cochero">
+                <action id="-13" name="Set boolean" sid="811377141257041" type="1cochero">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -401,16 +401,16 @@
         </event-block>
         <event-block sid="907197932508172">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="591710719136352" type="z">
-                    <param id="0" name="Object">osaMayor</param>
+                <condition id="1" name="Is overlapping another object" sid="591710719136352" type="1z">
+                    <param id="0" name="Object">1osaMayor</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="600582879648619" type="osaMayor">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="600582879648619" type="1osaMayor">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="711667804547451" type="osaMayor" />
-                <action id="-13" name="Set boolean" sid="969031456882384" type="osaMayor">
+                <action behavior="Fade" id="1" name="Start fade" sid="711667804547451" type="1osaMayor" />
+                <action id="-13" name="Set boolean" sid="969031456882384" type="1osaMayor">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -418,18 +418,18 @@
         </event-block>
         <event-block sid="973385258452209">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="742581040731601" type="z">
-                    <param id="0" name="Object">osaMayor</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="742581040731601" type="1z">
+                    <param id="0" name="Object">1osaMayor</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="222178895340954" type="osaMayor">
+                <condition id="-8" name="Is boolean instance variable set" sid="222178895340954" type="1osaMayor">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="679923046868693" type="osaMayor">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="679923046868693" type="1osaMayor">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="285583185897807" type="osaMayor">
+                <action id="-13" name="Set boolean" sid="285583185897807" type="1osaMayor">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -437,16 +437,16 @@
         </event-block>
         <event-block sid="493642183207914">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="562300348880895" type="z">
-                    <param id="0" name="Object">leon</param>
+                <condition id="1" name="Is overlapping another object" sid="562300348880895" type="1z">
+                    <param id="0" name="Object">1leon</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="621775172434213" type="leon">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="621775172434213" type="1leon">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="840728781777427" type="leon" />
-                <action id="-13" name="Set boolean" sid="811992568137200" type="leon">
+                <action behavior="Fade" id="1" name="Start fade" sid="840728781777427" type="1leon" />
+                <action id="-13" name="Set boolean" sid="811992568137200" type="1leon">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -454,18 +454,18 @@
         </event-block>
         <event-block sid="295530315063451">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="509891652764962" type="z">
-                    <param id="0" name="Object">leon</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="509891652764962" type="1z">
+                    <param id="0" name="Object">1leon</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="348888041760849" type="leon">
+                <condition id="-8" name="Is boolean instance variable set" sid="348888041760849" type="1leon">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="892775814378567" type="leon">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="892775814378567" type="1leon">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="222986039151243" type="leon">
+                <action id="-13" name="Set boolean" sid="222986039151243" type="1leon">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -473,16 +473,16 @@
         </event-block>
         <event-block sid="757607052765095">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="566302182058457" type="z">
-                    <param id="0" name="Object">corona</param>
+                <condition id="1" name="Is overlapping another object" sid="566302182058457" type="1z">
+                    <param id="0" name="Object">1corona</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="539968264252410" type="corona">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="539968264252410" type="1corona">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="595955867477575" type="corona" />
-                <action id="-13" name="Set boolean" sid="348995974915572" type="corona">
+                <action behavior="Fade" id="1" name="Start fade" sid="595955867477575" type="1corona" />
+                <action id="-13" name="Set boolean" sid="348995974915572" type="1corona">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -490,18 +490,18 @@
         </event-block>
         <event-block sid="913272610760786">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="907120722000525" type="z">
-                    <param id="0" name="Object">corona</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="907120722000525" type="1z">
+                    <param id="0" name="Object">1corona</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="137657104858689" type="corona">
+                <condition id="-8" name="Is boolean instance variable set" sid="137657104858689" type="1corona">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="444546031916416" type="corona">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="444546031916416" type="1corona">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="901341722210185" type="corona">
+                <action id="-13" name="Set boolean" sid="901341722210185" type="1corona">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -509,16 +509,16 @@
         </event-block>
         <event-block sid="139173068971627">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="449684908323267" type="z">
-                    <param id="0" name="Object">cancer</param>
+                <condition id="1" name="Is overlapping another object" sid="449684908323267" type="1z">
+                    <param id="0" name="Object">1cancer</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="464695591914010" type="cancer">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="464695591914010" type="1cancer">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="473873403974148" type="cancer" />
-                <action id="-13" name="Set boolean" sid="998918275107777" type="cancer">
+                <action behavior="Fade" id="1" name="Start fade" sid="473873403974148" type="1cancer" />
+                <action id="-13" name="Set boolean" sid="998918275107777" type="1cancer">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -526,18 +526,18 @@
         </event-block>
         <event-block sid="792338961410617">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="259880377126431" type="z">
-                    <param id="0" name="Object">cancer</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="259880377126431" type="1z">
+                    <param id="0" name="Object">1cancer</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="655007030612214" type="cancer">
+                <condition id="-8" name="Is boolean instance variable set" sid="655007030612214" type="1cancer">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="788077506684212" type="cancer">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="788077506684212" type="1cancer">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="591794619706920" type="cancer">
+                <action id="-13" name="Set boolean" sid="591794619706920" type="1cancer">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -545,16 +545,16 @@
         </event-block>
         <event-block sid="201431982820159">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="753521652021001" type="z">
-                    <param id="0" name="Object">perseo</param>
+                <condition id="1" name="Is overlapping another object" sid="753521652021001" type="1z">
+                    <param id="0" name="Object">1perseo</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="609977954078305" type="perseo">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="609977954078305" type="1perseo">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="324475109229052" type="perseo" />
-                <action id="-13" name="Set boolean" sid="451572706806223" type="perseo">
+                <action behavior="Fade" id="1" name="Start fade" sid="324475109229052" type="1perseo" />
+                <action id="-13" name="Set boolean" sid="451572706806223" type="1perseo">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -562,18 +562,18 @@
         </event-block>
         <event-block sid="550884337833383">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="871582915487361" type="z">
-                    <param id="0" name="Object">perseo</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="871582915487361" type="1z">
+                    <param id="0" name="Object">1perseo</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="227403047548178" type="perseo">
+                <condition id="-8" name="Is boolean instance variable set" sid="227403047548178" type="1perseo">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="224309354498317" type="perseo">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="224309354498317" type="1perseo">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="692151502743619" type="perseo">
+                <action id="-13" name="Set boolean" sid="692151502743619" type="1perseo">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -581,16 +581,16 @@
         </event-block>
         <event-block sid="366909608674519">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="137208135188294" type="z">
-                    <param id="0" name="Object">geminis</param>
+                <condition id="1" name="Is overlapping another object" sid="137208135188294" type="1z">
+                    <param id="0" name="Object">1geminis</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="338202552018834" type="geminis">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="338202552018834" type="1geminis">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="271343207706810" type="geminis" />
-                <action id="-13" name="Set boolean" sid="987776335427507" type="geminis">
+                <action behavior="Fade" id="1" name="Start fade" sid="271343207706810" type="1geminis" />
+                <action id="-13" name="Set boolean" sid="987776335427507" type="1geminis">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -598,18 +598,18 @@
         </event-block>
         <event-block sid="753672582100188">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="585667320154993" type="z">
-                    <param id="0" name="Object">geminis</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="585667320154993" type="1z">
+                    <param id="0" name="Object">1geminis</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="742794088622260" type="geminis">
+                <condition id="-8" name="Is boolean instance variable set" sid="742794088622260" type="1geminis">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="528698068922596" type="geminis">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="528698068922596" type="1geminis">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="111172535266711" type="geminis">
+                <action id="-13" name="Set boolean" sid="111172535266711" type="1geminis">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -617,16 +617,16 @@
         </event-block>
         <event-block sid="499688201793262">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="277140594694594" type="z">
-                    <param id="0" name="Object">boyero</param>
+                <condition id="1" name="Is overlapping another object" sid="277140594694594" type="1z">
+                    <param id="0" name="Object">1boyero</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="491592751985194" type="boyero">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="491592751985194" type="1boyero">
                     <param id="0" name="Fade-out time">0</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="582950484147608" type="boyero" />
-                <action id="-13" name="Set boolean" sid="597297345114340" type="boyero">
+                <action behavior="Fade" id="1" name="Start fade" sid="582950484147608" type="1boyero" />
+                <action id="-13" name="Set boolean" sid="597297345114340" type="1boyero">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -634,18 +634,18 @@
         </event-block>
         <event-block sid="651367744107348">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="170057423188050" type="z">
-                    <param id="0" name="Object">boyero</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="170057423188050" type="1z">
+                    <param id="0" name="Object">1boyero</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="687758029267008" type="boyero">
+                <condition id="-8" name="Is boolean instance variable set" sid="687758029267008" type="1boyero">
                     <param id="0" name="Instance variable">interact</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Fade" id="4" name="Set fade-out time" sid="694068260811053" type="boyero">
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="694068260811053" type="1boyero">
                     <param id="0" name="Fade-out time">2</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="301285597518085" type="boyero">
+                <action id="-13" name="Set boolean" sid="301285597518085" type="1boyero">
                     <param id="0" name="Instance variable">interact</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -656,40 +656,40 @@
                 <condition id="-1" name="Every tick" sid="661324622984524" type="System" />
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="789578753275605" type="z">
-                    <param id="0" name="X">contenedor.X+180</param>
+                <action id="-1" name="Set X" sid="789578753275605" type="1z">
+                    <param id="0" name="X">1contenedor.X+180</param>
                 </action>
-                <action id="-2" name="Set Y" sid="559995677304736" type="z">
-                    <param id="0" name="Y">contenedor.Y+50</param>
+                <action id="-2" name="Set Y" sid="559995677304736" type="1z">
+                    <param id="0" name="Y">1contenedor.Y+50</param>
                 </action>
-                <action id="-1" name="Set X" sid="213843447121187" type="nueva">
-                    <param id="0" name="X">contenedor.X-210</param>
+                <action id="-1" name="Set X" sid="213843447121187" type="1nueva">
+                    <param id="0" name="X">1contenedor.X-210</param>
                 </action>
-                <action id="-2" name="Set Y" sid="284514712876513" type="nueva">
-                    <param id="0" name="Y">contenedor.Y-55</param>
+                <action id="-2" name="Set Y" sid="284514712876513" type="1nueva">
+                    <param id="0" name="Y">1contenedor.Y-55</param>
                 </action>
-                <action id="-1" name="Set X" sid="719064672112856" type="cargar">
-                    <param id="0" name="X">contenedor.X-210</param>
+                <action id="-1" name="Set X" sid="719064672112856" type="1cargar">
+                    <param id="0" name="X">1contenedor.X-210</param>
                 </action>
-                <action id="-2" name="Set Y" sid="606882319094184" type="cargar">
-                    <param id="0" name="Y">contenedor.Y+50</param>
+                <action id="-2" name="Set Y" sid="606882319094184" type="1cargar">
+                    <param id="0" name="Y">1contenedor.Y+50</param>
                 </action>
-                <action id="-1" name="Set X" sid="975974202168140" type="salir">
-                    <param id="0" name="X">contenedor.X-210</param>
+                <action id="-1" name="Set X" sid="975974202168140" type="1salir">
+                    <param id="0" name="X">1contenedor.X-210</param>
                 </action>
-                <action id="-2" name="Set Y" sid="369967036366490" type="salir">
-                    <param id="0" name="Y">contenedor.Y+155</param>
+                <action id="-2" name="Set Y" sid="369967036366490" type="1salir">
+                    <param id="0" name="Y">1contenedor.Y+155</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="872829519439262">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="327536108121511" type="Mouse">
-                    <param id="0" name="Object">nueva</param>
+                    <param id="0" name="Object">1nueva</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="524038704081114" type="nueva">
+                <action id="5" name="Set frame" sid="524038704081114" type="1nueva">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
@@ -697,11 +697,11 @@
         <event-block sid="735766367807426">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="203030575521296" type="Mouse">
-                    <param id="0" name="Object">cargar</param>
+                    <param id="0" name="Object">1cargar</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="594964974694955" type="cargar">
+                <action id="5" name="Set frame" sid="594964974694955" type="1cargar">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
@@ -709,11 +709,11 @@
         <event-block sid="855714700340730">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="656647651304921" type="Mouse">
-                    <param id="0" name="Object">salir</param>
+                    <param id="0" name="Object">1salir</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="535251311845651" type="salir">
+                <action id="5" name="Set frame" sid="535251311845651" type="1salir">
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
@@ -721,11 +721,11 @@
         <event-block sid="198735970607290">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="384485812211119" type="Mouse">
-                    <param id="0" name="Object">nueva</param>
+                    <param id="0" name="Object">1nueva</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="469464423488580" type="nueva">
+                <action id="5" name="Set frame" sid="469464423488580" type="1nueva">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
@@ -733,11 +733,11 @@
         <event-block sid="373314544685474">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="237368842253739" type="Mouse">
-                    <param id="0" name="Object">cargar</param>
+                    <param id="0" name="Object">1cargar</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="195771126631711" type="cargar">
+                <action id="5" name="Set frame" sid="195771126631711" type="1cargar">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
@@ -745,11 +745,11 @@
         <event-block sid="819755050139032">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="961313184266835" type="Mouse">
-                    <param id="0" name="Object">salir</param>
+                    <param id="0" name="Object">1salir</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="463667280422817" type="salir">
+                <action id="5" name="Set frame" sid="463667280422817" type="1salir">
                     <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
@@ -761,7 +761,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="482205280690497" type="z">
+                <action id="-8" name="Set angle" sid="482205280690497" type="1z">
                     <param id="0" name="Angle">180</param>
                 </action>
             </actions>
@@ -773,7 +773,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="567374604861101" type="z">
+                <action id="-8" name="Set angle" sid="567374604861101" type="1z">
                     <param id="0" name="Angle">0</param>
                 </action>
             </actions>
@@ -785,7 +785,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="782315604232642" type="z">
+                <action id="-8" name="Set angle" sid="782315604232642" type="1z">
                     <param id="0" name="Angle">270</param>
                 </action>
             </actions>
@@ -797,7 +797,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="694053400474385" type="z">
+                <action id="-8" name="Set angle" sid="694053400474385" type="1z">
                     <param id="0" name="Angle">90</param>
                 </action>
             </actions>
@@ -812,7 +812,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="629463749979351" type="z">
+                <action id="-8" name="Set angle" sid="629463749979351" type="1z">
                     <param id="0" name="Angle">45</param>
                 </action>
             </actions>
@@ -827,7 +827,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="975254414781971" type="z">
+                <action id="-8" name="Set angle" sid="975254414781971" type="1z">
                     <param id="0" name="Angle">315</param>
                 </action>
             </actions>
@@ -842,7 +842,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="116792644549167" type="z">
+                <action id="-8" name="Set angle" sid="116792644549167" type="1z">
                     <param id="0" name="Angle">135</param>
                 </action>
             </actions>
@@ -857,7 +857,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-8" name="Set angle" sid="672941141073199" type="z">
+                <action id="-8" name="Set angle" sid="672941141073199" type="1z">
                     <param id="0" name="Angle">225</param>
                 </action>
             </actions>
