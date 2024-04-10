@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>2 eventosGameOver</name>
+    <events>
+        <event-block sid="529662101592170">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="688449513008266" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">2botonIntentarDeNuevo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="426726472228826" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

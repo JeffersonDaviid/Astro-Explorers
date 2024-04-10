@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>Astro Explorer</name>
+    <name>New project</name>
     <description></description>
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://google.com</author-website>
     <app-id>com.mycompany.myapp</app-id>
-    <unique-id>3u9lpr5py2huh</unique-id>
+    <unique-id>32f2odkya31mz</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
@@ -22,6 +22,17 @@
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -35,6 +46,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>menuSeleccionDePlaneta</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -77,6 +89,202 @@
                     <behavior id="solid" />
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="494909624948477">
+        <object-type name="rotador" sid="505886796706928">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="591639663646306">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358903286302848" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planeta1" sid="835426747923328">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="radioActual" sid="789896181697816" type="number" />
+                <instance-variable name="posX" sid="822751736638799" type="number" />
+                <instance-variable name="posY" sid="715585016736476" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="925179733542434">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="390993938389269">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="322713574399850" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rotador2" sid="874229828647931">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="587128495682270">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410357027268621" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planeta2" sid="862966052317693">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="radioActual" sid="383869639415147" type="number" />
+                <instance-variable name="posX" sid="593380128186148" type="number" />
+                <instance-variable name="posY" sid="760006863112026" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="762346318476168">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="179036791638498">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956006280739066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="744748912426934">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="rotador3" sid="902986876406298">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="959560296269588">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230417538478977" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planeta3" sid="863889139839506">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="radioActual" sid="561442355643090" type="number" />
+                <instance-variable name="posX" sid="307989816881857" type="number" />
+                <instance-variable name="posY" sid="997091184884422" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="600981525779798">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="360825151340495">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114609902164810" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="123452823843740">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="controladorDeVelocidad" sid="958501032052280">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="speedValue" sid="155408936175835">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="meteoritosPuntajeExtra" sid="960142546134824">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="puntosExtra" sid="599924395979256" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="377619707424786">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363965617916298" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="puntaje" sid="454893406881212">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="planeta1Text" sid="405551401710980">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="infoP1" sid="111280786484545">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="planeta2Text" sid="339557704702064">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="planeta3Text" sid="369284959676225">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="infoP2" sid="102350451583970">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="infoP3" sid="468394679471566">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="botonDeViaje1" sid="596410334431237">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634536550343526" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botonDeViaje2" sid="676724334723881">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729092020216251" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botonDeViaje3" sid="886903980516622">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893619213757686" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="suelo" sid="376672989063699">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="167719889227037">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555323927197944" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jugador" sid="248404617989770">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="743403245589082">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="162752916363620">
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
@@ -445,6 +653,52 @@
     <global-instances>
         <global-instance type="Mouse" uid="24" />
         <global-instance type="Keyboard" uid="25" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="489215293817189" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemigo" sid="195406420781694">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917253341704263" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="finDelJuegoText" sid="534859479107693">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="fondoFinDelJuego" sid="527645048990376">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="151493900505176" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botonIntentarDeNuevo" sid="987177548677651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443795160508082" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>menuSeleccionDePlaneta.xml</layout>
+        <layout>juegoTest.xml</layout>
+        <layout>gameOverScene.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>eventosMenuSeleccionDePlaneta.xml</event-sheet>
+        <event-sheet>eventosJuegoTest.xml</event-sheet>
+        <event-sheet>eventosGameOver.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
     </global-instances>
     <sounds-folder />
     <music-folder />
