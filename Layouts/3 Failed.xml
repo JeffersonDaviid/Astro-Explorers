@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>FAILED</name>
+    <name>3 Failed</name>
     <sid>687435423528102</sid>
-    <event-sheet>EvSh viaje espacial</event-sheet>
+    <event-sheet>3 viaje espacial</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="60">
+                <instance type="3Failed_bg" uid="60">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Button" uid="61">
+                <instance type="3Button" uid="61">
                     <properties>
                         <type>Button</type>
                         <text>VOLVER?</text>

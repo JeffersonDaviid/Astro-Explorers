@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Viaje espacial</name>
+    <name>3 Viaje espacial</name>
     <sid>750083837942752</sid>
-    <event-sheet>EvSh viaje espacial</event-sheet>
+    <event-sheet>3 viaje espacial</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="space" uid="0">
+                <instance type="3space_bg" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Center</hotspot>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="2">
+                <instance type="3meteoro_md" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -124,7 +124,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="3">
+                <instance type="3meteoro_sm" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -158,7 +158,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xm" uid="6">
+                <instance type="3meteoro_xm" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -192,7 +192,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="11">
+                <instance type="3meteoro_sm" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -226,7 +226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="13">
+                <instance type="3meteoro_md" uid="13">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -260,7 +260,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xm" uid="14">
+                <instance type="3meteoro_xm" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -294,7 +294,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="15">
+                <instance type="3meteoro_md" uid="15">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -328,7 +328,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="16">
+                <instance type="3meteoro_sm" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -362,7 +362,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xm" uid="18">
+                <instance type="3meteoro_xm" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -396,7 +396,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="19">
+                <instance type="3meteoro_md" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -430,7 +430,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="20">
+                <instance type="3meteoro_md" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -464,7 +464,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="21">
+                <instance type="3meteoro_md" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -498,7 +498,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_md" uid="22">
+                <instance type="3meteoro_md" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -532,7 +532,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="25">
+                <instance type="3meteoro_sm" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -566,7 +566,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="27">
+                <instance type="3meteoro_sm" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -600,7 +600,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="28">
+                <instance type="3meteoro_sm" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -634,7 +634,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="29">
+                <instance type="3meteoro_sm" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -668,7 +668,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_sm" uid="30">
+                <instance type="3meteoro_sm" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -702,7 +702,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="10">
+                <instance type="3meteoro_xl" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -741,7 +741,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="35">
+                <instance type="3meteoro_xl" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -780,7 +780,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="36">
+                <instance type="3meteoro_xl" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -819,7 +819,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="38">
+                <instance type="3meteoro_xl" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -858,7 +858,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="40">
+                <instance type="3meteoro_xl" uid="40">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -897,7 +897,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="41">
+                <instance type="3meteoro_n" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -944,7 +944,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="42">
+                <instance type="3meteoro_n" uid="42">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -991,7 +991,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="43">
+                <instance type="3meteoro_n" uid="43">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1038,7 +1038,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="44">
+                <instance type="3meteoro_n" uid="44">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1085,7 +1085,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="45">
+                <instance type="3meteoro_n" uid="45">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1132,7 +1132,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="planet" uid="47">
+                <instance type="3planet" uid="47">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1171,7 +1171,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="48">
+                <instance type="3meteoro_xl" uid="48">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1210,7 +1210,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="49">
+                <instance type="3meteoro_xl" uid="49">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1249,7 +1249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="50">
+                <instance type="3meteoro_xl" uid="50">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1288,7 +1288,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="51">
+                <instance type="3meteoro_xl" uid="51">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1327,7 +1327,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="52">
+                <instance type="3meteoro_xl" uid="52">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1366,7 +1366,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="53">
+                <instance type="3meteoro_xl" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1405,7 +1405,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="54">
+                <instance type="3meteoro_xl" uid="54">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1444,7 +1444,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="55">
+                <instance type="3meteoro_xl" uid="55">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1483,7 +1483,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="56">
+                <instance type="3meteoro_xl" uid="56">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1522,7 +1522,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="57">
+                <instance type="3meteoro_xl" uid="57">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1580,7 +1580,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="player" uid="1">
+                <instance type="3player" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1625,7 +1625,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="border" uid="7">
+                <instance type="3border" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1654,7 +1654,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="border" uid="8">
+                <instance type="3border" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1683,7 +1683,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="border" uid="9">
+                <instance type="3border" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1712,7 +1712,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="5">
+                <instance type="3meteoro_xl" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1751,7 +1751,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="31">
+                <instance type="3meteoro_xl" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1790,7 +1790,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="32">
+                <instance type="3meteoro_xl" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1829,7 +1829,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="33">
+                <instance type="3meteoro_xl" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1868,7 +1868,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="34">
+                <instance type="3meteoro_xl" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1907,7 +1907,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="4">
+                <instance type="3meteoro_n" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1954,7 +1954,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="12">
+                <instance type="3meteoro_n" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2001,7 +2001,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="17">
+                <instance type="3meteoro_n" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2048,7 +2048,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="23">
+                <instance type="3meteoro_n" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2095,7 +2095,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="24">
+                <instance type="3meteoro_n" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2142,7 +2142,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_n" uid="26">
+                <instance type="3meteoro_n" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2189,7 +2189,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="blackHole" uid="46">
+                <instance type="3blackHole" uid="46">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2224,7 +2224,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="39">
+                <instance type="3meteoro_xl" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2263,7 +2263,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="meteoro_xl" uid="37">
+                <instance type="3meteoro_xl" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2299,28 +2299,6 @@
                         <hotspotX>0.77290839</hotspotX>
                         <hotspotY>0.840163946</hotspotY>
                         <angle>0.17453292</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="generadorDeEnemigos" uid="58">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1906</x>
-                        <y>489.5</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>1047</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

@@ -52,7 +52,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="space" sid="946917199708718">
+        <object-type name="3space_bg" sid="946917199708718">
             <plugin id="TiledBg" />
             <behaviors>
                 <behavior-type name="SineX" sid="181184705170544">
@@ -67,7 +67,7 @@
             </behaviors>
             <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\warped-space-3840x2160.jpg" />
         </object-type>
-        <object-type name="player" sid="766401329365260">
+        <object-type name="3player" sid="766401329365260">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="619082154159884">
@@ -231,7 +231,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="meteoro_md" sid="746903110628293">
+        <object-type name="3meteoro_md" sid="746903110628293">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="758709641433584">
@@ -253,7 +253,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="meteoro_sm" sid="831572757207565">
+        <object-type name="3meteoro_sm" sid="831572757207565">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="713661127588170">
@@ -275,7 +275,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="meteoro_n" sid="429960654704374">
+        <object-type name="3meteoro_n" sid="429960654704374">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="BulletX" sid="837577497751101">
@@ -306,7 +306,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="meteoro_xl" sid="919956206269027">
+        <object-type name="3meteoro_xl" sid="919956206269027">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="454237995145018">
@@ -331,7 +331,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="meteoro_xm" sid="814175661011765">
+        <object-type name="3meteoro_xm" sid="814175661011765">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="154909632769565">
@@ -353,7 +353,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="border" sid="537393625753519">
+        <object-type name="3border" sid="537393625753519">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="604072847248482">
@@ -366,7 +366,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="blackHole" sid="841933021089085">
+        <object-type name="3blackHole" sid="841933021089085">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Rotate" sid="362752253785763">
@@ -393,15 +393,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="838212721426560">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715506256910435" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="planet" sid="983369581678841">
+        <object-type name="3planet" sid="983369581678841">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="905900205487916">
@@ -431,29 +423,21 @@
         <object-type name="Keyboard" sid="260970520268247">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="TiledBackground" sid="430140600722115">
+        <object-type name="3Failed_bg" sid="430140600722115">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\LA VIEJA CONFIABLE F\326347553_2323648817802473_1335920700803968099_n.jpg" />
         </object-type>
-        <object-type name="Button" sid="416675245549198">
+        <object-type name="3Button" sid="416675245549198">
             <plugin id="Button" />
-        </object-type>
-        <object-type name="generadorDeEnemigos" sid="183123906898080">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543450381498256" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Viaje espacial.xml</layout>
-        <layout>FAILED.xml</layout>
+        <layout>3 Viaje espacial.xml</layout>
+        <layout>3 Failed.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>EvSh viaje espacial.xml</event-sheet>
+        <event-sheet>3 viaje espacial.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="59" />
