@@ -82,7 +82,7 @@
                         <hotspotX>0.502127647</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>0</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="1osaMenor" uid="3">
@@ -226,7 +226,7 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501538455</hotspotY>
                         <angle>0</angle>
-                        <opacity>0</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="1Andromeda" uid="7">
@@ -298,7 +298,7 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>0</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="1cefeo" uid="9">
@@ -550,7 +550,7 @@
                         <hotspotX>0.501976311</hotspotX>
                         <hotspotY>0.50220263</hotspotY>
                         <angle>0</angle>
-                        <opacity>0</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="1leon" uid="16">
@@ -658,7 +658,7 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.503144681</hotspotY>
                         <angle>0</angle>
-                        <opacity>0</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="1perseo" uid="19">
