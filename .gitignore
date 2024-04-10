@@ -3,9 +3,9 @@
 
 # Archivos de construcción y temporales:
 *.capx.backup
-*.capx.backup1
-*.capx.backup2
+*.capx.backup*
 *.uistate.xml
+*.autosave*
 
 #Archivos de exportación de Construct 2:
 /exporters/
