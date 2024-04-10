@@ -1,69 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<c2project>
-    <name>Astro Explorer</name>
-    <description></description>
-    <version>1.0.0.0</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website>http://google.com</author-website>
-    <app-id>com.mycompany.myapp</app-id>
-    <unique-id>3u9lpr5py2huh</unique-id>
-    <saved-with-version>28000</saved-with-version>
-    <used-plugins>
-       <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
-        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
-        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
-    </used-plugins>
-    <used-behaviors>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
-        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
-        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
-        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
-        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
-        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
-        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
-        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
-        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
-    </used-behaviors>
-    <used-effects>
-        <effect author="Scirra" id="darken">Darken</effect>
-    </used-effects>
-    <configurations>
-        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
-    </configurations>
-    <window-size>
-        <width>854</width>
-        <height>480</height>
-    </window-size>
-    <pixel-rounding>0</pixel-rounding>
-    <preview-effects>1</preview-effects>
-    <use-loader-layout>0</use-loader-layout>
-    <configuration-settings>
-        <prop name="Clear background">Yes</prop>
-        <prop name="Downscaling">Medium quality</prop>
-        <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox scale</prop>
-        <prop name="Fullscreen scaling">High quality</prop>
-        <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Any</prop>
-        <prop name="Pause on unfocus">No</prop>
-        <prop name="Physics engine">Box2D asm.js</prop>
-        <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">(default)</prop>
-        <prop name="Sampling">Linear</prop>
-        <prop name="Use high-DPI display">Yes</prop>
-    </configuration-settings>
     <object-folder>
         <object-type name="1TiledBackground" sid="860893517557780">
             <plugin id="TiledBg" />
@@ -690,9 +624,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Mouse" sid="744748912426934">
+        <object-type name="Mouse" sid="744748912426934">
             <plugin id="Mouse" />
-        </object-type> -->
+        </object-type>
         <object-type name="2rotador3" sid="902986876406298">
             <plugin id="Sprite" />
             <behaviors>
@@ -1222,9 +1156,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Keyboard" sid="260970520268247">
+        <object-type name="Keyboard" sid="260970520268247">
             <plugin id="Keyboard" />
-        </object-type> -->
+        </object-type>
         <object-type name="3Failed_bg" sid="430140600722115">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\LA VIEJA CONFIABLE F\326347553_2323648817802473_1335920700803968099_n.jpg" />
@@ -1246,9 +1180,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Keyboard" sid="954872662993536">
+        <object-type name="Keyboard" sid="954872662993536">
             <plugin id="Keyboard" />
-        </object-type> -->
+        </object-type>
         <object-type name="4Sprite2" sid="412387717638085">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1277,9 +1211,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Mouse" sid="482655335400227">
+        <object-type name="Mouse" sid="482655335400227">
             <plugin id="Mouse" />
-        </object-type> -->
+        </object-type>
         <object-type name="4Sprite3" sid="285274865603078">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1512,9 +1446,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <!-- <object-type name="Mouse" sid="862992504758575">
+        <object-type name="Mouse" sid="862992504758575">
             <plugin id="Mouse" />
-        </object-type> -->
+        </object-type>
         <object-type name="5cuadro" sid="948887841940627">
             <plugin id="Sprite" />
             <effects>
@@ -1602,47 +1536,3 @@
         </object-type>
 
     </object-folder>
-    <families />
-    <layout-folder>
-        <layout>1 background.xml</layout>
-        <layout>2 menuSeleccionDePlaneta.xml</layout>
-        <layout>2 juegoTest.xml</layout>
-        <layout>2 gameOverScene.xml</layout>
-        <layout>3 Viaje espacial.xml</layout>
-        <layout>3 Failed.xml</layout>
-        <layout>4 descensoCoheteAlPlaneta.xml</layout>
-        <layout>4 Escena PlayAgain.xml</layout>
-        <layout>5 recargarCombustible.xml</layout>
-    </layout-folder>
-    <event-folder>
-        <event-sheet>1 eventosMenu.xml</event-sheet>
-        <event-sheet>2 eventosMenuSeleccionDePlaneta.xml</event-sheet>
-        <event-sheet>2 eventosJuegoTest.xml</event-sheet>
-        <event-sheet>2 eventosGameOver.xml</event-sheet>
-        <event-sheet>3 viaje espacial.xml</event-sheet>
-        <event-sheet>4 descensoCoheteAlPlaneta.xml</event-sheet>
-        <event-sheet>4 PlayAgain.xml</event-sheet>
-        <event-sheet>5 recargarCombustible.xml</event-sheet>
-    </event-folder>
-    <global-instances>
-        <global-instance type="Keyboard" uid="59" />
-        <global-instance type="Mouse" uid="9" />
-        <global-instance type="Touch" uid="14">
-            <properties>
-                <use-mouse-input>Yes</use-mouse-input>
-            </properties>
-        </global-instance>
-    </global-instances>
-    <sounds-folder />
-    <music-folder />
-    <files-folder>
-        <file-folder name="Icons">
-            <file name="icon-16.png" />
-            <file name="icon-32.png" />
-            <file name="icon-114.png" />
-            <file name="icon-128.png" />
-            <file name="icon-256.png" />
-            <file name="loading-logo.png" />
-        </file-folder>
-    </files-folder>   
-</c2project>
