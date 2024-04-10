@@ -154,7 +154,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Info" sid="136639565910728">
+        <object-type name="cuadro_inf" sid="136639565910728">
             <plugin id="Text" />
         </object-type>
         <object-type name="text" sid="689927482531491">
@@ -217,48 +217,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="izq" sid="866013825486370">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947366832357169" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\retroceder.png">
-                        <collision-poly>
-                            <point x="0.14786" y="0.14786" />
-                            <point x="0.5" y="0.00194553" />
-                            <point x="0.85214" y="0.14786" />
-                            <point x="0.998055" y="0.5" />
-                            <point x="0.85214" y="0.85214" />
-                            <point x="0.5" y="0.998055" />
-                            <point x="0.14786" y="0.85214" />
-                            <point x="0.00194553" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="der" sid="879915709265670">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623253054701438" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\seguir.png">
-                        <collision-poly>
-                            <point x="0.14786" y="0.14786" />
-                            <point x="0.5" y="0.00194553" />
-                            <point x="0.85214" y="0.14786" />
-                            <point x="0.998055" y="0.5" />
-                            <point x="0.85214" y="0.85214" />
-                            <point x="0.5" y="0.998055" />
-                            <point x="0.14786" y="0.85214" />
-                            <point x="0.00194553" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Touch" sid="307490273866054">
             <plugin id="Touch" />
         </object-type>
-        <object-type name="cuadro_inf" sid="233330493559017">
+        <object-type name="InfoPg1" sid="233330493559017">
             <plugin id="Text" />
         </object-type>
         <object-type name="return" sid="598651076069859">
@@ -273,6 +235,47 @@
                             <point x="0.547022" y="0.958599" />
                             <point x="0.396552" y="0.958599" />
                             <point x="0.0203762" y="0.805732" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dosDer" sid="672143444591045">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433709139137064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\2.png">
+                        <collision-poly>
+                            <point x="0.2125" y="0.2125" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.7875" y="0.2125" />
+                            <point x="0.9125" y="0.5" />
+                            <point x="0.7875" y="0.7875" />
+                            <point x="0.5" y="0.9125" />
+                            <point x="0.2125" y="0.7875" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="InfoPg2" sid="256161247299446">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="uno" sid="795993276585211">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212832513717055" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\1.png">
+                        <collision-poly>
+                            <point x="0.2125" y="0.2125" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.7875" y="0.2125" />
+                            <point x="0.9125" y="0.5" />
+                            <point x="0.7875" y="0.7875" />
+                            <point x="0.5" y="0.9125" />
+                            <point x="0.2125" y="0.7875" />
+                            <point x="0.0875" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>

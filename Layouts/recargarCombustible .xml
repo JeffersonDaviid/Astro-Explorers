@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Info" uid="7">
+                <instance type="cuadro_inf" uid="7">
                     <properties>
                         <text>Hola, soy Nyx para que puedas recargar la nave con combustible necesitas saber sobre mi planeta</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -289,7 +289,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="informacionPlaneta" sid="555201757044586">
+        <layer name="pg_01" sid="555201757044586">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -373,31 +373,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="der" uid="13">
+                <instance type="InfoPg1" uid="15">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>934</x>
-                        <y>693.75</y>
-                        <z>0</z>
-                        <width>70</width>
-                        <height>70</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="cuadro_inf" uid="15">
-                    <properties>
-                        <text>Estamos en la pagina 00 del layout 00</text>
+                        <text>Estamos en la pagina 01 del layout 01</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,400,0</font>
                         <color>0,0,0</color>
@@ -422,10 +400,32 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="dosDer" uid="12">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>934</x>
+                        <y>693</y>
+                        <z>0</z>
+                        <width>80</width>
+                        <height>80</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
-        <layer name="pg_01" sid="110482276298353">
+        <layer name="pg_02" sid="110482276298353">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -441,7 +441,34 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="izq" uid="12">
+                <instance type="InfoPg2" uid="13">
+                    <properties>
+                        <text>Estamos en la pagina 02 del layout 02</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>671.5</x>
+                        <y>232</y>
+                        <z>0</z>
+                        <width>365</width>
+                        <height>78</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="uno" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -452,10 +479,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>774</x>
-                        <y>693.75</y>
+                        <y>693</y>
                         <z>0</z>
-                        <width>70</width>
-                        <height>70</height>
+                        <width>80</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
