@@ -3,6 +3,49 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvSh viaje espacial</name>
     <events>
+        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship2</variable>
+        <event-block sid="240638852678422">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="416360086052698" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="419304173629902" type="player">
+                    <param id="0" name="Animation">shipNumber</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="428417622440669">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="608545952391039" type="player" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="807232915563666" type="System">
+                    <param id="0" name="Layout">FAILED</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="706075320641884">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="832770962244143" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="732092681819083" type="System">
+                    <param id="0" name="Object to create">meteoro_xl</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">random(1900, 2000)</param>
+                    <param id="3" name="Y">random(-50, 1000)</param>
+                </action>
+                <action id="-3" name="Create object" sid="155729142782397" type="System">
+                    <param id="0" name="Object to create">meteoro_n</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">random(1900, 3000)</param>
+                    <param id="3" name="Y">random(-50, 1000)</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="194943068196167">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="841203063913011" type="player">
@@ -14,21 +57,18 @@
                     <param id="0" name="Animation">&quot;Destroy&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action behavior="Solid" id="0" name="Set enabled" sid="989033699114931" type="player">
-                    <param id="0" name="State">0</param>
+                <action id="11" name="Set collisions enabled" sid="687522591921950" type="player">
+                    <param id="0" name="Collisions">0</param>
                 </action>
-                <action behavior="8Direction" id="0" name="Stop" sid="910778476608146" type="player" />
-                <action behavior="8Direction" id="2" name="Set ignoring input" sid="929762651115489" type="player">
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="965473449941344" type="player">
                     <param id="0" name="Input">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="372984501397372" type="System">
+                <action id="-16" name="Wait" sid="810937382234291" type="System">
                     <param id="0" name="Seconds">3</param>
                 </action>
+                <action id="-9" name="Destroy" sid="505509088576326" type="player" />
                 <action id="-2" name="Go to layout" sid="616333699553306" type="System">
                     <param id="0" name="Layout">FAILED</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="337655580598758" type="System">
-                    <param id="0" name="Layout">Viaje espacial</param>
                 </action>
             </actions>
         </event-block>
@@ -39,12 +79,22 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="832848216055892" type="player" />
+                <action id="4" name="Set animation" sid="235669654418577" type="player">
+                    <param id="0" name="Animation">&quot;Destroy&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="234041293235490" type="player">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="382739939997152" type="player">
+                    <param id="0" name="Input">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="878539660371120" type="System">
                     <param id="0" name="Seconds">3</param>
                 </action>
+                <action id="-9" name="Destroy" sid="832848216055892" type="player" />
                 <action id="-2" name="Go to layout" sid="371426442544330" type="System">
-                    <param id="0" name="Layout">Viaje espacial</param>
+                    <param id="0" name="Layout">FAILED</param>
                 </action>
             </actions>
         </event-block>
@@ -77,13 +127,37 @@
                 <action behavior="8Direction" id="0" name="Stop" sid="107702555695503" type="player" />
             </actions>
         </event-block>
-        <event-block sid="174560752935233">
-            <conditions />
-            <actions />
+        <event-block sid="685072497381934">
+            <conditions>
+                <condition id="0" name="On clicked" sid="416112962682687" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="582102848429366" type="System">
+                    <param id="0" name="Layout">Viaje espacial</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="898769866756992">
-            <conditions />
-            <actions />
+        <event-block sid="860414315738586">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="778701236163720" type="meteoro_xl">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="693053988825945" type="meteoro_xl" />
+            </actions>
+        </event-block>
+        <event-block sid="857584205174197">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="151201365686820" type="meteoro_n">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="103832751837329" type="meteoro_n" />
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
