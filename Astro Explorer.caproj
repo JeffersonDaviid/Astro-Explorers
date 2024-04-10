@@ -5,7 +5,7 @@
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
-    <author-website>http://</author-website>
+    <author-website>http://google.com</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
@@ -441,6 +441,10 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="59" />
+    </global-instances>
+    <global-instances>
+        <global-instance type="Mouse" uid="24" />
+        <global-instance type="Keyboard" uid="25" />
     </global-instances>
     <sounds-folder />
     <music-folder />
