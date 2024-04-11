@@ -53,6 +53,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="812766557909844" type="Audio">
+                    <param id="0" name="Audio file">sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-7" name="Set size" sid="132608130249362" type="3player">
                     <param id="0" name="Width">250</param>
                     <param id="1" name="Height">250</param>
@@ -83,6 +89,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="360349560989859" type="Audio">
+                    <param id="0" name="Audio file">sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-7" name="Set size" sid="848443588953092" type="3player">
                     <param id="0" name="Width">250</param>
                     <param id="1" name="Height">250</param>

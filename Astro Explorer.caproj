@@ -1623,6 +1623,7 @@
     <sounds-folder />
     <music-folder>
         <file name="musicaViajeEspacial.ogg" />
+        <file name="sonidoExposion.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
