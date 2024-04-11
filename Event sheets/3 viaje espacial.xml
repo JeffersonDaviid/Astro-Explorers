@@ -164,5 +164,18 @@
                 <action id="-9" name="Destroy" sid="103832751837329" type="3meteoro_n" />
             </actions>
         </event-block>
+        <event-block sid="561150870163005">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="978115758189501" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="404009751871552" type="Audio">
+                    <param id="0" name="Audio file">musicaViajeEspacial</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
