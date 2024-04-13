@@ -4,8 +4,8 @@
     <sid>750083837942752</sid>
     <event-sheet>1 eventosMenu</event-sheet>
     <size>
-        <width>1805</width>
-        <height>1805</height>
+        <width>854</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -13,10 +13,10 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="710049291511226">
+        <layer name="Bg" sid="138022027013650">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
-            <transparent>0</transparent>
+            <transparent>1</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -37,11 +37,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-4</x>
-                        <y>-2</y>
+                        <x>0</x>
+                        <y>0</y>
                         <z>0</z>
-                        <width>1844</width>
-                        <height>1835</height>
+                        <width>854</width>
+                        <height>480</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -49,6 +49,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Elementos" sid="710049291511226">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="1aries" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -325,8 +344,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>801.497680664</x>
-                        <y>729.882446289</y>
+                        <x>787</x>
+                        <y>730</y>
                         <z>0</z>
                         <width>232</width>
                         <height>170</height>
@@ -697,51 +716,6 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="1contenedor" uid="20">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>50</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>8 directions</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="ScrollTo">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>425.248352051</x>
-                        <y>249.497268677</y>
-                        <z>0</z>
-                        <width>850</width>
-                        <height>480</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="1nueva" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -752,8 +726,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>222.436126709</x>
-                        <y>209.187484741</y>
+                        <x>220</x>
+                        <y>210</y>
                         <z>0</z>
                         <width>340</width>
                         <height>90</height>
@@ -774,8 +748,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>221.872970581</x>
-                        <y>305.711242676</y>
+                        <x>220</x>
+                        <y>310</y>
                         <z>0</z>
                         <width>341.128601074</width>
                         <height>90</height>
@@ -796,8 +770,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>221.85319519</x>
-                        <y>405.059570313</y>
+                        <x>220</x>
+                        <y>410</y>
                         <z>0</z>
                         <width>337.741943359</width>
                         <height>90</height>
@@ -828,6 +802,33 @@
                         <hotspotY>0.400000006</hotspotY>
                         <angle>0</angle>
                         <opacity>0.600000024</opacity>
+                    </world>
+                </instance>
+                <instance type="Title" uid="20">
+                    <properties>
+                        <text>Astro-Explorers</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-48,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>63</x>
+                        <y>52</y>
+                        <z>0</z>
+                        <width>446</width>
+                        <height>65</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

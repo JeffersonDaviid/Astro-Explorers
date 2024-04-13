@@ -1593,6 +1593,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Title" sid="837391059446009">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
