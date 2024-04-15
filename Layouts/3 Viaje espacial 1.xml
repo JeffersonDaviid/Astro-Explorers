@@ -15,7 +15,7 @@
     <layers>
         <layer name="Base" sid="620169708111538">
             <initially-visible>1</initially-visible>
-            <background-color>0,1,21</background-color>
+            <background-color>0,0,0</background-color>
             <transparent>0</transparent>
             <parallax>
                 <x>1</x>
@@ -76,13 +76,13 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>356</x>
-                        <y>818</y>
+                        <y>818.493530273</y>
                         <z>0</z>
-                        <width>112</width>
-                        <height>75</height>
+                        <width>100</width>
+                        <height>300</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.506667018</hotspotY>
+                        <hotspotY>0.506471097</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

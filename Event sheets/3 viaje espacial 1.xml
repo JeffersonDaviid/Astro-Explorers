@@ -118,6 +118,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-7" name="Scroll to position" sid="976618356932842" type="System">
+                    <param id="0" name="X">PlayerShip.X</param>
+                    <param id="1" name="Y">PlayerShip.Y</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="763630156470399" type="PlayerShip">
                     <param id="0" name="Object">PartShip</param>
                     <param id="1" name="Layer">0</param>
@@ -135,6 +139,16 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="613008000051626" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+                <action id="-16" name="Wait" sid="982165694983998" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="164961962748581" type="System">
+                    <param id="0" name="Layout">3 Failed</param>
                 </action>
             </actions>
         </event-block>

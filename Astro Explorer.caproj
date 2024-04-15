@@ -1608,17 +1608,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117316109604472" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.506667" original-source="D:\stive\Pictures\SpaceShooter\PNG\playerShip2_orange.png">
-                        <image-point name="Disparador" x="0.5" y="0" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506471" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
+                        <image-point name="Disparador" x="0.5" y="0.000862813" />
                         <collision-poly>
-                            <point x="0.475446" y="0" />
-                            <point x="0.52567" y="0" />
-                            <point x="0.593192" y="0.253333" />
-                            <point x="1" y="0.58" />
-                            <point x="0.8125" y="1" />
-                            <point x="0.1875" y="1" />
-                            <point x="0" y="0.575" />
-                            <point x="0.398437" y="0.2575" />
+                            <point x="0.47554" y="0.000862813" />
+                            <point x="0.525572" y="0.000862813" />
+                            <point x="0.592836" y="0.253759" />
+                            <point x="0.998092" y="0.579862" />
+                            <point x="0.811307" y="0.999137" />
+                            <point x="0.188693" y="0.999137" />
+                            <point x="0.0019084" y="0.574871" />
+                            <point x="0.398825" y="0.257918" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1770,6 +1770,25 @@
         </object-type>
         <object-type name="Text" sid="777002912558071">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Player" sid="547589352559604">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="681499679381307" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500431" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
+                        <collision-poly>
+                            <point x="0.333969" y="0.150992" />
+                            <point x="0.5" y="0.133736" />
+                            <point x="0.566794" y="0.195858" />
+                            <point x="0.795802" y="0.499569" />
+                            <point x="0.614504" y="0.825712" />
+                            <point x="0.5" y="0.853322" />
+                            <point x="0.400763" y="0.818809" />
+                            <point x="0.263359" y="0.499569" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
