@@ -150,7 +150,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="582102848429366" type="System">
-                    <param id="0" name="Layout">3 Viaje espacial</param>
+                    <param id="0" name="Layout">3 Viaje espacial 0</param>
                 </action>
             </actions>
         </event-block>

@@ -896,7 +896,7 @@
                     </frame>
                 </animation>
                 <animation framecount="2" loop="1" name="ship2" pingpong="0" repeatcount="1" repeatto="0" sid="181009861918245" speed="10">
-                    <frame duration="1" hotspotX="0.498392" hotspotY="0.501683">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502347">
                         <collision-poly>
                             <point x="0.26045" y="0.272727" />
                             <point x="0.29582" y="0.0202019" />
@@ -908,7 +908,7 @@
                             <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.498392" hotspotY="0.501683">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND">
                         <collision-poly>
                             <point x="0.26045" y="0.272727" />
                             <point x="0.29582" y="0.0202019" />
@@ -936,7 +936,7 @@
                     </frame>
                 </animation>
                 <animation framecount="3" loop="1" name="ship4" pingpong="0" repeatcount="1" repeatto="0" sid="802951778212654" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND">
                         <collision-poly>
                             <point x="0.26045" y="0.272727" />
                             <point x="0.29582" y="0.0202019" />
@@ -948,7 +948,7 @@
                             <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND">
                         <collision-poly>
                             <point x="0.26045" y="0.272727" />
                             <point x="0.29582" y="0.0202019" />
@@ -960,7 +960,7 @@
                             <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND">
                         <collision-poly>
                             <point x="0.26045" y="0.272727" />
                             <point x="0.29582" y="0.0202019" />
@@ -990,30 +990,30 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1574,6 +1574,28 @@
         <object-type name="Audio" sid="633846001100830">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="Sprite" sid="642944294948040">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884230758398930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Pictures\prueba\playership1.png">
+                        <collision-poly>
+                            <point x="0.383333" y="0.383333" />
+                            <point x="0.5" y="0.131667" />
+                            <point x="0.616667" y="0.383333" />
+                            <point x="0.86" y="0.5" />
+                            <point x="0.636667" y="0.636667" />
+                            <point x="0.5" y="0.846667" />
+                            <point x="0.363333" y="0.636667" />
+                            <point x="0.14" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Title" sid="837391059446009">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1581,11 +1603,12 @@
         <layout>2 menuSeleccionDePlaneta.xml</layout>
         <layout>2 juegoTest.xml</layout>
         <layout>2 gameOverScene.xml</layout>
-        <layout>3 Viaje espacial.xml</layout>
+        <layout>3 Viaje espacial 0.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
         <layout>4 Escena PlayAgain.xml</layout>
         <layout>5 recargarCombustible .xml</layout>
+        <layout>Sprites.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1 eventosMenu.xml</event-sheet>
