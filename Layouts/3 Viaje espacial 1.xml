@@ -47,7 +47,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="PlayerShip" uid="140">
+                <instance type="3PlayerShip" uid="140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -106,7 +106,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Text" uid="145">
+                <instance type="3ScoreText" uid="145">
                     <properties>
                         <text>Puntaje: 0</text>
                         <initial-visibility>Visible</initial-visibility>

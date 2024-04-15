@@ -677,7 +677,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Meteoro" uid="146">
+                <instance type="3Meteoro" uid="146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -717,7 +717,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PartMeteoro" uid="147">
+                <instance type="3PartMeteoro" uid="147">
                     <properties>
                         <rate>15</rate>
                         <spray-cone>360</spray-cone>
@@ -756,7 +756,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PartShip" uid="148">
+                <instance type="3PartShip" uid="148">
                     <properties>
                         <rate>15</rate>
                         <spray-cone>360</spray-cone>
@@ -795,7 +795,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlayerBullet" uid="149">
+                <instance type="3PlayerBullet" uid="149">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -824,7 +824,7 @@
                         <height>9</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
-                        <hotspotY>0.555555999</hotspotY>
+                        <hotspotY>0.555555582</hotspotY>
                         <angle>-1.57079649</angle>
                         <opacity>1</opacity>
                     </world>

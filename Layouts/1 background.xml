@@ -156,7 +156,7 @@
                         <opacity>0.600000024</opacity>
                     </world>
                 </instance>
-                <instance type="Title" uid="20">
+                <instance type="1AstroExplorerText" uid="20">
                     <properties>
                         <text>Astro-Explorers</text>
                         <initial-visibility>Visible</initial-visibility>

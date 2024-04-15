@@ -1593,10 +1593,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Title" sid="837391059446009">
+        <object-type name="1AstroExplorerText" sid="837391059446009">
             <plugin id="Text" />
         </object-type>
-        <object-type name="PlayerShip" sid="610908485031699">
+        <object-type name="3PlayerShip" sid="610908485031699">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="8Direction" sid="392872047015837">
@@ -1624,7 +1624,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Meteoro" sid="722687070510314">
+        <object-type name="3Meteoro" sid="722687070510314">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Rotate" sid="951535923107518">
@@ -1740,11 +1740,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="PartShip" sid="912411337305178">
+        <object-type name="3PartShip" sid="912411337305178">
             <plugin id="Particles" />
             <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
         </object-type>
-        <object-type name="PlayerBullet" sid="105649821797500">
+        <object-type name="3PlayerBullet" sid="105649821797500">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Bullet" sid="272506843283876">
@@ -1764,11 +1764,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="PartMeteoro" sid="268516298535799">
+        <object-type name="3PartMeteoro" sid="268516298535799">
             <plugin id="Particles" />
             <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_small1.png" />
         </object-type>
-        <object-type name="Text" sid="777002912558071">
+        <object-type name="3ScoreText" sid="777002912558071">
             <plugin id="Text" />
         </object-type>
         <object-type name="Player" sid="547589352559604">
