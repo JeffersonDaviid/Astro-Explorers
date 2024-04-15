@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
@@ -199,6 +200,8 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="583352205667943" type="boolean" />
+                <instance-variable name="opacidad" sid="329607600047491" type="number" />
+                <instance-variable name="subirOpacidad" sid="900401199610449" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Fade" sid="426807530869372">
@@ -227,11 +230,6 @@
             <instance-variables>
                 <instance-variable name="interact" sid="848315872932183" type="boolean" />
             </instance-variables>
-            <behaviors>
-                <behavior-type name="Fade" sid="437990228913516">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549283399189165" speed="5">
                     <frame duration="1" hotspotX="0.501266" hotspotY="0.501718" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\andromeda.png">
@@ -1583,6 +1581,38 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="1control" sid="247107874702134">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="826318539935158">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640813283209008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1control2" sid="836896528396205">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="arriba" sid="921139759837082" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Sine" sid="283105913084517">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958264926785984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1texto" sid="178631631953280">
+            <plugin id="TextBox" />
         </object-type>
     </object-folder>
     <families />
