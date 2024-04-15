@@ -228,7 +228,7 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501538455</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
+                        <opacity>0.699999988</opacity>
                     </world>
                 </instance>
                 <instance type="1Andromeda" uid="7">
@@ -796,7 +796,7 @@
                         <hotspotX>0.479999989</hotspotX>
                         <hotspotY>0.400000006</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.600000024</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="1control" uid="23">
@@ -850,11 +850,11 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Vertical</movement>
                                 <wave>Square</wave>
-                                <period>8</period>
+                                <period>6</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
+                                <magnitude>1</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -865,39 +865,13 @@
                         <x>800</x>
                         <y>300</y>
                         <z>0</z>
-                        <width>130</width>
-                        <height>144</height>
+                        <width>5</width>
+                        <height>5</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="1texto" uid="140">
-                    <properties>
-                        <text></text>
-                        <placeholder></placeholder>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <read-only>No</read-only>
-                        <spell-check>No</spell-check>
-                        <type>Text</type>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>710</x>
-                        <y>102</y>
-                        <z>0</z>
-                        <width>150</width>
-                        <height>22</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
             </instances>

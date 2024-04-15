@@ -76,11 +76,15 @@
         <event-block sid="831139702444991">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="852722712285963" type="System">
-                    <param id="0" name="Interval (seconds)">0.1</param>
+                    <param id="0" name="Interval (seconds)">0.05</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-16" name="Set opacity" sid="833754363745795" type="1pegaso">
+                <action id="-10" name="Set value" sid="715448602046436" type="1pegaso">
+                    <param id="0" name="Instance variable">opacidad</param>
+                    <param id="1" name="Value">300-1control2.Y </param>
+                </action>
+                <action id="-16" name="Set opacity" sid="275859503624989" type="1pegaso">
                     <param id="0" name="Opacity">1pegaso.Opacity+1pegaso.opacidad</param>
                 </action>
                 <action id="-16" name="Set opacity" sid="403461727284361" type="1Andromeda">
@@ -134,9 +138,36 @@
                 <action id="-16" name="Set opacity" sid="330642787510432" type="1tauro">
                     <param id="0" name="Opacity">1pegaso.Opacity</param>
                 </action>
-                <action id="0" name="Set text" sid="308149106445133" type="1texto">
-                    <param id="0" name="Text">1control2.Y&amp;&quot;&quot;</param>
+            </actions>
+        </event-block>
+        <event-block sid="674144219471436">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="491158680862671" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">1nueva</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="731732313488707" type="System">
+                    <param id="0" name="Which">0</param>
                 </action>
+                <action id="-9" name="Destroy" sid="114084767059597" type="1nueva" />
+            </actions>
+        </event-block>
+        <event-block sid="154259673477107">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="485415810381491" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">1cargar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="558959957983014" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="573651507495724" type="1cargar" />
             </actions>
         </event-block>
     </events>
