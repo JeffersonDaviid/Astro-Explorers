@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>3 viaje espacial</name>
+    <name>3 viaje espacial 0</name>
     <events>
         <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship4</variable>
         <event-block sid="240638852678422">
