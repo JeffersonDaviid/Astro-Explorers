@@ -1608,7 +1608,7 @@
         <object-type name="1AstroExplorerText" sid="837391059446009">
             <plugin id="Text" />
         </object-type>
-        <object-type name="3Meteoro" sid="722687070510314">
+        <object-type name="3MeteoroMarron" sid="722687070510314">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Rotate" sid="951535923107518">
@@ -1619,8 +1619,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136954329546491" speed="0">
-                    <frame duration="1" hotspotX="0.504951" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_big1.png">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136954329546491" speed="0">
+                    <frame duration="1" hotspotX="0.503333" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe1.png">
                         <collision-poly>
                             <point x="0.173267" y="0.0119048" />
                             <point x="0.722772" y="0.00595216" />
@@ -1631,7 +1631,7 @@
                             <point x="0.00990102" y="0.613095" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_big2.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe2.png">
                         <collision-poly>
                             <point x="0.166666" y="0.0867344" />
                             <point x="0.5625" y="0.0102041" />
@@ -1643,7 +1643,7 @@
                             <point x="0.0125" y="0.438776" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.505618" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_big3.png">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe3.png">
                         <collision-poly>
                             <point x="0.0112356" y="0.280488" />
                             <point x="0.382022" y="0.00609756" />
@@ -1654,7 +1654,7 @@
                             <point x="0.016854" y="0.646341" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_big4.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe4.png">
                         <collision-poly>
                             <point x="0.142857" y="0.145833" />
                             <point x="0.668367" y="0.0104167" />
@@ -1662,63 +1662,6 @@
                             <point x="0.821429" y="0.921875" />
                             <point x="0.301021" y="0.973958" />
                             <point x="0.00510204" y="0.59375" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.511628" hotspotY="0.511628" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_med1.png">
-                        <collision-poly>
-                            <point x="0.27907" y="0.0406977" />
-                            <point x="0.901163" y="0.0755814" />
-                            <point x="0.97093" y="0.656977" />
-                            <point x="0.488372" y="0.976744" />
-                            <point x="0.162791" y="0.837209" />
-                            <point x="0.00581394" y="0.412791" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.511111" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_med3.png">
-                        <collision-poly>
-                            <point x="0.155555" y="0.15" />
-                            <point x="0.688889" y="0.03125" />
-                            <point x="0.977778" y="0.43125" />
-                            <point x="0.650001" y="0.9625" />
-                            <point x="0.322223" y="0.925" />
-                            <point x="0.0111111" y="0.6125" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_small1.png">
-                        <collision-poly>
-                            <point x="0.245535" y="0.0580353" />
-                            <point x="0.870536" y="0.0892859" />
-                            <point x="0.946429" y="0.669643" />
-                            <point x="0.5" y="0.964286" />
-                            <point x="0.15625" y="0.830357" />
-                            <point x="0.0178572" y="0.428571" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_small2.png">
-                        <collision-poly>
-                            <point x="0.168103" y="0.149038" />
-                            <point x="0.693966" y="0.0528846" />
-                            <point x="0.969827" y="0.456731" />
-                            <point x="0.659483" y="0.942307" />
-                            <point x="0.318966" y="0.923077" />
-                            <point x="0.00862073" y="0.600962" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_tiny1.png">
-                        <collision-poly>
-                            <point x="0.447917" y="0" />
-                            <point x="0.972222" y="0.260417" />
-                            <point x="0.805555" y="0.930555" />
-                            <point x="0.291667" y="0.916666" />
-                            <point x="0.0451389" y="0.472222" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.533333" original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_tiny2.png">
-                        <collision-poly>
-                            <point x="0.460938" y="0" />
-                            <point x="0.992187" y="0.291667" />
-                            <point x="0.617188" y="1" />
-                            <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1763,6 +1706,124 @@
                 </behavior-type>
             </behaviors>
             <texture original-source="C:\Users\jeffe\Downloads\espacio-estrellas-universo-espacio-infinito-fondo_78474-99 (1).jpg" />
+        </object-type>
+        <object-type name="3MeteoroGris" sid="931237202020321">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="367560881418858">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="112218028795828">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677931982070040" speed="0">
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_1.png">
+                        <collision-poly>
+                            <point x="0.173267" y="0.0119048" />
+                            <point x="0.722772" y="0.00595216" />
+                            <point x="1" y="0.488095" />
+                            <point x="0.826732" y="0.880952" />
+                            <point x="0.59406" y="0.821429" />
+                            <point x="0.287129" y="0.976191" />
+                            <point x="0.00990102" y="0.613095" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_2.png">
+                        <collision-poly>
+                            <point x="0.166666" y="0.0867344" />
+                            <point x="0.5625" y="0.0102041" />
+                            <point x="0.991666" y="0.198979" />
+                            <point x="0.891667" y="0.683673" />
+                            <point x="0.425" y="0.826531" />
+                            <point x="0.279167" y="0.984694" />
+                            <point x="0.0541667" y="0.765306" />
+                            <point x="0.0125" y="0.438776" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_3.png">
+                        <collision-poly>
+                            <point x="0.0112356" y="0.280488" />
+                            <point x="0.382022" y="0.00609756" />
+                            <point x="0.825843" y="0.152439" />
+                            <point x="0.994382" y="0.506098" />
+                            <point x="0.735955" y="1" />
+                            <point x="0.202247" y="0.914635" />
+                            <point x="0.016854" y="0.646341" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_4.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.145833" />
+                            <point x="0.668367" y="0.0104167" />
+                            <point x="1" y="0.375" />
+                            <point x="0.821429" y="0.921875" />
+                            <point x="0.301021" y="0.973958" />
+                            <point x="0.00510204" y="0.59375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3MeteoroGris2" sid="922530030543461">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="670726728330237">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="542898809292380">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149848308030457" speed="0">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura1.png">
+                        <collision-poly>
+                            <point x="0.173267" y="0.0119048" />
+                            <point x="0.722772" y="0.00595216" />
+                            <point x="1" y="0.488095" />
+                            <point x="0.826732" y="0.880952" />
+                            <point x="0.59406" y="0.821429" />
+                            <point x="0.287129" y="0.976191" />
+                            <point x="0.00990102" y="0.613095" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura2.png">
+                        <collision-poly>
+                            <point x="0.166666" y="0.0867344" />
+                            <point x="0.5625" y="0.0102041" />
+                            <point x="0.991666" y="0.198979" />
+                            <point x="0.891667" y="0.683673" />
+                            <point x="0.425" y="0.826531" />
+                            <point x="0.279167" y="0.984694" />
+                            <point x="0.0541667" y="0.765306" />
+                            <point x="0.0125" y="0.438776" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura3.png">
+                        <collision-poly>
+                            <point x="0.0112356" y="0.280488" />
+                            <point x="0.382022" y="0.00609756" />
+                            <point x="0.825843" y="0.152439" />
+                            <point x="0.994382" y="0.506098" />
+                            <point x="0.735955" y="1" />
+                            <point x="0.202247" y="0.914635" />
+                            <point x="0.016854" y="0.646341" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura4.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.145833" />
+                            <point x="0.668367" y="0.0104167" />
+                            <point x="1" y="0.375" />
+                            <point x="0.821429" y="0.921875" />
+                            <point x="0.301021" y="0.973958" />
+                            <point x="0.00510204" y="0.59375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
