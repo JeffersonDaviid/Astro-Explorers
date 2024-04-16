@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 viaje espacial 1</name>
     <events>
+        <variable constant="0" name="timeShip" sid="420816698777819" static="0" type="number">0</variable>
         <variable comment="Puntaje" constant="0" name="Score" sid="977460344515282" static="0" type="number">0</variable>
         <event-block sid="307393341951613">
             <conditions>
@@ -12,6 +13,13 @@
                 <action id="-28" name="Set canvas size" sid="235346266017521" type="System">
                     <param id="0" name="Width">720</param>
                     <param id="1" name="Height">960</param>
+                </action>
+                <action id="-9" name="Set value" sid="145156760035897" type="System">
+                    <param id="0" name="Variable">timeShip</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-19" name="Rotate counter-clockwise" sid="715075509753838" type="3player">
+                    <param id="0" name="Degrees">90</param>
                 </action>
             </actions>
         </event-block>
@@ -30,7 +38,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Spawn another object" sid="515013519588069" type="3PlayerShip">
+                        <action id="0" name="Spawn another object" sid="515013519588069" type="3player">
                             <param id="0" name="Object">3PlayerBullet</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">1</param>
@@ -114,20 +122,20 @@
         <event-block sid="392826654622338">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="650223619570185" type="3Meteoro">
-                    <param id="0" name="Object">3PlayerShip</param>
+                    <param id="0" name="Object">3player</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-7" name="Scroll to position" sid="976618356932842" type="System">
-                    <param id="0" name="X">3PlayerShip.X</param>
-                    <param id="1" name="Y">3PlayerShip.Y</param>
+                    <param id="0" name="X">3Player.X</param>
+                    <param id="1" name="Y">3Player.Y</param>
                 </action>
-                <action id="0" name="Spawn another object" sid="763630156470399" type="3PlayerShip">
+                <action id="0" name="Spawn another object" sid="763630156470399" type="3player">
                     <param id="0" name="Object">3PartShip</param>
                     <param id="1" name="Layer">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>
-                <action id="-9" name="Destroy" sid="437906234284770" type="3PlayerShip" />
+                <action id="-9" name="Destroy" sid="437906234284770" type="3player" />
                 <action id="0" name="Spawn another object" sid="231039100123490" type="3Meteoro">
                     <param id="0" name="Object">3PartMeteoro</param>
                     <param id="1" name="Layer">0</param>
@@ -165,6 +173,10 @@
                     <param id="2" name="X">floor(random(64, 640))</param>
                     <param id="3" name="Y">-60</param>
                 </action>
+                <action id="-10" name="Add to" sid="906011600489067" type="System">
+                    <param id="0" name="Variable">timeShip</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="762773148685251">
@@ -185,6 +197,31 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="853987599648429">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="851569049774753" type="System">
+                    <param id="0" name="Variable">timeShip</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="591457416352555" type="System">
+                    <param id="0" name="Variable">checkpoint_viajeEspacial</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="251889745596751" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+                <action id="-16" name="Wait" sid="568487188818164" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="893337306589036" type="System">
+                    <param id="0" name="Layout">3 Viaje espacial 2</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

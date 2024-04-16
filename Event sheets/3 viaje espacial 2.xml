@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>3 viaje espacial 0</name>
+    <name>3 viaje espacial 2</name>
     <events>
-        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship4</variable>
+        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship0</variable>
         <event-block sid="240638852678422">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="416360086052698" type="System" />
@@ -13,6 +13,9 @@
                     <param id="0" name="Animation">shipNumber</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="548796648509422" type="3player">
+                    <param id="0" name="State">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="428417622440669">
@@ -20,6 +23,10 @@
                 <condition id="-4" name="Is outside layout" sid="608545952391039" type="3player" />
             </conditions>
             <actions>
+                <action id="-9" name="Set value" sid="706258212635274" type="System">
+                    <param id="0" name="Variable">checkpoint_viajeEspacial</param>
+                    <param id="1" name="Value">1</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="807232915563666" type="System">
                     <param id="0" name="Layout">4 descensoCoheteAlPlaneta</param>
                 </action>
@@ -150,7 +157,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="582102848429366" type="System">
-                    <param id="0" name="Layout">3 Viaje espacial 0</param>
+                    <param id="0" name="Layout">3 Viaje espacial 2</param>
                 </action>
             </actions>
         </event-block>

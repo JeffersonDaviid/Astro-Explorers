@@ -873,14 +873,26 @@
                 <behavior-type name="8Direction" sid="619082154159884">
                     <behavior id="EightDir" />
                 </behavior-type>
-                <behavior-type name="Solid" sid="429837056066860">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="ScrollTo" sid="494909624948477">
+                <behavior-type name="ScrollTo" sid="921165961338874">
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
+                <animation framecount="1" loop="0" name="ship0" pingpong="0" repeatcount="1" repeatto="0" sid="978619963861164" speed="5">
+                    <frame duration="1" hotspotX="0.499568" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
+                        <image-point name="Disparador" x="0.994814" y="0.43295" />
+                        <collision-poly>
+                            <point x="0.766638" y="0.226054" />
+                            <point x="0.948142" y="0.427203" />
+                            <point x="0.806396" y="0.590038" />
+                            <point x="0.624892" y="0.685823" />
+                            <point x="0.44166" y="0.829502" />
+                            <point x="0.436474" y="0.44636" />
+                            <point x="0.394987" y="0.143678" />
+                            <point x="0.595506" y="0.159004" />
+                        </collision-poly>
+                    </frame>
+                </animation>
                 <animation framecount="1" loop="0" name="ship1" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
                     <frame duration="1" hotspotX="0.498599" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
                         <collision-poly>
@@ -1596,34 +1608,6 @@
         <object-type name="1AstroExplorerText" sid="837391059446009">
             <plugin id="Text" />
         </object-type>
-        <object-type name="3PlayerShip" sid="610908485031699">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="8Direction" sid="392872047015837">
-                    <behavior id="EightDir" />
-                </behavior-type>
-                <behavior-type name="BoundToLayout" sid="748550905559755">
-                    <behavior id="bound" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117316109604472" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.506471" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
-                        <image-point name="Disparador" x="0.5" y="0.000862813" />
-                        <collision-poly>
-                            <point x="0.47554" y="0.000862813" />
-                            <point x="0.525572" y="0.000862813" />
-                            <point x="0.592836" y="0.253759" />
-                            <point x="0.998092" y="0.579862" />
-                            <point x="0.811307" y="0.999137" />
-                            <point x="0.188693" y="0.999137" />
-                            <point x="0.0019084" y="0.574871" />
-                            <point x="0.398825" y="0.257918" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="3Meteoro" sid="722687070510314">
             <plugin id="Sprite" />
             <behaviors>
@@ -1771,24 +1755,14 @@
         <object-type name="3ScoreText" sid="777002912558071">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Player" sid="547589352559604">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="681499679381307" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500431" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
-                        <collision-poly>
-                            <point x="0.333969" y="0.150992" />
-                            <point x="0.5" y="0.133736" />
-                            <point x="0.566794" y="0.195858" />
-                            <point x="0.795802" y="0.499569" />
-                            <point x="0.614504" y="0.825712" />
-                            <point x="0.5" y="0.853322" />
-                            <point x="0.400763" y="0.818809" />
-                            <point x="0.263359" y="0.499569" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="3bg_shooter" sid="654948922906842">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Sine" sid="451869207896815">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\fondo_espacial.png" />
         </object-type>
     </object-folder>
     <families />
@@ -1797,24 +1771,25 @@
         <layout>2 menuSeleccionDePlaneta.xml</layout>
         <layout>2 juegoTest.xml</layout>
         <layout>2 gameOverScene.xml</layout>
-        <layout>3 Viaje espacial 0.xml</layout>
+        <layout>3 Viaje espacial 2.xml</layout>
+        <layout>3 Viaje espacial 1.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
         <layout>4 Escena PlayAgain.xml</layout>
         <layout>5 recargarCombustible .xml</layout>
         <layout>Sprites.xml</layout>
-        <layout>3 Viaje espacial 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1 eventosMenu.xml</event-sheet>
         <event-sheet>2 eventosMenuSeleccionDePlaneta.xml</event-sheet>
         <event-sheet>2 eventosJuegoTest.xml</event-sheet>
         <event-sheet>2 eventosGameOver.xml</event-sheet>
-        <event-sheet>3 viaje espacial 0.xml</event-sheet>
+        <event-sheet>3 viaje espacial 2.xml</event-sheet>
         <event-sheet>4 descensoCoheteAlPlaneta.xml</event-sheet>
         <event-sheet>4 PlayAgain.xml</event-sheet>
         <event-sheet>5 recargarCombustible.xml</event-sheet>
         <event-sheet>3 viaje espacial 1.xml</event-sheet>
+        <event-sheet>3 Failed.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="136" />
