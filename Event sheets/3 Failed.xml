@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 Failed</name>
     <events>
-        <variable constant="0" name="checkpoint_viajeEspacial" sid="326243620275073" static="0" type="number">0</variable>
+        <variable constant="0" name="checkpoint_viajeEspacial" sid="326243620275073" static="0" type="number">1</variable>
         <event-block sid="962933249370074">
             <conditions>
                 <condition id="0" name="On clicked" sid="787387193720234" type="3Button" />
@@ -15,7 +15,7 @@
                         <condition id="-14" name="Compare variable" sid="747945207140458" type="System">
                             <param id="0" name="Variable">checkpoint_viajeEspacial</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -29,7 +29,7 @@
                         <condition id="-14" name="Compare variable" sid="636792133018958" type="System">
                             <param id="0" name="Variable">checkpoint_viajeEspacial</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
+                            <param id="2" name="Value">2</param>
                         </condition>
                     </conditions>
                     <actions>

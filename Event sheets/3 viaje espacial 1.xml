@@ -198,25 +198,34 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="853987599648429">
+        <event-block sid="854213803196473">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="851569049774753" type="System">
+                <condition id="-14" name="Compare variable" sid="935152420148292" type="System">
                     <param id="0" name="Variable">timeShip</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">20</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">10</param>
                 </condition>
             </conditions>
             <actions>
+                <action id="11" name="Set collisions enabled" sid="554665938580938" type="3player">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="530400875224722" type="3player">
+                    <param id="0" name="Y">3player.Y-timeShip+5</param>
+                </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="717648856528728" type="3player">
+                    <param id="0" name="Input">1</param>
+                </action>
                 <action id="-9" name="Set value" sid="591457416352555" type="System">
                     <param id="0" name="Variable">checkpoint_viajeEspacial</param>
-                    <param id="1" name="Value">1</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-16" name="Wait" sid="568487188818164" type="System">
+                    <param id="0" name="Seconds">2.5</param>
                 </action>
                 <action id="-28" name="Set canvas size" sid="251889745596751" type="System">
                     <param id="0" name="Width">854</param>
                     <param id="1" name="Height">480</param>
-                </action>
-                <action id="-16" name="Wait" sid="568487188818164" type="System">
-                    <param id="0" name="Seconds">5</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="893337306589036" type="System">
                     <param id="0" name="Layout">3 Viaje espacial 2</param>
