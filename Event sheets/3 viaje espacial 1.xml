@@ -10,10 +10,6 @@
                 <condition id="-2" name="On start of layout" sid="299679112475512" type="System" />
             </conditions>
             <actions>
-                <action disabled="1" id="-28" name="Set canvas size" sid="235346266017521" type="System">
-                    <param id="0" name="Width">1708</param>
-                    <param id="1" name="Height">3000</param>
-                </action>
                 <action id="-28" name="Set canvas size" sid="748533373888809" type="System">
                     <param id="0" name="Width">854</param>
                     <param id="1" name="Height">480</param>
@@ -207,7 +203,7 @@
                 <condition id="-14" name="Compare variable" sid="935152420148292" type="System">
                     <param id="0" name="Variable">timeShip</param>
                     <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">10</param>
+                    <param id="2" name="Value">120</param>
                 </condition>
             </conditions>
             <actions>
@@ -215,7 +211,7 @@
                     <param id="0" name="Collisions">0</param>
                 </action>
                 <action id="-2" name="Set Y" sid="530400875224722" type="3player">
-                    <param id="0" name="Y">3player.Y-timeShip+5</param>
+                    <param id="0" name="Y">3player.Y-timeShip+115</param>
                 </action>
                 <action behavior="8Direction" id="2" name="Set ignoring input" sid="717648856528728" type="3player">
                     <param id="0" name="Input">1</param>
