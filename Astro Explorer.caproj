@@ -1691,9 +1691,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="3PartMeteoro" sid="268516298535799">
+        <object-type name="3PartMeteoroMarron" sid="268516298535799">
             <plugin id="Particles" />
-            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_small1.png" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_tiny2.png" />
         </object-type>
         <object-type name="3ScoreText" sid="777002912558071">
             <plugin id="Text" />
@@ -1709,6 +1709,9 @@
         </object-type>
         <object-type name="3MeteoroGris" sid="931237202020321">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Resistance" sid="537314110347079" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Rotate" sid="367560881418858">
                     <behavior id="Rotate" />
@@ -1766,8 +1769,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="3MeteoroGris2" sid="922530030543461">
+        <object-type name="3MeteoroPurpura" sid="922530030543461">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Resistance" sid="719296909614006" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Rotate" sid="670726728330237">
                     <behavior id="Rotate" />
@@ -1825,6 +1831,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="3PartMeteoroGris" sid="962249356895247">
+            <plugin id="Particles" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
+        </object-type>
+        <object-type name="3PartMeteoroPurpura" sid="563477282152262">
+            <plugin id="Particles" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1853,14 +1867,14 @@
         <event-sheet>3 Failed.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="136" />
-        <global-instance type="Mouse" uid="137" />
-        <global-instance type="Touch" uid="138">
+        <global-instance type="Keyboard" uid="138" />
+        <global-instance type="Mouse" uid="139" />
+        <global-instance type="Touch" uid="144">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="139">
+        <global-instance type="Audio" uid="150">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
