@@ -9,19 +9,19 @@
             </conditions>
             <actions>
                 <action id="-1" name="Set X" sid="789578753275605" type="1z">
-                    <param id="0" name="X">1contenedor.X+180</param>
+                    <param id="0" name="X">1contenedor.X+220</param>
                 </action>
                 <action id="-2" name="Set Y" sid="559995677304736" type="1z">
-                    <param id="0" name="Y">1contenedor.Y+50</param>
+                    <param id="0" name="Y">1contenedor.Y+10</param>
                 </action>
                 <action id="-1" name="Set X" sid="213843447121187" type="1nueva">
-                    <param id="0" name="X">1contenedor.X-210</param>
+                    <param id="0" name="X">1contenedor.X-190</param>
                 </action>
                 <action id="-2" name="Set Y" sid="284514712876513" type="1nueva">
                     <param id="0" name="Y">1contenedor.Y-10</param>
                 </action>
                 <action id="-1" name="Set X" sid="719064672112856" type="1cargar">
-                    <param id="0" name="X">1contenedor.X-210</param>
+                    <param id="0" name="X">1contenedor.X-190</param>
                 </action>
                 <action id="-2" name="Set Y" sid="606882319094184" type="1cargar">
                     <param id="0" name="Y">1contenedor.Y+100</param>
@@ -41,6 +41,9 @@
                 <action id="5" name="Set frame" sid="524038704081114" type="1nueva">
                     <param id="0" name="Frame number">0</param>
                 </action>
+                <action id="5" name="Set frame" sid="329123672907711" type="1cargar">
+                    <param id="0" name="Frame number">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="735766367807426">
@@ -52,6 +55,9 @@
             <actions>
                 <action id="5" name="Set frame" sid="594964974694955" type="1cargar">
                     <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="801373334271733" type="1nueva">
+                    <param id="0" name="Frame number">1</param>
                 </action>
             </actions>
         </event-block>
