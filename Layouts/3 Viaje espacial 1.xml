@@ -40,11 +40,11 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Vertical</movement>
                                 <wave>Sawtooth</wave>
-                                <period>6</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>500</magnitude>
+                                <magnitude>550</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -52,11 +52,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-162</x>
-                        <y>-1132</y>
+                        <x>-2</x>
+                        <y>-850</y>
                         <z>0</z>
-                        <width>1410</width>
-                        <height>2704</height>
+                        <width>907</width>
+                        <height>2172</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
