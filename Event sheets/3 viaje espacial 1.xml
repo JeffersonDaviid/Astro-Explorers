@@ -74,17 +74,17 @@
         <event-block sid="474173321230491">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="612147569042596" type="3PlayerBullet">
-                    <param id="0" name="Object">3Meteoro</param>
+                    <param id="0" name="Object">3MeteoroMarron</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="356234271288195" type="3PlayerBullet" />
-                <action id="0" name="Spawn another object" sid="742198143177553" type="3Meteoro">
-                    <param id="0" name="Object">3PartMeteoro</param>
+                <action id="0" name="Spawn another object" sid="742198143177553" type="3MeteoroMarron">
+                    <param id="0" name="Object">3PartMeteoroMarron</param>
                     <param id="1" name="Layer">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>
-                <action id="-9" name="Destroy" sid="545215057812025" type="3Meteoro" />
+                <action id="-9" name="Destroy" sid="545215057812025" type="3MeteoroMarron" />
                 <action id="-10" name="Add to" sid="190447058261502" type="System">
                     <param id="0" name="Variable">Score</param>
                     <param id="1" name="Value">1</param>
@@ -100,28 +100,82 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="761019820148459">
+        <event-block sid="905078697893617">
             <conditions>
-                <condition id="-18" name="On created" sid="702577476515404" type="3Meteoro" />
+                <condition id="0" name="On collision with another object" sid="366278489311600" type="3PlayerBullet">
+                    <param id="0" name="Object">3MeteoroGris</param>
+                </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="766732759484594" type="3Meteoro">
+                <action id="-9" name="Destroy" sid="320653304599371" type="3PlayerBullet" />
+                <action id="-12" name="Subtract from" sid="697600065006654" type="3MeteoroGris">
+                    <param id="0" name="Instance variable">Resistance</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="277876797560179" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="0" name="Set text" sid="202001244457027" type="3ScoreText">
+                    <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
+                </action>
+                <action id="0" name="Play" sid="974105887620893" type="Audio">
+                    <param id="0" name="Audio file">sfxExplosion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="867630437402144">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="413708483636514" type="3PlayerBullet">
+                    <param id="0" name="Object">3MeteoroPurpura</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="812976118859852" type="3PlayerBullet" />
+                <action id="-12" name="Subtract from" sid="219788955508164" type="3MeteoroPurpura">
+                    <param id="0" name="Instance variable">Resistance</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="928562545184883" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="0" name="Set text" sid="791861460407464" type="3ScoreText">
+                    <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
+                </action>
+                <action id="0" name="Play" sid="169402206022435" type="Audio">
+                    <param id="0" name="Audio file">sfxExplosion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="761019820148459">
+            <conditions>
+                <condition id="-18" name="On created" sid="702577476515404" type="3MeteoroMarron" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="766732759484594" type="3MeteoroMarron">
                     <param id="0" name="Angle">90</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="425031945351678" type="3Meteoro">
+                <action behavior="Bullet" id="0" name="Set speed" sid="425031945351678" type="3MeteoroMarron">
                     <param id="0" name="Speed">floor(random(50, 201))</param>
                 </action>
-                <action behavior="Rotate" id="0" name="Set speed" sid="897081624557135" type="3Meteoro">
+                <action behavior="Rotate" id="0" name="Set speed" sid="897081624557135" type="3MeteoroMarron">
                     <param id="0" name="Speed">floor(random(35, 76))</param>
                 </action>
-                <action id="5" name="Set frame" sid="277148051713579" type="3Meteoro">
+                <action id="5" name="Set frame" sid="277148051713579" type="3MeteoroMarron">
                     <param id="0" name="Frame number">choose(0, 1, 3, 4, 6, 8)</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="392826654622338">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="650223619570185" type="3Meteoro">
+                <condition id="0" name="On collision with another object" sid="650223619570185" type="3MeteoroMarron">
                     <param id="0" name="Object">3player</param>
                 </condition>
             </conditions>
@@ -136,12 +190,12 @@
                     <param id="2" name="Image point">0</param>
                 </action>
                 <action id="-9" name="Destroy" sid="437906234284770" type="3player" />
-                <action id="0" name="Spawn another object" sid="231039100123490" type="3Meteoro">
-                    <param id="0" name="Object">3PartMeteoro</param>
+                <action id="0" name="Spawn another object" sid="231039100123490" type="3MeteoroMarron">
+                    <param id="0" name="Object">3PartMeteoroMarron</param>
                     <param id="1" name="Layer">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>
-                <action id="-9" name="Destroy" sid="608477994378626" type="3Meteoro" />
+                <action id="-9" name="Destroy" sid="608477994378626" type="3MeteoroMarron" />
                 <action id="0" name="Play" sid="483588873503604" type="Audio">
                     <param id="0" name="Audio file">sfxExplosion</param>
                     <param id="2" name="Loop">0</param>
@@ -168,7 +222,7 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="654014513352116" type="System">
-                    <param id="0" name="Object to create">3Meteoro</param>
+                    <param id="0" name="Object to create">3MeteoroMarron</param>
                     <param id="1" name="Layer">&quot;Objetos&quot;</param>
                     <param id="2" name="X">floor(random(64, 640))</param>
                     <param id="3" name="Y">-60</param>
@@ -181,7 +235,7 @@
         </event-block>
         <event-block sid="762773148685251">
             <conditions>
-                <condition id="-2" name="Compare Y" sid="677065055091919" type="3Meteoro">
+                <condition id="-2" name="Compare Y" sid="677065055091919" type="3MeteoroMarron">
                     <param id="0" name="Comparison">5</param>
                     <param id="1" name="Y co-ordinate">1024</param>
                 </condition>
@@ -193,7 +247,7 @@
                         <condition id="-4" name="Trigger once while true" sid="549893211987549" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="759589880933291" type="3Meteoro" />
+                        <action id="-9" name="Destroy" sid="759589880933291" type="3MeteoroMarron" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -229,6 +283,40 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="893337306589036" type="System">
                     <param id="0" name="Layout">3 Viaje espacial 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="168335406482399">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="129129843791566" type="3MeteoroGris">
+                    <param id="0" name="Instance variable">Resistance</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="665896501382880" type="3MeteoroGris" />
+                <action id="0" name="Spawn another object" sid="895863299906576" type="3MeteoroGris">
+                    <param id="0" name="Object">3PartMeteoroMarron</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="787938013569235">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="648736386728713" type="3MeteoroPurpura">
+                    <param id="0" name="Instance variable">Resistance</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="938095031711459" type="3MeteoroPurpura" />
+                <action id="0" name="Spawn another object" sid="131241473836227" type="3MeteoroPurpura">
+                    <param id="0" name="Object">3PartMeteoroMarron</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>
