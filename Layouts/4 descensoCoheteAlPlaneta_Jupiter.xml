@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>479</x>
-                        <y>272</y>
+                        <x>487</x>
+                        <y>268</y>
                         <z>0</z>
                         <width>1024</width>
                         <height>573</height>
@@ -82,11 +82,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>448.320983887</x>
-                        <y>49.247184753</y>
+                        <x>451.843658447</x>
+                        <y>26.63482666</y>
                         <z>0</z>
-                        <width>41</width>
-                        <height>91</height>
+                        <width>49</width>
+                        <height>68</height>
                         <depth>0</depth>
                         <hotspotX>0.440329224</hotspotX>
                         <hotspotY>0.983146071</hotspotY>
@@ -177,7 +177,34 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Planeta_Jupiter" uid="115">
+                <instance type="4Texto_Intruccion" uid="117">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>43</x>
+                        <y>21</y>
+                        <z>0</z>
+                        <width>296</width>
+                        <height>62</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5planeta_Jupiter" uid="115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -208,64 +235,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>485</x>
-                        <y>574</y>
+                        <x>473</x>
+                        <y>1117</y>
                         <z>0</z>
-                        <width>561.776062012</width>
-                        <height>568.820800781</height>
+                        <width>1653.300048828</width>
+                        <height>1630.615600586</height>
                         <depth>0</depth>
-                        <hotspotX>0.497999996</hotspotX>
-                        <hotspotY>0.494969815</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Text" uid="117">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>718</x>
-                        <y>28</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite" uid="116">
+                <instance type="5combustible" uid="116">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Circle</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>560</x>
-                        <y>297</y>
+                        <x>572.000183105</x>
+                        <y>299.189086914</y>
                         <z>0</z>
-                        <width>25</width>
-                        <height>17</height>
+                        <width>49</width>
+                        <height>40</height>
                         <depth>0</depth>
                         <hotspotX>0.506849289</hotspotX>
                         <hotspotY>0.506329119</hotspotY>
-                        <angle>0</angle>
+                        <angle>0.046279781</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

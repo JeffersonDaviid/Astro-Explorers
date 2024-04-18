@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
@@ -1348,7 +1349,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="4Text" sid="829684667775325">
+        <object-type name="4Texto_Intruccion" sid="829684667775325">
             <plugin id="Text" />
         </object-type>
         <object-type name="5nave" sid="158125063463082">
@@ -1377,25 +1378,32 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="5planet" sid="637239236564624">
+        <object-type name="5planeta_Jupiter" sid="637239236564624">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="728010300498103">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="997543886969821">
+                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564593247962685" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\Jupiter.png">
                         <collision-poly>
-                            <point x="0.14" y="0.155556" />
-                            <point x="0.5" y="0" />
-                            <point x="0.86" y="0.155556" />
-                            <point x="1" y="0.5" />
-                            <point x="0.863" y="0.847778" />
-                            <point x="0.5" y="0.998889" />
-                            <point x="0.141" y="0.843333" />
-                            <point x="0.001" y="0.5" />
+                            <point x="0.0469062" y="0.282706" />
+                            <point x="0.131737" y="0.159646" />
+                            <point x="0.310379" y="0.0343683" />
+                            <point x="0.5" y="0.00110865" />
+                            <point x="0.691617" y="0.0388029" />
+                            <point x="0.859281" y="0.15632" />
+                            <point x="0.963074" y="0.302661" />
+                            <point x="0.999002" y="0.485033" />
+                            <point x="0.768463" y="0.481153" />
+                            <point x="0.494012" y="0.476719" />
+                            <point x="0.113772" y="0.474501" />
+                            <point x="0.000998004" y="0.47561" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1414,6 +1422,9 @@
             <behaviors>
                 <behavior-type name="Solid" sid="698877926475166">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="839599329308002">
+                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -1609,6 +1620,9 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="813252635748341">
+            <plugin id="TextBox" />
         </object-type>
     </object-folder>
     <families />

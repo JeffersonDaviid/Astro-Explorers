@@ -89,12 +89,18 @@
                 <action id="-8" name="Set angle" sid="877319890351711" type="4Nave">
                     <param id="0" name="Angle">round(random(-9,9)) * 10</param>
                 </action>
+                <action id="4" name="Set font color" sid="878426967725704" type="4Texto_Intruccion">
+                    <param id="0" name="Color">rgb(228, 234, 237)</param>
+                </action>
+                <action id="0" name="Set text" sid="541683476204549" type="4Texto_Intruccion">
+                    <param id="0" name="Text">&quot;Intenta llegar al combustible para recargar!&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="559255895614756">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="544648188930606" type="4Nave">
-                    <param id="0" name="Object">4Planeta_Jupiter</param>
+                    <param id="0" name="Object">5planeta_Jupiter</param>
                 </condition>
                 <condition id="-11" inverted="1" name="Is within angle" sid="574568287811552" type="4Nave">
                     <param id="0" name="Within">60</param>
@@ -118,6 +124,18 @@
                 <action id="-9" name="Destroy" sid="847986583240214" type="4Nave" />
                 <action id="-2" name="Go to layout" sid="831029754099444" type="System">
                     <param id="0" name="Layout">4 Escena PlayAgain</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="554240932514868">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="843662859698930" type="4Nave">
+                    <param id="0" name="Object">5combustible</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="323804638266046" type="System">
+                    <param id="0" name="Layout">5 recargarCombustible </param>
                 </action>
             </actions>
         </event-block>
