@@ -36,9 +36,7 @@
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
-    <used-effects>
-        <effect author="Scirra" id="darken">Darken</effect>
-    </used-effects>
+    <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -1368,16 +1366,15 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="221276724862619" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\nave.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\nave.png">
                         <collision-poly>
-                            <point x="0.209945" y="0.29572" />
-                            <point x="0.5" y="0.00194553" />
-                            <point x="0.790055" y="0.29572" />
-                            <point x="0.828729" y="0.5" />
-                            <point x="0.98895" y="0.844358" />
-                            <point x="0.5" y="0.998055" />
-                            <point x="0.0110499" y="0.844358" />
-                            <point x="0.171271" y="0.5" />
+                            <point x="0.314286" y="0.22" />
+                            <point x="0.5" y="0.155" />
+                            <point x="0.778571" y="0.5" />
+                            <point x="0.914286" y="0.94" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.0142857" y="0.99" />
+                            <point x="0.0642857" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1392,16 +1389,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564593247962685" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\marte.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\Jupiter.png">
                         <collision-poly>
-                            <point x="0.14786" y="0.14786" />
-                            <point x="0.5" y="0.00194553" />
-                            <point x="0.85214" y="0.14786" />
-                            <point x="0.998055" y="0.5" />
-                            <point x="0.85214" y="0.85214" />
-                            <point x="0.5" y="0.998055" />
-                            <point x="0.14786" y="0.85214" />
-                            <point x="0.00194553" y="0.5" />
+                            <point x="0.14" y="0.155556" />
+                            <point x="0.5" y="0" />
+                            <point x="0.86" y="0.155556" />
+                            <point x="1" y="0.5" />
+                            <point x="0.863" y="0.847778" />
+                            <point x="0.5" y="0.998889" />
+                            <point x="0.141" y="0.843333" />
+                            <point x="0.001" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1411,7 +1408,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894945278699117" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Desktop\Astro-Explorers\Files\images\Default_Imagina_una_vasta_extensin_de_espacio_infinito_donde_l_1.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\fondo_pantalla_estrellas.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1424,15 +1421,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144560850356904" speed="5">
-                    <frame duration="1" hotspotX="0.501587" hotspotY="0.502585" original-source="D:\Users\Camila\Pictures\dispensador.png">
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.506329" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\estacion_combustible.png">
                         <collision-poly>
-                            <point x="0.997884" y="0.98759" />
-                            <point x="0.501587" y="0.998966" />
-                            <point x="0.0793651" y="0.915202" />
-                            <point x="0.121693" y="0.502585" />
-                            <point x="0.0042328" y="0.016546" />
-                            <point x="0.501587" y="0.0124095" />
-                            <point x="0.91746" y="0.0961737" />
+                            <point x="0.123288" y="0.113924" />
+                            <point x="0.493151" y="0.0506329" />
+                            <point x="0.863014" y="0.126582" />
+                            <point x="0.986301" y="0.493671" />
+                            <point x="0.917808" y="0.924051" />
+                            <point x="0.493151" y="1" />
+                            <point x="0.0958904" y="0.911392" />
+                            <point x="0" y="0.493671" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1445,16 +1443,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693668611313083" speed="5">
-                    <frame duration="1" hotspotX="0.502538" hotspotY="0.510949" original-source="D:\Users\Camila\Pictures\Marciano.png">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.51" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\ovni.png">
                         <collision-poly>
-                            <point x="0.258037" y="0.443796" />
-                            <point x="0.502538" y="0.116788" />
-                            <point x="0.746193" y="0.445255" />
-                            <point x="0.934856" y="0.510949" />
-                            <point x="0.823181" y="0.709489" />
-                            <point x="0.502538" y="0.877372" />
-                            <point x="0.180203" y="0.712409" />
-                            <point x="0.0668359" y="0.510949" />
+                            <point x="0.5" y="0" />
+                            <point x="0.793333" y="0.31" />
+                            <point x="0.913333" y="0.5" />
+                            <point x="0.888889" y="0.833333" />
+                            <point x="0.5" y="1" />
+                            <point x="0.113333" y="0.83" />
+                            <point x="0.0777778" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1467,16 +1464,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978861194537764" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500659" original-source="D:\Users\Camila\Pictures\chat.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\cuadro-de-dialogo.png">
                         <collision-poly>
-                            <point x="0.0359375" y="0.0909091" />
-                            <point x="0.5" y="0" />
-                            <point x="0.964063" y="0.0909091" />
-                            <point x="1" y="0.499341" />
-                            <point x="0.931771" y="0.827404" />
-                            <point x="0.5" y="0.8722" />
-                            <point x="0.0682292" y="0.827404" />
-                            <point x="0" y="0.499341" />
+                            <point x="0.0309524" y="0.065" />
+                            <point x="0.5" y="0.005" />
+                            <point x="0.985714" y="0.03" />
+                            <point x="1" y="0.5" />
+                            <point x="0.978571" y="0.955" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0166667" y="0.965" />
+                            <point x="0.00238095" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1501,11 +1498,6 @@
         </object-type>
         <object-type name="5cuadro" sid="948887841940627">
             <plugin id="Sprite" />
-            <effects>
-                <effect-type name="Darken">
-                    <effect id="darken" />
-                </effect-type>
-            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325996185556816" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\fondo.png" />
@@ -1516,7 +1508,17 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="633224735742315" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\hoja_libro.png">
+                        <collision-poly>
+                            <point x="0.0352941" y="0.0369231" />
+                            <point x="0.5" y="0.00153846" />
+                            <point x="0.933824" y="0.0692308" />
+                            <point x="0.95" y="0.5" />
+                            <point x="0.933824" y="0.930769" />
+                            <point x="0.0455882" y="0.952308" />
+                            <point x="0.0279412" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
