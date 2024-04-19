@@ -34,6 +34,7 @@
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -1838,6 +1839,126 @@
         <object-type name="3PartMeteoroPurpura" sid="563477282152262">
             <plugin id="Particles" />
             <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
+        </object-type>
+        <object-type name="3Earth" sid="454758944891178">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="340266713146892">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="315688331832619">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="422162278230930">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="138485945104974">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653770519942941" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\ESCOJER EL PLANETA DE VIAJE\jupiter.png">
+                        <collision-poly>
+                            <point x="0.148438" y="0.148438" />
+                            <point x="0.5" y="0" />
+                            <point x="0.851563" y="0.148438" />
+                            <point x="1" y="0.5" />
+                            <point x="0.859375" y="0.859375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.148438" y="0.851563" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3satelite" sid="900329197690537">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="675976941773866">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="355928243578920">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="606742175330151">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253864152442604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_6.png">
+                        <collision-poly>
+                            <point x="0.205" y="0.205" />
+                            <point x="0.5" y="0.205" />
+                            <point x="0.66" y="0.34" />
+                            <point x="1" y="0.5" />
+                            <point x="0.92" y="0.92" />
+                            <point x="0.5" y="0.61" />
+                            <point x="0.405" y="0.595" />
+                            <point x="0.055" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3cometa" sid="182971798325598">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="513612806408842">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759793845918870" speed="5">
+                    <frame duration="1" hotspotX="0.62" hotspotY="0.28" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_4.png">
+                        <collision-poly>
+                            <point x="0.05" y="0.05" />
+                            <point x="0.5" y="0.11" />
+                            <point x="0.7" y="0.3" />
+                            <point x="0.825" y="0.5" />
+                            <point x="0.395" y="0.395" />
+                            <point x="0.5" y="0.45" />
+                            <point x="0.53" y="0.47" />
+                            <point x="0.62" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3ufo" sid="181168762571313">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="847894385956402">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="657693699701496">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="539859176453120">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="659955842115208">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238462431651721" speed="5">
+                    <frame duration="1" hotspotX="0.532738" hotspotY="0.287253" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_3.png">
+                        <collision-poly>
+                            <point x="0.0372024" y="0.0448833" />
+                            <point x="0.5" y="0.0359066" />
+                            <point x="0.782738" y="0.262118" />
+                            <point x="0.901786" y="0.499102" />
+                            <point x="0.684524" y="0.61939" />
+                            <point x="0.5" y="0.737881" />
+                            <point x="0.291667" y="0.648115" />
+                            <point x="0.21875" y="0.499102" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
