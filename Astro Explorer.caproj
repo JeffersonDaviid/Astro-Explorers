@@ -1624,6 +1624,40 @@
         <object-type name="TextBox" sid="813252635748341">
             <plugin id="TextBox" />
         </object-type>
+        <object-type name="5exit" sid="723182002326117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="620750771119355" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\x.png">
+                        <collision-poly>
+                            <point x="0.2125" y="0.2125" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.7875" y="0.2125" />
+                            <point x="0.9125" y="0.5" />
+                            <point x="0.7875" y="0.7875" />
+                            <point x="0.5" y="0.9125" />
+                            <point x="0.2125" y="0.7875" />
+                            <point x="0.0875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="5Fin" sid="418243099436150">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5Fin2" sid="579638176121025">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5Fin3" sid="953979754466548">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5cuadro_inf_pg1" sid="769510513343318">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="5cuadro_inf_pg2" sid="785017302556282">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
