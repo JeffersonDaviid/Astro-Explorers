@@ -18,13 +18,13 @@
                     <param id="0" name="X">1contenedor.X-190</param>
                 </action>
                 <action id="-2" name="Set Y" sid="284514712876513" type="1nueva">
-                    <param id="0" name="Y">1contenedor.Y-10</param>
+                    <param id="0" name="Y">1contenedor.Y+20</param>
                 </action>
                 <action id="-1" name="Set X" sid="719064672112856" type="1cargar">
                     <param id="0" name="X">1contenedor.X-190</param>
                 </action>
                 <action id="-2" name="Set Y" sid="606882319094184" type="1cargar">
-                    <param id="0" name="Y">1contenedor.Y+100</param>
+                    <param id="0" name="Y">1contenedor.Y+130</param>
                 </action>
                 <action id="-8" name="Set angle" sid="256038409838570" type="1z">
                     <param id="0" name="Angle">1control.Angle+90</param>

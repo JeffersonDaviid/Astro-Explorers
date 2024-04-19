@@ -645,7 +645,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341458606819875" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\contenedorfinal.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\contenedorfinalfinal.png">
                         <collision-poly>
                             <point x="0.0729412" y="0.129167" />
                             <point x="0.958824" y="0.927083" />
