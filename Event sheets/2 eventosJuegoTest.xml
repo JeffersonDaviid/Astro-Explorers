@@ -14,9 +14,6 @@
                     <param id="0" name="X">80</param>
                     <param id="1" name="Y">270</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="880446085021034" type="System">
-                    <param id="0" name="Layout">2 gameOverScene</param>
-                </action>
                 <action id="-36" name="Save" sid="427579917411939" type="System">
                     <param id="0" name="Slot">&quot;mysave&quot;</param>
                 </action>

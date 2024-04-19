@@ -10,6 +10,7 @@
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -630,11 +631,11 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358903286302848" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\sol.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2planeta1" sid="835426747923328">
+        <object-type name="2Venus" sid="835426747923328">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="radioActual" sid="789896181697816" type="number" />
@@ -651,7 +652,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="322713574399850" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\venus.png">
+                        <collision-poly>
+                            <point x="0.148438" y="0.153226" />
+                            <point x="0.5" y="0" />
+                            <point x="0.859375" y="0.145161" />
+                            <point x="1" y="0.5" />
+                            <point x="0.859375" y="0.854839" />
+                            <point x="0.5" y="1" />
+                            <point x="0.148438" y="0.846774" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -668,7 +680,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2planeta2" sid="862966052317693">
+        <object-type name="2Jupiter" sid="862966052317693">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="radioActual" sid="383869639415147" type="number" />
@@ -685,11 +697,22 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956006280739066" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\jupiter.png">
+                        <collision-poly>
+                            <point x="0.148438" y="0.148438" />
+                            <point x="0.5" y="0" />
+                            <point x="0.851563" y="0.148438" />
+                            <point x="1" y="0.5" />
+                            <point x="0.859375" y="0.859375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.148438" y="0.851563" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2rotador3" sid="902986876406298">
+        <object-type name="2Sol" sid="902986876406298">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Rotate" sid="959560296269588">
@@ -698,11 +721,22 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230417538478977" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\sol.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.09375" />
+                            <point x="0.78125" y="0.21875" />
+                            <point x="0.882813" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.195313" y="0.804688" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2planeta3" sid="863889139839506">
+        <object-type name="2Saturno" sid="863889139839506">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="radioActual" sid="561442355643090" type="number" />
@@ -719,13 +753,23 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114609902164810" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\saturno.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.140625" />
+                            <point x="0.976563" y="0.0234375" />
+                            <point x="0.929688" y="0.5" />
+                            <point x="0.78125" y="0.78125" />
+                            <point x="0.0234375" y="0.976563" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2Particles" sid="123452823843740">
+        <object-type name="2Estrellas" sid="123452823843740">
             <plugin id="Particles" />
-            <texture />
+            <texture original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\estrella_grande.png" />
         </object-type>
         <object-type name="2controladorDeVelocidad" sid="958501032052280">
             <plugin id="sliderbar" />
@@ -744,12 +788,35 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363965617916298" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="2" loop="1" name="2AnimacionMeteorito" pingpong="0" repeatcount="1" repeatto="0" sid="363965617916298" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506667" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\meteorito.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="0.576923" />
+                            <point x="0.6875" y="0.996155" />
+                            <point x="0.453125" y="0.992309" />
+                            <point x="0" y="0.996155" />
+                            <point x="0" y="0.584615" />
+                            <point x="0" y="0.307692" />
+                            <point x="0.4" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.493333" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\meteorito.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.115385" y="0.90625" />
+                            <point x="0.115385" y="0.5" />
+                            <point x="0.461538" y="0.375" />
+                            <point x="0.5" y="0.34375" />
+                            <point x="0.923077" y="0.0625" />
+                            <point x="0.653846" y="0.5" />
+                            <point x="0.653846" y="0.71875" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2puntaje" sid="454893406881212">
+        <object-type global="1" name="2puntaje" sid="454893406881212">
             <plugin id="Text" />
         </object-type>
         <object-type name="2planeta1Text" sid="405551401710980">
@@ -1658,13 +1725,50 @@
         <object-type name="5cuadro_inf_pg2" sid="785017302556282">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Particles" sid="750294163493252">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="2Fondo" sid="521774446889663">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117464438013528" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\fondo_pantalla_estrellas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2ViaLactea" sid="721632382493369">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="941898614838412">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="899692670071031" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\ESCOJER EL PLANETA DE VIAJE\ESCOJER EL PLANETA DE VIAJE\via_lactea.png">
+                        <collision-poly>
+                            <point x="0.130952" y="0.305556" />
+                            <point x="0.5" y="0.0888889" />
+                            <point x="0.933333" y="0.155556" />
+                            <point x="1" y="0.5" />
+                            <point x="0.890476" y="0.744444" />
+                            <point x="0.5" y="0.922222" />
+                            <point x="0.0571429" y="0.866667" />
+                            <point x="0.0119048" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="203814363784446">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>1 background.xml</layout>
         <layout>2 menuSeleccionDePlaneta.xml</layout>
-        <layout>2 juegoTest.xml</layout>
-        <layout>2 gameOverScene.xml</layout>
         <layout>3 Viaje espacial.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta_Jupiter.xml</layout>
@@ -1689,9 +1793,26 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="Audio" uid="48">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
-    <music-folder />
+    <music-folder>
+        <file name="793443_Universal-Collapse.m4a" />
+        <file name="793443_Universal-Collapse.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
