@@ -56,7 +56,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="742987848835803" type="Audio">
-                    <param id="0" name="Audio file">sfxLaser</param>
+                    <param id="0" name="Audio file">3sfxLaser</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-15</param>
                     <param id="1" name="Tag (optional)">&quot;Fx&quot;</param>
@@ -93,7 +93,7 @@
                     <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
                 </action>
                 <action id="0" name="Play" sid="287423620159509" type="Audio">
-                    <param id="0" name="Audio file">sfxExplosion</param>
+                    <param id="0" name="Audio file">3sfxExplosion</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -120,7 +120,7 @@
                     <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
                 </action>
                 <action id="0" name="Play" sid="974105887620893" type="Audio">
-                    <param id="0" name="Audio file">sfxExplosion</param>
+                    <param id="0" name="Audio file">3sfxExplosion</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -147,7 +147,7 @@
                     <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
                 </action>
                 <action id="0" name="Play" sid="169402206022435" type="Audio">
-                    <param id="0" name="Audio file">sfxExplosion</param>
+                    <param id="0" name="Audio file">3sfxExplosion</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -193,7 +193,7 @@
                 </action>
                 <action id="-9" name="Destroy" sid="608477994378626" type="3MeteoroMarron" />
                 <action id="0" name="Play" sid="483588873503604" type="Audio">
-                    <param id="0" name="Audio file">sfxExplosion</param>
+                    <param id="0" name="Audio file">3sfxExplosion</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

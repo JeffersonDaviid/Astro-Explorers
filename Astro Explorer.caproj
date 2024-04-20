@@ -2023,12 +2023,12 @@
         </global-instance>
     </global-instances>
     <sounds-folder>
-        <file name="sfxExplosion.ogg" />
-        <file name="sfxLaser.ogg" />
+        <file name="3sfxExplosion.ogg" />
+        <file name="3sfxLaser.ogg" />
     </sounds-folder>
     <music-folder>
-        <file name="musicaViajeEspacial.ogg" />
-        <file name="sonidoExposion.ogg" />
+        <file name="3musicaViajeEspacial.ogg" />
+        <file name="3sonidoExposion.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

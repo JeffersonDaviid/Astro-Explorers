@@ -61,7 +61,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="812766557909844" type="Audio">
-                    <param id="0" name="Audio file">sonidoExposion</param>
+                    <param id="0" name="Audio file">3sonidoExposion</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -97,7 +97,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="360349560989859" type="Audio">
-                    <param id="0" name="Audio file">sonidoExposion</param>
+                    <param id="0" name="Audio file">3sonidoExposion</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -189,7 +189,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="404009751871552" type="Audio">
-                    <param id="0" name="Audio file">musicaViajeEspacial</param>
+                    <param id="0" name="Audio file">3musicaViajeEspacial</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
