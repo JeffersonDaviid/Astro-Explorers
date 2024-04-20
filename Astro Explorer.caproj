@@ -1662,7 +1662,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370919246554563" speed="0">
-                    <frame duration="1" hotspotX="0" hotspotY="0.555556" original-source="D:\stive\Pictures\SpaceShooter\PNG\Lasers\laserRed03.png">
+                    <frame duration="1" hotspotX="0" hotspotY="0.555556" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\laser.png">
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="0" y="0" />
@@ -1839,16 +1839,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653770519942941" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" original-source="C:\Users\jeffe\Downloads\7cd9c0e8c9cd203329e70d1629c16a75-removebg-preview.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.216667" original-source="C:\Users\jeffe\Downloads\7cd9c0e8c9cd203329e70d1629c16a75-removebg-preview.png">
                         <collision-poly>
-                            <point x="0.148438" y="0.148438" />
+                            <point x="0.149491" y="0" />
                             <point x="0.5" y="0" />
-                            <point x="0.851563" y="0.148438" />
-                            <point x="1" y="0.5" />
-                            <point x="0.859375" y="0.859375" />
-                            <point x="0.5" y="1" />
-                            <point x="0.148438" y="0.851563" />
-                            <point x="0" y="0.5" />
+                            <point x="0.85051" y="0" />
+                            <point x="0.998503" y="0.214583" />
+                            <point x="0.858299" y="0.776107" />
+                            <point x="0.5" y="0.995833" />
+                            <point x="0.149491" y="0.763901" />
+                            <point x="0.00149701" y="0.214583" />
                         </collision-poly>
                     </frame>
                 </animation>

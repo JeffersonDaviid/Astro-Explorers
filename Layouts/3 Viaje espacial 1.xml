@@ -135,18 +135,18 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Vertical</movement>
                                 <wave>Sine</wave>
-                                <period>120</period>
+                                <period>240</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>900</magnitude>
+                                <magnitude>1000</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="DestroyOutsideLayout" />
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>0.2</speed>
+                                <speed>0.1</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -167,14 +167,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>361</x>
-                        <y>346</y>
+                        <x>337</x>
+                        <y>339</y>
                         <z>0</z>
-                        <width>952</width>
-                        <height>577</height>
+                        <width>1026</width>
+                        <height>369</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501333356</hotspotY>
+                        <hotspotY>0.216666669</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -252,8 +252,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>847</x>
-                        <y>-31</y>
+                        <x>1591</x>
+                        <y>470</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
