@@ -4,8 +4,8 @@
     <sid>750083837942752</sid>
     <event-sheet>1 eventosMenu</event-sheet>
     <size>
-        <width>1805</width>
-        <height>1805</height>
+        <width>854</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="710049291511226">
+        <layer name="Bg" sid="138022027013650">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -768,7 +768,7 @@
                         <x>223</x>
                         <y>345</y>
                         <z>0</z>
-                        <width>341.128601074</width>
+                        <width>340</width>
                         <height>90</height>
                         <depth>0</depth>
                         <hotspotX>0.501018345</hotspotX>

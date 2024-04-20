@@ -170,6 +170,9 @@
                         <action id="-15" name="Set visible" sid="114553693503723" type="2botonDeViaje1">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="687768715970921" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="638816266520305">
@@ -204,6 +207,9 @@
                         <action id="-15" name="Set visible" sid="244588779089909" type="2botonDeViaje2">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="828312370212917" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="915129567594065">
@@ -237,6 +243,9 @@
                         </action>
                         <action id="-15" name="Set visible" sid="814749860076269" type="2botonDeViaje3">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="846423234515832" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -336,7 +345,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="289155953447436" type="System">
-                            <param id="0" name="Layout">3 Viaje espacial</param>
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -350,7 +359,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="781543372005642" type="System">
-                            <param id="0" name="Layout">3 Viaje espacial</param>
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -364,7 +373,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="749119182083453" type="System">
-                            <param id="0" name="Layout">3 Viaje espacial</param>
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
                         </action>
                     </actions>
                 </event-block>

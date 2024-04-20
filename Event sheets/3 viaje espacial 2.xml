@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>3 viaje espacial</name>
+    <name>3 viaje espacial 2</name>
     <events>
-        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship2</variable>
+        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship0</variable>
         <event-block sid="240638852678422">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="416360086052698" type="System" />
@@ -13,6 +13,9 @@
                     <param id="0" name="Animation">shipNumber</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="548796648509422" type="3player">
+                    <param id="0" name="State">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="428417622440669">
@@ -20,6 +23,10 @@
                 <condition id="-4" name="Is outside layout" sid="608545952391039" type="3player" />
             </conditions>
             <actions>
+                <action id="-9" name="Set value" sid="706258212635274" type="System">
+                    <param id="0" name="Variable">checkpoint_viajeEspacial</param>
+                    <param id="1" name="Value">1</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="807232915563666" type="System">
                     <param id="0" name="Layout">4 descensoCoheteAlPlaneta_Jupiter</param>
                 </action>
@@ -53,6 +60,16 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="812766557909844" type="Audio">
+                    <param id="0" name="Audio file">3sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-7" name="Set size" sid="132608130249362" type="3player">
+                    <param id="0" name="Width">250</param>
+                    <param id="1" name="Height">250</param>
+                </action>
                 <action id="4" name="Set animation" sid="780783638245468" type="3player">
                     <param id="0" name="Animation">&quot;Destroy&quot;</param>
                     <param id="1" name="From">1</param>
@@ -79,6 +96,16 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="360349560989859" type="Audio">
+                    <param id="0" name="Audio file">3sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-7" name="Set size" sid="848443588953092" type="3player">
+                    <param id="0" name="Width">250</param>
+                    <param id="1" name="Height">250</param>
+                </action>
                 <action id="4" name="Set animation" sid="235669654418577" type="3player">
                     <param id="0" name="Animation">&quot;Destroy&quot;</param>
                     <param id="1" name="From">1</param>
@@ -112,9 +139,6 @@
                 <action id="-2" name="Go to layout" sid="106244171219614" type="System">
                     <param id="0" name="Layout">3 Failed</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="673921347304798" type="System">
-                    <param id="0" name="Layout">3 Viaje espacial</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="491536230906611">
@@ -133,7 +157,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="582102848429366" type="System">
-                    <param id="0" name="Layout">3 Viaje espacial</param>
+                    <param id="0" name="Layout">3 Viaje espacial 2</param>
                 </action>
             </actions>
         </event-block>
@@ -157,6 +181,19 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="103832751837329" type="3meteoro_n" />
+            </actions>
+        </event-block>
+        <event-block sid="561150870163005">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="978115758189501" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="404009751871552" type="Audio">
+                    <param id="0" name="Audio file">3musicaViajeEspacial</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>

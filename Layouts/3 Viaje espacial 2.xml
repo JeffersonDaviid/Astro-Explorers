@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>3 Viaje espacial</name>
+    <name>3 Viaje espacial 2</name>
     <sid>750083837942752</sid>
-    <event-sheet>3 viaje espacial</event-sheet>
+    <event-sheet>3 viaje espacial 2</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -1591,16 +1591,11 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>100</max-speed>
-                                <acceleration>40</acceleration>
-                                <deceleration>20</deceleration>
+                                <acceleration>90</acceleration>
+                                <deceleration>80</deceleration>
                                 <directions>8 directions</directions>
                                 <set-angle>360 degree (smooth)</set-angle>
                                 <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Solid">
-                            <properties>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -1613,13 +1608,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>73</x>
-                        <y>557</y>
+                        <x>65.311302185</x>
+                        <y>558</y>
                         <z>0</z>
-                        <width>40</width>
-                        <height>40</height>
+                        <width>145</width>
+                        <height>60.000003815</height>
                         <depth>0</depth>
-                        <hotspotX>0.49859944</hotspotX>
+                        <hotspotX>0.499567837</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

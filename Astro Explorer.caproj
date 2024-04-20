@@ -34,6 +34,7 @@
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -1003,161 +1004,159 @@
                 <behavior-type name="8Direction" sid="619082154159884">
                     <behavior id="EightDir" />
                 </behavior-type>
-                <behavior-type name="Solid" sid="429837056066860">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="ScrollTo" sid="494909624948477">
+                <behavior-type name="ScrollTo" sid="921165961338874">
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="ship1" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
-                    <frame duration="1" hotspotX="0.498599" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
+                <animation framecount="1" loop="0" name="ship0" pingpong="0" repeatcount="1" repeatto="0" sid="978619963861164" speed="5">
+                    <frame duration="1" hotspotX="0.499568" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
+                        <image-point name="Disparador" x="0.994814" y="0.43295" />
                         <collision-poly>
-                            <point x="0.717087" y="0.369445" />
-                            <point x="0.994398" y="0.5" />
-                            <point x="0.705882" y="0.630556" />
-                            <point x="0.546219" y="0.630556" />
-                            <point x="0.187675" y="0.997222" />
-                            <point x="0" y="0.5" />
-                            <point x="0.187675" y="0.0055551" />
-                            <point x="0.557423" y="0.372223" />
+                            <point x="0.766638" y="0.226054" />
+                            <point x="0.948142" y="0.427203" />
+                            <point x="0.806396" y="0.590038" />
+                            <point x="0.624892" y="0.685823" />
+                            <point x="0.44166" y="0.829502" />
+                            <point x="0.436474" y="0.44636" />
+                            <point x="0.394987" y="0.143678" />
+                            <point x="0.595506" y="0.159004" />
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="1" loop="0" name="ship2" pingpong="0" repeatcount="1" repeatto="0" sid="181009861918245" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-clipart-spaceshipone-spaceshiptwo-sprite-spacecraft-cartoon-spaceship-spacecraft-vehicle-removebg-preview.png">
+                <animation framecount="1" loop="0" name="ship1" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
+                    <frame duration="1" hotspotX="0.498599" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
                         <collision-poly>
-                            <point x="0.712598" y="0.373239" />
-                            <point x="0.996063" y="0.5" />
-                            <point x="0.712598" y="0.626761" />
-                            <point x="0.5" y="0.800469" />
-                            <point x="0.204724" y="1" />
-                            <point x="0.00393701" y="0.5" />
-                            <point x="0.188976" y="0" />
-                            <point x="0.5" y="0.199531" />
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="ship2" pingpong="0" repeatcount="1" repeatto="0" sid="181009861918245" speed="10">
+                    <frame duration="1" hotspotX="0.501608" hotspotY="0.501683">
+                        <collision-poly>
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-1" hotspotY="-1">
+                        <collision-poly>
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="ship3" pingpong="0" repeatcount="1" repeatto="0" sid="721563552486066" speed="5">
                     <frame duration="1" hotspotX="0.524155" hotspotY="0.488584" original-source="C:\Users\jeffe\Downloads\pngtree-rocket-ship-png-png-image_11466771-removebg-preview.png">
                         <collision-poly>
-                            <point x="0.862318" y="0.324201" />
-                            <point x="1" y="0.598174" />
-                            <point x="0.847826" y="0.808219" />
-                            <point x="0.567633" y="0.780822" />
-                            <point x="0.118358" y="1" />
-                            <point x="0.246377" y="0.525114" />
-                            <point x="0.169082" y="0.00913242" />
-                            <point x="0.572464" y="0.260274" />
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="9" loop="0" name="Destroy" pingpong="0" repeatcount="1" repeatto="0" sid="552013653972963" speed="5">
-                    <frame duration="1" hotspotX="0.16" hotspotY="2.51" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                <animation framecount="3" loop="1" name="ship4" pingpong="0" repeatcount="1" repeatto="0" sid="802951778212654" speed="10">
+                    <frame duration="1" hotspotX="-1" hotspotY="-1">
                         <collision-poly>
-                            <point x="0.246667" y="0.8" />
-                            <point x="0.246667" y="0.8" />
-                            <point x="0.76" y="0.45" />
-                            <point x="0.76" y="0.8" />
-                            <point x="0.76" y="0.8" />
-                            <point x="0.246667" y="0.8" />
-                            <point x="0.246667" y="0.8" />
-                            <point x="0.246667" y="0.8" />
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1.62667" hotspotY="1.67" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                    <frame duration="1" hotspotX="-1" hotspotY="-1">
                         <collision-poly>
-                            <point x="0.666667" y="0.23" />
-                            <point x="0.873333" y="0.28" />
-                            <point x="0.873333" y="0.12" />
-                            <point x="0.873333" y="0.89" />
-                            <point x="0.873333" y="0.89" />
-                            <point x="0.873333" y="0.89" />
-                            <point x="0.333333" y="0.89" />
-                            <point x="0.16" y="0.89" />
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="-0.205" hotspotY="1.67333" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                    <frame duration="1" hotspotX="-1" hotspotY="-1">
                         <collision-poly>
-                            <point x="0.0933333" y="0.23" />
-                            <point x="0.0933333" y="0.28" />
-                            <point x="0.8" y="0.16" />
-                            <point x="0.906667" y="0.94" />
-                            <point x="0.453333" y="0.94" />
-                            <point x="0.0933333" y="0.94" />
-                            <point x="0.0933333" y="0.94" />
-                            <point x="0.0933333" y="0.94" />
+                            <point x="0.26045" y="0.272727" />
+                            <point x="0.29582" y="0.0202019" />
+                            <point x="0.659164" y="0.356902" />
+                            <point x="0.96463" y="0.498316" />
+                            <point x="0.652733" y="0.636364" />
+                            <point x="0.305466" y="0.973064" />
+                            <point x="0.26045" y="0.727273" />
+                            <point x="0.192926" y="0.498316" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.688" hotspotY="0.71" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
+                </animation>
+                <animation framecount="33" loop="0" name="Destroy" pingpong="0" repeatcount="1" repeatto="0" sid="552013653972963" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0.0466667" y="0.04" />
-                            <point x="0.686667" y="0.04" />
-                            <point x="0.96" y="0.04" />
-                            <point x="0.96" y="0.71" />
-                            <point x="0.96" y="0.96" />
-                            <point x="0.686667" y="0.96" />
-                            <point x="0.0466667" y="0.96" />
-                            <point x="0.0466667" y="0.71" />
+                            <point x="0.4525" y="0.3675" />
+                            <point x="0.5475" y="0.37" />
+                            <point x="0.5375" y="0.4575" />
+                            <point x="0.46" y="0.45" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="-0.266667" hotspotY="0.72" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
-                        <collision-poly>
-                            <point x="0.0266667" y="0.04" />
-                            <point x="0.0266667" y="0.04" />
-                            <point x="0.973333" y="0.04" />
-                            <point x="0.866667" y="0.72" />
-                            <point x="0.393333" y="0.97" />
-                            <point x="0.0266667" y="0.97" />
-                            <point x="0.0266667" y="0.97" />
-                            <point x="0.0266667" y="0.72" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="1.67333" hotspotY="-0.17" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
-                        <collision-poly>
-                            <point x="0.713333" y="0.08" />
-                            <point x="0.92" y="0.08" />
-                            <point x="0.92" y="0.08" />
-                            <point x="0.92" y="0.08" />
-                            <point x="0.92" y="0.82" />
-                            <point x="0.92" y="0.92" />
-                            <point x="0.38" y="0.92" />
-                            <point x="0.206667" y="0.08" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.746667" hotspotY="-0.18" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
-                        <collision-poly>
-                            <point x="0.113333" y="0.03" />
-                            <point x="0.746667" y="0.03" />
-                            <point x="0.886667" y="0.03" />
-                            <point x="0.886667" y="0.03" />
-                            <point x="0.886667" y="0.81" />
-                            <point x="0.746667" y="0.98" />
-                            <point x="0.113333" y="0.98" />
-                            <point x="0.113333" y="0.03" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="-0.146667" hotspotY="-0.26" original-source="C:\Users\jeffe\Downloads\explosion_sheet_comparison1-removebg-preview.png">
-                        <collision-poly>
-                            <point x="0.106667" y="0.05" />
-                            <point x="0.106667" y="0.05" />
-                            <point x="0.893333" y="0.05" />
-                            <point x="0.893333" y="0.05" />
-                            <point x="0.513333" y="0.73" />
-                            <point x="0.106667" y="0.96" />
-                            <point x="0.106667" y="0.96" />
-                            <point x="0.106667" y="0.05" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.51">
-                        <collision-poly>
-                            <point x="0.106667" y="0.05" />
-                            <point x="0.893333" y="0.05" />
-                            <point x="0.893333" y="0.96" />
-                            <point x="0.106667" y="0.96" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1832,36 +1831,425 @@
         <object-type name="Audio" sid="203814363784446">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="1AstroExplorerText" sid="837391059446009">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="3MeteoroMarron" sid="722687070510314">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="951535923107518">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="158672247399275">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136954329546491" speed="0">
+                    <frame duration="1" hotspotX="0.503333" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe1.png">
+                        <collision-poly>
+                            <point x="0.173267" y="0.0119048" />
+                            <point x="0.722772" y="0.00595216" />
+                            <point x="1" y="0.488095" />
+                            <point x="0.826732" y="0.880952" />
+                            <point x="0.59406" y="0.821429" />
+                            <point x="0.287129" y="0.976191" />
+                            <point x="0.00990102" y="0.613095" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe2.png">
+                        <collision-poly>
+                            <point x="0.166666" y="0.0867344" />
+                            <point x="0.5625" y="0.0102041" />
+                            <point x="0.991666" y="0.198979" />
+                            <point x="0.891667" y="0.683673" />
+                            <point x="0.425" y="0.826531" />
+                            <point x="0.279167" y="0.984694" />
+                            <point x="0.0541667" y="0.765306" />
+                            <point x="0.0125" y="0.438776" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe3.png">
+                        <collision-poly>
+                            <point x="0.0112356" y="0.280488" />
+                            <point x="0.382022" y="0.00609756" />
+                            <point x="0.825843" y="0.152439" />
+                            <point x="0.994382" y="0.506098" />
+                            <point x="0.735955" y="1" />
+                            <point x="0.202247" y="0.914635" />
+                            <point x="0.016854" y="0.646341" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroCafe4.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.145833" />
+                            <point x="0.668367" y="0.0104167" />
+                            <point x="1" y="0.375" />
+                            <point x="0.821429" y="0.921875" />
+                            <point x="0.301021" y="0.973958" />
+                            <point x="0.00510204" y="0.59375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3PartShip" sid="912411337305178">
+            <plugin id="Particles" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
+        </object-type>
+        <object-type name="3PlayerBullet" sid="105649821797500">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="272506843283876">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370919246554563" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0.555556" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\laser.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3PartMeteoroMarron" sid="268516298535799">
+            <plugin id="Particles" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorBrown_tiny2.png" />
+        </object-type>
+        <object-type name="3ScoreText" sid="777002912558071">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="3bg_shooter" sid="654948922906842">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Sine" sid="451869207896815">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\HP\OneDrive\Escritorio\Desarrollo Videojuego\AtroExplorer\vertical-night-sky.jpg" />
+        </object-type>
+        <object-type name="3MeteoroGris" sid="931237202020321">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Resistance" sid="537314110347079" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Rotate" sid="367560881418858">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="112218028795828">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677931982070040" speed="0">
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_1.png">
+                        <collision-poly>
+                            <point x="0.173267" y="0.0119048" />
+                            <point x="0.722772" y="0.00595216" />
+                            <point x="1" y="0.488095" />
+                            <point x="0.826732" y="0.880952" />
+                            <point x="0.59406" y="0.821429" />
+                            <point x="0.287129" y="0.976191" />
+                            <point x="0.00990102" y="0.613095" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_2.png">
+                        <collision-poly>
+                            <point x="0.166666" y="0.0867344" />
+                            <point x="0.5625" y="0.0102041" />
+                            <point x="0.991666" y="0.198979" />
+                            <point x="0.891667" y="0.683673" />
+                            <point x="0.425" y="0.826531" />
+                            <point x="0.279167" y="0.984694" />
+                            <point x="0.0541667" y="0.765306" />
+                            <point x="0.0125" y="0.438776" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_3.png">
+                        <collision-poly>
+                            <point x="0.0112356" y="0.280488" />
+                            <point x="0.382022" y="0.00609756" />
+                            <point x="0.825843" y="0.152439" />
+                            <point x="0.994382" y="0.506098" />
+                            <point x="0.735955" y="1" />
+                            <point x="0.202247" y="0.914635" />
+                            <point x="0.016854" y="0.646341" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\roca_espaciales_4.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.145833" />
+                            <point x="0.668367" y="0.0104167" />
+                            <point x="1" y="0.375" />
+                            <point x="0.821429" y="0.921875" />
+                            <point x="0.301021" y="0.973958" />
+                            <point x="0.00510204" y="0.59375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3MeteoroPurpura" sid="922530030543461">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Resistance" sid="719296909614006" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Rotate" sid="670726728330237">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="542898809292380">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149848308030457" speed="0">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura1.png">
+                        <collision-poly>
+                            <point x="0.173267" y="0.0119048" />
+                            <point x="0.722772" y="0.00595216" />
+                            <point x="1" y="0.488095" />
+                            <point x="0.826732" y="0.880952" />
+                            <point x="0.59406" y="0.821429" />
+                            <point x="0.287129" y="0.976191" />
+                            <point x="0.00990102" y="0.613095" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura2.png">
+                        <collision-poly>
+                            <point x="0.166666" y="0.0867344" />
+                            <point x="0.5625" y="0.0102041" />
+                            <point x="0.991666" y="0.198979" />
+                            <point x="0.891667" y="0.683673" />
+                            <point x="0.425" y="0.826531" />
+                            <point x="0.279167" y="0.984694" />
+                            <point x="0.0541667" y="0.765306" />
+                            <point x="0.0125" y="0.438776" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura3.png">
+                        <collision-poly>
+                            <point x="0.0112356" y="0.280488" />
+                            <point x="0.382022" y="0.00609756" />
+                            <point x="0.825843" y="0.152439" />
+                            <point x="0.994382" y="0.506098" />
+                            <point x="0.735955" y="1" />
+                            <point x="0.202247" y="0.914635" />
+                            <point x="0.016854" y="0.646341" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Downloads\VIAJE ESPACIAL\3MeteoroPurpura4.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.145833" />
+                            <point x="0.668367" y="0.0104167" />
+                            <point x="1" y="0.375" />
+                            <point x="0.821429" y="0.921875" />
+                            <point x="0.301021" y="0.973958" />
+                            <point x="0.00510204" y="0.59375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3PartMeteoroGris" sid="962249356895247">
+            <plugin id="Particles" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
+        </object-type>
+        <object-type name="3PartMeteoroPurpura" sid="563477282152262">
+            <plugin id="Particles" />
+            <texture original-source="D:\stive\Pictures\SpaceShooter\PNG\Meteors\meteorGrey_tiny2.png" />
+        </object-type>
+        <object-type name="3Earth" sid="454758944891178">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="340266713146892">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="315688331832619">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="422162278230930">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="138485945104974">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653770519942941" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.216667" original-source="C:\Users\jeffe\Downloads\7cd9c0e8c9cd203329e70d1629c16a75-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.149491" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85051" y="0" />
+                            <point x="0.998503" y="0.214583" />
+                            <point x="0.858299" y="0.776107" />
+                            <point x="0.5" y="0.995833" />
+                            <point x="0.149491" y="0.763901" />
+                            <point x="0.00149701" y="0.214583" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3satelite" sid="900329197690537">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="675976941773866">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="355928243578920">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="606742175330151">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253864152442604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_6.png">
+                        <collision-poly>
+                            <point x="0.205" y="0.205" />
+                            <point x="0.5" y="0.205" />
+                            <point x="0.66" y="0.34" />
+                            <point x="1" y="0.5" />
+                            <point x="0.92" y="0.92" />
+                            <point x="0.5" y="0.61" />
+                            <point x="0.405" y="0.595" />
+                            <point x="0.055" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3cometa" sid="182971798325598">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="513612806408842">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759793845918870" speed="5">
+                    <frame duration="1" hotspotX="0.62" hotspotY="0.28" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_4.png">
+                        <collision-poly>
+                            <point x="0.05" y="0.05" />
+                            <point x="0.5" y="0.11" />
+                            <point x="0.7" y="0.3" />
+                            <point x="0.825" y="0.5" />
+                            <point x="0.395" y="0.395" />
+                            <point x="0.5" y="0.45" />
+                            <point x="0.53" y="0.47" />
+                            <point x="0.62" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.62" hotspotY="0.72">
+                        <collision-poly>
+                            <point x="0.62" y="0.5" />
+                            <point x="0.53" y="0.53" />
+                            <point x="0.5" y="0.55" />
+                            <point x="0.395" y="0.605" />
+                            <point x="0.825" y="0.5" />
+                            <point x="0.7" y="0.7" />
+                            <point x="0.5" y="0.89" />
+                            <point x="0.05" y="0.95" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3ufo" sid="181168762571313">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="847894385956402">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="657693699701496">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="539859176453120">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="659955842115208">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238462431651721" speed="5">
+                    <frame duration="1" hotspotX="0.532738" hotspotY="0.287253" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_3.png">
+                        <collision-poly>
+                            <point x="0.0372024" y="0.0448833" />
+                            <point x="0.5" y="0.0359066" />
+                            <point x="0.782738" y="0.262118" />
+                            <point x="0.901786" y="0.499102" />
+                            <point x="0.684524" y="0.61939" />
+                            <point x="0.5" y="0.737881" />
+                            <point x="0.291667" y="0.648115" />
+                            <point x="0.21875" y="0.499102" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3rocas" sid="434949550498316">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913740158078026" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_1.png">
+                        <collision-poly>
+                            <point x="0.24" y="0.24" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.575" y="0.425" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.74" y="0.74" />
+                            <point x="0.5" y="0.92" />
+                            <point x="0.19" y="0.81" />
+                            <point x="0.11" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>1 background.xml</layout>
         <layout>2 menuSeleccionDePlaneta.xml</layout>
-        <layout>3 Viaje espacial.xml</layout>
+        <layout>3 Viaje espacial 2.xml</layout>
+        <layout>3 Viaje espacial 1.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta_Jupiter.xml</layout>
         <layout>4 Escena PlayAgain.xml</layout>
         <layout>5 recargarCombustible .xml</layout>
+        <layout>Sprites.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1 eventosMenu.xml</event-sheet>
         <event-sheet>2 eventosMenuSeleccionDePlaneta.xml</event-sheet>
         <event-sheet>2 eventosJuegoTest.xml</event-sheet>
         <event-sheet>2 eventosGameOver.xml</event-sheet>
-        <event-sheet>3 viaje espacial.xml</event-sheet>
+        <event-sheet>3 viaje espacial 2.xml</event-sheet>
         <event-sheet>4 descensoCoheteAlPlaneta.xml</event-sheet>
         <event-sheet>4 PlayAgain.xml</event-sheet>
         <event-sheet>5 recargarCombustible.xml</event-sheet>
+        <event-sheet>3 viaje espacial 1.xml</event-sheet>
+        <event-sheet>3 Failed.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="136" />
-        <global-instance type="Mouse" uid="137" />
-        <global-instance type="Touch" uid="138">
+        <global-instance type="Keyboard" uid="138" />
+        <global-instance type="Mouse" uid="139" />
+        <global-instance type="Touch" uid="144">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="48">
+        <global-instance type="Audio" uid="150">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -1876,8 +2264,13 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="3sfxExplosion.ogg" />
+        <file name="3sfxLaser.ogg" />
+    </sounds-folder>
     <music-folder>
+        <file name="3musicaViajeEspacial.ogg" />
+        <file name="3sonidoExposion.ogg">
         <file name="793443_Universal-Collapse.m4a" />
         <file name="793443_Universal-Collapse.ogg" />
     </music-folder>
