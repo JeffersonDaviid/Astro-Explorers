@@ -66,13 +66,13 @@
     <object-folder>
         <object-type name="1TiledBackground" sid="860893517557780">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\outer-space-6988255_960_720.jpg" />
+            <texture original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\FondoFinal.png" />
         </object-type>
         <object-type name="1z" sid="127399095591443">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="5">
-                    <frame duration="1" hotspotX="0.48" hotspotY="0.4" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\nave.png">
+                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="10">
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete1.png">
                         <collision-poly>
                             <point x="0.4" y="0.333333" />
                             <point x="0.5" y="0.0333333" />
@@ -84,6 +84,69 @@
                             <point x="0.21" y="0.5" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.502604" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete2.png">
+                        <collision-poly>
+                            <point x="0.453704" y="0.255208" />
+                            <point x="0.5" y="0.274479" />
+                            <point x="0.50463" y="0.278646" />
+                            <point x="0.653704" y="0.5" />
+                            <point x="0.588889" y="0.76875" />
+                            <point x="0.5" y="0.963021" />
+                            <point x="0.355556" y="0.8" />
+                            <point x="0.258333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
+                        <collision-poly>
+                            <point x="0.453704" y="0.255208" />
+                            <point x="0.5" y="0.274479" />
+                            <point x="0.50463" y="0.278646" />
+                            <point x="0.653704" y="0.5" />
+                            <point x="0.588889" y="0.76875" />
+                            <point x="0.5" y="0.969271" />
+                            <point x="0.355556" y="0.8" />
+                            <point x="0.258333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.502604" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete4.png">
+                        <collision-poly>
+                            <point x="0.453704" y="0.255208" />
+                            <point x="0.5" y="0.274479" />
+                            <point x="0.50463" y="0.278646" />
+                            <point x="0.653704" y="0.5" />
+                            <point x="0.588889" y="0.76875" />
+                            <point x="0.5" y="0.984375" />
+                            <point x="0.337963" y="0.809896" />
+                            <point x="0.258333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete5.png">
+                        <collision-poly>
+                            <point x="0.453704" y="0.255208" />
+                            <point x="0.5" y="0.274479" />
+                            <point x="0.50463" y="0.278646" />
+                            <point x="0.653704" y="0.5" />
+                            <point x="0.588889" y="0.76875" />
+                            <point x="0.5" y="0.963021" />
+                            <point x="0.355556" y="0.8" />
+                            <point x="0.258333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.502604" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
+                        <collision-poly>
+                            <point x="0.453704" y="0.255208" />
+                            <point x="0.5" y="0.274479" />
+                            <point x="0.50463" y="0.278646" />
+                            <point x="0.653704" y="0.5" />
+                            <point x="0.588889" y="0.76875" />
+                            <point x="0.5" y="0.969271" />
+                            <point x="0.355556" y="0.8" />
+                            <point x="0.258333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation1" pingpong="0" repeatcount="1" repeatto="0" sid="772882351959058" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -99,7 +162,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973594785539211" speed="5">
-                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Escritorio\aries.png">
+                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\aries.png">
                         <collision-poly>
                             <point x="0.106383" y="0.212264" />
                             <point x="0.251064" y="0.278302" />
@@ -198,6 +261,8 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="interact" sid="583352205667943" type="boolean" />
+                <instance-variable name="opacidad" sid="329607600047491" type="number" />
+                <instance-variable name="subirOpacidad" sid="900401199610449" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Fade" sid="426807530869372">
@@ -226,11 +291,6 @@
             <instance-variables>
                 <instance-variable name="interact" sid="848315872932183" type="boolean" />
             </instance-variables>
-            <behaviors>
-                <behavior-type name="Fade" sid="437990228913516">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549283399189165" speed="5">
                     <frame duration="1" hotspotX="0.501266" hotspotY="0.501718" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\andromeda.png">
@@ -584,7 +644,13 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341458606819875" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\contenedor.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\contenedorfinalfinal.png">
+                        <collision-poly>
+                            <point x="0.0729412" y="0.129167" />
+                            <point x="0.958824" y="0.927083" />
+                            <point x="0.410588" y="0.272917" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1657,6 +1723,35 @@
                             <point x="0.0875" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1control" sid="247107874702134">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="826318539935158">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640813283209008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1control2" sid="836896528396205">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="arriba" sid="921139759837082" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Sine" sid="283105913084517">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958264926785984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
