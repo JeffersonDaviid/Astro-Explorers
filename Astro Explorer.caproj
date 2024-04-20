@@ -17,7 +17,6 @@
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
@@ -1669,28 +1668,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="600447317997999">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492162667454574" speed="5">
-                    <frame duration="1" hotspotX="0.506849" hotspotY="0.506329" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\DESCANSO CON COHETE AL PLANETA\DESCANSO CON COHETE AL PLANETA\estacion_combustible.png">
-                        <collision-poly>
-                            <point x="0.123288" y="0.113924" />
-                            <point x="0.493151" y="0.0506329" />
-                            <point x="0.863014" y="0.126582" />
-                            <point x="0.986301" y="0.493671" />
-                            <point x="0.917808" y="0.924051" />
-                            <point x="0.493151" y="1" />
-                            <point x="0.0958904" y="0.911392" />
-                            <point x="0" y="0.493671" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TextBox" sid="813252635748341">
-            <plugin id="TextBox" />
-        </object-type>
         <object-type name="5exit" sid="723182002326117">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1724,10 +1701,6 @@
         </object-type>
         <object-type name="5cuadro_inf_pg2" sid="785017302556282">
             <plugin id="Text" />
-        </object-type>
-        <object-type name="Particles" sid="750294163493252">
-            <plugin id="Particles" />
-            <texture />
         </object-type>
         <object-type name="2Fondo" sid="521774446889663">
             <plugin id="Sprite" />
