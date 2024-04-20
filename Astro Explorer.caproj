@@ -2270,7 +2270,7 @@
     </sounds-folder>
     <music-folder>
         <file name="3musicaViajeEspacial.ogg" />
-        <file name="3sonidoExposion.ogg">
+        <file name="3sonidoExposion.ogg"/>
         <file name="793443_Universal-Collapse.m4a" />
         <file name="793443_Universal-Collapse.ogg" />
     </music-folder>
