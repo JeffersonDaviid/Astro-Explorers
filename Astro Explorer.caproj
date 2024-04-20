@@ -1558,7 +1558,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689343651280004" speed="5">
-                    <frame duration="1" hotspotX="0.471787" hotspotY="0.805732" original-source="D:\Users\Camila\Pictures\play.png">
+                    <frame duration="1" hotspotX="0.47" hotspotY="0.8" original-source="C:\Users\reneg\Downloads\imagenesAsEx\imagenesAsEx\botonPlay.png">
                         <collision-poly>
                             <point x="0.0768025" y="0.00318471" />
                             <point x="0.866771" y="0.00318471" />
@@ -1607,7 +1607,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112414691725842" speed="5">
-                    <frame duration="1" hotspotX="0.471787" hotspotY="0.805732" original-source="D:\Users\Camila\Pictures\play.png">
+                    <frame duration="1" hotspotX="0.47" hotspotY="0.8" original-source="C:\Users\reneg\Downloads\imagenesAsEx\imagenesAsEx\botonNuevoViaje.png">
                         <collision-poly>
                             <point x="0.0768025" y="0.00318471" />
                             <point x="0.866771" y="0.00318471" />
