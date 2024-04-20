@@ -146,7 +146,7 @@
                         <behavior-instance type="DestroyOutsideLayout" />
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>6</speed>
+                                <speed>0.2</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -167,14 +167,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>421</x>
-                        <y>706</y>
+                        <x>361</x>
+                        <y>346</y>
                         <z>0</z>
-                        <width>900</width>
-                        <height>900</height>
+                        <width>952</width>
+                        <height>577</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.501333356</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -252,8 +252,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>827</x>
-                        <y>17</y>
+                        <x>847</x>
+                        <y>-31</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -274,7 +274,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>-100</speed>
+                                <speed>-75</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -314,6 +314,28 @@
                         <depth>0</depth>
                         <hotspotX>0.53273809</hotspotX>
                         <hotspotY>0.287253141</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3rocas" uid="157">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1598</x>
+                        <y>682</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

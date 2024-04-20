@@ -1587,25 +1587,6 @@
         <object-type name="Audio" sid="633846001100830">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="Sprite" sid="642944294948040">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884230758398930" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\stive\Pictures\prueba\playership1.png">
-                        <collision-poly>
-                            <point x="0.383333" y="0.383333" />
-                            <point x="0.5" y="0.131667" />
-                            <point x="0.616667" y="0.383333" />
-                            <point x="0.86" y="0.5" />
-                            <point x="0.636667" y="0.636667" />
-                            <point x="0.5" y="0.846667" />
-                            <point x="0.363333" y="0.636667" />
-                            <point x="0.14" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="1AstroExplorerText" sid="837391059446009">
             <plugin id="Text" />
         </object-type>
@@ -1858,7 +1839,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653770519942941" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\ESCOJER EL PLANETA DE VIAJE\jupiter.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" original-source="C:\Users\jeffe\Downloads\7cd9c0e8c9cd203329e70d1629c16a75-removebg-preview.png">
                         <collision-poly>
                             <point x="0.148438" y="0.148438" />
                             <point x="0.5" y="0" />
@@ -1911,7 +1892,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759793845918870" speed="5">
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759793845918870" speed="5">
                     <frame duration="1" hotspotX="0.62" hotspotY="0.28" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_4.png">
                         <collision-poly>
                             <point x="0.05" y="0.05" />
@@ -1922,6 +1903,18 @@
                             <point x="0.5" y="0.45" />
                             <point x="0.53" y="0.47" />
                             <point x="0.62" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.62" hotspotY="0.72">
+                        <collision-poly>
+                            <point x="0.62" y="0.5" />
+                            <point x="0.53" y="0.53" />
+                            <point x="0.5" y="0.55" />
+                            <point x="0.395" y="0.605" />
+                            <point x="0.825" y="0.5" />
+                            <point x="0.7" y="0.7" />
+                            <point x="0.5" y="0.89" />
+                            <point x="0.05" y="0.95" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1955,6 +1948,25 @@
                             <point x="0.5" y="0.737881" />
                             <point x="0.291667" y="0.648115" />
                             <point x="0.21875" y="0.499102" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3rocas" sid="434949550498316">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913740158078026" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_1.png">
+                        <collision-poly>
+                            <point x="0.24" y="0.24" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.575" y="0.425" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.74" y="0.74" />
+                            <point x="0.5" y="0.92" />
+                            <point x="0.19" y="0.81" />
+                            <point x="0.11" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
