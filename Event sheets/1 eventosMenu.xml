@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>1 eventosMenu</name>
+    <events>
+        <event-block sid="872829519439262">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="327536108121511" type="Mouse">
+                    <param id="0" name="Object">1nueva</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="524038704081114" type="1nueva">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="0" name="Play" sid="435457575950546" type="Audio">
+                    <param id="0" name="Audio file">2Miscelaneo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="735766367807426">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="203030575521296" type="Mouse">
+                    <param id="0" name="Object">1cargar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="594964974694955" type="1cargar">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="0" name="Play" sid="640918083409822" type="Audio">
+                    <param id="0" name="Audio file">2Miscelaneo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="198735970607290">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="384485812211119" type="Mouse">
+                    <param id="0" name="Object">1nueva</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="583613287229440" type="Mouse">
+                    <param id="0" name="Object">1cargar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="469464423488580" type="1nueva">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="560338898851973" type="1cargar">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="831139702444991">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="852722712285963" type="System">
+                    <param id="0" name="Interval (seconds)">0.05</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="715448602046436" type="1pegaso">
+                    <param id="0" name="Instance variable">opacidad</param>
+                    <param id="1" name="Value">300-1control2.Y </param>
+                </action>
+                <action id="-16" name="Set opacity" sid="275859503624989" type="1pegaso">
+                    <param id="0" name="Opacity">1pegaso.Opacity+1pegaso.opacidad</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="403461727284361" type="1Andromeda">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="909345211507399" type="1aries">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="180814527242428" type="1ballena">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="313107885082460" type="1boyero">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="756690532558184" type="1cancer">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="237787848611883" type="1casiopea">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="537139211558159" type="1cefeo">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="113218512462694" type="1cisne">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="938966996450649" type="1cochero">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="854321335691399" type="1corona">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="944390175843269" type="1dragon">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="339425626109851" type="1geminis">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="535301926654717" type="1leon">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="548403832260458" type="1osaMayor">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="265063917766116" type="1osaMenor">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="427157273990024" type="1perseo">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="330642787510432" type="1tauro">
+                    <param id="0" name="Opacity">1pegaso.Opacity</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="674144219471436">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="491158680862671" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">1nueva</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="731732313488707" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="114084767059597" type="1nueva" />
+            </actions>
+        </event-block>
+        <event-block sid="154259673477107">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="485415810381491" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">1cargar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="558959957983014" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="573651507495724" type="1cargar" />
+            </actions>
+        </event-block>
+        <event-block sid="593079026828538">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="438776922276014" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="288391612527200" type="1nueva">
+                    <param id="0" name="Pin to">1contenedor</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="779550812166019" type="1cargar">
+                    <param id="0" name="Pin to">1contenedor</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="736981919379881" type="1z">
+                    <param id="0" name="Pin to">1contenedor</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

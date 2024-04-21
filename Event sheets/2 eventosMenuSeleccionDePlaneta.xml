@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>2 eventosMenuSeleccionDePlaneta</name>
+    <events>
+        <variable constant="0" name="PlanetaSeleccionado" sid="208686867563334" static="0" type="number">0</variable>
+        <variable comment="Puntaje" constant="0" name="Score" sid="977460344515282" static="0" type="number">0</variable>
+        <variable constant="1" name="radioPlaneta" sid="500038863049368" static="0" type="number">100</variable>
+        <variable constant="0" name="radioMaximo" sid="974161023167693" static="0" type="number">0</variable>
+        <event-group description="" sid="623221738418023" title="setLayout">
+            <sub-events>
+                <event-block sid="528213687336712">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="558380430179305" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="518454642623784" type="System">
+                            <param id="0" name="Variable">radioMaximo</param>
+                            <param id="1" name="Value">sqrt((WindowHeight^2) + (WindowWidth^2))</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="499755730879751" type="2Venus">
+                            <param id="0" name="Pin to">2rotador</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="701235384120138" type="2Venus">
+                            <param id="0" name="Instance variable">radioActual</param>
+                            <param id="1" name="Value">sqrt((2Venus.X^2) + (2Venus.Y^2))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="492265936927551" type="2Venus">
+                            <param id="0" name="Instance variable">posX</param>
+                            <param id="1" name="Value">2Venus.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="752694886631225" type="2Venus">
+                            <param id="0" name="Instance variable">posY</param>
+                            <param id="1" name="Value">2Venus.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="256179948182096" type="2Jupiter">
+                            <param id="0" name="Pin to">2rotador2</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="110569832442157" type="2Jupiter">
+                            <param id="0" name="Instance variable">radioActual</param>
+                            <param id="1" name="Value">sqrt((2Jupiter.X^2) + (2Jupiter.Y^2))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="442012422272956" type="2Jupiter">
+                            <param id="0" name="Instance variable">posX</param>
+                            <param id="1" name="Value">2Jupiter.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="488287799263485" type="2Jupiter">
+                            <param id="0" name="Instance variable">posY</param>
+                            <param id="1" name="Value">2Jupiter.Y</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="905443112796082" type="2Saturno">
+                            <param id="0" name="Pin to">2Sol</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="705271152291635" type="2Saturno">
+                            <param id="0" name="Instance variable">radioActual</param>
+                            <param id="1" name="Value">sqrt((2Saturno.X^2) + (2Saturno.Y^2))</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="562701502263866" type="2Saturno">
+                            <param id="0" name="Instance variable">posX</param>
+                            <param id="1" name="Value">2Saturno.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="338372368427496" type="2Saturno">
+                            <param id="0" name="Instance variable">posY</param>
+                            <param id="1" name="Value">2Saturno.Y</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="169165167173975" type="2rotador">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="278165180478373" type="2rotador2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="976595196742228" type="Audio">
+                            <param id="0" name="Audio file">2Universal-CollapseP1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-20</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="352727353963201" title="crearMeteoritos">
+            <sub-events>
+                <event-block sid="264227287743207">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="832774178598740" type="System">
+                            <param id="0" name="Interval (seconds)">random(0, 10)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="418227821659007" type="System">
+                            <param id="0" name="Object to create">2meteoritosPuntajeExtra</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">random(0,850)</param>
+                            <param id="3" name="Y">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="608314001930108">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="381054538128912" type="2meteoritosPuntajeExtra" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="794548453973716" type="2meteoritosPuntajeExtra">
+                                    <param id="0" name="Animation">&quot;2AnimacionMeteorito&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="279457961149581" title="setVelocidadDeRotacionInicial">
+            <sub-events>
+                <event-block sid="655588115897097">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="242054269907851" type="2Venus" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="249356066677491" type="2rotador">
+                            <param id="0" name="Speed">(radioMaximo/sqrt(((2Venus.X)^2) + (WindowHeight-2Venus.Y)^2))^2</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="355330094716223" type="2rotador2">
+                            <param id="0" name="Speed">(radioMaximo/sqrt(((2Jupiter.X)^2) + (WindowHeight-2Jupiter.Y)^2))^2</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="659247772829050" type="2Sol">
+                            <param id="0" name="Speed">(radioMaximo/sqrt(((2Saturno.X)^2) + (WindowHeight-2Saturno.Y)^2))^2</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="103061115639407" type="2Venus">
+                            <param id="0" name="Speed">2Venus.radioActual*360/radioMaximo</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="736516879870178" type="2Jupiter">
+                            <param id="0" name="Speed">2Jupiter.radioActual*360/radioMaximo</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="532343929465041" type="2Saturno">
+                            <param id="0" name="Speed">2Saturno.radioActual*360/radioMaximo</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="920918365937433" title="selectPlanets">
+            <sub-events>
+                <event-block sid="540230873059957">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="564569338142866" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2Venus</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="516083873541921" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
+                        <action id="9" name="Set scale" sid="936355183183349" type="2Venus">
+                            <param id="0" name="Scale">1.25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="827373537347950" type="2Venus">
+                            <param id="0" name="X">2Venus.posX</param>
+                            <param id="1" name="Y">2Venus.posY</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="757758583846283" type="2planeta1Text">
+                            <param id="0" name="X">500</param>
+                            <param id="1" name="Y">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="392307470592521" type="2infoP1">
+                            <param id="0" name="X">500</param>
+                            <param id="1" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="741289082314218" type="2botonDeViaje1">
+                            <param id="0" name="X">2Venus.X</param>
+                            <param id="1" name="Y">2Venus.Y+200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonDeViaje1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="638816266520305">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="267123597632897" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2Jupiter</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="2Jupiter" />
+                        <action id="9" name="Set scale" sid="824184381756495" type="2Jupiter">
+                            <param id="0" name="Scale">1.25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="649706687893882" type="2Jupiter">
+                            <param id="0" name="X">2Jupiter.posX</param>
+                            <param id="1" name="Y">2Jupiter.posY</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="975176587932474" type="2planeta2Text">
+                            <param id="0" name="X">100</param>
+                            <param id="1" name="Y">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="124168772803080" type="2infoP2">
+                            <param id="0" name="X">700</param>
+                            <param id="1" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="568388261226013" type="2botonDeViaje2">
+                            <param id="0" name="X">2Jupiter.X</param>
+                            <param id="1" name="Y">2Jupiter.Y+200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonDeViaje2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="507618454601227" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="915129567594065">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="885129649429650" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2Saturno</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="2Saturno" />
+                        <action id="9" name="Set scale" sid="443107293793672" type="2Saturno">
+                            <param id="0" name="Scale">1.25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="492115366636054" type="2Saturno">
+                            <param id="0" name="X">2Saturno.posX</param>
+                            <param id="1" name="Y">2Saturno.posY</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="760749806860707" type="2planeta3Text">
+                            <param id="0" name="X">200</param>
+                            <param id="1" name="Y">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="306229164902357" type="2infoP3">
+                            <param id="0" name="X">200</param>
+                            <param id="1" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="179083884103279" type="2botonDeViaje3">
+                            <param id="0" name="X">2Saturno.X</param>
+                            <param id="1" name="Y">2Saturno.Y+200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonDeViaje3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="236904979204375" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="677363542243028">
+                    <conditions>
+                        <condition id="0" name="On click" sid="147070177495889" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="485642135440311" type="Audio">
+                            <param id="0" name="Audio file">2Miscelaneo</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="786311961779639" type="2Venus">
+                            <param id="0" name="Width">radioPlaneta</param>
+                            <param id="1" name="Height">radioPlaneta</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="327438490068009" type="2Venus">
+                            <param id="0" name="Pin to">2rotador</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="936756182626224" type="2Jupiter">
+                            <param id="0" name="Width">radioPlaneta</param>
+                            <param id="1" name="Height">radioPlaneta</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="879254195896482" type="2Jupiter">
+                            <param id="0" name="Pin to">2rotador2</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="329585123544089" type="2Saturno">
+                            <param id="0" name="Width">radioPlaneta</param>
+                            <param id="1" name="Height">radioPlaneta</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="124065258645390" type="2Saturno">
+                            <param id="0" name="Pin to">2Sol</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="796986789584790" type="2planeta1Text">
+                            <param id="0" name="X">900</param>
+                            <param id="1" name="Y">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="282682349710349" type="2infoP1">
+                            <param id="0" name="X">900</param>
+                            <param id="1" name="Y">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="385703236399202" type="2planeta2Text">
+                            <param id="0" name="X">999</param>
+                            <param id="1" name="Y">999</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="988619058842724" type="2infoP2">
+                            <param id="0" name="X">999</param>
+                            <param id="1" name="Y">999</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="692211406410586" type="2planeta3Text">
+                            <param id="0" name="X">999</param>
+                            <param id="1" name="Y">999</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="484420602186446" type="2infoP3">
+                            <param id="0" name="X">999</param>
+                            <param id="1" name="Y">999</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="877838950936566" type="2botonDeViaje1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="728643418712765" type="2botonDeViaje2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="155089678462042" type="2botonDeViaje3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="524425086778558">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="106217684238493" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2meteoritosPuntajeExtra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="200571797570084" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action id="0" name="Set text" sid="858427801066987" type="2puntaje">
+                            <param id="0" name="Text">Score</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="349548270616106" type="2meteoritosPuntajeExtra" />
+                        <action id="0" name="Play" sid="699578519243014" type="Audio">
+                            <param id="0" name="Audio file">2Explosion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-15</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="750232569665876" type="2meteoritosPuntajeExtra">
+                            <param id="0" name="Object">3PartMeteoroMarron</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="684469922729953">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="432166313836270" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2botonDeViaje1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="808103687184326" type="Audio" />
+                        <action id="-2" name="Go to layout" sid="289155953447436" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="669699556462285" type="System">
+                            <param id="0" name="Variable">PlanetaSeleccionado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="450379982377274">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="365620984674419" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2botonDeViaje2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="654703091814231" type="Audio" />
+                        <action id="-2" name="Go to layout" sid="781543372005642" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="700960953233767" type="System">
+                            <param id="0" name="Variable">PlanetaSeleccionado</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="614546096847162">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="902469979685582" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">2botonDeViaje3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="768290993839660" type="Audio" />
+                        <action id="-2" name="Go to layout" sid="749119182083453" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="187688709454615" type="System">
+                            <param id="0" name="Variable">PlanetaSeleccionado</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="894892359714613" title="setVelocidadDelSistema">
+            <sub-events>
+                <event-block sid="906602709046935">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="891100142620141" type="System">
+                            <param id="0" name="Interval (seconds)">dt</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="378297178728465" type="2Venus">
+                            <param id="0" name="Speed">2Venus.Rotate.Speed*2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="844219338351151" type="2rotador">
+                            <param id="0" name="Speed">2rotador.Rotate.Speed * 2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="566482263830701" type="2Jupiter">
+                            <param id="0" name="Speed">2Jupiter.Rotate.Speed*2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="977626727156160" type="2rotador2">
+                            <param id="0" name="Speed">2rotador2.Rotate.Speed * 2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="171824191246089" type="2Saturno">
+                            <param id="0" name="Speed">2Saturno.Rotate.Speed*2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action behavior="Rotate" id="0" name="Set speed" sid="700534177754806" type="2Sol">
+                            <param id="0" name="Speed">2Sol.Rotate.Speed * 2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action id="0" name="Set text" sid="511134229228864" type="2speedValue">
+                            <param id="0" name="Text">2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action id="13" name="Set acceleration" sid="146637486975640" type="2Estrellas">
+                            <param id="0" name="Acceleration">2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action id="6" name="Set speed" sid="387814872425409" type="2meteoritosPuntajeExtra">
+                            <param id="0" name="Speed">12 * 2controladorDeVelocidad.Value</param>
+                        </action>
+                        <action behavior="Physics" id="12" name="Set world gravity" sid="849497992960999" type="2meteoritosPuntajeExtra">
+                            <param id="0" name="Gravity">2controladorDeVelocidad.Value * 1.5</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="229518876908446" title="destruirParticulas">
+            <sub-events>
+                <event-block sid="964717093348525">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="353973202576917" type="2Estrellas" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="826751576981705" type="2Estrellas" />
+                    </actions>
+                </event-block>
+                <event-block sid="240822851114713">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="543102421947519" type="2meteoritosPuntajeExtra" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="850454463543897" type="2meteoritosPuntajeExtra" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

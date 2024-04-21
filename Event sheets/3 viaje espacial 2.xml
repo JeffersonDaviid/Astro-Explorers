@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>3 viaje espacial 2</name>
+    <events>
+        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship0</variable>
+        <event-block sid="240638852678422">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="416360086052698" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="419304173629902" type="3player">
+                    <param id="0" name="Animation">shipNumber</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="548796648509422" type="3player">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="428417622440669">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="608545952391039" type="3player" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="706258212635274" type="System">
+                    <param id="0" name="Variable">checkpoint_viajeEspacial</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="807232915563666" type="System">
+                    <param id="0" name="Layout">4 descensoCoheteAlPlaneta_Jupiter</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="706075320641884">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="832770962244143" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="732092681819083" type="System">
+                    <param id="0" name="Object to create">3meteoro_xl</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">random(1900, 2000)</param>
+                    <param id="3" name="Y">random(-50, 1000)</param>
+                </action>
+                <action id="-3" name="Create object" sid="155729142782397" type="System">
+                    <param id="0" name="Object to create">3meteoro_n</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">random(1900, 3000)</param>
+                    <param id="3" name="Y">random(-50, 1000)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="194943068196167">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="841203063913011" type="3player">
+                    <param id="0" name="Object">3meteoro_xl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="812766557909844" type="Audio">
+                    <param id="0" name="Audio file">3sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-7" name="Set size" sid="132608130249362" type="3player">
+                    <param id="0" name="Width">250</param>
+                    <param id="1" name="Height">250</param>
+                </action>
+                <action id="4" name="Set animation" sid="780783638245468" type="3player">
+                    <param id="0" name="Animation">&quot;Destroy&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="687522591921950" type="3player">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="965473449941344" type="3player">
+                    <param id="0" name="Input">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="810937382234291" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="505509088576326" type="3player" />
+                <action id="-2" name="Go to layout" sid="616333699553306" type="System">
+                    <param id="0" name="Layout">3 Failed</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="132229793931592">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="982229744011286" type="3player">
+                    <param id="0" name="Object">3meteoro_n</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="360349560989859" type="Audio">
+                    <param id="0" name="Audio file">3sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-7" name="Set size" sid="848443588953092" type="3player">
+                    <param id="0" name="Width">250</param>
+                    <param id="1" name="Height">250</param>
+                </action>
+                <action id="4" name="Set animation" sid="235669654418577" type="3player">
+                    <param id="0" name="Animation">&quot;Destroy&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="234041293235490" type="3player">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="382739939997152" type="3player">
+                    <param id="0" name="Input">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="878539660371120" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="832848216055892" type="3player" />
+                <action id="-2" name="Go to layout" sid="371426442544330" type="System">
+                    <param id="0" name="Layout">3 Failed</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="350882479327902">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="376484787411583" type="3player">
+                    <param id="0" name="Object">3blackHole</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="690177335860896" type="3player" />
+                <action id="-16" name="Wait" sid="665161928094188" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="106244171219614" type="System">
+                    <param id="0" name="Layout">3 Failed</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="491536230906611">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="335720801132186" type="3player">
+                    <param id="0" name="Object">3planet</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="0" name="Stop" sid="107702555695503" type="3player" />
+                <action id="-2" name="Go to layout" sid="101362436741870" type="System">
+                    <param id="0" name="Layout">4 descensoCoheteAlPlaneta_Jupiter</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="685072497381934">
+            <conditions>
+                <condition id="0" name="On clicked" sid="416112962682687" type="3Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="582102848429366" type="System">
+                    <param id="0" name="Layout">3 Viaje espacial 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="860414315738586">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="778701236163720" type="3meteoro_xl">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="693053988825945" type="3meteoro_xl" />
+            </actions>
+        </event-block>
+        <event-block sid="857584205174197">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="151201365686820" type="3meteoro_n">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="103832751837329" type="3meteoro_n" />
+            </actions>
+        </event-block>
+        <event-block sid="561150870163005">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="978115758189501" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="404009751871552" type="Audio">
+                    <param id="0" name="Audio file">3musicaViajeEspacial</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>3 Failed</name>
+    <events>
+        <variable constant="0" name="checkpoint_viajeEspacial" sid="326243620275073" static="0" type="number">1</variable>
+        <event-block sid="962933249370074">
+            <conditions>
+                <condition id="0" name="On clicked" sid="787387193720234" type="3Button" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="563825587825258">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="747945207140458" type="System">
+                            <param id="0" name="Variable">checkpoint_viajeEspacial</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="526140201735887" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="800733035762176">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="636792133018958" type="System">
+                            <param id="0" name="Variable">checkpoint_viajeEspacial</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="663942405101293" type="System">
+                            <param id="0" name="Layout">3 Viaje espacial 2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
