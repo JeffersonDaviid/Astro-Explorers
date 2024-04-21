@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>4 descensoCoheteAlPlaneta_Jupiter</name>
+    <name>4 descensoCoheteAlPlaneta</name>
     <sid>750083837942752</sid>
     <event-sheet>4 descensoCoheteAlPlaneta</event-sheet>
     <size>
@@ -306,8 +306,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>452</x>
-                        <y>657</y>
+                        <x>458</x>
+                        <y>653</y>
                         <z>0</z>
                         <width>1178</width>
                         <height>974</height>

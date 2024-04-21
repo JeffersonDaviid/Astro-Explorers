@@ -182,7 +182,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="359499661877956" type="4PlanetVenus">
+                <action id="11" name="Set collisions enabled" sid="359499661877956" type="4PlanetVenus">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="903815556218192" type="4PlanetVenus">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
@@ -196,6 +199,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="11" name="Set collisions enabled" sid="985027081546615" type="4PlanetaJupiter">
+                    <param id="0" name="Collisions">1</param>
+                </action>
                 <action id="-15" name="Set visible" sid="106841742681957" type="4PlanetaJupiter">
                     <param id="0" name="Visibility">1</param>
                 </action>
@@ -210,6 +216,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="11" name="Set collisions enabled" sid="874027124402719" type="4PlanetaSaturno">
+                    <param id="0" name="Collisions">1</param>
+                </action>
                 <action id="-15" name="Set visible" sid="368077210465689" type="4PlanetaSaturno">
                     <param id="0" name="Visibility">1</param>
                 </action>

@@ -13,7 +13,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="158497063654981" type="System">
-                    <param id="0" name="Layout">4 descensoCoheteAlPlaneta_Jupiter</param>
+                    <param id="0" name="Layout">4 descensoCoheteAlPlaneta</param>
                 </action>
             </actions>
         </event-block>

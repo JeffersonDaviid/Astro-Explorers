@@ -2259,18 +2259,18 @@
                             <point x="0.247485" y="0.754" />
                             <point x="0.150905" y="0.628" />
                             <point x="0.134809" y="0.383" />
-                            <point x="0.054326" y="0.2025" />
-                            <point x="0.0221328" y="0.022" />
+                            <point x="0.201207" y="0.2365" />
+                            <point x="0.342052" y="0.128" />
                             <point x="0.498994" y="0.092" />
                             <point x="0.657948" y="0.126" />
                             <point x="0.744467" y="0.186" />
                             <point x="0.849095" y="0.308" />
                             <point x="0.885312" y="0.455" />
                             <point x="0.873239" y="0.5765" />
-                            <point x="0.997988" y="0.94" />
-                            <point x="0.857143" y="0.971" />
-                            <point x="0.706238" y="0.888" />
-                            <point x="0.60664" y="0.84" />
+                            <point x="0.792757" y="0.714" />
+                            <point x="0.732394" y="0.759" />
+                            <point x="0.682093" y="0.802" />
+                            <point x="0.550302" y="0.854" />
                             <point x="0.401912" y="0.839" />
                         </collision-poly>
                     </frame>
@@ -2319,7 +2319,7 @@
         <layout>3 Viaje espacial 2.xml</layout>
         <layout>3 Viaje espacial 1.xml</layout>
         <layout>3 Failed.xml</layout>
-        <layout>4 descensoCoheteAlPlaneta_Jupiter.xml</layout>
+        <layout>4 descensoCoheteAlPlaneta.xml</layout>
         <layout>4 Escena PlayAgain.xml</layout>
         <layout>5 recargarCombustible .xml</layout>
         <layout>Sprites.xml</layout>
