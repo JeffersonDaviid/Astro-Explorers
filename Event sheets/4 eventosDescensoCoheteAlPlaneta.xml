@@ -145,7 +145,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="323804638266046" type="System">
-                    <param id="0" name="Layout">5 recargarCombustible </param>
+                    <param id="0" name="Layout">5 recargarCombustibleJupiter</param>
                 </action>
                 <action id="-36" name="Save" sid="324295398079645" type="System">
                     <param id="0" name="Slot">&quot;mysave&quot;</param>
