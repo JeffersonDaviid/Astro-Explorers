@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
         <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
@@ -1421,6 +1422,10 @@
         </object-type>
         <object-type name="4Sprite4" sid="656163578687000">
             <plugin id="Sprite" />
+            <container>
+                <type>FileChooser</type>
+                <type>4Sprite4</type>
+            </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434276184641933" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.472973" original-source="C:\Users\INTEL\Downloads\—Pngtree—retry button of graphical user_5526647.png">
@@ -2216,6 +2221,53 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="3Button2" sid="171818334837115">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="FileChooser" sid="909140650214401">
+            <plugin id="filechooser" />
+            <container>
+                <type>FileChooser</type>
+                <type>4Sprite4</type>
+            </container>
+        </object-type>
+        <object-type name="3Fondo" sid="893292214979073">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\POLITECNICA NACIONAL\VINCULACION\VIDEOJUEGOS\_6f1fb3d2-95ae-4e6d-b470-8fb782122015.jpeg" />
+        </object-type>
+        <object-type name="Button" sid="212833880565330">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite" sid="549247055988125">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367175666535175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3BtonRetry" sid="357944386232801">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846112216953615" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502825" original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\POLITECNICA NACIONAL\VINCULACION\VIDEOJUEGOS\3 Boton Reintentar1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Pulso1" pingpong="0" repeatcount="1" repeatto="0" sid="442809097835187" speed="5">
+                    <frame duration="1" hotspotX="0.501119" hotspotY="0.5" original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\POLITECNICA NACIONAL\VINCULACION\VIDEOJUEGOS\3 Boton Reintentar2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3BotonSalir" sid="307028090553663">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="SAL1" pingpong="0" repeatcount="1" repeatto="0" sid="819425789967634" speed="5">
+                    <frame duration="1" hotspotX="0.501119" hotspotY="0.5" original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\POLITECNICA NACIONAL\VINCULACION\VIDEOJUEGOS\3 Boton Salir1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="SAL2" pingpong="0" repeatcount="1" repeatto="0" sid="407506172940885" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50289" original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\POLITECNICA NACIONAL\VINCULACION\VIDEOJUEGOS\3 Boton Salir2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2242,14 +2294,14 @@
         <event-sheet>3 Failed.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="138" />
-        <global-instance type="Mouse" uid="139" />
-        <global-instance type="Touch" uid="144">
+        <global-instance type="Keyboard" uid="175" />
+        <global-instance type="Mouse" uid="176" />
+        <global-instance type="Touch" uid="177">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="150">
+        <global-instance type="Audio" uid="178">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -2270,7 +2322,7 @@
     </sounds-folder>
     <music-folder>
         <file name="3musicaViajeEspacial.ogg" />
-        <file name="3sonidoExposion.ogg"/>
+        <file name="3sonidoExposion.ogg" />
         <file name="793443_Universal-Collapse.m4a" />
         <file name="793443_Universal-Collapse.ogg" />
     </music-folder>
