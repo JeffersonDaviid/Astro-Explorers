@@ -78,6 +78,9 @@
                             <param id="3" name="Volume">-20</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-36" name="Save" sid="220521807227018" type="System">
+                            <param id="0" name="Slot">&quot;mysave&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -154,12 +157,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="516083873541921" type="Audio">
-                            <param id="0" name="Audio file">2Seleccion</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
                         <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
                         <action id="9" name="Set scale" sid="936355183183349" type="2Venus">
                             <param id="0" name="Scale">1.25</param>
@@ -168,20 +165,18 @@
                             <param id="0" name="X">2Venus.posX</param>
                             <param id="1" name="Y">2Venus.posY</param>
                         </action>
-                        <action id="-3" name="Set position" sid="757758583846283" type="2planeta1Text">
-                            <param id="0" name="X">500</param>
-                            <param id="1" name="Y">100</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="392307470592521" type="2infoP1">
-                            <param id="0" name="X">500</param>
-                            <param id="1" name="Y">200</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="741289082314218" type="2botonDeViaje1">
+                        <action id="-3" name="Set position" sid="741289082314218" type="2botonVenus">
                             <param id="0" name="X">2Venus.X</param>
-                            <param id="1" name="Y">2Venus.Y+200</param>
+                            <param id="1" name="Y">2Venus.Y+150</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonDeViaje1">
+                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonVenus">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="516083873541921" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -202,19 +197,11 @@
                             <param id="0" name="X">2Jupiter.posX</param>
                             <param id="1" name="Y">2Jupiter.posY</param>
                         </action>
-                        <action id="-3" name="Set position" sid="975176587932474" type="2planeta2Text">
-                            <param id="0" name="X">100</param>
-                            <param id="1" name="Y">100</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="124168772803080" type="2infoP2">
-                            <param id="0" name="X">700</param>
-                            <param id="1" name="Y">200</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="568388261226013" type="2botonDeViaje2">
+                        <action id="-3" name="Set position" sid="568388261226013" type="2botonJupiter">
                             <param id="0" name="X">2Jupiter.X</param>
-                            <param id="1" name="Y">2Jupiter.Y+200</param>
+                            <param id="1" name="Y">2Jupiter.Y+150</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonDeViaje2">
+                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonJupiter">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="0" name="Play" sid="507618454601227" type="Audio">
@@ -242,19 +229,11 @@
                             <param id="0" name="X">2Saturno.posX</param>
                             <param id="1" name="Y">2Saturno.posY</param>
                         </action>
-                        <action id="-3" name="Set position" sid="760749806860707" type="2planeta3Text">
-                            <param id="0" name="X">200</param>
-                            <param id="1" name="Y">100</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="306229164902357" type="2infoP3">
-                            <param id="0" name="X">200</param>
-                            <param id="1" name="Y">200</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="179083884103279" type="2botonDeViaje3">
+                        <action id="-3" name="Set position" sid="179083884103279" type="2botonSaturno">
                             <param id="0" name="X">2Saturno.X</param>
-                            <param id="1" name="Y">2Saturno.Y+200</param>
+                            <param id="1" name="Y">2Saturno.Y+150</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonDeViaje3">
+                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonSaturno">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="0" name="Play" sid="236904979204375" type="Audio">
@@ -303,37 +282,17 @@
                             <param id="0" name="Pin to">2Sol</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="-3" name="Set position" sid="796986789584790" type="2planeta1Text">
+                        <action id="-3" name="Set position" sid="796986789584790" type="2VenusText">
                             <param id="0" name="X">900</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-3" name="Set position" sid="282682349710349" type="2infoP1">
-                            <param id="0" name="X">900</param>
-                            <param id="1" name="Y">100</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="385703236399202" type="2planeta2Text">
-                            <param id="0" name="X">999</param>
-                            <param id="1" name="Y">999</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="988619058842724" type="2infoP2">
-                            <param id="0" name="X">999</param>
-                            <param id="1" name="Y">999</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="692211406410586" type="2planeta3Text">
-                            <param id="0" name="X">999</param>
-                            <param id="1" name="Y">999</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="484420602186446" type="2infoP3">
-                            <param id="0" name="X">999</param>
-                            <param id="1" name="Y">999</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="877838950936566" type="2botonDeViaje1">
+                        <action id="-15" name="Set visible" sid="877838950936566" type="2botonVenus">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="728643418712765" type="2botonDeViaje2">
+                        <action id="-15" name="Set visible" sid="728643418712765" type="2botonJupiter">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="155089678462042" type="2botonDeViaje3">
+                        <action id="-15" name="Set visible" sid="155089678462042" type="2botonSaturno">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -349,10 +308,7 @@
                     <actions>
                         <action id="-10" name="Add to" sid="200571797570084" type="System">
                             <param id="0" name="Variable">Score</param>
-                            <param id="1" name="Value">2controladorDeVelocidad.Value</param>
-                        </action>
-                        <action id="0" name="Set text" sid="858427801066987" type="2puntaje">
-                            <param id="0" name="Text">Score</param>
+                            <param id="1" name="Value">2controladorDeVelocidad.Value * 10</param>
                         </action>
                         <action id="-9" name="Destroy" sid="349548270616106" type="2meteoritosPuntajeExtra" />
                         <action id="0" name="Play" sid="699578519243014" type="Audio">
@@ -366,6 +322,9 @@
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="Image point">0</param>
                         </action>
+                        <action id="0" name="Set text" sid="179789941061217" type="3ScoreText">
+                            <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="684469922729953">
@@ -373,17 +332,17 @@
                         <condition id="6" name="On object clicked" sid="432166313836270" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2botonDeViaje1</param>
+                            <param id="2" name="Object clicked">2botonVenus</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="33" name="Stop all" sid="808103687184326" type="Audio" />
-                        <action id="-2" name="Go to layout" sid="289155953447436" type="System">
-                            <param id="0" name="Layout">3 Viaje espacial 1</param>
-                        </action>
                         <action id="-9" name="Set value" sid="669699556462285" type="System">
                             <param id="0" name="Variable">PlanetaSeleccionado</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="289155953447436" type="System">
+                            <param id="0" name="Layout">3 viajeEspacialP1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -392,17 +351,17 @@
                         <condition id="6" name="On object clicked" sid="365620984674419" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2botonDeViaje2</param>
+                            <param id="2" name="Object clicked">2botonJupiter</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="33" name="Stop all" sid="654703091814231" type="Audio" />
-                        <action id="-2" name="Go to layout" sid="781543372005642" type="System">
-                            <param id="0" name="Layout">3 Viaje espacial 1</param>
-                        </action>
                         <action id="-9" name="Set value" sid="700960953233767" type="System">
                             <param id="0" name="Variable">PlanetaSeleccionado</param>
                             <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="781543372005642" type="System">
+                            <param id="0" name="Layout">3 viajeEspacialP1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -411,17 +370,17 @@
                         <condition id="6" name="On object clicked" sid="902469979685582" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2botonDeViaje3</param>
+                            <param id="2" name="Object clicked">2botonSaturno</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="33" name="Stop all" sid="768290993839660" type="Audio" />
-                        <action id="-2" name="Go to layout" sid="749119182083453" type="System">
-                            <param id="0" name="Layout">3 Viaje espacial 1</param>
-                        </action>
                         <action id="-9" name="Set value" sid="187688709454615" type="System">
                             <param id="0" name="Variable">PlanetaSeleccionado</param>
                             <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="749119182083453" type="System">
+                            <param id="0" name="Layout">3 viajeEspacialP1</param>
                         </action>
                     </actions>
                 </event-block>

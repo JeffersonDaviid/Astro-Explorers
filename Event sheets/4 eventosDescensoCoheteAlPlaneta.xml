@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>4 eventosDescensoCoheteAlPlaneta</name>
+    <events>
+        <event-block sid="971545273770461">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="302445328901065" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="15" name="Set velocity" sid="206887140851673" type="4Nave">
+                    <param id="0" name="X component">30</param>
+                    <param id="1" name="Y component">0</param>
+                </action>
+                <action behavior="Physics" id="9" name="Set angular velocity" sid="103193925911462" type="4Nave">
+                    <param id="0" name="Angular velocity">40</param>
+                </action>
+                <action behavior="Physics" id="0" name="Apply force" sid="431178024944576" type="4Nave">
+                    <param id="0" name="Force X">10</param>
+                    <param id="1" name="Force Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="0" name="Apply force" sid="820547004811441" type="4Nave">
+                    <param id="0" name="Force X">0</param>
+                    <param id="1" name="Force Y">-2</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="3" name="Apply impulse" sid="171805270276852" type="4Nave">
+                    <param id="0" name="Impulse X">1</param>
+                    <param id="1" name="Impulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="759486497471596" type="4Nave">
+                    <param id="0" name="Object">4Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="656820213752901">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="338486493378906" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="15" name="Set velocity" sid="991250750243314" type="4Nave">
+                    <param id="0" name="X component">-30</param>
+                    <param id="1" name="Y component">0</param>
+                </action>
+                <action behavior="Physics" id="9" name="Set angular velocity" sid="977012102711181" type="4Nave">
+                    <param id="0" name="Angular velocity">-40</param>
+                </action>
+                <action behavior="Physics" id="0" name="Apply force" sid="692272082625902" type="4Nave">
+                    <param id="0" name="Force X">-10</param>
+                    <param id="1" name="Force Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="0" name="Apply force" sid="225722871753334" type="4Nave">
+                    <param id="0" name="Force X">0</param>
+                    <param id="1" name="Force Y">-2</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="3" name="Apply impulse" sid="389166986930872" type="4Nave">
+                    <param id="0" name="Impulse X">-1</param>
+                    <param id="1" name="Impulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="341804368646831" type="4Nave">
+                    <param id="0" name="Object">4Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="623748112948315">
+            <conditions>
+                <condition id="-18" name="On created" sid="559113482843901" type="4Nave" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="322516262999426" type="4Nave">
+                    <param id="0" name="Gravity">2</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="655394948246546" type="4Nave">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-8" name="Set angle" sid="877319890351711" type="4Nave">
+                    <param id="0" name="Angle">round(random(-9,9)) * 10</param>
+                </action>
+                <action id="4" name="Set font color" sid="878426967725704" type="4Texto_Intruccion">
+                    <param id="0" name="Color">rgb(228, 234, 237)</param>
+                </action>
+                <action id="0" name="Set text" sid="541683476204549" type="4Texto_Intruccion">
+                    <param id="0" name="Text">&quot;Intenta llegar al combustible para recargar!&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="559255895614756">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="544648188930606" type="4Nave">
+                    <param id="0" name="Object">4PlanetaJupiter</param>
+                </condition>
+                <condition id="0" name="On collision with another object" sid="423878412414080" type="4Nave">
+                    <param id="0" name="Object">4PlanetaSaturno</param>
+                </condition>
+                <condition id="0" name="On collision with another object" sid="697527642181700" type="4Nave">
+                    <param id="0" name="Object">4PlanetVenus</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="256812605979398">
+                    <conditions>
+                        <condition id="-11" inverted="1" name="Is within angle" sid="478585909418578" type="4Nave">
+                            <param id="0" name="Within">60</param>
+                            <param id="1" name="Angle">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="761055101853811" type="4Nave" />
+                        <action id="-2" name="Go to layout" sid="514983794494011" type="System">
+                            <param id="0" name="Layout">3 Failed</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="611663574118621">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="253752553507078" type="4barrera">
+                    <param id="0" name="Object">4Nave</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="847986583240214" type="4Nave" />
+            </actions>
+        </event-block>
+        <event-block sid="554240932514868">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="843662859698930" type="4Nave">
+                    <param id="0" name="Object">5combustible</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="323804638266046" type="System">
+                    <param id="0" name="Layout">5 recargarCombustible </param>
+                </action>
+                <action id="-36" name="Save" sid="324295398079645" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="232256486906443">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="263677716777231" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="359499661877956" type="4PlanetVenus">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="903815556218192" type="4PlanetVenus">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="670880829482094">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="202315849125351" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="985027081546615" type="4PlanetaJupiter">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="106841742681957" type="4PlanetaJupiter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="997755043289321">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="511140309254505" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="874027124402719" type="4PlanetaSaturno">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="368077210465689" type="4PlanetaSaturno">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

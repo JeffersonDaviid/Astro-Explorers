@@ -65,10 +65,6 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="1TiledBackground" sid="860893517557780">
-            <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\FondoFinal.png" />
-        </object-type>
         <object-type name="1z" sid="127399095591443">
             <plugin id="Sprite" />
             <behaviors>
@@ -688,15 +684,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="1salir" sid="195339536036581">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279659052453816" speed="5">
-                    <frame duration="1" hotspotX="0.508264" hotspotY="0.5" original-source="D:\Dascargas 00\10SS.png" />
-                    <frame duration="1" hotspotX="0.508264" hotspotY="0.5" original-source="D:\Dascargas 00\00SS.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Mouse" sid="141378628703072">
             <plugin id="Mouse" />
         </object-type>
@@ -894,104 +881,68 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type global="1" name="2puntaje" sid="454893406881212">
+        <object-type name="2VenusText" sid="405551401710980">
             <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="402911647344286">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
         </object-type>
-        <object-type name="2planeta1Text" sid="405551401710980">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2infoP1" sid="111280786484545">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2planeta2Text" sid="339557704702064">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2planeta3Text" sid="369284959676225">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2infoP2" sid="102350451583970">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2infoP3" sid="468394679471566">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2botonDeViaje1" sid="596410334431237">
+        <object-type name="2botonVenus" sid="596410334431237">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634536550343526" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\botonVenus.png">
+                        <collision-poly>
+                            <point x="0.0703125" y="0.140625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.929688" y="0.140625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.929688" y="0.859375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0742188" y="0.851563" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2botonDeViaje2" sid="676724334723881">
+        <object-type name="2botonJupiter" sid="676724334723881">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729092020216251" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\botonJupiter.png">
+                        <collision-poly>
+                            <point x="0.0703125" y="0.140625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.929688" y="0.140625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.929688" y="0.859375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0742188" y="0.851563" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2botonDeViaje3" sid="886903980516622">
+        <object-type name="2botonSaturno" sid="886903980516622">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893619213757686" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="2suelo" sid="376672989063699">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="167719889227037">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555323927197944" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="2jugador" sid="248404617989770">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Platform" sid="743403245589082">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="ScrollTo" sid="162752916363620">
-                    <behavior id="scrollto" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="489215293817189" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="2enemigo" sid="195406420781694">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917253341704263" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="2finDelJuegoText" sid="534859479107693">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="2fondoFinDelJuego" sid="527645048990376">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="151493900505176" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="2botonIntentarDeNuevo" sid="987177548677651">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443795160508082" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\botonSaturno.png">
+                        <collision-poly>
+                            <point x="0.0703125" y="0.140625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.929688" y="0.140625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.929688" y="0.859375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0742188" y="0.851563" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1016,7 +967,10 @@
                 <behavior-type name="8Direction" sid="619082154159884">
                     <behavior id="EightDir" />
                 </behavior-type>
-                <behavior-type name="ScrollTo" sid="921165961338874">
+                <behavior-type name="BoundToLayout" sid="477576168492517">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="339721786043983">
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
@@ -1364,9 +1318,6 @@
         <object-type name="3Failed_bg" sid="430140600722115">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\LA VIEJA CONFIABLE F\326347553_2323648817802473_1335920700803968099_n.jpg" />
-        </object-type>
-        <object-type name="3Button" sid="416675245549198">
-            <plugin id="Button" />
         </object-type>
         <object-type name="4Nave" sid="355879244125928">
             <plugin id="Sprite" />
@@ -2311,27 +2262,28 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Button" sid="424021532233875">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>1 background.xml</layout>
+        <layout>1 menuPrincipal.xml</layout>
         <layout>2 menuSeleccionDePlaneta.xml</layout>
-        <layout>3 Viaje espacial 2.xml</layout>
-        <layout>3 Viaje espacial 1.xml</layout>
+        <layout>3 viajeEspacialP2.xml</layout>
+        <layout>3 viajeEspacialP1.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
-        <layout>4 Escena PlayAgain.xml</layout>
         <layout>5 recargarCombustible .xml</layout>
         <layout>Sprites.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>1 eventosMenu.xml</event-sheet>
+        <event-sheet>1 eventosMenuPrincipal.xml</event-sheet>
         <event-sheet>2 eventosMenuSeleccionDePlaneta.xml</event-sheet>
-        <event-sheet>3 viaje espacial 2.xml</event-sheet>
-        <event-sheet>4 descensoCoheteAlPlaneta.xml</event-sheet>
-        <event-sheet>4 PlayAgain.xml</event-sheet>
+        <event-sheet>3 eventosViajeEspacialP2.xml</event-sheet>
+        <event-sheet>4 eventosDescensoCoheteAlPlaneta.xml</event-sheet>
         <event-sheet>5 recargarCombustible.xml</event-sheet>
-        <event-sheet>3 viaje espacial 1.xml</event-sheet>
+        <event-sheet>3 eventosViajeEspacialP1.xml</event-sheet>
         <event-sheet>3 Failed.xml</event-sheet>
     </event-folder>
     <global-instances>
