@@ -216,9 +216,7 @@
                     <param id="0" name="Variable">cuadro_informacion</param>
                     <param id="1" name="Value">0</param>
                 </action>
-                <action id="6" name="Stop" sid="300663407525463" type="Audio">
-                    <param id="0" name="Tag">&quot;musicaViajeEspacial&quot;</param>
-                </action>
+                <action id="33" name="Stop all" sid="300663407525463" type="Audio" />
             </actions>
         </event-block>
         <event-group description="" sid="589238963036553" title="Planeta" />

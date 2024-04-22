@@ -1763,6 +1763,11 @@
         </object-type>
         <object-type name="3ScoreText" sid="777002912558071">
             <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="567735386887886">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
         </object-type>
         <object-type name="3bg_shooter" sid="654948922906842">
             <plugin id="TiledBg" />
@@ -1951,6 +1956,52 @@
                             <point x="0.0729412" y="0.129167" />
                             <point x="0.958824" y="0.927083" />
                             <point x="0.410588" y="0.272917" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="403973970530987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591380887870834" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\click.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="click" sid="179664365809027">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995170255989134" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\click.png">
+                        <collision-poly>
+                            <point x="0.169922" y="0.169922" />
+                            <point x="0.5" y="0.107422" />
+                            <point x="0.78125" y="0.21875" />
+                            <point x="0.828125" y="0.5" />
+                            <point x="0.787109" y="0.787109" />
+                            <point x="0.5" y="0.996094" />
+                            <point x="0.273438" y="0.726563" />
+                            <point x="0.251953" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3controlNave" sid="996861451013238">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893102219875733" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\controlNave.png">
+                        <collision-poly>
+                            <point x="0.246667" y="0.528571" />
+                            <point x="0.5" y="0.528571" />
+                            <point x="0.861333" y="0.297143" />
+                            <point x="0.868" y="0.5" />
+                            <point x="0.857333" y="0.694286" />
+                            <point x="0.5" y="0.954286" />
+                            <point x="0.0213333" y="0.954286" />
+                            <point x="0.781333" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
