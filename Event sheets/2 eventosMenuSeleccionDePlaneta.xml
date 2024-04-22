@@ -18,6 +18,9 @@
                             <param id="0" name="Variable">radioMaximo</param>
                             <param id="1" name="Value">sqrt((WindowHeight^2) + (WindowWidth^2))</param>
                         </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="884622545596674" type="2Venus">
+                            <param id="0" name="Speed">0</param>
+                        </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="499755730879751" type="2Venus">
                             <param id="0" name="Pin to">2rotador</param>
                             <param id="1" name="Mode">0</param>
@@ -34,6 +37,9 @@
                             <param id="0" name="Instance variable">posY</param>
                             <param id="1" name="Value">2Venus.Y</param>
                         </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="196886227704634" type="2Jupiter">
+                            <param id="0" name="Speed">0</param>
+                        </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="256179948182096" type="2Jupiter">
                             <param id="0" name="Pin to">2rotador2</param>
                             <param id="1" name="Mode">0</param>
@@ -49,6 +55,9 @@
                         <action id="-10" name="Set value" sid="488287799263485" type="2Jupiter">
                             <param id="0" name="Instance variable">posY</param>
                             <param id="1" name="Value">2Jupiter.Y</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="188814187753910" type="2Saturno">
+                            <param id="0" name="Speed">0</param>
                         </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="905443112796082" type="2Saturno">
                             <param id="0" name="Pin to">2Sol</param>
@@ -158,8 +167,9 @@
                     </conditions>
                     <actions>
                         <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
-                        <action id="9" name="Set scale" sid="936355183183349" type="2Venus">
-                            <param id="0" name="Scale">1.25</param>
+                        <action id="-7" name="Set size" sid="936355183183349" type="2Venus">
+                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
+                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
                         </action>
                         <action id="-3" name="Set position" sid="827373537347950" type="2Venus">
                             <param id="0" name="X">2Venus.posX</param>
@@ -190,8 +200,9 @@
                     </conditions>
                     <actions>
                         <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="2Jupiter" />
-                        <action id="9" name="Set scale" sid="824184381756495" type="2Jupiter">
-                            <param id="0" name="Scale">1.25</param>
+                        <action id="-7" name="Set size" sid="824184381756495" type="2Jupiter">
+                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
+                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
                         </action>
                         <action id="-3" name="Set position" sid="649706687893882" type="2Jupiter">
                             <param id="0" name="X">2Jupiter.posX</param>
@@ -222,8 +233,9 @@
                     </conditions>
                     <actions>
                         <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="2Saturno" />
-                        <action id="9" name="Set scale" sid="443107293793672" type="2Saturno">
-                            <param id="0" name="Scale">1.25</param>
+                        <action id="-7" name="Set size" sid="443107293793672" type="2Saturno">
+                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
+                            <param id="1" name="Height">RADIOPLANETA * 1.25150</param>
                         </action>
                         <action id="-3" name="Set position" sid="492115366636054" type="2Saturno">
                             <param id="0" name="X">2Saturno.posX</param>
@@ -259,24 +271,24 @@
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="786311961779639" type="2Venus">
-                            <param id="0" name="Width">radioPlaneta</param>
-                            <param id="1" name="Height">radioPlaneta</param>
+                            <param id="0" name="Width">RADIOPLANETA</param>
+                            <param id="1" name="Height">RADIOPLANETA</param>
                         </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="327438490068009" type="2Venus">
                             <param id="0" name="Pin to">2rotador</param>
                             <param id="1" name="Mode">0</param>
                         </action>
                         <action id="-7" name="Set size" sid="936756182626224" type="2Jupiter">
-                            <param id="0" name="Width">radioPlaneta</param>
-                            <param id="1" name="Height">radioPlaneta</param>
+                            <param id="0" name="Width">RADIOPLANETA</param>
+                            <param id="1" name="Height">RADIOPLANETA</param>
                         </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="879254195896482" type="2Jupiter">
                             <param id="0" name="Pin to">2rotador2</param>
                             <param id="1" name="Mode">0</param>
                         </action>
                         <action id="-7" name="Set size" sid="329585123544089" type="2Saturno">
-                            <param id="0" name="Width">radioPlaneta</param>
-                            <param id="1" name="Height">radioPlaneta</param>
+                            <param id="0" name="Width">RADIOPLANETA</param>
+                            <param id="1" name="Height">RADIOPLANETA</param>
                         </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="124065258645390" type="2Saturno">
                             <param id="0" name="Pin to">2Sol</param>

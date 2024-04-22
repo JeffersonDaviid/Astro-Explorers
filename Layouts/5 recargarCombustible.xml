@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5background" uid="120">
+                <instance type="2Fondo" uid="109">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>813</x>
-                        <y>540</y>
+                        <x>558</x>
+                        <y>329</y>
                         <z>0</z>
-                        <width>1748</width>
-                        <height>1157</height>
+                        <width>1332</width>
+                        <height>787</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -665,8 +665,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>440.396728516</x>
-                        <y>197.348968506</y>
+                        <x>359</x>
+                        <y>284</y>
                         <z>0</z>
                         <width>110</width>
                         <height>50</height>

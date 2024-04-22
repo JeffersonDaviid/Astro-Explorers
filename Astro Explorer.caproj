@@ -723,10 +723,16 @@
                 <behavior-type name="Rotate" sid="390993938389269">
                     <behavior id="Rotate" />
                 </behavior-type>
+                <behavior-type name="Solid" sid="636941790208860">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="811961422108397">
+                    <behavior id="Bullet" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="322713574399850" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\DESCANSO CON COHETE AL PLANETA\DESCANSO CON COHETE AL PLANETA\venus.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\RECARGA COMBUSTIBLE\RECARGA COMBUSTIBLE\Venus.png">
                         <collision-poly>
                             <point x="0.148438" y="0.153226" />
                             <point x="0.5" y="0" />
@@ -768,10 +774,16 @@
                 <behavior-type name="Rotate" sid="179036791638498">
                     <behavior id="Rotate" />
                 </behavior-type>
+                <behavior-type name="Solid" sid="925120870721398">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="578623529990075">
+                    <behavior id="Bullet" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956006280739066" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\DESCANSO CON COHETE AL PLANETA\DESCANSO CON COHETE AL PLANETA\jupiter.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\RECARGA COMBUSTIBLE\RECARGA COMBUSTIBLE\Jupiter.png">
                         <collision-poly>
                             <point x="0.148438" y="0.148438" />
                             <point x="0.5" y="0" />
@@ -824,10 +836,16 @@
                 <behavior-type name="Rotate" sid="360825151340495">
                     <behavior id="Rotate" />
                 </behavior-type>
+                <behavior-type name="Solid" sid="947686167465053">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="335843113286501">
+                    <behavior id="Bullet" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114609902164810" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\DESCANSO CON COHETE AL PLANETA\DESCANSO CON COHETE AL PLANETA\saturno.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\RECARGA COMBUSTIBLE\RECARGA COMBUSTIBLE\saturno.png">
                         <collision-poly>
                             <point x="0.25" y="0.25" />
                             <point x="0.5" y="0.140625" />
@@ -1282,33 +1300,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="3planet" sid="983369581678841">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="905900205487916">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Bullet" sid="995055593182154">
-                    <behavior id="Bullet" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940080260543028" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HP\OneDrive\Escritorio\Desarrollo Videojuego\AtroExplorer\Astro-Explorers\Files\images\Space-Planet.png">
-                        <collision-poly>
-                            <point x="0.156" y="0.153" />
-                            <point x="0.501" y="0.009" />
-                            <point x="0.845" y="0.151" />
-                            <point x="0.989" y="0.501" />
-                            <point x="0.845" y="0.85" />
-                            <point x="0.499" y="0.988" />
-                            <point x="0.153" y="0.842" />
-                            <point x="0.009" y="0.501" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="3Failed_bg" sid="430140600722115">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\MENU PRINCIPAL\cielo_nocturno.png" />
@@ -1335,61 +1326,6 @@
                             <point x="0.497942" y="0.952247" />
                             <point x="0.0493827" y="0.952247" />
                             <point x="0.0658436" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="4Sprite2" sid="412387717638085">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106432006115092" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\DESCANSO CON COHETE AL PLANETA\DESCANSO CON COHETE AL PLANETA\fondo_pantalla_estrellas.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.992" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="4mainMenu" sid="962390932525025">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="683375685211317">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284611727258858" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\INTEL\Desktop\pngtree-switch-button-of-graphical-user-interface-for-2d-and-3d-games-png-image_2359142.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="4Sprite3" sid="285274865603078">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773245659277868" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DETPC\Downloads\_7ab3a7d1-ba70-4181-999d-1b6033683b4d.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="4Sprite4" sid="656163578687000">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434276184641933" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.472973" original-source="C:\Users\INTEL\Downloads\—Pngtree—retry button of graphical user_5526647.png">
-                        <collision-poly>
-                            <point x="0.170608" y="0.143581" />
-                            <point x="0.5" y="0.00844522" />
-                            <point x="0.829392" y="0.143581" />
-                            <point x="0.966216" y="0.472973" />
-                            <point x="0.839527" y="0.8125" />
-                            <point x="0.5" y="0.961148" />
-                            <point x="0.160473" y="0.8125" />
-                            <point x="0.0337838" y="0.472973" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1464,14 +1400,6 @@
                             <point x="0.000998004" y="0.47561" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="5background" sid="130935626402229">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894945278699117" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\fondo_pantalla_estrellas.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1678,14 +1606,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="958264926785984" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="4Fondo_Espacial" sid="387514713796367">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="330513146722687" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\DESCANSO CON COHETE AL PLANETA\DESCANSO CON COHETE AL PLANETA\fondo_pantalla_estrellas.png" />
                 </animation>
             </animation-folder>
         </object-type>

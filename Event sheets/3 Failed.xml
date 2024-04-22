@@ -3,34 +3,13 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 Failed</name>
     <events>
-        <variable constant="0" name="checkpoint_viajeEspacial" sid="326243620275073" static="0" type="number">1</variable>
-        <event-block sid="106409933334285">
+        <event-block sid="418555420684807">
             <conditions>
-                <condition id="0" name="On clicked" sid="540178996592119" type="3btn_volver" />
-                <condition id="-14" name="Compare variable" sid="108684514860423" type="System">
-                    <param id="0" name="Variable">checkpoint_viajeEspacial</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
+                <condition id="0" name="On clicked" sid="309811326517702" type="3btn_volver" />
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="533735648082543" type="System">
-                    <param id="0" name="Layout">3 viajeEspacialP1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="201005611320956">
-            <conditions>
-                <condition id="0" name="On clicked" sid="543810131887984" type="3btn_volver" />
-                <condition id="-14" name="Compare variable" sid="570808038568810" type="System">
-                    <param id="0" name="Variable">checkpoint_viajeEspacial</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="674153765474233" type="System">
-                    <param id="0" name="Layout">3 viajeEspacialP2</param>
+                <action id="-37" name="Load" sid="226780380516824" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 eventosViajeEspacialP2</name>
     <events>
-        <variable constant="0" name="shipNumber" sid="423843720438325" static="0" type="text">ship0</variable>
         <event-block sid="240638852678422">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="416360086052698" type="System" />
@@ -12,10 +11,6 @@
                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="357604720141180" type="3player">
                     <param id="0" name="State">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="419304173629902" type="3player">
-                    <param id="0" name="Animation">shipNumber</param>
-                    <param id="1" name="From">1</param>
-                </action>
                 <action id="0" name="Play" sid="404009751871552" type="Audio">
                     <param id="0" name="Audio file">3musicaViajeEspacial</param>
                     <param id="2" name="Loop">1</param>
@@ -23,6 +18,122 @@
                     <param id="1" name="Tag (optional)">&quot;musicaViajeEspacial&quot;</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="549059545700094">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="483989394917053" type="System">
+                            <param id="0" name="Variable">PlanetaSeleccionado</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="669564670869833" type="2Venus">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="927713405183375" type="2Venus">
+                            <param id="0" name="Speed">-10</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="768741054942481" type="2Venus">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="735314041330499" type="2Jupiter">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="505868743754050" type="2Jupiter">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="778694703887347" type="2Jupiter">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="729262731275707" type="2Saturno">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="665600082823049" type="2Saturno">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="584753032692681" type="2Saturno">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="682769980318346">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="522141445522558" type="System">
+                            <param id="0" name="Variable">PlanetaSeleccionado</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="377256145017546" type="2Venus">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="682688552491582" type="2Venus">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="828948692593089" type="2Venus">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="254885828560377" type="2Jupiter">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="726128623388542" type="2Jupiter">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="294649103361042" type="2Jupiter">
+                            <param id="0" name="Speed">-10</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="157049628648910" type="2Saturno">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="486754093802916" type="2Saturno">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="886149386143747" type="2Saturno">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="636809320225028">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="172590990743685" type="System">
+                            <param id="0" name="Variable">PlanetaSeleccionado</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="517690212285078" type="2Venus">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="192219896523356" type="2Venus">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="226067225460720" type="2Venus">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="978120075162927" type="2Jupiter">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="695993602092775" type="2Jupiter">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="747885374159838" type="2Jupiter">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="430424839897665" type="2Saturno">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="286173770178547" type="2Saturno">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="480278685181155" type="2Saturno">
+                            <param id="0" name="Speed">-10</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="706075320641884">
             <conditions>
@@ -90,10 +201,16 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="491536230906611">
+        <event-block any="1" sid="491536230906611">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="335720801132186" type="3player">
-                    <param id="0" name="Object">3planet</param>
+                <condition id="0" name="On collision with another object" sid="974968330775904" type="3player">
+                    <param id="0" name="Object">2Jupiter</param>
+                </condition>
+                <condition id="0" name="On collision with another object" sid="904522681854783" type="3player">
+                    <param id="0" name="Object">2Saturno</param>
+                </condition>
+                <condition id="0" name="On collision with another object" sid="114753983013010" type="3player">
+                    <param id="0" name="Object">2Venus</param>
                 </condition>
             </conditions>
             <actions>
