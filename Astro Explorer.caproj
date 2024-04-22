@@ -1439,11 +1439,11 @@
         <object-type name="5planeta_Jupiter" sid="637239236564624">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="728010300498103">
-                    <behavior id="solid" />
-                </behavior-type>
                 <behavior-type name="Physics" sid="997543886969821">
                     <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="108043252129811">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -1709,12 +1709,6 @@
             </animation-folder>
         </object-type>
         <object-type name="5Fin" sid="418243099436150">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="5Fin2" sid="579638176121025">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="5Fin3" sid="953979754466548">
             <plugin id="Text" />
         </object-type>
         <object-type name="5cuadro_inf_pg1" sid="769510513343318">
@@ -2273,18 +2267,18 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="115177617956281" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\reneg\Downloads\RECARGA COMBUSTIBLE\RECARGA COMBUSTIBLE\saturno.png">
                         <collision-poly>
-                            <point x="0.0469062" y="0.282706" />
-                            <point x="0.131737" y="0.159646" />
-                            <point x="0.310379" y="0.0343683" />
-                            <point x="0.5" y="0.00110865" />
-                            <point x="0.691617" y="0.0388029" />
-                            <point x="0.859281" y="0.15632" />
-                            <point x="0.963074" y="0.302661" />
-                            <point x="0.999002" y="0.485033" />
-                            <point x="0.768463" y="0.481153" />
-                            <point x="0.494012" y="0.476719" />
-                            <point x="0.113772" y="0.474501" />
-                            <point x="0.000998004" y="0.47561" />
+                            <point x="0.0487608" y="0.284148" />
+                            <point x="0.133338" y="0.161905" />
+                            <point x="0.311445" y="0.0374588" />
+                            <point x="0.500498" y="0.00441986" />
+                            <point x="0.691541" y="0.041864" />
+                            <point x="0.858703" y="0.158601" />
+                            <point x="0.962186" y="0.303971" />
+                            <point x="0.998006" y="0.485132" />
+                            <point x="0.768157" y="0.481278" />
+                            <point x="0.494528" y="0.476874" />
+                            <point x="0.115426" y="0.47467" />
+                            <point x="0.00299001" y="0.475772" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2321,18 +2315,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="5InfoPg3" sid="268957517991809">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="5InfoPg4" sid="390247199890433">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="5InfoPg5" sid="256033557304903">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="5InfoPg6" sid="647630235057189">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="logoGame" sid="240852420603341">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2356,9 +2338,7 @@
         <layout>3 viajeEspacialP1.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
-        <layout>5 recargarCombustibleJupiter.xml</layout>
-        <layout>5 recargarCombustibleSaturno.xml</layout>
-        <layout>5 recargarCombustibleVenus.xml</layout>
+        <layout>5 recargarCombustible.xml</layout>
         <layout>Sprites.xml</layout>
     </layout-folder>
     <event-folder>

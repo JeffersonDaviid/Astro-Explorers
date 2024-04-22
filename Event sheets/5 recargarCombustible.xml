@@ -206,5 +206,60 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="589238963036553" title="Planeta" />
+        <event-block sid="893320476596707">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="158005613408018" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="607662484421858" type="5planeta_Venus">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="963756985048428">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="751003214571875" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="362234058304388" type="5InfoPg1">
+                    <param id="0" name="Text">&quot;Es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente masiva como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Júpiter es un gigante hecho de gas&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="582775700914627" type="5InfoPg2">
+                    <param id="0" name="Text">&quot;Júpiter no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. &quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="767535392314707" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="958893422409719">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="442209898378551" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="454524475597169" type="5InfoPg1">
+                    <param id="0" name="Text">&quot;Los anillos de Saturno están compuestos por grupos de pequeños aros que lo rodean. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte.&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="871238779014103" type="5InfoPg2">
+                    <param id="0" name="Text">&quot;Cuando Galileo Galilei vio a Saturno a través de un telescopio en el siglo XVII, no estaba seguro de lo que estaba viendo. Al principio, creyó que estaba mirando tres planetas, o un planeta con asas. Ahora, sabemos que esas -asas- eran los anillos de Saturno.&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="197356295340303" type="5planeta_Saturno">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

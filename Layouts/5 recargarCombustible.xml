@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>5 recargarCombustible </name>
+    <name>5 recargarCombustible</name>
     <sid>750083837942752</sid>
     <event-sheet>5 recargarCombustible</event-sheet>
     <size>
@@ -8,8 +8,8 @@
         <height>960</height>
     </size>
     <margins>
-        <horizontal>1000</horizontal>
-        <vertical>1000</vertical>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5background" uid="2">
+                <instance type="5background" uid="120">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>859</x>
-                        <y>484</y>
+                        <x>813</x>
+                        <y>540</y>
                         <z>0</z>
-                        <width>1722</width>
-                        <height>982</height>
+                        <width>1748</width>
+                        <height>1157</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5nave" uid="0">
+                <instance type="5nave" uid="121">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -82,26 +82,40 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>783</x>
-                        <y>555</y>
+                        <x>447</x>
+                        <y>264</y>
                         <z>0</z>
-                        <width>141.40625</width>
-                        <height>200.78125</height>
+                        <width>45</width>
+                        <height>65</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-0.021826509</angle>
+                        <angle>0.043427702</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5planet" uid="1">
+                <instance type="5planeta_Jupiter" uid="122">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="Solid">
                             <properties>
                                 <initial-state>Enabled</initial-state>
@@ -111,11 +125,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>854</x>
-                        <y>1339</y>
+                        <x>427</x>
+                        <y>1110</y>
                         <z>0</z>
-                        <width>1510.87890625</width>
-                        <height>1384.38671875</height>
+                        <width>1655</width>
+                        <height>1630</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -123,7 +137,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5combustible" uid="3">
+                <instance type="5combustible" uid="123">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -136,64 +150,37 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>935.69152832</x>
-                        <y>613.740722656</y>
-                        <z>0</z>
-                        <width>73.828125</width>
-                        <height>75.546875</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501587331</hotspotX>
-                        <hotspotY>0.502585292</hotspotY>
-                        <angle>0.087163873</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="iniciarLectura" sid="558749164014583">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="5alien" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>266</x>
+                        <x>475</x>
                         <y>280</y>
                         <z>0</z>
-                        <width>447.190002441</width>
-                        <height>298.368347168</height>
+                        <width>35</width>
+                        <height>35</height>
                         <depth>0</depth>
-                        <hotspotX>0.502538085</hotspotX>
-                        <hotspotY>0.510948896</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.506849289</hotspotX>
+                        <hotspotY>0.506329119</hotspotY>
+                        <angle>0.046279781</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5text" uid="6">
+                <instance type="5play" uid="127">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -203,24 +190,46 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>551</x>
-                        <y>186</y>
+                        <x>440.7081604</x>
+                        <y>365</y>
                         <z>0</z>
-                        <width>426</width>
-                        <height>205</height>
+                        <width>110</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500658751</hotspotY>
-                        <angle>0.401887685</angle>
+                        <hotspotX>0.469999999</hotspotX>
+                        <hotspotY>0.800000012</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5cuadro_inf" uid="7">
+                <instance type="5text" uid="125">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>647.293579102</x>
+                        <y>60.833206177</y>
+                        <z>0</z>
+                        <width>184.471069336</width>
+                        <height>84.544166565</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.005588854</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5cuadro_inf" uid="126">
                     <properties>
                         <text>Hola, soy Nyx para que puedas recargar la nave con combustible necesitas saber sobre mi planeta</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,400,0</font>
-                        <color>0,0,0</color>
+                        <font>Bahnschrift Condensed,-12,400,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -230,19 +239,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>427</x>
-                        <y>29</y>
+                        <x>556.056640625</x>
+                        <y>29.49180603</y>
                         <z>0</z>
-                        <width>348</width>
-                        <height>140</height>
+                        <width>178.73147583</width>
+                        <height>69</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0.410686523</angle>
+                        <angle>0.003041688</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5play" uid="8">
+                <instance type="5alien" uid="124">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -252,36 +261,100 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>950</x>
-                        <y>775</y>
+                        <x>749</x>
+                        <y>120</y>
                         <z>0</z>
-                        <width>243</width>
-                        <height>79</height>
+                        <width>100</width>
+                        <height>70</height>
                         <depth>0</depth>
-                        <hotspotX>0.471786827</hotspotX>
-                        <hotspotY>0.805732489</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.50222224</hotspotX>
+                        <hotspotY>0.50999999</hotspotY>
+                        <angle>0.155321077</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5return" uid="16">
+                <instance type="5planeta_Saturno" uid="36">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>650</x>
-                        <y>775</y>
+                        <x>843</x>
+                        <y>798</y>
                         <z>0</z>
-                        <width>243</width>
-                        <height>79</height>
+                        <width>979</width>
+                        <height>976</height>
                         <depth>0</depth>
-                        <hotspotX>0.471786827</hotspotX>
-                        <hotspotY>0.805732489</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.537346005</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5planeta_Venus" uid="37">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>431</x>
+                        <y>1112</y>
+                        <z>0</z>
+                        <width>1655</width>
+                        <height>1630</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -305,9 +378,9 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5ProgressBar" uid="4">
+                <instance type="5ProgressBar" uid="129">
                     <properties>
-                        <value>0</value>
+                        <value>50</value>
                         <maximum>100</maximum>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
@@ -316,42 +389,17 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>611</x>
-                        <y>818.75</y>
+                        <x>327</x>
+                        <y>357</y>
                         <z>0</z>
-                        <width>451</width>
-                        <height>44</height>
+                        <width>200</width>
+                        <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="5cuadro" uid="10">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <effect-instances>
-                        <effect-instance type="Darken" />
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>854</x>
-                        <y>417.75</y>
-                        <z>0</z>
-                        <width>683</width>
-                        <height>641</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5fondo" uid="11">
+                <instance type="5cuadro" uid="130">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -361,11 +409,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>854</x>
-                        <y>396.75</y>
+                        <x>427</x>
+                        <y>120.105911255</y>
                         <z>0</z>
-                        <width>563</width>
-                        <height>494</height>
+                        <width>250</width>
+                        <height>220</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -373,14 +421,85 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5InfoPg1" uid="15">
+                <instance type="5fondo" uid="131">
                     <properties>
-                        <text>Estamos en la pagina 01 del layout 01</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,400,0</font>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>427</x>
+                        <y>117.354240417</y>
+                        <z>0</z>
+                        <width>220.286590576</width>
+                        <height>180</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5InfoPg1" uid="132">
+                    <properties>
+                        <text>Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. </text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Footlight MT Light,-11,300,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Character</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>365.70111084</x>
+                        <y>38.730354309</y>
+                        <z>0</z>
+                        <width>149.371429443</width>
+                        <height>144.866119385</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5dosDer" uid="133">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>457</x>
+                        <y>210.466003418</y>
+                        <z>0</z>
+                        <width>25</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5cuadro_inf_pg1" uid="48">
+                    <properties>
+                        <text>¡No té rindas, hay más cosas por descubrir !</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Bahnschrift Condensed,-12,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
@@ -388,37 +507,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>671.5</x>
-                        <y>232</y>
+                        <x>560.606079102</x>
+                        <y>31.307678223</y>
                         <z>0</z>
-                        <width>365</width>
-                        <height>78</height>
+                        <width>178.73147583</width>
+                        <height>69</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5dosDer" uid="12">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>934</x>
-                        <y>693</y>
-                        <z>0</z>
-                        <width>80</width>
-                        <height>80</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
+                        <angle>0.003041688</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -441,26 +538,26 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5InfoPg2" uid="13">
+                <instance type="5InfoPg2" uid="134">
                     <properties>
-                        <text>Estamos en la pagina 02 del layout 02</text>
+                        <text>De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido. En Venus, el Sol sale cada 117 días terrestres. Así que el Sol sale dos veces por año.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,400,0</font>
+                        <font>Footlight MT Light,-11,300,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
+                        <wrapping>Character</wrapping>
                         <line-height>0</line-height>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>671.5</x>
-                        <y>232</y>
+                        <x>365.70098877</x>
+                        <y>38.729999542</y>
                         <z>0</z>
-                        <width>365</width>
-                        <height>78</height>
+                        <width>149.371002197</width>
+                        <height>144.865997314</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -468,7 +565,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5uno" uid="17">
+                <instance type="5uno" uid="135">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -478,14 +575,131 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>774</x>
-                        <y>693</y>
+                        <x>397</x>
+                        <y>210.466003418</y>
                         <z>0</z>
-                        <width>80</width>
-                        <height>80</height>
+                        <width>25</width>
+                        <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5exit" uid="49">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>528.297668457</x>
+                        <y>41.074829102</y>
+                        <z>0</z>
+                        <width>25</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5cuadro_inf_pg2" uid="128">
+                    <properties>
+                        <text>¡Felicidades lograsté llenar el combustible de tú nave!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Bahnschrift,-13,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>567.367553711</x>
+                        <y>26.048355103</y>
+                        <z>0</z>
+                        <width>155.509246826</width>
+                        <height>69</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0.003041688</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="nuevoViaje" sid="181723144951571">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="5return" uid="136">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>440.396728516</x>
+                        <y>197.348968506</y>
+                        <z>0</z>
+                        <width>110</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0.469999999</hotspotX>
+                        <hotspotY>0.800000012</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5Fin" uid="137">
+                    <properties>
+                        <text>¡Puedes viajar a otros planetas !</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Bahnschrift,-16,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>557.556518555</x>
+                        <y>30.243461609</y>
+                        <z>0</z>
+                        <width>176.466186523</width>
+                        <height>69</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
