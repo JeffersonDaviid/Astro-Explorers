@@ -68,8 +68,8 @@
         <object-type name="1z" sid="127399095591443">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Pin" sid="861737796307004">
-                    <behavior id="Pin" />
+                <behavior-type name="Sine" sid="963132183875803">
+                    <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -1305,7 +1305,7 @@
         </object-type>
         <object-type name="3Failed_bg" sid="430140600722115">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Leonardo\OneDrive - Escuela Politécnica Nacional\Escritorio\LA VIEJA CONFIABLE F\326347553_2323648817802473_1335920700803968099_n.jpg" />
+            <texture original-source="C:\Users\jeffe\OneDrive\Escritorio\MENU PRINCIPAL\cielo_nocturno.png" />
         </object-type>
         <object-type name="4Nave" sid="355879244125928">
             <plugin id="Sprite" />
@@ -2250,7 +2250,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Button" sid="424021532233875">
+        <object-type name="3btn_volver" sid="424021532233875">
             <plugin id="Button" />
         </object-type>
         <object-type name="5planeta_Saturno" sid="646678517554726">
@@ -2326,6 +2326,20 @@
         </object-type>
         <object-type name="5InfoPg6" sid="647630235057189">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="logoGame" sid="240852420603341">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="177285452679747" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\contenedorfinalfinal.png">
+                        <collision-poly>
+                            <point x="0.0729412" y="0.129167" />
+                            <point x="0.958824" y="0.927083" />
+                            <point x="0.410588" y="0.272917" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

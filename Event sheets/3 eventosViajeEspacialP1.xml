@@ -17,6 +17,9 @@
                     <param id="0" name="Variable">timeShip</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="922158461584334" type="1contenedor">
+                    <param id="0" name="Input">0</param>
+                </action>
                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="797572967333142" type="3player">
                     <param id="0" name="State">0</param>
                 </action>
@@ -196,6 +199,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="679362787887134" type="1contenedor">
+                    <param id="0" name="Input">1</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="763630156470399" type="3player">
                     <param id="0" name="Object">3PartShip</param>
                     <param id="1" name="Layer">0</param>

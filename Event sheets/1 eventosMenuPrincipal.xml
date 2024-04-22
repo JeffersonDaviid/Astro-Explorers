@@ -167,10 +167,6 @@
                     <param id="0" name="Pin to">1contenedor</param>
                     <param id="1" name="Mode">0</param>
                 </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="736981919379881" type="1z">
-                    <param id="0" name="Pin to">1contenedor</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
             </actions>
         </event-block>
     </events>
