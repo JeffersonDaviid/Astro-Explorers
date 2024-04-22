@@ -99,14 +99,14 @@
         </event-block>
         <event-block any="1" sid="559255895614756">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="544648188930606" type="4Nave">
-                    <param id="0" name="Object">4PlanetaJupiter</param>
+                <condition id="0" name="On collision with another object" sid="381099086396487" type="4Nave">
+                    <param id="0" name="Object">5planeta_Venus</param>
                 </condition>
-                <condition id="0" name="On collision with another object" sid="423878412414080" type="4Nave">
-                    <param id="0" name="Object">4PlanetaSaturno</param>
+                <condition id="0" name="On collision with another object" sid="844533491437382" type="4Nave">
+                    <param id="0" name="Object">5planeta_Jupiter</param>
                 </condition>
-                <condition id="0" name="On collision with another object" sid="697527642181700" type="4Nave">
-                    <param id="0" name="Object">4PlanetVenus</param>
+                <condition id="0" name="On collision with another object" sid="982016569386656" type="4Nave">
+                    <param id="0" name="Object">5planeta_Saturno</param>
                 </condition>
             </conditions>
             <actions />
@@ -162,11 +162,23 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="11" name="Set collisions enabled" sid="359499661877956" type="4PlanetVenus">
+                <action id="-15" name="Set visible" sid="681403950457114" type="5planeta_Venus">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="913002028867209" type="5planeta_Venus">
                     <param id="0" name="Collisions">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="903815556218192" type="4PlanetVenus">
-                    <param id="0" name="Visibility">1</param>
+                <action id="-15" name="Set visible" sid="388993374041357" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="547723557797557" type="5planeta_Jupiter">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="243814843205131" type="5planeta_Saturno">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="721808554984676" type="5planeta_Saturno">
+                    <param id="0" name="Collisions">0</param>
                 </action>
             </actions>
         </event-block>
@@ -179,11 +191,23 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="11" name="Set collisions enabled" sid="985027081546615" type="4PlanetaJupiter">
+                <action id="-15" name="Set visible" sid="134835591559537" type="5planeta_Venus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="994046113606527" type="5planeta_Venus">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="774475060503368" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="692219757536848" type="5planeta_Jupiter">
                     <param id="0" name="Collisions">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="106841742681957" type="4PlanetaJupiter">
-                    <param id="0" name="Visibility">1</param>
+                <action id="-15" name="Set visible" sid="485888986465820" type="5planeta_Saturno">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="254488917992620" type="5planeta_Saturno">
+                    <param id="0" name="Collisions">0</param>
                 </action>
             </actions>
         </event-block>
@@ -196,11 +220,23 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="11" name="Set collisions enabled" sid="874027124402719" type="4PlanetaSaturno">
-                    <param id="0" name="Collisions">1</param>
+                <action id="-15" name="Set visible" sid="728385475160462" type="5planeta_Venus">
+                    <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="368077210465689" type="4PlanetaSaturno">
+                <action id="11" name="Set collisions enabled" sid="580926765273844" type="5planeta_Venus">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="536147869777470" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="312130936646198" type="5planeta_Jupiter">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="166147433708136" type="5planeta_Saturno">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="500210760571941" type="5planeta_Saturno">
+                    <param id="0" name="Collisions">1</param>
                 </action>
             </actions>
         </event-block>

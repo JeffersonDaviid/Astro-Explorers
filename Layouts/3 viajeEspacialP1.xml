@@ -201,40 +201,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3cometa" uid="155">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>100</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1591</x>
-                        <y>470</y>
-                        <z>0</z>
-                        <width>150</width>
-                        <height>150</height>
-                        <depth>0</depth>
-                        <hotspotX>0.620000005</hotspotX>
-                        <hotspotY>0.280000001</hotspotY>
-                        <angle>1.735045314</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="3ufo" uid="156">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -285,28 +251,6 @@
                         <depth>0</depth>
                         <hotspotX>0.53273809</hotspotX>
                         <hotspotY>0.287253141</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="3rocas" uid="157">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1598</x>
-                        <y>682</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>200</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
