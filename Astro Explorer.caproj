@@ -68,82 +68,88 @@
         <object-type name="1z" sid="127399095591443">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Sine" sid="963132183875803">
+                <behavior-type name="8Direction" sid="216589932368428">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="751451057732861">
                     <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="562184058403005">
+                    <behavior id="bound" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708883342837116" speed="10">
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete1.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete1.png">
                         <collision-poly>
-                            <point x="0.4" y="0.333333" />
-                            <point x="0.5" y="0.0333333" />
-                            <point x="0.63" y="0.308333" />
-                            <point x="0.82" y="0.5" />
-                            <point x="0.63" y="0.691667" />
-                            <point x="0.5" y="0.891667" />
-                            <point x="0.15" y="0.875" />
-                            <point x="0.21" y="0.5" />
+                            <point x="0.666667" y="0.4" />
+                            <point x="0.966667" y="0.5" />
+                            <point x="0.691667" y="0.63" />
+                            <point x="0.5" y="0.82" />
+                            <point x="0.308333" y="0.63" />
+                            <point x="0.108333" y="0.5" />
+                            <point x="0.125" y="0.15" />
+                            <point x="0.5" y="0.21" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.502604" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete2.png">
+                    <frame duration="1" hotspotX="0.497396" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete2.png">
                         <collision-poly>
-                            <point x="0.453704" y="0.255208" />
-                            <point x="0.5" y="0.274479" />
-                            <point x="0.50463" y="0.278646" />
-                            <point x="0.653704" y="0.5" />
-                            <point x="0.588889" y="0.76875" />
-                            <point x="0.5" y="0.963021" />
-                            <point x="0.355556" y="0.8" />
-                            <point x="0.258333" y="0.5" />
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.036979" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
                         <collision-poly>
-                            <point x="0.453704" y="0.255208" />
-                            <point x="0.5" y="0.274479" />
-                            <point x="0.50463" y="0.278646" />
-                            <point x="0.653704" y="0.5" />
-                            <point x="0.588889" y="0.76875" />
-                            <point x="0.5" y="0.969271" />
-                            <point x="0.355556" y="0.8" />
-                            <point x="0.258333" y="0.5" />
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.030729" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.502604" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete4.png">
+                    <frame duration="1" hotspotX="0.497396" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete4.png">
                         <collision-poly>
-                            <point x="0.453704" y="0.255208" />
-                            <point x="0.5" y="0.274479" />
-                            <point x="0.50463" y="0.278646" />
-                            <point x="0.653704" y="0.5" />
-                            <point x="0.588889" y="0.76875" />
-                            <point x="0.5" y="0.984375" />
-                            <point x="0.337963" y="0.809896" />
-                            <point x="0.258333" y="0.5" />
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.015625" y="0.5" />
+                            <point x="0.190104" y="0.337963" />
+                            <point x="0.5" y="0.258333" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.5" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete5.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete5.png">
                         <collision-poly>
-                            <point x="0.453704" y="0.255208" />
-                            <point x="0.5" y="0.274479" />
-                            <point x="0.50463" y="0.278646" />
-                            <point x="0.653704" y="0.5" />
-                            <point x="0.588889" y="0.76875" />
-                            <point x="0.5" y="0.963021" />
-                            <point x="0.355556" y="0.8" />
-                            <point x="0.258333" y="0.5" />
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.036979" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.502604" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
+                    <frame duration="1" hotspotX="0.497396" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
                         <collision-poly>
-                            <point x="0.453704" y="0.255208" />
-                            <point x="0.5" y="0.274479" />
-                            <point x="0.50463" y="0.278646" />
-                            <point x="0.653704" y="0.5" />
-                            <point x="0.588889" y="0.76875" />
-                            <point x="0.5" y="0.969271" />
-                            <point x="0.355556" y="0.8" />
-                            <point x="0.258333" y="0.5" />
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.030729" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
                         </collision-poly>
                     </frame>
                 </animation>

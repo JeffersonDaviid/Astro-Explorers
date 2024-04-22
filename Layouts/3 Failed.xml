@@ -59,8 +59,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>431</x>
-                        <y>235</y>
+                        <x>430</x>
+                        <y>247</y>
                         <z>0</z>
                         <width>850</width>
                         <height>480</height>
@@ -86,7 +86,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>283</x>
-                        <y>352</y>
+                        <y>376</y>
                         <z>0</z>
                         <width>237</width>
                         <height>41</height>
@@ -103,31 +103,47 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>360 degree (smooth)</set-angle>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="Sine">
                             <properties>
                                 <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
+                                <movement>Horizontal</movement>
                                 <wave>Sine</wave>
-                                <period>4</period>
+                                <period>60</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>10</magnitude>
+                                <magnitude>200</magnitude>
                                 <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>679</x>
-                        <y>201</y>
+                        <x>476</x>
+                        <y>269</y>
                         <z>0</z>
-                        <width>334</width>
-                        <height>606</height>
+                        <width>593.777770996</width>
+                        <height>340.875</height>
                         <depth>0</depth>
-                        <hotspotX>0.502777755</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502777755</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
