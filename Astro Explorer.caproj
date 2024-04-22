@@ -29,7 +29,6 @@
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
-        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
@@ -1349,11 +1348,11 @@
         <object-type name="5nave" sid="158125063463082">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Platform" sid="806517772019093">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="792792406639918">
+                <behavior-type name="Solid" sid="221569963711205">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="239410848284448">
+                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
