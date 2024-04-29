@@ -1675,36 +1675,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3ScoreText" uid="142">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-24,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>14</x>
-                        <y>423</y>
-                        <z>0</z>
-                        <width>349</width>
-                        <height>93</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -1752,8 +1722,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>65.311302185</x>
-                        <y>558</y>
+                        <x>65</x>
+                        <y>550</y>
                         <z>0</z>
                         <width>145</width>
                         <height>60.000003815</height>

@@ -157,110 +157,10 @@
         </event-group>
         <event-group description="" sid="920918365937433" title="selectPlanets">
             <sub-events>
-                <event-block sid="540230873059957">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="564569338142866" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2Venus</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
-                        <action id="-7" name="Set size" sid="936355183183349" type="2Venus">
-                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
-                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="827373537347950" type="2Venus">
-                            <param id="0" name="X">2Venus.posX</param>
-                            <param id="1" name="Y">2Venus.posY</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="741289082314218" type="2botonVenus">
-                            <param id="0" name="X">2Venus.X</param>
-                            <param id="1" name="Y">2Venus.Y+150</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonVenus">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Play" sid="516083873541921" type="Audio">
-                            <param id="0" name="Audio file">2Seleccion</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="638816266520305">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="267123597632897" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2Jupiter</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="2Jupiter" />
-                        <action id="-7" name="Set size" sid="824184381756495" type="2Jupiter">
-                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
-                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="649706687893882" type="2Jupiter">
-                            <param id="0" name="X">2Jupiter.posX</param>
-                            <param id="1" name="Y">2Jupiter.posY</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="568388261226013" type="2botonJupiter">
-                            <param id="0" name="X">2Jupiter.X</param>
-                            <param id="1" name="Y">2Jupiter.Y+150</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonJupiter">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Play" sid="507618454601227" type="Audio">
-                            <param id="0" name="Audio file">2Seleccion</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="915129567594065">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="885129649429650" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2Saturno</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="2Saturno" />
-                        <action id="-7" name="Set size" sid="443107293793672" type="2Saturno">
-                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
-                            <param id="1" name="Height">RADIOPLANETA * 1.25150</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="492115366636054" type="2Saturno">
-                            <param id="0" name="X">2Saturno.posX</param>
-                            <param id="1" name="Y">2Saturno.posY</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="179083884103279" type="2botonSaturno">
-                            <param id="0" name="X">2Saturno.X</param>
-                            <param id="1" name="Y">2Saturno.Y+150</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonSaturno">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Play" sid="236904979204375" type="Audio">
-                            <param id="0" name="Audio file">2Seleccion</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block sid="677363542243028">
                     <conditions>
-                        <condition id="0" name="On click" sid="147070177495889" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
+                        <condition id="17" name="On tap object" sid="147070177495889" type="Touch">
+                            <param id="0" name="Object">2Fondo</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -309,12 +209,103 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="540230873059957">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="564569338142866" type="Touch">
+                            <param id="0" name="Object">2Venus</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
+                        <action id="-7" name="Set size" sid="936355183183349" type="2Venus">
+                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
+                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="827373537347950" type="2Venus">
+                            <param id="0" name="X">2Venus.posX</param>
+                            <param id="1" name="Y">2Venus.posY</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="741289082314218" type="2botonVenus">
+                            <param id="0" name="X">2Venus.X</param>
+                            <param id="1" name="Y">2Venus.Y+150</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonVenus">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="516083873541921" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="638816266520305">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="267123597632897" type="Touch">
+                            <param id="0" name="Object">2Jupiter</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="2Jupiter" />
+                        <action id="-7" name="Set size" sid="824184381756495" type="2Jupiter">
+                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
+                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="649706687893882" type="2Jupiter">
+                            <param id="0" name="X">2Jupiter.posX</param>
+                            <param id="1" name="Y">2Jupiter.posY</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="568388261226013" type="2botonJupiter">
+                            <param id="0" name="X">2Jupiter.X</param>
+                            <param id="1" name="Y">2Jupiter.Y+150</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonJupiter">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="507618454601227" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="915129567594065">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="885129649429650" type="Touch">
+                            <param id="0" name="Object">2Saturno</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="2Saturno" />
+                        <action id="-7" name="Set size" sid="443107293793672" type="2Saturno">
+                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
+                            <param id="1" name="Height">RADIOPLANETA * 1.25150</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="492115366636054" type="2Saturno">
+                            <param id="0" name="X">2Saturno.posX</param>
+                            <param id="1" name="Y">2Saturno.posY</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="179083884103279" type="2botonSaturno">
+                            <param id="0" name="X">2Saturno.X</param>
+                            <param id="1" name="Y">2Saturno.Y+150</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonSaturno">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="236904979204375" type="Audio">
+                            <param id="0" name="Audio file">2Seleccion</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="524425086778558">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="106217684238493" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2meteoritosPuntajeExtra</param>
+                        <condition id="17" name="On tap object" sid="106217684238493" type="Touch">
+                            <param id="0" name="Object">2meteoritosPuntajeExtra</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -341,10 +332,8 @@
                 </event-block>
                 <event-block sid="684469922729953">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="432166313836270" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2botonVenus</param>
+                        <condition id="17" name="On tap object" sid="432166313836270" type="Touch">
+                            <param id="0" name="Object">2botonVenus</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -360,10 +349,8 @@
                 </event-block>
                 <event-block sid="450379982377274">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="365620984674419" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2botonJupiter</param>
+                        <condition id="17" name="On tap object" sid="365620984674419" type="Touch">
+                            <param id="0" name="Object">2botonJupiter</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -379,10 +366,8 @@
                 </event-block>
                 <event-block sid="614546096847162">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="902469979685582" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">2botonSaturno</param>
+                        <condition id="17" name="On tap object" sid="902469979685582" type="Touch">
+                            <param id="0" name="Object">2botonSaturno</param>
                         </condition>
                     </conditions>
                     <actions>

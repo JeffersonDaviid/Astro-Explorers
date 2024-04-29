@@ -3,9 +3,12 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 Failed</name>
     <events>
-        <event-block sid="418555420684807">
+        <event-block any="1" sid="418555420684807">
             <conditions>
                 <condition id="0" name="On clicked" sid="309811326517702" type="3btn_volver" />
+                <condition id="4" name="Is touching object" sid="482016310050408" type="Touch">
+                    <param id="0" name="Object">3btn_volver</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-37" name="Load" sid="226780380516824" type="System">

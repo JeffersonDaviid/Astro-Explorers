@@ -3,10 +3,13 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>4 eventosDescensoCoheteAlPlaneta</name>
     <events>
-        <event-block sid="971545273770461">
+        <event-block any="1" sid="971545273770461">
             <conditions>
                 <condition id="0" name="On key pressed" sid="302445328901065" type="Keyboard">
                     <param id="0" name="Key">39</param>
+                </condition>
+                <condition id="17" name="On tap object" sid="606984308875094" type="Touch">
+                    <param id="0" name="Object">3controlDer</param>
                 </condition>
             </conditions>
             <actions>
@@ -39,10 +42,13 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="656820213752901">
+        <event-block any="1" sid="656820213752901">
             <conditions>
                 <condition id="0" name="On key pressed" sid="338486493378906" type="Keyboard">
                     <param id="0" name="Key">37</param>
+                </condition>
+                <condition id="17" name="On tap object" sid="184401153475190" type="Touch">
+                    <param id="0" name="Object">3controlIzq</param>
                 </condition>
             </conditions>
             <actions>

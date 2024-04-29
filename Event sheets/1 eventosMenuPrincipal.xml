@@ -3,9 +3,12 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>1 eventosMenuPrincipal</name>
     <events>
-        <event-block sid="872829519439262">
+        <event-block any="1" sid="872829519439262">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="327536108121511" type="Mouse">
+                    <param id="0" name="Object">1nueva</param>
+                </condition>
+                <condition id="4" name="Is touching object" sid="822416363748335" type="Touch">
                     <param id="0" name="Object">1nueva</param>
                 </condition>
             </conditions>
@@ -13,29 +16,20 @@
                 <action id="5" name="Set frame" sid="524038704081114" type="1nueva">
                     <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="0" name="Play" sid="435457575950546" type="Audio">
-                    <param id="0" name="Audio file">2Miscelaneo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-10</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
-        <event-block sid="735766367807426">
+        <event-block any="1" sid="735766367807426">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="203030575521296" type="Mouse">
+                    <param id="0" name="Object">1cargar</param>
+                </condition>
+                <condition id="4" name="Is touching object" sid="192746636887435" type="Touch">
                     <param id="0" name="Object">1cargar</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="594964974694955" type="1cargar">
                     <param id="0" name="Frame number">0</param>
-                </action>
-                <action id="0" name="Play" sid="640918083409822" type="Audio">
-                    <param id="0" name="Audio file">2Miscelaneo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-10</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -124,34 +118,28 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="674144219471436">
+        <event-block any="1" sid="674144219471436">
             <conditions>
-                <condition id="6" name="On object clicked" sid="491158680862671" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">1nueva</param>
+                <condition id="17" name="On tap object" sid="826923465616686" type="Touch">
+                    <param id="0" name="Object">1nueva</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-43" name="Go to next/previous layout" sid="731732313488707" type="System">
                     <param id="0" name="Which">0</param>
                 </action>
-                <action id="-9" name="Destroy" sid="114084767059597" type="1nueva" />
             </actions>
         </event-block>
-        <event-block sid="154259673477107">
+        <event-block any="1" sid="154259673477107">
             <conditions>
-                <condition id="6" name="On object clicked" sid="485415810381491" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">1cargar</param>
+                <condition id="17" name="On tap object" sid="485415810381491" type="Touch">
+                    <param id="0" name="Object">1cargar</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-37" name="Load" sid="558959957983014" type="System">
                     <param id="0" name="Slot">&quot;mysave&quot;</param>
                 </action>
-                <action id="-9" name="Destroy" sid="573651507495724" type="1cargar" />
             </actions>
         </event-block>
         <event-block sid="593079026828538">
@@ -164,6 +152,10 @@
                     <param id="1" name="Mode">0</param>
                 </action>
                 <action behavior="Pin" id="0" name="Pin to object" sid="779550812166019" type="1cargar">
+                    <param id="0" name="Pin to">1contenedor</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="476378527647319" type="1botonCreditos">
                     <param id="0" name="Pin to">1contenedor</param>
                     <param id="1" name="Mode">0</param>
                 </action>

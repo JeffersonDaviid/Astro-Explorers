@@ -40,7 +40,7 @@
                 </event-block>
                 <event-block sid="213502558332565">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="257587242655339" type="Touch">
+                        <condition id="17" name="On tap object" sid="257587242655339" type="Touch">
                             <param id="0" name="Object">5play</param>
                         </condition>
                     </conditions>
@@ -89,7 +89,7 @@
                 </event-block>
                 <event-block sid="695162686934436">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="566394286562665" type="Touch">
+                        <condition id="17" name="On tap object" sid="566394286562665" type="Touch">
                             <param id="0" name="Object">5dosDer</param>
                         </condition>
                     </conditions>
@@ -118,7 +118,7 @@
             <sub-events>
                 <event-block sid="308597204710352">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="960270069550609" type="Touch">
+                        <condition id="17" name="On tap object" sid="960270069550609" type="Touch">
                             <param id="0" name="Object">5uno</param>
                         </condition>
                     </conditions>
@@ -173,7 +173,7 @@
                 </event-block>
                 <event-block sid="698938117457357">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="835138491984818" type="Touch">
+                        <condition id="17" name="On tap object" sid="835138491984818" type="Touch">
                             <param id="0" name="Object">5exit</param>
                         </condition>
                     </conditions>
@@ -196,7 +196,7 @@
         </event-group>
         <event-block sid="784518493645889">
             <conditions>
-                <condition id="3" name="On touched object" sid="498859754851522" type="Touch">
+                <condition id="17" name="On tap object" sid="498859754851522" type="Touch">
                     <param id="0" name="Object">5return</param>
                 </condition>
             </conditions>

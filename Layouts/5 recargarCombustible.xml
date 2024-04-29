@@ -447,22 +447,22 @@
                     <properties>
                         <text>Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Footlight MT Light,-11,300,0</font>
+                        <font>Consolas,-9,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
-                        <wrapping>Character</wrapping>
+                        <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>365.70111084</x>
-                        <y>38.730354309</y>
+                        <x>358.870727539</x>
+                        <y>31.90045166</y>
                         <z>0</z>
-                        <width>149.371429443</width>
-                        <height>144.866119385</height>
+                        <width>163.03112793</width>
+                        <height>159.767822266</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -496,7 +496,7 @@
                     <properties>
                         <text>¡No té rindas, hay más cosas por descubrir !</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Bahnschrift Condensed,-12,400,0</font>
+                        <font>Consolas,-13,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -542,22 +542,22 @@
                     <properties>
                         <text>De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido. En Venus, el Sol sale cada 117 días terrestres. Así que el Sol sale dos veces por año.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Footlight MT Light,-11,300,0</font>
+                        <font>Consolas,-9,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
-                        <wrapping>Character</wrapping>
+                        <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>365.70098877</x>
-                        <y>38.729999542</y>
+                        <x>359.490905762</x>
+                        <y>33.141555786</y>
                         <z>0</z>
-                        <width>149.371002197</width>
-                        <height>144.865997314</height>
+                        <width>162.411437988</width>
+                        <height>156.663604736</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -613,7 +613,7 @@
                     <properties>
                         <text>¡Felicidades lograsté llenar el combustible de tú nave!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Bahnschrift,-13,700,0</font>
+                        <font>Consolas,-13,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
