@@ -2,7 +2,6 @@
 
 
 # Archivos de construcción y temporales:
-*.capx.backup
 *.capx.backup*
 *.uistate.xml
 *.autosave*
