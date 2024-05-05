@@ -2020,6 +2020,25 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="6creditosJuego" sid="717179934372627">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="506479263273931">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="272977909857964">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="6BackgroundCredits" sid="232971424971777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="376764307710838" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\estrellas.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
