@@ -1953,44 +1953,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="3mouseImg" sid="179664365809027">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995170255989134" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\click.png">
-                        <collision-poly>
-                            <point x="0.169922" y="0.169922" />
-                            <point x="0.5" y="0.107422" />
-                            <point x="0.78125" y="0.21875" />
-                            <point x="0.828125" y="0.5" />
-                            <point x="0.787109" y="0.787109" />
-                            <point x="0.5" y="0.996094" />
-                            <point x="0.273438" y="0.726563" />
-                            <point x="0.251953" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="3controlNave" sid="996861451013238">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893102219875733" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\controlNave.png">
-                        <collision-poly>
-                            <point x="0.246667" y="0.528571" />
-                            <point x="0.5" y="0.528571" />
-                            <point x="0.861333" y="0.297143" />
-                            <point x="0.868" y="0.5" />
-                            <point x="0.857333" y="0.694286" />
-                            <point x="0.5" y="0.954286" />
-                            <point x="0.0213333" y="0.954286" />
-                            <point x="0.781333" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="1botonCreditos" sid="245858240551140">
             <plugin id="Sprite" />
             <behaviors>
@@ -2020,10 +1982,52 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="2Captura1" sid="236173192662511">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346576255927362" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\screencapture-localhost-50000-2024-05-04-21_16_14.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2instruccion1" sid="711151816838757">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="2Captura2" sid="327844500101665">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="269291908072803" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\screencapture-localhost-50000-2024-05-04-21_27_47.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2instruccion2" sid="382611459557343">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="2BotonSiguiente" sid="415134168400047">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="2Captura3" sid="579023833214019">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="315943897030206" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\2Captura3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2Captura4" sid="779932367022299">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474821046739925" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\2Captura4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>1 menuPrincipal.xml</layout>
+        <layout>2Instrucciones.xml</layout>
         <layout>2 menuSeleccionDePlaneta.xml</layout>
         <layout>3 viajeEspacialP2.xml</layout>
         <layout>3 viajeEspacialP1.xml</layout>
@@ -2040,6 +2044,7 @@
         <event-sheet>5 recargarCombustible.xml</event-sheet>
         <event-sheet>3 eventosViajeEspacialP1.xml</event-sheet>
         <event-sheet>3 Failed.xml</event-sheet>
+        <event-sheet>2eventosInstrucciones.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="175" />
