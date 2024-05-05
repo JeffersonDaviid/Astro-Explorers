@@ -11,6 +11,12 @@
                 <action behavior="8Direction" id="7" name="Simulate control" sid="568996474088503" type="6creditosJuego">
                     <param id="0" name="Control">2</param>
                 </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="309051010322106" type="6creditosJuego2">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="303827278292772" type="6creditosJuego3">
+                    <param id="0" name="Control">2</param>
+                </action>
             </actions>
         </event-block>
     </events>

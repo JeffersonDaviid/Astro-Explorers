@@ -36,6 +36,7 @@
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -2026,8 +2027,8 @@
                 <behavior-type name="8Direction" sid="506479263273931">
                     <behavior id="EightDir" />
                 </behavior-type>
-                <behavior-type name="BoundToLayout" sid="272977909857964">
-                    <behavior id="bound" />
+                <behavior-type name="Wrap" sid="363170004633742">
+                    <behavior id="wrap" />
                 </behavior-type>
             </behaviors>
         </object-type>
@@ -2038,6 +2039,28 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\estrellas.jpg" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="6creditosJuego2" sid="156381816104048">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="687186760055923">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="977005256669125">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="6creditosJuego3" sid="547207036822609">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="409443945338411">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="642708160103308">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
         </object-type>
     </object-folder>
     <families />
