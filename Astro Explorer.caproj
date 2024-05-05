@@ -2031,6 +2031,7 @@
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
         <layout>5 recargarCombustible.xml</layout>
         <layout>Sprites.xml</layout>
+        <layout>6 creditos.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1 eventosMenuPrincipal.xml</event-sheet>
@@ -2040,6 +2041,7 @@
         <event-sheet>5 recargarCombustible.xml</event-sheet>
         <event-sheet>3 eventosViajeEspacialP1.xml</event-sheet>
         <event-sheet>3 Failed.xml</event-sheet>
+        <event-sheet>6 creditos.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="175" />
