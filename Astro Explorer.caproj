@@ -17,6 +17,10 @@
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+<<<<<<< HEAD
+=======
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+>>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
@@ -2020,6 +2024,41 @@
                 </animation>
             </animation-folder>
         </object-type>
+<<<<<<< HEAD
+=======
+        <object-type name="TextBox" sid="501271641744911">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text" sid="414893200195354">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="3Instrucciones" sid="951461172650177">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="4letraPorRecogerG" sid="209907456998000">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="3letraPorRecojerI" sid="767065441214019">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Physics" sid="674360058767799">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Text4" sid="636359412338174">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="185400579569413">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="4letrasRecolectadas" sid="473130335467015">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="3letrasIGM" sid="449736624348686">
+            <plugin id="Text" />
+        </object-type>
+>>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
     </object-folder>
     <families />
     <layout-folder>
