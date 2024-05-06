@@ -53,7 +53,7 @@
                 </instance>
                 <instance type="6creditosJuego" uid="142">
                     <properties>
-                        <text>Development Team</text>
+                        <text>Equipo de Desarrollo</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-40,700,0</font>
                         <color>0,204,255</color>
@@ -98,7 +98,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="173">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Desarrollador Principal</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -188,7 +188,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="179">
                     <properties>
-                        <text>Assitant Developer</text>
+                        <text>Desarrolladora Secundaria</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -220,7 +220,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>106.5</x>
-                        <y>416</y>
+                        <y>418</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -265,7 +265,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>436.5</x>
-                        <y>416</y>
+                        <y>418</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -278,7 +278,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="181">
                     <properties>
-                        <text>Version Crontrol Manager</text>
+                        <text>Control de Versiones</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -310,7 +310,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>106.5</x>
-                        <y>525</y>
+                        <y>513</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -355,7 +355,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>436.5</x>
-                        <y>525</y>
+                        <y>513</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -368,7 +368,7 @@
                 </instance>
                 <instance type="6creditosJuego" uid="183">
                     <properties>
-                        <text>Programmers</text>
+                        <text>Programadores</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-40,700,0</font>
                         <color>0,204,255</color>
@@ -400,7 +400,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>226.5</x>
-                        <y>699</y>
+                        <y>703</y>
                         <z>0</z>
                         <width>468</width>
                         <height>95</height>
@@ -413,7 +413,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="184">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Recarga de Combustible</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -458,7 +458,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="185">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>René Guzmán</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -503,7 +503,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="186">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Descenso al Planeta</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -548,7 +548,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="187">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Alexis Sotomayor</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -593,7 +593,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="188">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Viaje Espacial</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -638,7 +638,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="189">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Alexander Motoche</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -683,7 +683,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="190">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Descenso al Planeta</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -728,7 +728,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="191">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Luis Guerrero</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -773,7 +773,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="192">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -818,7 +818,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="193">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Brayan Maldonado</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -863,7 +863,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="194">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Viaje Espacial</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -908,7 +908,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="195">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Stiven Moposita</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -953,7 +953,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="196">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Menú Principal</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -998,7 +998,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="197">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Jorge Revelo</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -1043,7 +1043,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="198">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Recarga de Combustible</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1088,7 +1088,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="199">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Camila Sánchez</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -1133,7 +1133,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="200">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Menú Selección Planeta</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1164,10 +1164,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106</x>
+                        <x>-4</x>
                         <y>1065</y>
                         <z>0</z>
-                        <width>311</width>
+                        <width>422</width>
                         <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1223,7 +1223,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="202">
                     <properties>
-                        <text>Lead Developer</text>
+                        <text>Viaje Espacial</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1268,7 +1268,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="203">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Jefferson Chileno</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
@@ -1313,7 +1313,7 @@
                 </instance>
                 <instance type="6creditosJuego" uid="204">
                     <properties>
-                        <text>Designers</text>
+                        <text>Diseñadores</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-40,700,0</font>
                         <color>0,204,255</color>
@@ -1798,6 +1798,96 @@
                         <y>1414</y>
                         <z>0</z>
                         <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego2" uid="218">
+                    <properties>
+                        <text>Viaje Espacial</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-21,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>106.5</x>
+                        <y>1135</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="219">
+                    <properties>
+                        <text>Jonathan Luzuriaga</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-32,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>436.5</x>
+                        <y>1135</y>
+                        <z>0</z>
+                        <width>329</width>
                         <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
