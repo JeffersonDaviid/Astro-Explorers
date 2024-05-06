@@ -17,10 +17,8 @@
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
-<<<<<<< HEAD
-=======
+
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
@@ -2024,8 +2022,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
-=======
         <object-type name="TextBox" sid="501271641744911">
             <plugin id="TextBox" />
         </object-type>
@@ -2058,7 +2054,6 @@
         <object-type name="3letrasIGM" sid="449736624348686">
             <plugin id="Text" />
         </object-type>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
     </object-folder>
     <families />
     <layout-folder>

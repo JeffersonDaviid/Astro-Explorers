@@ -95,15 +95,6 @@
                 <action id="-8" name="Set angle" sid="877319890351711" type="4Nave">
                     <param id="0" name="Angle">round(random(-9,9)) * 10</param>
                 </action>
-<<<<<<< HEAD
-                <action id="4" name="Set font color" sid="878426967725704" type="4Texto_Intruccion">
-                    <param id="0" name="Color">rgb(228, 234, 237)</param>
-                </action>
-                <action id="0" name="Set text" sid="541683476204549" type="4Texto_Intruccion">
-                    <param id="0" name="Text">&quot;Intenta llegar al combustible para recargar!&quot;</param>
-                </action>
-=======
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
             </actions>
         </event-block>
         <event-block any="1" sid="559255895614756">

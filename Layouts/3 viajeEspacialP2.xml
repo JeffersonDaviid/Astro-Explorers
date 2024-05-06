@@ -1675,8 +1675,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
                 <instance type="3controlNave" uid="172">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1753,7 +1751,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
             </instances>
             <effects />
         </layer>
@@ -2005,13 +2002,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
-                        <x>317</x>
-                        <y>888</y>
-=======
                         <x>329</x>
                         <y>905</y>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>

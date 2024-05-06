@@ -359,8 +359,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
                 <instance type="3letrasIGM" uid="181">
                     <properties>
                         <text>IGM</text>
@@ -388,7 +386,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
             </instances>
             <effects />
         </layer>

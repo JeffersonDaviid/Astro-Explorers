@@ -74,11 +74,7 @@
                 <instance type="3btn_volver" uid="212">
                     <properties>
                         <type>Button</type>
-<<<<<<< HEAD
-                        <text>VOLVER</text>
-=======
                         <text>JUEGAR OTRA VEZ?</text>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
@@ -89,13 +85,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
-                        <x>283</x>
-                        <y>376</y>
-=======
                         <x>313</x>
                         <y>397</y>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <z>0</z>
                         <width>237</width>
                         <height>41</height>
@@ -145,13 +136,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
-                        <x>476</x>
-                        <y>269</y>
-=======
                         <x>449</x>
                         <y>292</y>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <z>0</z>
                         <width>593.777770996</width>
                         <height>340.875</height>
@@ -162,8 +148,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
                 <instance type="Text" uid="142">
                     <properties>
                         <text>¡Puedes moverte por el espacio, solo pulsa las teclas para moverte libremente!</text>
@@ -213,7 +197,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
             </instances>
             <effects />
         </layer>

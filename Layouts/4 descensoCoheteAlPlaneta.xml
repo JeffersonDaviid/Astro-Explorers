@@ -179,17 +179,10 @@
                 </instance>
                 <instance type="4Texto_Intruccion" uid="117">
                     <properties>
-<<<<<<< HEAD
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-=======
                         <text>Intenta llegar al combustible para recargar!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>255,255,255</color>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -199,13 +192,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
-                        <x>43</x>
-                        <y>21</y>
-=======
                         <x>45</x>
                         <y>24</y>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <z>0</z>
                         <width>296</width>
                         <height>62</height>
@@ -247,17 +235,6 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
-                        <x>500</x>
-                        <y>220</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.506849289</hotspotX>
-                        <hotspotY>0.506329119</hotspotY>
-                        <angle>0.139626339</angle>
-=======
                         <x>666.491699219</x>
                         <y>274.576782227</y>
                         <z>0</z>
@@ -267,7 +244,6 @@
                         <hotspotX>0.506849289</hotspotX>
                         <hotspotY>0.506329119</hotspotY>
                         <angle>0.517411828</angle>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -400,8 +376,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
                 <instance type="3controlNave" uid="179">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -451,7 +425,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
->>>>>>> 94e9b1e (Instrucciones añadidas en escenas V2)
             </instances>
             <effects />
         </layer>
