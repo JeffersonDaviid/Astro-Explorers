@@ -3,18 +3,21 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>6 creditos</name>
     <events>
-        <event-block sid="723994533611682">
+        <event-block sid="261241614287273">
             <conditions>
                 <condition id="-1" name="Every tick" sid="733771948520279" type="System" />
             </conditions>
             <actions>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="568996474088503" type="6creditosJuego">
-                    <param id="0" name="Control">2</param>
-                </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="309051010322106" type="6creditosJuego2">
                     <param id="0" name="Control">2</param>
                 </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="303827278292772" type="6creditosJuego3">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="568996474088503" type="6creditosJuego">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="433650955935563" type="6z">
                     <param id="0" name="Control">2</param>
                 </action>
             </actions>

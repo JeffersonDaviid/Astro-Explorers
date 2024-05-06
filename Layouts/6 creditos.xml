@@ -5,7 +5,7 @@
     <event-sheet>6 creditos</event-sheet>
     <size>
         <width>1708</width>
-        <height>2000</height>
+        <height>2100</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -84,10 +84,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>210.5</x>
+                        <x>116</x>
                         <y>194</y>
                         <z>0</z>
-                        <width>484</width>
+                        <width>622</width>
                         <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -145,7 +145,7 @@
                     <properties>
                         <text>Kevin Peñafiel</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-35,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -235,7 +235,7 @@
                     <properties>
                         <text>Camila Sánchez</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-35,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -325,7 +325,7 @@
                     <properties>
                         <text>Jefferson Chileno</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-35,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -357,7 +357,7 @@
                         <x>436.5</x>
                         <y>513</y>
                         <z>0</z>
-                        <width>311</width>
+                        <width>355</width>
                         <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -370,7 +370,7 @@
                     <properties>
                         <text>Programadores</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-40,700,0</font>
+                        <font>Consolas,-37,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -399,10 +399,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>226.5</x>
+                        <x>116</x>
                         <y>703</y>
                         <z>0</z>
-                        <width>468</width>
+                        <width>622</width>
                         <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -413,7 +413,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="184">
                     <properties>
-                        <text>Recarga de Combustible</text>
+                        <text>Menú Principal</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -458,9 +458,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="185">
                     <properties>
-                        <text>René Guzmán</text>
+                        <text>Jorge Revelo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -503,7 +503,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="186">
                     <properties>
-                        <text>Descenso al Planeta</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -548,9 +548,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="187">
                     <properties>
-                        <text>Alexis Sotomayor</text>
+                        <text>Alexander Motoche</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -593,7 +593,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="188">
                     <properties>
-                        <text>Viaje Espacial</text>
+                        <text>Menú Selección Planeta</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -638,9 +638,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="189">
                     <properties>
-                        <text>Alexander Motoche</text>
+                        <text>Kevin Peñafiel</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -683,7 +683,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="190">
                     <properties>
-                        <text>Descenso al Planeta</text>
+                        <text>Viaje Espacial</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -728,9 +728,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="191">
                     <properties>
-                        <text>Luis Guerrero</text>
+                        <text>Jefferson Chileno</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -820,7 +820,7 @@
                     <properties>
                         <text>Brayan Maldonado</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -863,7 +863,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="194">
                     <properties>
-                        <text>Viaje Espacial</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -910,7 +910,7 @@
                     <properties>
                         <text>Stiven Moposita</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -953,7 +953,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="196">
                     <properties>
-                        <text>Menú Principal</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -998,9 +998,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="197">
                     <properties>
-                        <text>Jorge Revelo</text>
+                        <text>Jonathan Luzuriaga</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1032,7 +1032,7 @@
                         <x>436</x>
                         <y>995</y>
                         <z>0</z>
-                        <width>311</width>
+                        <width>327</width>
                         <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1043,7 +1043,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="198">
                     <properties>
-                        <text>Recarga de Combustible</text>
+                        <text>Descenso al Planeta</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1088,9 +1088,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="199">
                     <properties>
-                        <text>Camila Sánchez</text>
+                        <text>Alexis Sotomayor</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1133,7 +1133,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="200">
                     <properties>
-                        <text>Menú Selección Planeta</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1178,9 +1178,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="201">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Luis Guerrero</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1223,7 +1223,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="202">
                     <properties>
-                        <text>Viaje Espacial</text>
+                        <text>Recarga de Combustible</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1268,9 +1268,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="203">
                     <properties>
-                        <text>Jefferson Chileno</text>
+                        <text>René Gúzman</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1315,7 +1315,7 @@
                     <properties>
                         <text>Diseñadores</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-40,700,0</font>
+                        <font>Consolas,-37,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1344,461 +1344,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>226</x>
-                        <y>1188</y>
+                        <x>116</x>
+                        <y>1288</y>
                         <z>0</z>
-                        <width>468</width>
+                        <width>622</width>
                         <height>95</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego2" uid="205">
-                    <properties>
-                        <text>Lead Developer</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-21,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Right</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>106</x>
-                        <y>1274</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="206">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>436</x>
-                        <y>1274</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego2" uid="207">
-                    <properties>
-                        <text>Lead Developer</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-21,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Right</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>106</x>
-                        <y>1309</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="208">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>436</x>
-                        <y>1309</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego2" uid="209">
-                    <properties>
-                        <text>Lead Developer</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-21,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Right</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>106</x>
-                        <y>1344</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="210">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>436</x>
-                        <y>1344</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego2" uid="211">
-                    <properties>
-                        <text>Lead Developer</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-21,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Right</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>106</x>
-                        <y>1379</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="215">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>436</x>
-                        <y>1379</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego2" uid="216">
-                    <properties>
-                        <text>Lead Developer</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-21,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Right</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>107</x>
-                        <y>1414</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="217">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>437</x>
-                        <y>1414</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -1808,7 +1358,7 @@
                 </instance>
                 <instance type="6creditosJuego2" uid="218">
                     <properties>
-                        <text>Viaje Espacial</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-21,700,0</font>
                         <color>0,204,255</color>
@@ -1853,9 +1403,9 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="219">
                     <properties>
-                        <text>Jonathan Luzuriaga</text>
+                        <text>Camila Sánchez</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-32,700,0</font>
+                        <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1889,6 +1439,316 @@
                         <z>0</z>
                         <width>329</width>
                         <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="206">
+                    <properties>
+                        <text>Kevin Peñafiel</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>138</x>
+                        <y>1371</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="208">
+                    <properties>
+                        <text>Kevin Peñafiel</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>138</x>
+                        <y>1406</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="210">
+                    <properties>
+                        <text>Kevin Peñafiel</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>444</x>
+                        <y>1371</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="215">
+                    <properties>
+                        <text>Kevin Peñafiel</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>444</x>
+                        <y>1406</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="217">
+                    <properties>
+                        <text>Kevin Peñafiel</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>116</x>
+                        <y>1441</y>
+                        <z>0</z>
+                        <width>622</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6z" uid="205">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>465</x>
+                        <y>1833</y>
+                        <z>0</z>
+                        <width>379</width>
+                        <height>166</height>
+                        <depth>0</depth>
+                        <hotspotX>0.606309175</hotspotX>
+                        <hotspotY>0.504966915</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego" uid="207">
+                    <properties>
+                        <text>Realizado para</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-27,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>60</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>116</x>
+                        <y>1670</y>
+                        <z>0</z>
+                        <width>622</width>
+                        <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
