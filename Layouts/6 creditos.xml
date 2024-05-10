@@ -5,7 +5,7 @@
     <event-sheet>6 creditos</event-sheet>
     <size>
         <width>1708</width>
-        <height>2100</height>
+        <height>4000</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,7 +39,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>434</x>
+                        <x>427</x>
                         <y>250</y>
                         <z>0</z>
                         <width>983</width>
@@ -55,7 +55,7 @@
                     <properties>
                         <text>Equipo de Desarrollo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-40,700,0</font>
+                        <font>Consolas,-43,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -66,8 +66,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>200</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -85,7 +85,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>116</x>
-                        <y>194</y>
+                        <y>192.5</y>
                         <z>0</z>
                         <width>622</width>
                         <height>95</height>
@@ -111,8 +111,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -129,8 +129,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>323</y>
+                        <x>80</x>
+                        <y>676</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -156,8 +156,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -174,10 +174,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>323</y>
+                        <x>410</x>
+                        <y>676</y>
                         <z>0</z>
-                        <width>311</width>
+                        <width>360</width>
                         <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -201,8 +201,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -219,8 +219,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>418</y>
+                        <x>80</x>
+                        <y>771</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -246,8 +246,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -264,10 +264,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>418</y>
+                        <x>410</x>
+                        <y>771</y>
                         <z>0</z>
-                        <width>311</width>
+                        <width>360</width>
                         <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -291,8 +291,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -309,8 +309,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>513</y>
+                        <x>80</x>
+                        <y>866</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -336,8 +336,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -354,10 +354,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>513</y>
+                        <x>410</x>
+                        <y>866</y>
                         <z>0</z>
-                        <width>355</width>
+                        <width>360</width>
                         <height>95</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -370,7 +370,7 @@
                     <properties>
                         <text>Programadores</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-37,700,0</font>
+                        <font>Consolas,-40,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -381,8 +381,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -400,7 +400,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>116</x>
-                        <y>703</y>
+                        <y>1387</y>
                         <z>0</z>
                         <width>622</width>
                         <height>95</height>
@@ -426,8 +426,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -444,8 +444,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>785</y>
+                        <x>80</x>
+                        <y>1472</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -471,8 +471,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -489,8 +489,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>785</y>
+                        <x>410</x>
+                        <y>1472</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -534,8 +534,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>820</y>
+                        <x>80</x>
+                        <y>1507</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -561,8 +561,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -579,8 +579,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>820</y>
+                        <x>410</x>
+                        <y>1507</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -606,8 +606,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -624,8 +624,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>855</y>
+                        <x>80</x>
+                        <y>1542</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -651,8 +651,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -669,8 +669,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>855</y>
+                        <x>410</x>
+                        <y>1542</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -696,8 +696,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -714,8 +714,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>890</y>
+                        <x>80</x>
+                        <y>1577</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -741,8 +741,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -759,8 +759,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>890</y>
+                        <x>410</x>
+                        <y>1577</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -804,8 +804,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>107</x>
-                        <y>925</y>
+                        <x>80</x>
+                        <y>1612</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -831,8 +831,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -849,8 +849,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>437</x>
-                        <y>925</y>
+                        <x>410</x>
+                        <y>1612</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -894,8 +894,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106</x>
-                        <y>960</y>
+                        <x>79</x>
+                        <y>1647</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -921,8 +921,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -939,8 +939,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436</x>
-                        <y>960</y>
+                        <x>409</x>
+                        <y>1647</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -984,8 +984,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106</x>
-                        <y>995</y>
+                        <x>79</x>
+                        <y>1682</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1011,8 +1011,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1029,8 +1029,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436</x>
-                        <y>995</y>
+                        <x>409</x>
+                        <y>1682</y>
                         <z>0</z>
                         <width>327</width>
                         <height>41</height>
@@ -1056,8 +1056,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1074,8 +1074,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106</x>
-                        <y>1030</y>
+                        <x>79</x>
+                        <y>1717</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1101,8 +1101,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1119,8 +1119,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436</x>
-                        <y>1030</y>
+                        <x>409</x>
+                        <y>1717</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1164,10 +1164,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-4</x>
-                        <y>1065</y>
+                        <x>21</x>
+                        <y>1459</y>
                         <z>0</z>
-                        <width>422</width>
+                        <width>311</width>
                         <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1191,8 +1191,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1209,8 +1209,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436</x>
-                        <y>1065</y>
+                        <x>409</x>
+                        <y>1752</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1236,8 +1236,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1254,8 +1254,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>107</x>
-                        <y>1100</y>
+                        <x>80</x>
+                        <y>1787</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1281,8 +1281,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1299,8 +1299,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>437</x>
-                        <y>1100</y>
+                        <x>410</x>
+                        <y>1787</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1315,7 +1315,7 @@
                     <properties>
                         <text>Diseñadores</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-37,700,0</font>
+                        <font>Consolas,-40,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1326,8 +1326,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1345,7 +1345,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>116</x>
-                        <y>1288</y>
+                        <y>1930</y>
                         <z>0</z>
                         <width>622</width>
                         <height>95</height>
@@ -1389,8 +1389,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106.5</x>
-                        <y>1135</y>
+                        <x>80</x>
+                        <y>1822</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1416,8 +1416,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1434,8 +1434,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.5</x>
-                        <y>1135</y>
+                        <x>410</x>
+                        <y>1822</y>
                         <z>0</z>
                         <width>329</width>
                         <height>41</height>
@@ -1446,11 +1446,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="6creditosJuego3" uid="206">
+                <instance type="6creditosJuego" uid="207">
                     <properties>
-                        <text>Kevin Peñafiel</text>
+                        <text>Realizado por</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-29,700,0</font>
+                        <font>Consolas,-32,700,0</font>
                         <color>0,204,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1461,188 +1461,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>138</x>
-                        <y>1371</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="208">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-29,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>138</x>
-                        <y>1406</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="210">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-29,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>444</x>
-                        <y>1371</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="215">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-29,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Wrap">
-                            <properties>
-                                <wrap-to>Layout</wrap-to>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>444</x>
-                        <y>1406</y>
-                        <z>0</z>
-                        <width>311</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="6creditosJuego3" uid="217">
-                    <properties>
-                        <text>Kevin Peñafiel</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-29,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1660,9 +1480,144 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>116</x>
-                        <y>1441</y>
+                        <y>2155</y>
                         <z>0</z>
                         <width>622</width>
+                        <height>95</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego2" uid="206">
+                    <properties>
+                        <text>Diseño videojuego</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-21,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>80</x>
+                        <y>2015</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="208">
+                    <properties>
+                        <text>Ing. Daniel Padilla</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>410</x>
+                        <y>2015</y>
+                        <z>0</z>
+                        <width>311</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6creditosJuego3" uid="209">
+                    <properties>
+                        <text>Dirección geográfica IGM</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Consolas,-29,700,0</font>
+                        <color>0,204,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Wrap">
+                            <properties>
+                                <wrap-to>Layout</wrap-to>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>410</x>
+                        <y>2050</y>
+                        <z>0</z>
+                        <width>433</width>
                         <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -1681,8 +1636,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1699,11 +1654,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>465</x>
-                        <y>1833</y>
+                        <x>460.787902832</x>
+                        <y>2501</y>
                         <z>0</z>
-                        <width>379</width>
-                        <height>166</height>
+                        <width>315</width>
+                        <height>138</height>
                         <depth>0</depth>
                         <hotspotX>0.606309175</hotspotX>
                         <hotspotY>0.504966915</hotspotY>
@@ -1711,23 +1666,18 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="6creditosJuego" uid="207">
+                <instance type="6FIS" uid="210">
                     <properties>
-                        <text>Realizado para</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-27,700,0</font>
-                        <color>0,204,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1744,14 +1694,49 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>116</x>
-                        <y>1670</y>
+                        <x>328.82901001</x>
+                        <y>2316</y>
                         <z>0</z>
-                        <width>622</width>
-                        <height>95</height>
+                        <width>150</width>
+                        <height>150</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.51219511</hotspotX>
+                        <hotspotY>0.517569542</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="6EPN" uid="211">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>40</max-speed>
+                                <acceleration>150</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>527.33001709</x>
+                        <y>2329</y>
+                        <z>0</z>
+                        <width>130</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.50220263</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

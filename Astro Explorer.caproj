@@ -2152,6 +2152,55 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="6FIS" sid="722830153511824">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="781727432014806">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="497640499981197">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671333252792092" speed="5">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.51757" original-source="D:\Users\Camila\Downloads\fis.png">
+                        <collision-poly>
+                            <point x="0.136714" y="0.171303" />
+                            <point x="0.511553" y="0.419473" />
+                            <point x="0.646983" y="0.445095" />
+                            <point x="0.896662" y="0.51757" />
+                            <point x="0.980103" y="0.969985" />
+                            <point x="0.511553" y="0.988287" />
+                            <point x="0.146341" y="0.852855" />
+                            <point x="0.183569" y="0.51757" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="6EPN" sid="261583262882693">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="629673481842113">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667075544475282" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.502203" original-source="D:\Users\Camila\Downloads\epn-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.101523" y="0.154185" />
+                            <point x="0.497462" y="0.00440529" />
+                            <point x="0.903553" y="0.14978" />
+                            <point x="0.903553" y="0.85022" />
+                            <point x="0.497462" y="0.995595" />
+                            <point x="0.0964467" y="0.85022" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
