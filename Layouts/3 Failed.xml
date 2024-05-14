@@ -59,7 +59,6 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
                         <x>150.946594238</x>
                         <y>88.5</y>
                         <z>0</z>
@@ -67,47 +66,11 @@
                         <height>154</height>
                         <depth>0</depth>
                         <hotspotX>0.501483679</hotspotX>
-=======
-                        <x>430</x>
-                        <y>247</y>
-                        <z>0</z>
-                        <width>850</width>
-                        <height>480</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
-                <instance type="3btn_volver" uid="212">
-                    <properties>
-                        <type>Button</type>
-                        <text>JUEGAR OTRA VEZ?</text>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>313</x>
-                        <y>397</y>
-                        <z>0</z>
-                        <width>237</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                 <instance type="1z" uid="214">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -149,13 +112,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
                         <x>431</x>
                         <y>257</y>
-=======
-                        <x>449</x>
-                        <y>292</y>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <z>0</z>
                         <width>593.777770996</width>
                         <height>340.875</height>
@@ -168,19 +126,11 @@
                 </instance>
                 <instance type="Text" uid="142">
                     <properties>
-<<<<<<< HEAD
                         <text>¡Puedes moverte por el espacio, solo pulsa los botones para moverte libremente!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
-=======
-                        <text>¡Puedes moverte por el espacio, solo pulsa las teclas para moverte libremente!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -201,11 +151,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
                 <instance type="3btn_volverAJugar" uid="119">
-=======
-                <instance type="3controlNave" uid="174">
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -215,19 +161,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
                         <x>424</x>
                         <y>397</y>
                         <z>0</z>
                         <width>192</width>
                         <height>43</height>
-=======
-                        <x>725</x>
-                        <y>371</y>
-                        <z>0</z>
-                        <width>264</width>
-                        <height>135</height>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

@@ -5,17 +5,11 @@
     <events>
         <event-block any="1" sid="418555420684807">
             <conditions>
-<<<<<<< HEAD
                 <condition id="4" name="Is touching object" sid="482016310050408" type="Touch">
                     <param id="0" name="Object">3btn_volverAJugar</param>
                 </condition>
                 <condition id="4" name="Is touching object" sid="262946567778623" type="Touch">
                     <param id="0" name="Object">3btn_volverAJugar</param>
-=======
-                <condition id="0" name="On clicked" sid="309811326517702" type="3btn_volver" />
-                <condition id="4" name="Is touching object" sid="482016310050408" type="Touch">
-                    <param id="0" name="Object">3btn_volver</param>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                 </condition>
             </conditions>
             <actions>

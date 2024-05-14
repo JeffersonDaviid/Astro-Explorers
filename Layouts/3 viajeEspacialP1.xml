@@ -284,53 +284,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
-                <instance type="3mouseImg" uid="120">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>900</x>
-                        <y>400</y>
-                        <z>0</z>
-                        <width>128</width>
-                        <height>128</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="3controlNave" uid="119">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-90</x>
-                        <y>400</y>
-                        <z>0</z>
-                        <width>187.5</width>
-                        <height>87.5</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                 <instance type="3controlIzq" uid="157">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -341,13 +294,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
                         <x>72</x>
                         <y>404</y>
-=======
-                        <x>-60</x>
-                        <y>400</y>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -368,13 +316,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
                         <x>199</x>
                         <y>404</y>
-=======
-                        <x>-60</x>
-                        <y>300</y>
->>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
