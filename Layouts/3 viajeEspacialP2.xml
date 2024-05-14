@@ -1675,14 +1675,44 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+<<<<<<< HEAD
+=======
+                <instance type="3controlNave" uid="172">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>143</x>
+                        <y>683</y>
+                        <z>0</z>
+                        <width>264</width>
+                        <height>135</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                 <instance type="3Instrucciones" uid="173">
                     <properties>
                         <text>Encuentra el planeta de destino, recuerda no impactar con los asteroides!!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>255,255,255</color>
+<<<<<<< HEAD
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
+=======
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
@@ -1702,6 +1732,36 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+<<<<<<< HEAD
+=======
+                <instance type="3letrasIGM" uid="180">
+                    <properties>
+                        <text>IGM</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Comic Sans MS,-48,400,0</font>
+                        <color>255,255,51</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>51</x>
+                        <y>763</y>
+                        <z>0</z>
+                        <width>112</width>
+                        <height>68</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
             </instances>
             <effects />
         </layer>
@@ -2219,8 +2279,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
+<<<<<<< HEAD
                         <x>349</x>
                         <y>445</y>
+=======
+                        <x>194</x>
+                        <y>486</y>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                         <z>0</z>
                         <width>105</width>
                         <height>102</height>

@@ -127,6 +127,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+<<<<<<< HEAD
         <event-block sid="554240932514868">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="843662859698930" type="4Nave">
@@ -134,13 +135,38 @@
                 </condition>
             </conditions>
             <actions>
+=======
+        <event-block sid="611663574118621">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="253752553507078" type="4barrera">
+                    <param id="0" name="Object">4Nave</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="847986583240214" type="4Nave" />
+            </actions>
+        </event-block>
+        <event-block sid="554240932514868">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="843662859698930" type="4Nave">
+                    <param id="0" name="Object">5combustible</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="323804638266046" type="System">
+                    <param id="0" name="Layout">5 recargarCombustible</param>
+                </action>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                 <action id="-9" name="Set value" sid="585432183122660" type="System">
                     <param id="0" name="Variable">nuevo_viaje</param>
                     <param id="1" name="Value">0</param>
                 </action>
+<<<<<<< HEAD
                 <action id="-2" name="Go to layout" sid="612371000539798" type="System">
                     <param id="0" name="Layout">5 recargarCombustible</param>
                 </action>
+=======
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
             </actions>
         </event-block>
         <event-block sid="232256486906443">
@@ -152,9 +178,30 @@
                 </condition>
             </conditions>
             <actions>
+<<<<<<< HEAD
                 <action id="-15" name="Set visible" sid="441113511730430" type="4ImagenMercurio">
                     <param id="0" name="Visibility">1</param>
                 </action>
+=======
+                <action id="-15" name="Set visible" sid="681403950457114" type="5planeta_Venus">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="913002028867209" type="5planeta_Venus">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="388993374041357" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="547723557797557" type="5planeta_Jupiter">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="243814843205131" type="5planeta_Saturno">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="721808554984676" type="5planeta_Saturno">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
             </actions>
         </event-block>
         <event-block sid="670880829482094">
@@ -166,9 +213,30 @@
                 </condition>
             </conditions>
             <actions>
+<<<<<<< HEAD
                 <action id="-15" name="Set visible" sid="568111773019813" type="4ImagenVenus">
                     <param id="0" name="Visibility">1</param>
                 </action>
+=======
+                <action id="-15" name="Set visible" sid="134835591559537" type="5planeta_Venus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="994046113606527" type="5planeta_Venus">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="774475060503368" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="692219757536848" type="5planeta_Jupiter">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="485888986465820" type="5planeta_Saturno">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="254488917992620" type="5planeta_Saturno">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
             </actions>
         </event-block>
         <event-block sid="997755043289321">
@@ -180,9 +248,30 @@
                 </condition>
             </conditions>
             <actions>
+<<<<<<< HEAD
                 <action id="-15" name="Set visible" sid="518978378465589" type="4ImagenTierra">
                     <param id="0" name="Visibility">1</param>
                 </action>
+=======
+                <action id="-15" name="Set visible" sid="728385475160462" type="5planeta_Venus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="580926765273844" type="5planeta_Venus">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="536147869777470" type="5planeta_Jupiter">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="312130936646198" type="5planeta_Jupiter">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="166147433708136" type="5planeta_Saturno">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="500210760571941" type="5planeta_Saturno">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
             </actions>
         </event-block>
     </events>

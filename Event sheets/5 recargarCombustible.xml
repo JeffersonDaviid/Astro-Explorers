@@ -229,7 +229,11 @@
                 </condition>
             </conditions>
             <actions>
+<<<<<<< HEAD
                 <action id="-15" name="Set visible" sid="607662484421858" type="4ImagenMercurio">
+=======
+                <action id="-15" name="Set visible" sid="607662484421858" type="5planeta_Venus">
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
@@ -249,7 +253,11 @@
                 <action id="0" name="Set text" sid="582775700914627" type="5InfoPg2">
                     <param id="0" name="Text">&quot;Júpiter no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. &quot;</param>
                 </action>
+<<<<<<< HEAD
                 <action id="-15" name="Set visible" sid="492673689414681" type="4ImagenVenus">
+=======
+                <action id="-15" name="Set visible" sid="767535392314707" type="5planeta_Jupiter">
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
@@ -269,7 +277,11 @@
                 <action id="0" name="Set text" sid="871238779014103" type="5InfoPg2">
                     <param id="0" name="Text">&quot;Cuando Galileo Galilei vio a Saturno a través de un telescopio en el siglo XVII, no estaba seguro de lo que estaba viendo. Al principio, creyó que estaba mirando tres planetas, o un planeta con asas. Ahora, sabemos que esas -asas- eran los anillos de Saturno.&quot;</param>
                 </action>
+<<<<<<< HEAD
                 <action id="-15" name="Set visible" sid="244662329591353" type="4ImagenTierra">
+=======
+                <action id="-15" name="Set visible" sid="197356295340303" type="5planeta_Saturno">
+>>>>>>> 1176d9a26ba57bf8d09ff58f1bbec82d419b4e67
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
