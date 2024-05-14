@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>5 recargarCombustible</name>
+    <events>
+        <variable constant="0" name="nuevo_viaje" sid="123425511605282" static="0" type="number">0</variable>
+        <variable constant="0" name="no_pg" sid="953094715183609" static="0" type="number">1</variable>
+        <variable constant="0" name="cuadro_informacion" sid="397358092024888" static="0" type="number">0</variable>
+        <event-group description="" sid="997196790497333" title="Inicio">
+            <sub-events>
+                <event-block sid="765413127048662">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="950645094392734" type="System">
+                            <param id="0" name="Variable">cuadro_informacion</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="244913115449603" type="System">
+                            <param id="0" name="Layer">&quot;pg_01&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="397481594691822">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="454875888349976" type="System">
+                            <param id="0" name="Variable">cuadro_informacion</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="608426707453387" type="System">
+                            <param id="0" name="Layer">&quot;pg_01&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="213502558332565">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="257587242655339" type="Touch">
+                            <param id="0" name="Object">5play</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="617664105746818" type="5cuadro_inf" />
+                        <action id="-9" name="Destroy" sid="411479115629396" type="5play" />
+                        <action id="-9" name="Set value" sid="471912418653747" type="System">
+                            <param id="0" name="Variable">cuadro_informacion</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="165599703417464" title="Int-Pg01">
+            <sub-events>
+                <event-block sid="479633873187441">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="216510662825366" type="System">
+                            <param id="0" name="Variable">no_pg</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="902335144994834" type="System">
+                            <param id="0" name="Layer">&quot;pg_02&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="862195500262448">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="911795509588701" type="System">
+                            <param id="0" name="Variable">no_pg</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="546723587634254" type="System">
+                            <param id="0" name="Layer">&quot;pg_02&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="695162686934436">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="566394286562665" type="Touch">
+                            <param id="0" name="Object">5dosDer</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="338526555733955" type="System">
+                            <param id="0" name="Variable">no_pg</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="889560552789247" type="5ProgressBar">
+                            <param id="0" name="Value">100</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="538821755525462" type="5InfoPg1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="376682168194717" type="5cuadro_inf_pg1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="709254147663669" type="5dosDer">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="475165907447631" title="Int-pg02">
+            <sub-events>
+                <event-block sid="308597204710352">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="960270069550609" type="Touch">
+                            <param id="0" name="Object">5uno</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="819558333180989" type="System">
+                            <param id="0" name="Variable">no_pg</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="105689735677862" type="5ProgressBar">
+                            <param id="0" name="Value">50</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="437941391547260" type="5InfoPg1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="284051341118308" type="5cuadro_inf_pg1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="286257022994918" type="5dosDer">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985481208145242">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="335558551082906" type="System">
+                            <param id="0" name="Variable">nuevo_viaje</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="206593185823487" type="System">
+                            <param id="0" name="Layer">&quot;nuevoViaje&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="151005659471731">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="142518564789025" type="System">
+                            <param id="0" name="Variable">nuevo_viaje</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="746223733449555" type="System">
+                            <param id="0" name="Layer">&quot;nuevoViaje&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="698938117457357">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="835138491984818" type="Touch">
+                            <param id="0" name="Object">5exit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="155149564388030" type="System">
+                            <param id="0" name="Variable">nuevo_viaje</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="374772149565403" type="System">
+                            <param id="0" name="Variable">cuadro_informacion</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="834453069388414" type="System">
+                            <param id="0" name="Variable">no_pg</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="784518493645889">
+            <conditions>
+                <condition id="17" name="On tap object" sid="498859754851522" type="Touch">
+                    <param id="0" name="Object">5return</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="245612602049134" type="System">
+                    <param id="0" name="Layout">2 menuSeleccionDePlaneta</param>
+                </action>
+                <action id="-9" name="Set value" sid="798710404275567" type="System">
+                    <param id="0" name="Variable">nuevo_viaje</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="886826573557536" type="System">
+                    <param id="0" name="Variable">no_pg</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="513863419612874" type="System">
+                    <param id="0" name="Variable">cuadro_informacion</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="33" name="Stop all" sid="300663407525463" type="Audio" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="589238963036553" title="Planeta" />
+        <event-block sid="893320476596707">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="158005613408018" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="607662484421858" type="4ImagenMercurio">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="963756985048428">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="751003214571875" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="362234058304388" type="5InfoPg1">
+                    <param id="0" name="Text">&quot;Es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente masiva como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Júpiter es un gigante hecho de gas&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="582775700914627" type="5InfoPg2">
+                    <param id="0" name="Text">&quot;Júpiter no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. &quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="492673689414681" type="4ImagenVenus">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="958893422409719">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="442209898378551" type="System">
+                    <param id="0" name="Variable">PlanetaSeleccionado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="454524475597169" type="5InfoPg1">
+                    <param id="0" name="Text">&quot;Los anillos de Saturno están compuestos por grupos de pequeños aros que lo rodean. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte.&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="871238779014103" type="5InfoPg2">
+                    <param id="0" name="Text">&quot;Cuando Galileo Galilei vio a Saturno a través de un telescopio en el siglo XVII, no estaba seguro de lo que estaba viendo. Al principio, creyó que estaba mirando tres planetas, o un planeta con asas. Ahora, sabemos que esas -asas- eran los anillos de Saturno.&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="244662329591353" type="4ImagenTierra">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

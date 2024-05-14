@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>3 eventosViajeEspacialP1</name>
+    <events>
+        <variable constant="0" name="meteoroAleatorio" sid="497033490570340" static="0" type="number">0</variable>
+        <variable constant="0" name="timeShip" sid="420816698777819" static="0" type="number">0</variable>
+        <event-block sid="307393341951613">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="299679112475512" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="913592467461039" type="System">
+                    <param id="0" name="Variable">timeShip</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="922158461584334" type="1contenedor">
+                    <param id="0" name="Input">0</param>
+                </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="797572967333142" type="3player">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="0" name="Play" sid="805444312222176" type="Audio">
+                    <param id="0" name="Audio file">2Universal-CollapseP2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;universalCollapse&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="308236207897921" type="3ScoreText">
+                    <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="748533373888809" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+                <action id="-3" name="Set position" sid="531836360477767" type="3player">
+                    <param id="0" name="X">400</param>
+                    <param id="1" name="Y">400</param>
+                </action>
+                <action id="-36" name="Save" sid="240352620451749" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="552106138549897">
+                    <conditions>
+                        <condition id="-20" name="Is on mobile device" sid="137010495934319" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="819114152737183" type="3controlDer">
+                            <param id="0" name="X">800</param>
+                            <param id="1" name="Y">400</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="946833012288378" type="3controlIzq">
+                            <param id="0" name="X">60</param>
+                            <param id="1" name="Y">400</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="821883496472681">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="649703507780091" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="106004632730458" type="3controlNave">
+                            <param id="0" name="X">105</param>
+                            <param id="1" name="Y">400</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="195538433422480" type="3mouseImg">
+                            <param id="0" name="X">800</param>
+                            <param id="1" name="Y">400</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block any="1" sid="375124393273349">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="837162802424393" type="Touch" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="916274440795735">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="989316020807383" type="System">
+                            <param id="0" name="Interval (seconds)">0.2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="515013519588069" type="3player">
+                            <param id="0" name="Object">3PlayerBullet</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="229319541574809">
+            <conditions>
+                <condition id="-18" name="On created" sid="872868728265099" type="3PlayerBullet" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="742987848835803" type="Audio">
+                    <param id="0" name="Audio file">3sfxLaser</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-15</param>
+                    <param id="1" name="Tag (optional)">&quot;Fx&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="127691263180415">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="741746015730417" type="3PlayerBullet" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="285668814405004" type="3PlayerBullet" />
+            </actions>
+        </event-block>
+        <event-block sid="474173321230491">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="612147569042596" type="3PlayerBullet">
+                    <param id="0" name="Object">3MeteoroMarron</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="287423620159509" type="Audio">
+                    <param id="0" name="Audio file">3sfxExplosion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-9" name="Destroy" sid="356234271288195" type="3PlayerBullet" />
+                <action id="-9" name="Destroy" sid="545215057812025" type="3MeteoroMarron" />
+                <action id="0" name="Spawn another object" sid="742198143177553" type="3MeteoroMarron">
+                    <param id="0" name="Object">3PartMeteoroMarron</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="190447058261502" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="0" name="Set text" sid="312706125464152" type="3ScoreText">
+                    <param id="0" name="Text">&quot;Puntaje: &quot; &amp; Score</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="761019820148459">
+            <conditions>
+                <condition id="-18" name="On created" sid="702577476515404" type="3MeteoroMarron" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="766732759484594" type="3MeteoroMarron">
+                    <param id="0" name="Angle">90</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="425031945351678" type="3MeteoroMarron">
+                    <param id="0" name="Speed">floor(random(50, 201))</param>
+                </action>
+                <action behavior="Rotate" id="0" name="Set speed" sid="897081624557135" type="3MeteoroMarron">
+                    <param id="0" name="Speed">floor(random(35, 76))</param>
+                </action>
+                <action id="5" name="Set frame" sid="277148051713579" type="3MeteoroMarron">
+                    <param id="0" name="Frame number">choose(0, 1, 3, 4, 6, 8)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="392826654622338">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="650223619570185" type="3MeteoroMarron">
+                    <param id="0" name="Object">3player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="679362787887134" type="1contenedor">
+                    <param id="0" name="Input">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="763630156470399" type="3player">
+                    <param id="0" name="Object">3PartShip</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="437906234284770" type="3player" />
+                <action id="0" name="Spawn another object" sid="231039100123490" type="3MeteoroMarron">
+                    <param id="0" name="Object">3PartMeteoroMarron</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="608477994378626" type="3MeteoroMarron" />
+                <action id="0" name="Play" sid="483588873503604" type="Audio">
+                    <param id="0" name="Audio file">3sfxExplosion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="982165694983998" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="613008000051626" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="164961962748581" type="System">
+                    <param id="0" name="Layout">3 Failed</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="724196227127585">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="797869985128421" type="System">
+                    <param id="0" name="Interval (seconds)">choose(0.5,1, 1.5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="654014513352116" type="System">
+                    <param id="0" name="Object to create">3MeteoroMarron</param>
+                    <param id="1" name="Layer">&quot;Objetos&quot;</param>
+                    <param id="2" name="X">floor(random(64, 640))</param>
+                    <param id="3" name="Y">-60</param>
+                </action>
+                <action id="-10" name="Add to" sid="906011600489067" type="System">
+                    <param id="0" name="Variable">timeShip</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="762773148685251">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="677065055091919" type="3MeteoroMarron">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Y co-ordinate">1024</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="759589880933291" type="3MeteoroMarron" />
+            </actions>
+        </event-block>
+        <event-block sid="854213803196473">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="935152420148292" type="System">
+                    <param id="0" name="Variable">timeShip</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="226000287798947" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="554665938580938" type="3player">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="530400875224722" type="3player">
+                    <param id="0" name="Y">3player.Y-timeShip+25</param>
+                </action>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="717648856528728" type="3player">
+                    <param id="0" name="Input">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="568487188818164" type="System">
+                    <param id="0" name="Seconds">1.8</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="251889745596751" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+                <action id="6" name="Stop" sid="579110328616481" type="Audio">
+                    <param id="0" name="Tag">&quot;universalCollapse&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="893337306589036" type="System">
+                    <param id="0" name="Layout">3 viajeEspacialP2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="568104875305683">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="921578279653971" type="Touch">
+                    <param id="0" name="Object">3controlIzq</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="990062681077721" type="3player">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="794679140606862">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="932975410060757" type="Touch">
+                    <param id="0" name="Object">3controlDer</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="770427425592473" type="3player">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
