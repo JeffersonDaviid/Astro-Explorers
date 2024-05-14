@@ -41,6 +41,9 @@
                 <action id="-2" name="Go to layout" sid="203131000330683" type="System">
                     <param id="0" name="Layout">1 menuPrincipal</param>
                 </action>
+                <action id="6" name="Stop" sid="283314824591252" type="Audio">
+                    <param id="0" name="Tag">&quot;creditos&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="308453563255702">
@@ -51,6 +54,19 @@
                 <action id="-9" name="Set value" sid="352009932672933" type="System">
                     <param id="0" name="Variable">Creditos</param>
                     <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="468562249518105">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="271906458268204" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="411237083391345" type="Audio">
+                    <param id="0" name="Audio file">Creditos</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;creditos&quot;</param>
                 </action>
             </actions>
         </event-block>
