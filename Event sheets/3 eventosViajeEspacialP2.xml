@@ -180,7 +180,7 @@
                     <param id="1" name="Height">250</param>
                 </action>
                 <action id="4" name="Set animation" sid="780783638245468" type="3player">
-                    <param id="0" name="Animation">&quot;Destroy&quot;</param>
+                    <param id="0" name="Animation">&quot;destruyendose&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
                 <action id="11" name="Set collisions enabled" sid="687522591921950" type="3player">

@@ -1615,8 +1615,8 @@
                         <x>1519</x>
                         <y>482</y>
                         <z>0</z>
-                        <width>360</width>
-                        <height>360</height>
+                        <width>360.720001221</width>
+                        <height>360.799987793</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1707,8 +1707,8 @@
                                 <max-speed>100</max-speed>
                                 <acceleration>90</acceleration>
                                 <deceleration>80</deceleration>
-                                <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <directions>Left &amp; right</directions>
+                                <set-angle>No</set-angle>
                                 <default-controls>Yes</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1726,9 +1726,9 @@
                         <y>550</y>
                         <z>0</z>
                         <width>145</width>
-                        <height>60.000003815</height>
+                        <height>60</height>
                         <depth>0</depth>
-                        <hotspotX>0.499567837</hotspotX>
+                        <hotspotX>0.60567826</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -2324,11 +2324,11 @@
                         <x>378</x>
                         <y>329</y>
                         <z>0</z>
-                        <width>237</width>
-                        <height>225</height>
+                        <width>237.513549805</width>
+                        <height>205.760101318</height>
                         <depth>0</depth>
-                        <hotspotX>0.499458283</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.499459445</hotspotX>
+                        <hotspotY>0.484415591</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

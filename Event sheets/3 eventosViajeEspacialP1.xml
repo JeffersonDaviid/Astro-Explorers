@@ -156,6 +156,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="963718022412996" type="3player">
+                    <param id="0" name="Animation">&quot;destruyendose&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action behavior="8Direction" id="2" name="Set ignoring input" sid="679362787887134" type="1contenedor">
                     <param id="0" name="Input">1</param>
                 </action>

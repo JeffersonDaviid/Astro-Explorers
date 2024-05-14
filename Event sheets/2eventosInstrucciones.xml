@@ -9,13 +9,11 @@
                 <condition id="0" name="On clicked" sid="964960118446773" type="2BotonSiguiente" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="345522220161760" type="2Captura3">
-                    <param id="0" name="X">200</param>
-                    <param id="1" name="Y">100</param>
+                <action id="5" name="Set frame" sid="383412532421538" type="2Captura1">
+                    <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="-3" name="Set position" sid="164727457378840" type="2Captura4">
-                    <param id="0" name="X">650</param>
-                    <param id="1" name="Y">300</param>
+                <action id="5" name="Set frame" sid="898202666234138" type="2Captura2">
+                    <param id="0" name="Frame number">0</param>
                 </action>
                 <action id="0" name="Set text" sid="570480854791578" type="2instruccion1">
                     <param id="0" name="Text">&quot;Muevete a traves de la estrellas con las flechas de tu teclado!&quot;</param>
