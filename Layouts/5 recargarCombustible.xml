@@ -187,6 +187,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="5play" uid="127">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>141.83416748</x>
+                        <y>450.319000244</y>
+                        <z>0</z>
+                        <width>111</width>
+                        <height>51</height>
+                        <depth>0</depth>
+                        <hotspotX>0.468468457</hotspotX>
+                        <hotspotY>0.80392158</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="5alien" uid="124">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -206,28 +228,6 @@
                         <hotspotX>0.50222224</hotspotX>
                         <hotspotY>0.50999999</hotspotY>
                         <angle>0.155321077</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5play" uid="127">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>767</x>
-                        <y>331</y>
-                        <z>0</z>
-                        <width>111</width>
-                        <height>51</height>
-                        <depth>0</depth>
-                        <hotspotX>0.468468457</hotspotX>
-                        <hotspotY>0.80392158</hotspotY>
-                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -281,11 +281,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>375.008605957</x>
-                        <y>144.518920898</y>
+                        <x>440.633972168</x>
+                        <y>202.61630249</y>
                         <z>0</z>
-                        <width>392</width>
-                        <height>237</height>
+                        <width>489.472229004</width>
+                        <height>342.874969482</height>
                         <depth>0</depth>
                         <hotspotX>0.500860572</hotspotX>
                         <hotspotY>0.501113594</hotspotY>
@@ -295,9 +295,9 @@
                 </instance>
                 <instance type="5InfoPg1" uid="132">
                     <properties>
-                        <text>Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. </text>
+                        <text>Mercurio es el planeta más pequeño de nuestro sistema solar y más cercano al Sol Simplemente, pero no es realmente el más cálido; Venus es el más cálido; es uno de los planetas rocosos.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-16,400,0</font>
+                        <font>Arial,-21.6,700,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -308,11 +308,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>218</x>
-                        <y>46</y>
+                        <x>216.827575684</x>
+                        <y>58.605224609</y>
                         <z>0</z>
-                        <width>320</width>
-                        <height>186</height>
+                        <width>434.277648926</width>
+                        <height>267.506896973</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -330,11 +330,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>442</x>
-                        <y>235</y>
+                        <x>517.205200195</x>
+                        <y>316.506225586</y>
                         <z>0</z>
-                        <width>25</width>
-                        <height>27</height>
+                        <width>30.882019043</width>
+                        <height>32.041381836</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -390,9 +390,9 @@
             <instances>
                 <instance type="5InfoPg2" uid="134">
                     <properties>
-                        <text>De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido. En Venus, el Sol sale cada 117 días terrestres. Así que el Sol sale dos veces por año.</text>
+                        <text> Tiene una superficie sólida que está cubierta de cráteres. Tiene una atmósfera delgada y no tiene ninguna luna.A Mercurio le lleva 59 días de la Tierra hacer una rotación completa, un año en Mercurio pasa rápido.¡Si vivieras en Mercurio, tendrías una fiesta de cumpleaños cada tres meses!https://spaceplace.nasa.gov/menu/solar-system/sp/</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-16,400,0</font>
+                        <font>Arial,-18.4,700,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -403,11 +403,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>210</x>
-                        <y>36</y>
+                        <x>211.141921997</x>
+                        <y>69.431274414</y>
                         <z>0</z>
-                        <width>299</width>
-                        <height>184</height>
+                        <width>454.450469971</width>
+                        <height>278.110931396</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -425,11 +425,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>330</x>
-                        <y>234</y>
+                        <x>346.804718018</x>
+                        <y>317.607269287</y>
                         <z>0</z>
-                        <width>26</width>
-                        <height>26</height>
+                        <width>32.721374512</width>
+                        <height>31.882019043</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -447,8 +447,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>530</x>
-                        <y>60</y>
+                        <x>616.547607422</x>
+                        <y>69.243347168</y>
                         <z>0</z>
                         <width>30</width>
                         <height>29</height>
@@ -515,8 +515,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>760</x>
-                        <y>425</y>
+                        <x>742.353942871</x>
+                        <y>456.930114746</y>
                         <z>0</z>
                         <width>113.261497498</width>
                         <height>50.984203339</height>
@@ -542,8 +542,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>580</x>
-                        <y>25</y>
+                        <x>619.494018555</x>
+                        <y>21.638671875</y>
                         <z>0</z>
                         <width>189.840805054</width>
                         <height>83.58354187</height>

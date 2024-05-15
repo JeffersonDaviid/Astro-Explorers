@@ -126,11 +126,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>416.296844482</x>
-                        <y>64.275047302</y>
+                        <x>422.557189941</x>
+                        <y>63.709571838</y>
                         <z>0</z>
-                        <width>86.735992432</width>
-                        <height>135.656173706</height>
+                        <width>101</width>
+                        <height>165</height>
                         <depth>0</depth>
                         <hotspotX>0.438888878</hotspotX>
                         <hotspotY>0.980729163</hotspotY>
@@ -252,13 +252,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>337.369750977</x>
-                        <y>459.647644043</y>
+                        <x>322</x>
+                        <y>445</y>
                         <z>0</z>
-                        <width>149.091293335</width>
-                        <height>42.727020264</height>
+                        <width>154</width>
+                        <height>42</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.503184736</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -274,8 +274,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>807.832763672</x>
-                        <y>381.466033936</y>
+                        <x>156</x>
+                        <y>432</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -296,8 +296,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>66.015319824</x>
-                        <y>386.921600342</y>
+                        <x>50</x>
+                        <y>416</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>

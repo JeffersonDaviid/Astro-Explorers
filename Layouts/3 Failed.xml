@@ -115,38 +115,11 @@
                         <x>431</x>
                         <y>257</y>
                         <z>0</z>
-                        <width>593.777770996</width>
-                        <height>340.875</height>
+                        <width>450</width>
+                        <height>250</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.502777755</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text" uid="142">
-                    <properties>
-                        <text>¡Puedes moverte por el espacio, solo pulsa los botones para moverte libremente!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>647</x>
-                        <y>31</y>
-                        <z>0</z>
-                        <width>180</width>
-                        <height>141</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -164,10 +137,10 @@
                         <x>424</x>
                         <y>397</y>
                         <z>0</z>
-                        <width>192</width>
-                        <height>43</height>
+                        <width>146.016799927</width>
+                        <height>75.761901855</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.502762437</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

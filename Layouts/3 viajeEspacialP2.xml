@@ -1522,7 +1522,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Venus" uid="38">
+                <instance type="2Mercurio" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1561,19 +1561,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1516</x>
-                        <y>777</y>
+                        <x>1561</x>
+                        <y>823</y>
                         <z>0</z>
-                        <width>360</width>
-                        <height>360</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50248754</hotspotX>
+                        <hotspotY>0.50248754</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Jupiter" uid="39">
+                <instance type="2Venus" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1612,19 +1612,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1519</x>
-                        <y>482</y>
+                        <x>1564</x>
+                        <y>496</y>
                         <z>0</z>
-                        <width>360</width>
-                        <height>360</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50248754</hotspotX>
+                        <hotspotY>0.50248754</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Saturno" uid="40">
+                <instance type="2Tierra" uid="40">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1663,15 +1663,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1522</x>
-                        <y>189</y>
+                        <x>1544</x>
+                        <y>177</y>
                         <z>0</z>
-                        <width>360</width>
-                        <height>360</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>1.57079196</angle>
+                        <hotspotX>0.50248754</hotspotX>
+                        <hotspotY>0.50248754</hotspotY>
+                        <angle>0.282128274</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1679,7 +1679,7 @@
                     <properties>
                         <text>Encuentra el planeta de destino, recuerda no impactar con los asteroides!!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
+                        <font>Arial Black,-18.4,900,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1690,10 +1690,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>310</x>
-                        <y>483</y>
+                        <x>154</x>
+                        <y>653</y>
                         <z>0</z>
-                        <width>220</width>
+                        <width>428</width>
                         <height>97</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -2387,8 +2387,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1690</x>
-                        <y>514</y>
+                        <x>1543</x>
+                        <y>487</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -2426,8 +2426,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1497</x>
-                        <y>357</y>
+                        <x>1355</x>
+                        <y>332</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
