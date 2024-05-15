@@ -138,28 +138,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5text" uid="125">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>673.715820313</x>
-                        <y>65.377807617</y>
-                        <z>0</z>
-                        <width>207.284194946</width>
-                        <height>100.898521423</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.005588854</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="5cuadro_inf" uid="126">
                     <properties>
                         <text>Hola, soy Nyx para que puedas recargar la nave con combustible necesitas saber sobre mi planeta</text>
@@ -209,6 +187,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="5text" uid="125">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>673.715820313</x>
+                        <y>65.377807617</y>
+                        <z>0</z>
+                        <width>207.284194946</width>
+                        <height>100.898521423</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.005588854</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="5alien" uid="124">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -219,8 +219,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>723.357788086</x>
-                        <y>149.685272217</y>
+                        <x>746.043884277</x>
+                        <y>142.963256836</y>
                         <z>0</z>
                         <width>182.473587036</width>
                         <height>124.653564453</height>
@@ -330,8 +330,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>517.205200195</x>
-                        <y>316.506225586</y>
+                        <x>532.329284668</x>
+                        <y>329.950927734</y>
                         <z>0</z>
                         <width>30.882019043</width>
                         <height>32.041381836</height>
@@ -403,8 +403,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>211.141921997</x>
-                        <y>69.431274414</y>
+                        <x>217.864562988</x>
+                        <y>58.50793457</y>
                         <z>0</z>
                         <width>454.450469971</width>
                         <height>278.110931396</height>
@@ -425,8 +425,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>346.804718018</x>
-                        <y>317.607269287</y>
+                        <x>366.13079834</x>
+                        <y>329.371307373</y>
                         <z>0</z>
                         <width>32.721374512</width>
                         <height>31.882019043</height>

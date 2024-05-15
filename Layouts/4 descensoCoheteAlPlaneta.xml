@@ -219,7 +219,7 @@
                     <properties>
                         <text>Aterriza cerca de la estacion de carga!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-18.4,400,0</font>
+                        <font>Arial Black,-19,900,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -233,8 +233,8 @@
                         <x>593.455871582</x>
                         <y>32.981178284</y>
                         <z>0</z>
-                        <width>177.27355957</width>
-                        <height>68.181632996</height>
+                        <width>237</width>
+                        <height>70</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -274,8 +274,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>156</x>
-                        <y>432</y>
+                        <x>155</x>
+                        <y>424</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -297,7 +297,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>50</x>
-                        <y>416</y>
+                        <y>426</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
