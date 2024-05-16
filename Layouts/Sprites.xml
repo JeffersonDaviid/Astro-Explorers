@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="1Andromeda" uid="138">
+                <instance type="1Andromeda" uid="151">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -45,16 +45,16 @@
                         <x>223</x>
                         <y>162</y>
                         <z>0</z>
-                        <width>395</width>
-                        <height>291</height>
+                        <width>362</width>
+                        <height>246</height>
                         <depth>0</depth>
-                        <hotspotX>0.501265824</hotspotX>
-                        <hotspotY>0.501718223</hotspotY>
+                        <hotspotX>0.475138128</hotspotX>
+                        <hotspotY>0.520325184</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1aries" uid="144">
+                <instance type="1aries" uid="152">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1ballena" uid="146">
+                <instance type="1ballena" uid="158">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -126,7 +126,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1boyero" uid="147">
+                <instance type="1boyero" uid="159">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -162,7 +162,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1cancer" uid="148">
+                <instance type="1cancer" uid="160">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -198,7 +198,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1casiopea" uid="149">
+                <instance type="1casiopea" uid="161">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -234,7 +234,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1cefeo" uid="150">
+                <instance type="1cefeo" uid="162">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -270,7 +270,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1cisne" uid="151">
+                <instance type="1cisne" uid="163">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -306,7 +306,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1cochero" uid="152">
+                <instance type="1cochero" uid="164">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -342,7 +342,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1corona" uid="158">
+                <instance type="1corona" uid="165">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -378,7 +378,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1dragon" uid="159">
+                <instance type="1dragon" uid="166">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -414,7 +414,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1geminis" uid="160">
+                <instance type="1geminis" uid="167">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -450,7 +450,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1leon" uid="161">
+                <instance type="1leon" uid="168">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -486,7 +486,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1osaMayor" uid="162">
+                <instance type="1osaMayor" uid="169">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -522,7 +522,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1osaMenor" uid="163">
+                <instance type="1osaMenor" uid="170">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -558,7 +558,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1pegaso" uid="164">
+                <instance type="1pegaso" uid="175">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -596,7 +596,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1perseo" uid="165">
+                <instance type="1perseo" uid="176">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -632,7 +632,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1tauro" uid="166">
+                <instance type="1tauro" uid="177">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -668,7 +668,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3MeteoroMarron" uid="167">
+                <instance type="3MeteoroMarron" uid="178">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -708,7 +708,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3PartMeteoroMarron" uid="168">
+                <instance type="3PartMeteoroMarron" uid="180">
                     <properties>
                         <rate>15</rate>
                         <spray-cone>360</spray-cone>
@@ -747,7 +747,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3PartShip" uid="169">
+                <instance type="3PartShip" uid="185">
                     <properties>
                         <rate>15</rate>
                         <spray-cone>360</spray-cone>
@@ -786,7 +786,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3PlayerBullet" uid="170">
+                <instance type="3PlayerBullet" uid="186">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

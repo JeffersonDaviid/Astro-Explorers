@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4ImagenVenus" uid="123">
+                <instance type="4ImagenVenus" uid="126">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4ImagenMercurio" uid="183">
+                <instance type="4ImagenMercurio" uid="127">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5nave" uid="121">
+                <instance type="5nave" uid="128">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -138,7 +138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5text" uid="125">
+                <instance type="5text" uid="129">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -160,7 +160,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5cuadro_inf" uid="126">
+                <instance type="5cuadro_inf" uid="130">
                     <properties>
                         <text>Hola, soy Nyx para que puedas recargar la nave con combustible necesitas saber sobre mi planeta</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -187,7 +187,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5play" uid="127">
+                <instance type="5play" uid="132">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -209,7 +209,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5alien" uid="124">
+                <instance type="5alien" uid="133">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -225,8 +225,8 @@
                         <width>182.473587036</width>
                         <height>124.653564453</height>
                         <depth>0</depth>
-                        <hotspotX>0.50222224</hotspotX>
-                        <hotspotY>0.50999999</hotspotY>
+                        <hotspotX>0.502212405</hotspotX>
+                        <hotspotY>0.50993377</hotspotY>
                         <angle>0.155321077</angle>
                         <opacity>1</opacity>
                     </world>
@@ -250,7 +250,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5cuadro" uid="130">
+                <instance type="5cuadro" uid="134">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -272,7 +272,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5ProgressBar" uid="129">
+                <instance type="5ProgressBar" uid="135">
                     <properties>
                         <value>50</value>
                         <maximum>100</maximum>
@@ -293,7 +293,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="5InfoPg1" uid="132">
+                <instance type="5InfoPg1" uid="136">
                     <properties>
                         <text>Mercurio es el planeta más pequeño de nuestro sistema solar y más cercano al Sol Simplemente, pero no es realmente el más cálido; Venus es el más cálido; es uno de los planetas rocosos.</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -320,7 +320,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5dosDer" uid="133">
+                <instance type="5dosDer" uid="137">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -342,7 +342,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5cuadro_inf_pg1" uid="48">
+                <instance type="5cuadro_inf_pg1" uid="138">
                     <properties>
                         <text>¡No té rindas, hay más cosas por descubrir !</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -388,7 +388,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5InfoPg2" uid="134">
+                <instance type="5InfoPg2" uid="144">
                     <properties>
                         <text> Tiene una superficie sólida que está cubierta de cráteres. Tiene una atmósfera delgada y no tiene ninguna luna.A Mercurio le lleva 59 días de la Tierra hacer una rotación completa, un año en Mercurio pasa rápido.¡Si vivieras en Mercurio, tendrías una fiesta de cumpleaños cada tres meses!https://spaceplace.nasa.gov/menu/solar-system/sp/</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -415,7 +415,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5uno" uid="135">
+                <instance type="5uno" uid="146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -437,7 +437,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5exit" uid="49">
+                <instance type="5exit" uid="147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -459,7 +459,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5cuadro_inf_pg2" uid="128">
+                <instance type="5cuadro_inf_pg2" uid="148">
                     <properties>
                         <text>¡Felicidades lograsté llenar el combustible de tú nave!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -505,7 +505,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5return" uid="136">
+                <instance type="5return" uid="149">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -527,7 +527,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5Fin" uid="137">
+                <instance type="5Fin" uid="150">
                     <properties>
                         <text>¡Puedes viajar a otros planetas !</text>
                         <initial-visibility>Visible</initial-visibility>

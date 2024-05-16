@@ -179,5 +179,17 @@
                 <action id="1" name="Close" sid="982281664087968" type="Browser" />
             </actions>
         </event-block>
+        <event-block sid="835171062781977">
+            <conditions>
+                <condition id="3" name="On touched object" sid="897633114990721" type="Touch">
+                    <param id="0" name="Object">1botonCreditos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="771854450449699" type="System">
+                    <param id="0" name="Layout">6 creditos</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -282,8 +282,8 @@
                         <x>466</x>
                         <y>253</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>100.199996948</width>
+                        <height>100.222221375</height>
                         <depth>0</depth>
                         <hotspotX>0.50248754</hotspotX>
                         <hotspotY>0.50248754</hotspotY>
@@ -558,7 +558,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2meteoritosPuntajeExtra" uid="1">
+                <instance type="2meteoritosPuntajeExtra" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -596,7 +596,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3ScoreText" uid="34">
+                <instance type="3ScoreText" uid="35">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -622,31 +622,6 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="1btnSalir" uid="179">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>684</x>
-                        <y>430</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.503937006</hotspotX>
-                        <hotspotY>0.510204077</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

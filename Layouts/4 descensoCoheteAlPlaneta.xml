@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4ImagenMercurio" uid="79">
+                <instance type="4ImagenMercurio" uid="113">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Nave" uid="111">
+                <instance type="4Nave" uid="114">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -138,7 +138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Particles" uid="112">
+                <instance type="4Particles" uid="115">
                     <properties>
                         <rate>50</rate>
                         <spray-cone>360</spray-cone>
@@ -177,7 +177,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4Superficie" uid="110">
+                <instance type="4Superficie" uid="116">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text5" uid="115">
+                <instance type="Text5" uid="121">
                     <properties>
                         <text>Aterriza cerca de la estacion de carga!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -242,7 +242,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="4ZonaDeAterrizaje" uid="116">
+                <instance type="4ZonaDeAterrizaje" uid="123">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -264,9 +264,39 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3controlDer" uid="113">
+                <instance type="3controler" uid="233">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>124</x>
+                        <y>382</y>
+                        <z>0</z>
+                        <width>204</width>
+                        <height>198</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50289017</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3controlIzq" uid="125">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -277,11 +307,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>155</x>
-                        <y>424</y>
+                        <x>83</x>
+                        <y>382</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
+                        <width>34</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -289,9 +319,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3controlIzq" uid="114">
+                <instance type="3controlDer" uid="124">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -302,11 +332,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>50</x>
-                        <y>426</y>
+                        <x>163</x>
+                        <y>381</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
+                        <width>35</width>
+                        <height>38</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

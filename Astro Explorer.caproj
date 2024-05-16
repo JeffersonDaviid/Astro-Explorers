@@ -38,6 +38,7 @@
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -153,9 +154,6 @@
                             <point x="0.5" y="0.258333" />
                         </collision-poly>
                     </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation1" pingpong="0" repeatcount="1" repeatto="0" sid="772882351959058" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -302,16 +300,16 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549283399189165" speed="5">
-                    <frame duration="1" hotspotX="0.501266" hotspotY="0.501718" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\andromeda.png">
+                    <frame duration="1" hotspotX="0.475138" hotspotY="0.520325" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\andromeda.png">
                         <collision-poly>
-                            <point x="0.401266" y="0.460481" />
-                            <point x="0.294304" y="0.22079" />
-                            <point x="0.7" y="0.0429553" />
-                            <point x="0.974684" y="0.776632" />
-                            <point x="0.825317" y="0.958763" />
-                            <point x="0.448101" y="0.628866" />
-                            <point x="0.302532" y="0.871134" />
-                            <point x="0.0379745" y="0.809279" />
+                            <point x="0.366022" y="0.471545" />
+                            <point x="0.24931" y="0.188008" />
+                            <point x="0.691989" y="0" />
+                            <point x="0.991713" y="0.845528" />
+                            <point x="0.82873" y="1" />
+                            <point x="0.417127" y="0.670732" />
+                            <point x="0.258288" y="0.957317" />
+                            <point x="0" y="0.884147" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -806,14 +804,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956006280739066" speed="5">
                     <frame duration="1" hotspotX="0.502488" hotspotY="0.502488" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\p_venus.png">
                         <collision-poly>
-                            <point x="0.148438" y="0.148438" />
-                            <point x="0.5" y="0" />
-                            <point x="0.851563" y="0.148438" />
-                            <point x="1" y="0.5" />
-                            <point x="0.859375" y="0.859375" />
-                            <point x="0.5" y="1" />
-                            <point x="0.148438" y="0.851563" />
-                            <point x="0" y="0.5" />
+                            <point x="0.14914" y="0.149218" />
+                            <point x="0.5" y="0.00110865" />
+                            <point x="0.850861" y="0.149218" />
+                            <point x="0.999002" y="0.5" />
+                            <point x="0.858658" y="0.858578" />
+                            <point x="0.5" y="0.998891" />
+                            <point x="0.14914" y="0.850783" />
+                            <point x="0.000998004" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1020,154 +1018,122 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="ship0" pingpong="0" repeatcount="1" repeatto="0" sid="978619963861164" speed="5">
-                    <frame duration="1" hotspotX="0.499568" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\cohete2.png">
-                        <image-point name="Disparador" x="0.994814" y="0.43295" />
+                <animation framecount="6" loop="1" name="moviendose" pingpong="0" repeatcount="1" repeatto="0" sid="978619963861164" speed="24">
+                    <frame duration="1" hotspotX="0.605678" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\nave\000.png">
+                        <image-point name="Disparador" x="1.20568" y="0.380795" />
                         <collision-poly>
-                            <point x="0.752809" y="0.302682" />
-                            <point x="0.87727" y="0.438697" />
-                            <point x="0.799482" y="0.551724" />
-                            <point x="0.604149" y="0.559386" />
-                            <point x="0.47796" y="0.519156" />
-                            <point x="0.458946" y="0.438697" />
-                            <point x="0.47796" y="0.354406" />
-                            <point x="0.585134" y="0.308429" />
+                            <point x="0.713182" y="0.17367" />
+                            <point x="0.79306" y="0.27118" />
+                            <point x="0.792432" y="0.585864" />
+                            <point x="0.697139" y="0.679035" />
+                            <point x="0.49633" y="0.805776" />
+                            <point x="0.266357" y="0.973167" />
+                            <point x="0.218727" y="0.0409908" />
+                            <point x="0.47726" y="0.0250055" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.606309" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\nave\001.png">
+                        <collision-poly>
+                            <point x="0.242902" y="0.241722" />
+                            <point x="0.606309" y="0.0678808" />
+                            <point x="0.902839" y="0.417219" />
+                            <point x="0.879495" y="0.5" />
+                            <point x="0.874448" y="0.508278" />
+                            <point x="0.606309" y="0.774834" />
+                            <point x="0.280757" y="0.65894" />
+                            <point x="0.0454259" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.606309" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\nave\002.png">
+                        <collision-poly>
+                            <point x="0.242902" y="0.241722" />
+                            <point x="0.606309" y="0.0678808" />
+                            <point x="0.902839" y="0.417219" />
+                            <point x="0.879495" y="0.5" />
+                            <point x="0.874448" y="0.508278" />
+                            <point x="0.606309" y="0.774834" />
+                            <point x="0.280757" y="0.65894" />
+                            <point x="0.0378549" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.606309" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\nave\003.png">
+                        <collision-poly>
+                            <point x="0.230915" y="0.210265" />
+                            <point x="0.606309" y="0.0678808" />
+                            <point x="0.902839" y="0.417219" />
+                            <point x="0.879495" y="0.5" />
+                            <point x="0.874448" y="0.508278" />
+                            <point x="0.606309" y="0.774834" />
+                            <point x="0.280757" y="0.65894" />
+                            <point x="0.0195584" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.606309" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\nave\004.png">
+                        <collision-poly>
+                            <point x="0.242902" y="0.241722" />
+                            <point x="0.606309" y="0.0678808" />
+                            <point x="0.902839" y="0.417219" />
+                            <point x="0.879495" y="0.5" />
+                            <point x="0.874448" y="0.508278" />
+                            <point x="0.606309" y="0.774834" />
+                            <point x="0.280757" y="0.65894" />
+                            <point x="0.0454259" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.606309" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\nave\005.png">
+                        <collision-poly>
+                            <point x="0.242902" y="0.241722" />
+                            <point x="0.606309" y="0.0678808" />
+                            <point x="0.902839" y="0.417219" />
+                            <point x="0.879495" y="0.5" />
+                            <point x="0.874448" y="0.508278" />
+                            <point x="0.606309" y="0.774834" />
+                            <point x="0.280757" y="0.65894" />
+                            <point x="0.0378549" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="1" loop="0" name="ship1" pingpong="0" repeatcount="1" repeatto="0" sid="760260035444930" speed="5">
-                    <frame duration="1" hotspotX="0.498599" hotspotY="0.5" original-source="C:\Users\jeffe\Downloads\png-transparent-spacecraft-spaceshipone-space-craft-miscellaneous-fighter-aircraft-airplane-thumbnail-removebg-preview.png">
+                <animation framecount="33" loop="0" name="destruyendose" pingpong="0" repeatcount="1" repeatto="0" sid="552013653972963" speed="24">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.4">
                         <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
+                            <point x="0" y="0.075" />
+                            <point x="1" y="0.1" />
+                            <point x="0.894736" y="0.975" />
+                            <point x="0.0789474" y="0.9" />
                         </collision-poly>
                     </frame>
-                </animation>
-                <animation framecount="2" loop="1" name="ship2" pingpong="0" repeatcount="1" repeatto="0" sid="181009861918245" speed="10">
-                    <frame duration="1" hotspotX="0.501608" hotspotY="0.501683">
-                        <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="-1" hotspotY="-1">
-                        <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="ship3" pingpong="0" repeatcount="1" repeatto="0" sid="721563552486066" speed="5">
-                    <frame duration="1" hotspotX="0.524155" hotspotY="0.488584" original-source="C:\Users\jeffe\Downloads\pngtree-rocket-ship-png-png-image_11466771-removebg-preview.png">
-                        <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="3" loop="1" name="ship4" pingpong="0" repeatcount="1" repeatto="0" sid="802951778212654" speed="10">
-                    <frame duration="1" hotspotX="-1" hotspotY="-1">
-                        <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="-1" hotspotY="-1">
-                        <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="-1" hotspotY="-1">
-                        <collision-poly>
-                            <point x="0.26045" y="0.272727" />
-                            <point x="0.29582" y="0.0202019" />
-                            <point x="0.659164" y="0.356902" />
-                            <point x="0.96463" y="0.498316" />
-                            <point x="0.652733" y="0.636364" />
-                            <point x="0.305466" y="0.973064" />
-                            <point x="0.26045" y="0.727273" />
-                            <point x="0.192926" y="0.498316" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="33" loop="0" name="Destroy" pingpong="0" repeatcount="1" repeatto="0" sid="552013653972963" speed="15">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.4525" y="0.3675" />
-                            <point x="0.5475" y="0.37" />
-                            <point x="0.5375" y="0.4575" />
-                            <point x="0.46" y="0.45" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
-                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.35714" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.28261" />
+                    <frame duration="1" hotspotX="0.510638" hotspotY="1.25" />
+                    <frame duration="1" hotspotX="0.509804" hotspotY="1.29787" />
+                    <frame duration="1" hotspotX="0.490909" hotspotY="1.19231" />
+                    <frame duration="1" hotspotX="0.483333" hotspotY="1.18868" />
+                    <frame duration="1" hotspotX="0.476923" hotspotY="1.16667" />
+                    <frame duration="1" hotspotX="0.464789" hotspotY="1.12281" />
+                    <frame duration="1" hotspotX="-7.53333" hotspotY="-8.0303" />
+                    <frame duration="1" hotspotX="-6.95062" hotspotY="-7.43662" />
+                    <frame duration="1" hotspotX="-6.35227" hotspotY="-6.67089" />
+                    <frame duration="1" hotspotX="-5.98925" hotspotY="-6.22619" />
+                    <frame duration="1" hotspotX="-5.60606" hotspotY="-5.97701" />
+                    <frame duration="1" hotspotX="-5.25714" hotspotY="-5.55914" />
+                    <frame duration="1" hotspotX="-5" hotspotY="-5.18182" />
+                    <frame duration="1" hotspotX="-4.72414" hotspotY="-4.80189" />
+                    <frame duration="1" hotspotX="-4.55833" hotspotY="-4.60909" />
+                    <frame duration="1" hotspotX="-4.40323" hotspotY="-4.34483" />
+                    <frame duration="1" hotspotX="-4.1374" hotspotY="-4.92308" />
+                    <frame duration="1" hotspotX="-3.97794" hotspotY="-5.03922" />
+                    <frame duration="1" hotspotX="-3.78873" hotspotY="-4.83019" />
+                    <frame duration="1" hotspotX="-3.58389" hotspotY="-4.53571" />
+                    <frame duration="1" hotspotX="-3.43226" hotspotY="-4.23529" />
+                    <frame duration="1" hotspotX="-3.3125" hotspotY="-4.04032" />
+                    <frame duration="1" hotspotX="-3.1497" hotspotY="-3.86822" />
+                    <frame duration="1" hotspotX="-3.43137" hotspotY="-3.70896" />
+                    <frame duration="1" hotspotX="-3.2625" hotspotY="-4.29565" />
+                    <frame duration="1" hotspotX="-3.62838" hotspotY="-4.11765" />
+                    <frame duration="1" hotspotX="-4.9913" hotspotY="-15.0526" />
+                    <frame duration="1" hotspotX="-4.81513" hotspotY="-14.3" />
+                    <frame duration="1" hotspotX="-4.69672" hotspotY="-14.6923" />
+                    <frame duration="1" hotspotX="-21.1852" hotspotY="-19.4667" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1309,16 +1275,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278744385072042" speed="5">
-                    <frame duration="1" hotspotX="0.499458" hotspotY="0.5" original-source="C:\Users\HP\OneDrive\Escritorio\Desarrollo Videojuego\AtroExplorer\Astro-Explorers\Files\images\Black-Hole.png">
+                    <frame duration="1" hotspotX="0.499459" hotspotY="0.484416" original-source="C:\Users\HP\OneDrive\Escritorio\Desarrollo Videojuego\AtroExplorer\Astro-Explorers\Files\images\Black-Hole.png">
                         <collision-poly>
-                            <point x="0.654388" y="0.723278" />
-                            <point x="0.451788" y="0.779097" />
-                            <point x="0.283857" y="0.674584" />
-                            <point x="0.262188" y="0.509501" />
-                            <point x="0.321777" y="0.359857" />
-                            <point x="0.488624" y="0.274347" />
-                            <point x="0.693391" y="0.35867" />
-                            <point x="0.720477" y="0.552256" />
+                            <point x="0.654054" y="0.728572" />
+                            <point x="0.451892" y="0.78961" />
+                            <point x="0.284324" y="0.675324" />
+                            <point x="0.262702" y="0.494805" />
+                            <point x="0.322162" y="0.331168" />
+                            <point x="0.488649" y="0.237663" />
+                            <point x="0.692973" y="0.32987" />
+                            <point x="0.72" y="0.541558" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1453,15 +1419,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693668611313083" speed="5">
-                    <frame duration="1" hotspotX="0.502222" hotspotY="0.51" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\ovni.png">
+                    <frame duration="1" hotspotX="0.502212" hotspotY="0.509934" original-source="D:\Users\Camila\Downloads\RECARGA COMBUSTIBLE\ovni.png">
                         <collision-poly>
-                            <point x="0.5" y="0" />
-                            <point x="0.793333" y="0.31" />
-                            <point x="0.913333" y="0.5" />
-                            <point x="0.888889" y="0.833333" />
-                            <point x="0.5" y="1" />
-                            <point x="0.113333" y="0.83" />
-                            <point x="0.0777778" y="0.5" />
+                            <point x="0.5" y="0.00331126" />
+                            <point x="0.792035" y="0.311258" />
+                            <point x="0.911504" y="0.5" />
+                            <point x="0.887168" y="0.831125" />
+                            <point x="0.5" y="0.996689" />
+                            <point x="0.115044" y="0.827815" />
+                            <point x="0.079646" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1856,14 +1822,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253864152442604" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_6.png">
                         <collision-poly>
-                            <point x="0.205" y="0.205" />
-                            <point x="0.5" y="0.205" />
-                            <point x="0.66" y="0.34" />
-                            <point x="1" y="0.5" />
-                            <point x="0.92" y="0.92" />
-                            <point x="0.5" y="0.61" />
-                            <point x="0.405" y="0.595" />
-                            <point x="0.055" y="0.5" />
+                            <point x="0.207921" y="0.207921" />
+                            <point x="0.5" y="0.207921" />
+                            <point x="0.658416" y="0.341584" />
+                            <point x="0.995049" y="0.5" />
+                            <point x="0.915842" y="0.915842" />
+                            <point x="0.5" y="0.608911" />
+                            <point x="0.405941" y="0.594059" />
+                            <point x="0.0594059" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1887,16 +1853,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238462431651721" speed="5">
-                    <frame duration="1" hotspotX="0.532738" hotspotY="0.287253" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_3.png">
+                    <frame duration="1" hotspotX="0.532641" hotspotY="0.288014" original-source="C:\Users\jeffe\OneDrive\Escritorio\VIAJE ESPACIAL\objeto_espacio_3.png">
                         <collision-poly>
-                            <point x="0.0372024" y="0.0448833" />
-                            <point x="0.5" y="0.0359066" />
-                            <point x="0.782738" y="0.262118" />
-                            <point x="0.901786" y="0.499102" />
-                            <point x="0.684524" y="0.61939" />
-                            <point x="0.5" y="0.737881" />
-                            <point x="0.291667" y="0.648115" />
-                            <point x="0.21875" y="0.499102" />
+                            <point x="0.0385757" y="0.0465116" />
+                            <point x="0.5" y="0.037567" />
+                            <point x="0.781899" y="0.262969" />
+                            <point x="0.900594" y="0.499105" />
+                            <point x="0.683976" y="0.618963" />
+                            <point x="0.5" y="0.73703" />
+                            <point x="0.292285" y="0.647585" />
+                            <point x="0.219585" y="0.499105" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1976,44 +1942,6 @@
                             <point x="0.0729412" y="0.129167" />
                             <point x="0.958824" y="0.927083" />
                             <point x="0.410588" y="0.272917" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="3mouseImg" sid="179664365809027">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995170255989134" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\click.png">
-                        <collision-poly>
-                            <point x="0.169922" y="0.169922" />
-                            <point x="0.5" y="0.107422" />
-                            <point x="0.78125" y="0.21875" />
-                            <point x="0.828125" y="0.5" />
-                            <point x="0.787109" y="0.787109" />
-                            <point x="0.5" y="0.996094" />
-                            <point x="0.273438" y="0.726563" />
-                            <point x="0.251953" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="3controlNave" sid="996861451013238">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893102219875733" speed="5">
-                    <frame duration="1" hotspotX="0.539683" hotspotY="0.5" original-source="C:\Users\KealPetu\Downloads\cohete2.png\controlNave.png">
-                        <collision-poly>
-                            <point x="0.844155" y="0.5" />
-                            <point x="0.021645" y="0.00312471" />
-                            <point x="0.539683" y="0.00312471" />
-                            <point x="0.926407" y="0.2875" />
-                            <point x="0.937951" y="0.5" />
-                            <point x="0.930736" y="0.721875" />
-                            <point x="0.539683" y="0.46875" />
-                            <point x="0.265513" y="0.46875" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2280,11 +2208,221 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="2Captura1" sid="236173192662511">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="346576255927362" speed="60">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\screencapture-localhost-50000-2024-05-04-21_16_14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\frame3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2instruccion1" sid="711151816838757">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="2Captura2" sid="327844500101665">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="269291908072803" speed="60">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\screencapture-localhost-50000-2024-05-04-21_27_47.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\frame4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2instruccion2" sid="382611459557343">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="2BotonSiguiente" sid="415134168400047">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="6creditosJuego" sid="717179934372627">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="506479263273931">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="363170004633742">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="6BackgroundCredits" sid="232971424971777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="376764307710838" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Downloads\estrellas.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="6creditosJuego2" sid="156381816104048">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="687186760055923">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="977005256669125">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="6creditosJuego3" sid="547207036822609">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="409443945338411">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="642708160103308">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="6z" sid="888492049100156">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="222402827226582">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="309129226153370">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="944450747291947" speed="10">
+                    <frame duration="1" hotspotX="0.606309" hotspotY="0.504967" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete1.png">
+                        <collision-poly>
+                            <point x="0.808202" y="0.321192" />
+                            <point x="1" y="0.5" />
+                            <point x="0.838486" y="0.73245" />
+                            <point x="0.606309" y="1" />
+                            <point x="0.374132" y="0.73245" />
+                            <point x="0.131861" y="0.5" />
+                            <point x="0.15205" y="0" />
+                            <point x="0.606309" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497396" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete2.png">
+                        <collision-poly>
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.036979" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
+                        <collision-poly>
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.030729" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497396" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete4.png">
+                        <collision-poly>
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.015625" y="0.5" />
+                            <point x="0.190104" y="0.337963" />
+                            <point x="0.5" y="0.258333" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete5.png">
+                        <collision-poly>
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.036979" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.497396" hotspotY="0.502778" original-source="C:\Users\Xelan\OneDrive\Documentos\GitHub\Astro-Explorers\images\cohete3.png">
+                        <collision-poly>
+                            <point x="0.744792" y="0.453704" />
+                            <point x="0.725521" y="0.5" />
+                            <point x="0.721354" y="0.50463" />
+                            <point x="0.5" y="0.653704" />
+                            <point x="0.23125" y="0.588889" />
+                            <point x="0.030729" y="0.5" />
+                            <point x="0.2" y="0.355556" />
+                            <point x="0.5" y="0.258333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation1" pingpong="0" repeatcount="1" repeatto="0" sid="472280628854714" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="6FIS" sid="722830153511824">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="781727432014806">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="497640499981197">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671333252792092" speed="5">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.51757" original-source="D:\Users\Camila\Downloads\fis.png">
+                        <collision-poly>
+                            <point x="0.136714" y="0.171303" />
+                            <point x="0.511553" y="0.419473" />
+                            <point x="0.646983" y="0.445095" />
+                            <point x="0.896662" y="0.51757" />
+                            <point x="0.980103" y="0.969985" />
+                            <point x="0.511553" y="0.988287" />
+                            <point x="0.146341" y="0.852855" />
+                            <point x="0.183569" y="0.51757" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="6EPN" sid="261583262882693">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="629673481842113">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667075544475282" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.502203" original-source="D:\Users\Camila\Downloads\epn-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.101523" y="0.154185" />
+                            <point x="0.497462" y="0.00440529" />
+                            <point x="0.903553" y="0.14978" />
+                            <point x="0.903553" y="0.85022" />
+                            <point x="0.497462" y="0.995595" />
+                            <point x="0.0964467" y="0.85022" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
         <object-type name="3controler" sid="770528775602960">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Pin" sid="194246699468182">
                     <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="900892152953438">
+                    <behavior id="bound" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2346,13 +2484,15 @@
     <families />
     <layout-folder>
         <layout>1 menuPrincipal.xml</layout>
+        <layout>2Instrucciones.xml</layout>
         <layout>2 menuSeleccionDePlaneta.xml</layout>
-        <layout>3 viajeEspacialP2.xml</layout>
         <layout>3 viajeEspacialP1.xml</layout>
+        <layout>3 viajeEspacialP2.xml</layout>
         <layout>3 Failed.xml</layout>
         <layout>4 descensoCoheteAlPlaneta.xml</layout>
         <layout>5 recargarCombustible.xml</layout>
         <layout>Sprites.xml</layout>
+        <layout>6 creditos.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>1 eventosMenuPrincipal.xml</event-sheet>
@@ -2362,17 +2502,19 @@
         <event-sheet>5 recargarCombustible.xml</event-sheet>
         <event-sheet>3 eventosViajeEspacialP1.xml</event-sheet>
         <event-sheet>3 Failed.xml</event-sheet>
+        <event-sheet>2eventosInstrucciones.xml</event-sheet>
+        <event-sheet>6 creditos.xml</event-sheet>
         <event-sheet>Controles.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="175" />
-        <global-instance type="Mouse" uid="176" />
-        <global-instance type="Touch" uid="177">
+        <global-instance type="Keyboard" uid="228" />
+        <global-instance type="Mouse" uid="229" />
+        <global-instance type="Touch" uid="230">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="178">
+        <global-instance type="Audio" uid="231">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -2386,7 +2528,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Browser" uid="180" />
+        <global-instance type="Browser" uid="232" />
     </global-instances>
     <sounds-folder>
         <file name="3sfxExplosion.ogg" />
@@ -2405,6 +2547,8 @@
         <file name="2Universal-CollapseP1.ogg" />
         <file name="2Universal-CollapseP2.m4a" />
         <file name="2Universal-CollapseP2.ogg" />
+        <file name="Creditos.m4a" />
+        <file name="Creditos.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

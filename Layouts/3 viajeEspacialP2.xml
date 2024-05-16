@@ -4,7 +4,7 @@
     <sid>750083837942752</sid>
     <event-sheet>3 eventosViajeEspacialP2</event-sheet>
     <size>
-        <width>1708</width>
+        <width>1700</width>
         <height>960</height>
     </size>
     <margins>
@@ -78,11 +78,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>846</x>
-                        <y>494</y>
+                        <x>860.5</x>
+                        <y>486</y>
                         <z>0</z>
-                        <width>1797</width>
-                        <height>985</height>
+                        <width>1751</width>
+                        <height>1014</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -729,8 +729,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>489</x>
-                        <y>194</y>
+                        <x>479</x>
+                        <y>147</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -768,8 +768,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>728</x>
-                        <y>324</y>
+                        <x>759</x>
+                        <y>373</y>
                         <z>0</z>
                         <width>251</width>
                         <height>244</height>
@@ -1522,7 +1522,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Mercurio" uid="38">
+                <instance type="2Mercurio" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1573,7 +1573,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Venus" uid="39">
+                <instance type="2Venus" uid="40">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1624,7 +1624,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Tierra" uid="40">
+                <instance type="2Tierra" uid="48">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1675,7 +1675,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3Instrucciones" uid="173">
+                <instance type="3Instrucciones" uid="49">
                     <properties>
                         <text>Encuentra el planeta de destino, recuerda no impactar con los asteroides!!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1690,8 +1690,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>272</x>
-                        <y>632</y>
+                        <x>203</x>
+                        <y>267</y>
                         <z>0</z>
                         <width>428</width>
                         <height>97</height>
@@ -1702,9 +1702,39 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3controler" uid="109">
+                <instance type="3controler" uid="79">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>80</x>
+                        <y>400</y>
+                        <z>0</z>
+                        <width>160</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50289017</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3controlAbj" uid="90">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -1715,13 +1745,61 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>127</x>
-                        <y>711</y>
+                        <x>79</x>
+                        <y>437</y>
                         <z>0</z>
-                        <width>204</width>
-                        <height>198</height>
+                        <width>32</width>
+                        <height>29</height>
                         <depth>0</depth>
-                        <hotspotX>0.50289017</hotspotX>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3controlArrb" uid="91">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>68</x>
+                        <y>355</y>
+                        <z>0</z>
+                        <width>33</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3controlDer" uid="109">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>117</x>
+                        <y>397.389251709</y>
+                        <z>0</z>
+                        <width>29</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -1740,87 +1818,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>83</x>
-                        <y>713</y>
+                        <x>46.041610718</x>
+                        <y>401.041625977</y>
                         <z>0</z>
-                        <width>37</width>
-                        <height>38</height>
+                        <width>28</width>
+                        <height>29</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="3controlDer" uid="142">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>176</x>
-                        <y>707</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>38</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="3controlAbj" uid="172">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>128</x>
-                        <y>752</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>36</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="3controlArrb" uid="174">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>106</x>
-                        <y>650</y>
-                        <z>0</z>
-                        <width>37</width>
-                        <height>39</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1844,7 +1849,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="3player" uid="90">
+                <instance type="3player" uid="92">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1873,19 +1878,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>158</x>
-                        <y>536</y>
+                        <x>425</x>
+                        <y>240</y>
                         <z>0</z>
                         <width>145</width>
-                        <height>60.000003815</height>
+                        <height>60</height>
                         <depth>0</depth>
-                        <hotspotX>0.499567837</hotspotX>
+                        <hotspotX>0.60567826</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3border" uid="91">
+                <instance type="3border" uid="93">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1914,7 +1919,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="3border" uid="92">
+                <instance type="3border" uid="94">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1943,7 +1948,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="3border" uid="93">
+                <instance type="3border" uid="95">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1972,7 +1977,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="94">
+                <instance type="3meteoro_xl" uid="96">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2011,7 +2016,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="95">
+                <instance type="3meteoro_xl" uid="97">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2050,7 +2055,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="96">
+                <instance type="3meteoro_xl" uid="98">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2089,7 +2094,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="97">
+                <instance type="3meteoro_xl" uid="99">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2128,7 +2133,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="98">
+                <instance type="3meteoro_xl" uid="100">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2167,7 +2172,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_n" uid="99">
+                <instance type="3meteoro_n" uid="101">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2214,7 +2219,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_n" uid="100">
+                <instance type="3meteoro_n" uid="102">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2261,7 +2266,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_n" uid="101">
+                <instance type="3meteoro_n" uid="103">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2308,7 +2313,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_n" uid="102">
+                <instance type="3meteoro_n" uid="104">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2355,7 +2360,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_n" uid="103">
+                <instance type="3meteoro_n" uid="105">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2402,7 +2407,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_n" uid="104">
+                <instance type="3meteoro_n" uid="106">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2449,7 +2454,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3blackHole" uid="105">
+                <instance type="3blackHole" uid="107">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2472,19 +2477,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>378</x>
-                        <y>329</y>
+                        <x>736</x>
+                        <y>103</y>
                         <z>0</z>
-                        <width>237</width>
-                        <height>225</height>
+                        <width>237.513549805</width>
+                        <height>205.760101318</height>
                         <depth>0</depth>
-                        <hotspotX>0.499458283</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.499459445</hotspotX>
+                        <hotspotY>0.484415591</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="106">
+                <instance type="3meteoro_xl" uid="108">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2523,7 +2528,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3meteoro_xl" uid="107">
+                <instance type="3meteoro_xl" uid="110">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

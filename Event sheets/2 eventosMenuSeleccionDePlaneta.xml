@@ -5,7 +5,6 @@
     <events>
         <variable constant="0" name="PlanetaSeleccionado" sid="208686867563334" static="0" type="number">0</variable>
         <variable comment="Puntaje" constant="0" name="Score" sid="977460344515282" static="0" type="number">0</variable>
-        <variable constant="1" name="radioPlaneta" sid="500038863049368" static="0" type="number">100</variable>
         <variable constant="0" name="radioMaximo" sid="974161023167693" static="0" type="number">0</variable>
         <event-group description="" sid="623221738418023" title="setLayout">
             <sub-events>
@@ -170,25 +169,17 @@
                             <param id="3" name="Volume">-10</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-7" name="Set size" sid="786311961779639" type="2Mercurio">
-                            <param id="0" name="Width">RADIOPLANETA</param>
-                            <param id="1" name="Height">RADIOPLANETA</param>
+                        <action id="-7" name="Set size" sid="786311961779639" type="2Venus">
+                            <param id="0" name="Width">100</param>
+                            <param id="1" name="Height">100</param>
                         </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="327438490068009" type="2Mercurio">
                             <param id="0" name="Pin to">2rotador</param>
                             <param id="1" name="Mode">0</param>
                         </action>
-                        <action id="-7" name="Set size" sid="936756182626224" type="2Venus">
-                            <param id="0" name="Width">RADIOPLANETA</param>
-                            <param id="1" name="Height">RADIOPLANETA</param>
-                        </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="879254195896482" type="2Venus">
                             <param id="0" name="Pin to">2rotador2</param>
                             <param id="1" name="Mode">0</param>
-                        </action>
-                        <action id="-7" name="Set size" sid="329585123544089" type="2Tierra">
-                            <param id="0" name="Width">RADIOPLANETA</param>
-                            <param id="1" name="Height">RADIOPLANETA</param>
                         </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="124065258645390" type="2Tierra">
                             <param id="0" name="Pin to">2Sol</param>
@@ -216,10 +207,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Mercurio" />
-                        <action id="-7" name="Set size" sid="936355183183349" type="2Mercurio">
-                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
-                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
+                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
+                        <action id="-7" name="Set size" sid="936355183183349" type="2Venus">
+                            <param id="0" name="Width">125</param>
+                            <param id="1" name="Height">125</param>
                         </action>
                         <action id="-3" name="Set position" sid="827373537347950" type="2Mercurio">
                             <param id="0" name="X">2Mercurio.posX</param>
@@ -247,11 +238,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="555862288557801" type="2Venus" />
-                        <action id="-7" name="Set size" sid="824184381756495" type="2Venus">
-                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
-                            <param id="1" name="Height">RADIOPLANETA * 1.25</param>
-                        </action>
                         <action id="-3" name="Set position" sid="649706687893882" type="2Venus">
                             <param id="0" name="X">2Venus.posX</param>
                             <param id="1" name="Y">2Venus.posY</param>
@@ -278,11 +264,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="831144090075874" type="2Tierra" />
-                        <action id="-7" name="Set size" sid="443107293793672" type="2Tierra">
-                            <param id="0" name="Width">RADIOPLANETA * 1.25</param>
-                            <param id="1" name="Height">RADIOPLANETA * 1.25150</param>
-                        </action>
                         <action id="-3" name="Set position" sid="492115366636054" type="2Tierra">
                             <param id="0" name="X">2Tierra.posX</param>
                             <param id="1" name="Y">2Tierra.posY</param>
@@ -446,15 +427,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="238006177521168">
-            <conditions>
-                <condition id="3" name="On touched object" sid="935227850403928" type="Touch">
-                    <param id="0" name="Object">1btnSalir</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="1" name="Close" sid="613193043623080" type="Browser" />
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

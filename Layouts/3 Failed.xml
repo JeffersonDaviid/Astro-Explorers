@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="3Failed_bg" uid="108">
+                <instance type="3Failed_bg" uid="111">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -124,7 +124,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3btn_volverAJugar" uid="119">
+                <instance type="3btn_volverAJugar" uid="112">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

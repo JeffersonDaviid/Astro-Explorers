@@ -18,6 +18,22 @@
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;musicaViajeEspacial&quot;</param>
                 </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="421352533603323" type="3controlAbj">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="520585322214542" type="3controlArrb">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="995456779108895" type="3controlIzq">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="862305021977968" type="3controlDer">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="549059545700094">
@@ -181,7 +197,7 @@
                     <param id="1" name="Height">250</param>
                 </action>
                 <action id="4" name="Set animation" sid="780783638245468" type="3player">
-                    <param id="0" name="Animation">&quot;Destroy&quot;</param>
+                    <param id="0" name="Animation">&quot;destruyendose&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
                 <action id="11" name="Set collisions enabled" sid="687522591921950" type="3player">
@@ -237,34 +253,16 @@
                 <action id="-9" name="Destroy" sid="103832751837329" type="3meteoro_n" />
             </actions>
         </event-block>
-        <event-block sid="912840502279880">
+        <event-block sid="554505968300042">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="660737938580545" type="System" />
+                <condition id="-6" name="Every X seconds" sid="455401809402060" type="System">
+                    <param id="0" name="Interval (seconds)">dt</param>
+                </condition>
             </conditions>
             <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="564255591372542" type="3controler">
-                    <param id="0" name="Pin to">3player</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="308098561394750" type="3controler">
-                    <param id="0" name="Pin to">3Contenedor</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="694467673827683" type="3controlAbj">
-                    <param id="0" name="Pin to">3controler</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="937974526004487" type="3controlArrb">
-                    <param id="0" name="Pin to">3controler</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="427543053385748" type="3controlDer">
-                    <param id="0" name="Pin to">3controler</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="889013684359886" type="3controlIzq">
-                    <param id="0" name="Pin to">3controler</param>
-                    <param id="1" name="Mode">0</param>
+                <action id="-3" name="Set position" sid="567796628683352" type="3controler">
+                    <param id="0" name="X">3player.X - 345</param>
+                    <param id="1" name="Y">3player.Y + 160</param>
                 </action>
             </actions>
         </event-block>
