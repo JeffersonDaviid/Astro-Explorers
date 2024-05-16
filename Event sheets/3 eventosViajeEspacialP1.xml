@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 eventosViajeEspacialP1</name>
     <events>
-        <variable constant="0" name="meteoroAleatorio" sid="497033490570340" static="0" type="number">0</variable>
         <variable constant="0" name="timeShip" sid="420816698777819" static="0" type="number">0</variable>
         <event-block sid="307393341951613">
             <conditions>
@@ -53,21 +52,6 @@
                         </action>
                         <action id="-3" name="Set position" sid="946833012288378" type="3controlIzq">
                             <param id="0" name="X">60</param>
-                            <param id="1" name="Y">400</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="821883496472681">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="649703507780091" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Set position" sid="106004632730458" type="3controlNave">
-                            <param id="0" name="X">105</param>
-                            <param id="1" name="Y">400</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="195538433422480" type="3mouseImg">
-                            <param id="0" name="X">800</param>
                             <param id="1" name="Y">400</param>
                         </action>
                     </actions>
@@ -172,6 +156,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="963718022412996" type="3player">
+                    <param id="0" name="Animation">&quot;destruyendose&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action behavior="8Direction" id="2" name="Set ignoring input" sid="679362787887134" type="1contenedor">
                     <param id="0" name="Input">1</param>
                 </action>

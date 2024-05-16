@@ -29,9 +29,9 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="2Fondo" uid="109">
+                <instance type="4ImagenTierra" uid="131">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -39,14 +39,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>558</x>
-                        <y>329</y>
+                        <x>427</x>
+                        <y>242</y>
                         <z>0</z>
-                        <width>1332</width>
-                        <height>787</height>
+                        <width>865</width>
+                        <height>492</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500584781</hotspotX>
+                        <hotspotY>0.501039505</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="4ImagenVenus" uid="123">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>427</x>
+                        <y>238</y>
+                        <z>0</z>
+                        <width>855</width>
+                        <height>481</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500584781</hotspotX>
+                        <hotspotY>0.501039505</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="4ImagenMercurio" uid="183">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>495</x>
+                        <y>254</y>
+                        <z>0</z>
+                        <width>861</width>
+                        <height>485</height>
+                        <depth>0</depth>
+                        <hotspotX>0.580116987</hotspotX>
+                        <hotspotY>0.527027011</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -82,123 +126,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>425</x>
-                        <y>265</y>
+                        <x>350</x>
+                        <y>391</y>
                         <z>0</z>
-                        <width>45</width>
-                        <height>65</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.043427702</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5planeta_Jupiter" uid="122">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>428</x>
-                        <y>1106</y>
-                        <z>0</z>
-                        <width>1655</width>
-                        <height>1630</height>
+                        <width>119</width>
+                        <height>192</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5combustible" uid="123">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>458</x>
-                        <y>279</y>
-                        <z>0</z>
-                        <width>35</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>0.506849289</hotspotX>
-                        <hotspotY>0.506329119</hotspotY>
-                        <angle>0.046279781</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5text" uid="125">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>667.118286133</x>
-                        <y>57.391548157</y>
-                        <z>0</z>
-                        <width>194</width>
-                        <height>85</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.005588854</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -229,114 +165,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5alien" uid="124">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>768.806945801</x>
-                        <y>121.366119385</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>70</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50222224</hotspotX>
-                        <hotspotY>0.50999999</hotspotY>
-                        <angle>0.155321077</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5planeta_Saturno" uid="36">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>399</x>
-                        <y>712</y>
-                        <z>0</z>
-                        <width>979</width>
-                        <height>1261</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-1.537346005</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5planeta_Venus" uid="37">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>405</x>
-                        <y>1109</y>
-                        <z>0</z>
-                        <width>1655</width>
-                        <height>1630</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="5play" uid="127">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -347,15 +175,59 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>423</x>
-                        <y>343</y>
+                        <x>141.83416748</x>
+                        <y>450.319000244</y>
                         <z>0</z>
-                        <width>110</width>
-                        <height>50</height>
+                        <width>111</width>
+                        <height>51</height>
                         <depth>0</depth>
-                        <hotspotX>0.469999999</hotspotX>
-                        <hotspotY>0.800000012</hotspotY>
+                        <hotspotX>0.468468457</hotspotX>
+                        <hotspotY>0.80392158</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5text" uid="125">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>673.715820313</x>
+                        <y>65.377807617</y>
+                        <z>0</z>
+                        <width>207.284194946</width>
+                        <height>100.898521423</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.005588854</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5alien" uid="124">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>746.043884277</x>
+                        <y>142.963256836</y>
+                        <z>0</z>
+                        <width>182.473587036</width>
+                        <height>124.653564453</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50222224</hotspotX>
+                        <hotspotY>0.50999999</hotspotY>
+                        <angle>0.155321077</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -389,8 +261,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>327</x>
-                        <y>327</y>
+                        <x>81.860397339</x>
+                        <y>414.971923828</y>
                         <z>0</z>
                         <width>200</width>
                         <height>25</height>
@@ -409,48 +281,26 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>427</x>
-                        <y>120.105911255</y>
+                        <x>440.633972168</x>
+                        <y>202.61630249</y>
                         <z>0</z>
-                        <width>259.934448242</width>
-                        <height>220</height>
+                        <width>489.472229004</width>
+                        <height>342.874969482</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5fondo" uid="131">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>427</x>
-                        <y>117.354240417</y>
-                        <z>0</z>
-                        <width>220.286590576</width>
-                        <height>180</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500860572</hotspotX>
+                        <hotspotY>0.501113594</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="5InfoPg1" uid="132">
                     <properties>
-                        <text>Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. </text>
+                        <text>Mercurio es el planeta más pequeño de nuestro sistema solar y más cercano al Sol Simplemente, pero no es realmente el más cálido; Venus es el más cálido; es uno de los planetas rocosos.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-9,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
+                        <font>Arial,-21.6,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
@@ -458,11 +308,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>358.870727539</x>
-                        <y>31.90045166</y>
+                        <x>216.827575684</x>
+                        <y>58.605224609</y>
                         <z>0</z>
-                        <width>163.03112793</width>
-                        <height>159.767822266</height>
+                        <width>434.277648926</width>
+                        <height>267.506896973</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -480,11 +330,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>457</x>
-                        <y>210.466003418</y>
+                        <x>532.329284668</x>
+                        <y>329.950927734</y>
                         <z>0</z>
-                        <width>20</width>
-                        <height>20</height>
+                        <width>30.882019043</width>
+                        <height>32.041381836</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -540,12 +390,12 @@
             <instances>
                 <instance type="5InfoPg2" uid="134">
                     <properties>
-                        <text>De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido. En Venus, el Sol sale cada 117 días terrestres. Así que el Sol sale dos veces por año.</text>
+                        <text> Tiene una superficie sólida que está cubierta de cráteres. Tiene una atmósfera delgada y no tiene ninguna luna.A Mercurio le lleva 59 días de la Tierra hacer una rotación completa, un año en Mercurio pasa rápido.¡Si vivieras en Mercurio, tendrías una fiesta de cumpleaños cada tres meses!https://spaceplace.nasa.gov/menu/solar-system/sp/</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-9,400,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-18.4,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
@@ -553,11 +403,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>359.490905762</x>
-                        <y>33.141555786</y>
+                        <x>217.864562988</x>
+                        <y>58.50793457</y>
                         <z>0</z>
-                        <width>162.411437988</width>
-                        <height>156.663604736</height>
+                        <width>454.450469971</width>
+                        <height>278.110931396</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -575,11 +425,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>397</x>
-                        <y>210.466003418</y>
+                        <x>366.13079834</x>
+                        <y>329.371307373</y>
                         <z>0</z>
-                        <width>20</width>
-                        <height>20</height>
+                        <width>32.721374512</width>
+                        <height>31.882019043</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -597,11 +447,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>535.74786377</x>
-                        <y>41.074588776</y>
+                        <x>616.547607422</x>
+                        <y>69.243347168</y>
                         <z>0</z>
-                        <width>20</width>
-                        <height>20</height>
+                        <width>30</width>
+                        <height>29</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -665,14 +515,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>425</x>
-                        <y>394</y>
+                        <x>742.353942871</x>
+                        <y>456.930114746</y>
                         <z>0</z>
-                        <width>110</width>
-                        <height>50</height>
+                        <width>113.261497498</width>
+                        <height>50.984203339</height>
                         <depth>0</depth>
-                        <hotspotX>0.469999999</hotspotX>
-                        <hotspotY>0.800000012</hotspotY>
+                        <hotspotX>0.468468457</hotspotX>
+                        <hotspotY>0.80392158</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -692,11 +542,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>580</x>
-                        <y>25</y>
+                        <x>619.494018555</x>
+                        <y>21.638671875</y>
                         <z>0</z>
-                        <width>178.731002808</width>
-                        <height>69</height>
+                        <width>189.840805054</width>
+                        <height>83.58354187</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
