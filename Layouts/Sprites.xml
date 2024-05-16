@@ -2,7 +2,7 @@
 <c2layout>
     <name>Sprites</name>
     <sid>344250814049982</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>1 eventosMenuPrincipal</event-sheet>
     <size>
         <width>2000</width>
         <height>2000</height>

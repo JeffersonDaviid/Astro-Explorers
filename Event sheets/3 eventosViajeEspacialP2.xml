@@ -28,31 +28,31 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="669564670869833" type="2Venus">
+                        <action id="-15" name="Set visible" sid="669564670869833" type="2Mercurio">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="927713405183375" type="2Venus">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="927713405183375" type="2Mercurio">
                             <param id="0" name="Speed">-10</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="768741054942481" type="2Venus">
+                        <action id="11" name="Set collisions enabled" sid="768741054942481" type="2Mercurio">
                             <param id="0" name="Collisions">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="735314041330499" type="2Jupiter">
+                        <action id="-15" name="Set visible" sid="735314041330499" type="2Venus">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="505868743754050" type="2Jupiter">
+                        <action id="11" name="Set collisions enabled" sid="505868743754050" type="2Venus">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="778694703887347" type="2Jupiter">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="778694703887347" type="2Venus">
                             <param id="0" name="Speed">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="729262731275707" type="2Saturno">
+                        <action id="-15" name="Set visible" sid="729262731275707" type="2Tierra">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="665600082823049" type="2Saturno">
+                        <action id="11" name="Set collisions enabled" sid="665600082823049" type="2Tierra">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="584753032692681" type="2Saturno">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="584753032692681" type="2Tierra">
                             <param id="0" name="Speed">0</param>
                         </action>
                     </actions>
@@ -66,31 +66,31 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="377256145017546" type="2Venus">
+                        <action id="-15" name="Set visible" sid="377256145017546" type="2Mercurio">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="682688552491582" type="2Venus">
+                        <action id="11" name="Set collisions enabled" sid="682688552491582" type="2Mercurio">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="828948692593089" type="2Venus">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="828948692593089" type="2Mercurio">
                             <param id="0" name="Speed">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="254885828560377" type="2Jupiter">
+                        <action id="-15" name="Set visible" sid="254885828560377" type="2Venus">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="726128623388542" type="2Jupiter">
+                        <action id="11" name="Set collisions enabled" sid="726128623388542" type="2Venus">
                             <param id="0" name="Collisions">1</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="294649103361042" type="2Jupiter">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="294649103361042" type="2Venus">
                             <param id="0" name="Speed">-10</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="157049628648910" type="2Saturno">
+                        <action id="-15" name="Set visible" sid="157049628648910" type="2Tierra">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="486754093802916" type="2Saturno">
+                        <action id="11" name="Set collisions enabled" sid="486754093802916" type="2Tierra">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="886149386143747" type="2Saturno">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="886149386143747" type="2Tierra">
                             <param id="0" name="Speed">0</param>
                         </action>
                     </actions>
@@ -104,31 +104,31 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="517690212285078" type="2Venus">
+                        <action id="-15" name="Set visible" sid="517690212285078" type="2Mercurio">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="192219896523356" type="2Venus">
+                        <action id="11" name="Set collisions enabled" sid="192219896523356" type="2Mercurio">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="226067225460720" type="2Venus">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="226067225460720" type="2Mercurio">
                             <param id="0" name="Speed">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="978120075162927" type="2Jupiter">
+                        <action id="-15" name="Set visible" sid="978120075162927" type="2Venus">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="695993602092775" type="2Jupiter">
+                        <action id="11" name="Set collisions enabled" sid="695993602092775" type="2Venus">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="747885374159838" type="2Jupiter">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="747885374159838" type="2Venus">
                             <param id="0" name="Speed">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="430424839897665" type="2Saturno">
+                        <action id="-15" name="Set visible" sid="430424839897665" type="2Tierra">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="11" name="Set collisions enabled" sid="286173770178547" type="2Saturno">
+                        <action id="11" name="Set collisions enabled" sid="286173770178547" type="2Tierra">
                             <param id="0" name="Collisions">1</param>
                         </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="480278685181155" type="2Saturno">
+                        <action behavior="Bullet" id="0" name="Set speed" sid="480278685181155" type="2Tierra">
                             <param id="0" name="Speed">-10</param>
                         </action>
                     </actions>
@@ -204,13 +204,13 @@
         <event-block any="1" sid="491536230906611">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="974968330775904" type="3player">
-                    <param id="0" name="Object">2Jupiter</param>
+                    <param id="0" name="Object">2Venus</param>
                 </condition>
                 <condition id="0" name="On collision with another object" sid="904522681854783" type="3player">
-                    <param id="0" name="Object">2Saturno</param>
+                    <param id="0" name="Object">2Tierra</param>
                 </condition>
                 <condition id="0" name="On collision with another object" sid="114753983013010" type="3player">
-                    <param id="0" name="Object">2Venus</param>
+                    <param id="0" name="Object">2Mercurio</param>
                 </condition>
             </conditions>
             <actions>

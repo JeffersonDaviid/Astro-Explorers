@@ -189,7 +189,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Venus" uid="27">
+                <instance type="2Mercurio" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -228,19 +228,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>150</x>
-                        <y>240</y>
+                        <x>238</x>
+                        <y>268</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50248754</hotspotX>
+                        <hotspotY>0.50248754</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Jupiter" uid="28">
+                <instance type="2Venus" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -279,14 +279,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>425</x>
-                        <y>240</y>
+                        <x>466</x>
+                        <y>253</y>
                         <z>0</z>
                         <width>100.199996948</width>
                         <height>100.222221375</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50248754</hotspotX>
+                        <hotspotY>0.50248754</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -339,11 +339,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>480</y>
+                        <x>-36.5</x>
+                        <y>429</y>
                         <z>0</z>
-                        <width>400</width>
-                        <height>400</height>
+                        <width>410</width>
+                        <height>391</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -351,7 +351,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Saturno" uid="31">
+                <instance type="2Tierra" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -390,14 +390,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>700</x>
-                        <y>240</y>
+                        <x>696</x>
+                        <y>245</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50248754</hotspotX>
+                        <hotspotY>0.50248754</hotspotY>
                         <angle>1.57079196</angle>
                         <opacity>1</opacity>
                     </world>
@@ -428,9 +428,9 @@
                 </instance>
                 <instance type="2speedValue" uid="33">
                     <properties>
-                        <text>Text</text>
+                        <text>Velocidad planetas:</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-24,400,0</font>
+                        <font>Consolas,-16,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -463,11 +463,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1455</x>
-                        <y>450</y>
+                        <x>1470.5</x>
+                        <y>453</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>64</height>
+                        <width>201</width>
+                        <height>82</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -485,11 +485,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1455</x>
-                        <y>550</y>
+                        <x>1468</x>
+                        <y>552.5</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>64</height>
+                        <width>206</width>
+                        <height>83</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -507,11 +507,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1455</x>
-                        <y>650</y>
+                        <x>1465.5</x>
+                        <y>654.5</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>64</height>
+                        <width>211</width>
+                        <height>79</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -546,7 +546,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>428</x>
+                        <x>427</x>
                         <y>960</y>
                         <z>0</z>
                         <width>960</width>
