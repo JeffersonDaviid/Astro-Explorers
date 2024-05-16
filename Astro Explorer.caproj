@@ -11,6 +11,7 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -1013,6 +1014,9 @@
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="339721786043983">
                     <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="104186520199756">
+                    <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2041,6 +2045,11 @@
         </object-type>
         <object-type name="3controlIzq" sid="328276137419340">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="375731413178299">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="489619956320337" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -2049,6 +2058,11 @@
         </object-type>
         <object-type name="3controlDer" sid="279815784706134">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="947600405708538">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270054684175557" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -2266,6 +2280,68 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="3controler" sid="770528775602960">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="194246699468182">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131234929592248" speed="5">
+                    <frame duration="1" hotspotX="0.50289" hotspotY="0.5" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\control.png">
+                        <collision-poly>
+                            <point x="0.346821" y="0.348837" />
+                            <point x="0.49711" y="0.180233" />
+                            <point x="0.653179" y="0.348837" />
+                            <point x="0.815029" y="0.5" />
+                            <point x="0.653179" y="0.651163" />
+                            <point x="0.49711" y="0.819767" />
+                            <point x="0.346821" y="0.651163" />
+                            <point x="0.179191" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3controlArrb" sid="808146930851142">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Pin" sid="340133001961721">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="3controlAbj" sid="745968815073003">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="864985785858512">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="595231125413946" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="350339250245337">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="3Contenedor" sid="856561896228181">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="122544550808051">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="756950366202152" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2286,6 +2362,7 @@
         <event-sheet>5 recargarCombustible.xml</event-sheet>
         <event-sheet>3 eventosViajeEspacialP1.xml</event-sheet>
         <event-sheet>3 Failed.xml</event-sheet>
+        <event-sheet>Controles.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="175" />
@@ -2309,6 +2386,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="Browser" uid="180" />
     </global-instances>
     <sounds-folder>
         <file name="3sfxExplosion.ogg" />

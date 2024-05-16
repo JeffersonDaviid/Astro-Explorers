@@ -97,36 +97,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block any="1" sid="559255895614756">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="381099086396487" type="4Nave">
-                    <param id="0" name="Object">5planeta_Venus</param>
-                </condition>
-                <condition id="0" name="On collision with another object" sid="844533491437382" type="4Nave">
-                    <param id="0" name="Object">5planeta_Jupiter</param>
-                </condition>
-                <condition id="0" name="On collision with another object" sid="982016569386656" type="4Nave">
-                    <param id="0" name="Object">5planeta_Saturno</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block any="1" sid="256812605979398">
-                    <conditions>
-                        <condition id="-11" inverted="1" name="Is within angle" sid="478585909418578" type="4Nave">
-                            <param id="0" name="Within">60</param>
-                            <param id="1" name="Angle">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="761055101853811" type="4Nave" />
-                        <action id="-2" name="Go to layout" sid="514983794494011" type="System">
-                            <param id="0" name="Layout">3 Failed</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="554240932514868">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="843662859698930" type="4Nave">

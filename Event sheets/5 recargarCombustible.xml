@@ -244,10 +244,10 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="362234058304388" type="5InfoPg1">
-                    <param id="0" name="Text">&quot;Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. &quot;</param>
+                    <param id="0" name="Text">&quot;Es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente masiva como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Júpiter es un gigante hecho de gas&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="582775700914627" type="5InfoPg2">
-                    <param id="0" name="Text">&quot;Los gases atrapan el calor y mantienen a Venus bien calientito. De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido.&#x0D;&#x0A;En Venus, el Sol sale cada 117 días terrestres. Así que el Sol sale dos veces por año.&#x0D;&#x0A;https://spaceplace.nasa.gov/menu/solar-system/sp/&quot;</param>
+                    <param id="0" name="Text">&quot;Júpiter no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. &quot;</param>
                 </action>
                 <action id="-15" name="Set visible" sid="492673689414681" type="4ImagenVenus">
                     <param id="0" name="Visibility">1</param>
@@ -264,10 +264,10 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="454524475597169" type="5InfoPg1">
-                    <param id="0" name="Text">&quot;Tiene una superficie sólida y activa, con montañas, valles, cañones, llanuras y mucho más. La Tierra es especial porque es un planeta océano, ya que el agua cubre el 70% de su superficie. Nuestra atmósfera está compuesta, en gran parte, por nitrógeno. También tiene mucho oxígeno, que nos permite respirar.&quot;</param>
+                    <param id="0" name="Text">&quot;Los anillos de Saturno están compuestos por grupos de pequeños aros que lo rodean. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte.&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="871238779014103" type="5InfoPg2">
-                    <param id="0" name="Text">&quot;La atmósfera, nos protege de los meteoroides que se acercan a la Tierra, la mayoría de los cuales se desintegran en nuestra atmósfera antes de llegar a la superficie en forma de meteoritos.&#x0D;&#x0A;https://spaceplace.nasa.gov/menu/solar-system/sp/&quot;</param>
+                    <param id="0" name="Text">&quot;Cuando Galileo Galilei vio a Saturno a través de un telescopio en el siglo XVII, no estaba seguro de lo que estaba viendo. Al principio, creyó que estaba mirando tres planetas, o un planeta con asas. Ahora, sabemos que esas -asas- eran los anillos de Saturno.&quot;</param>
                 </action>
                 <action id="-15" name="Set visible" sid="244662329591353" type="4ImagenTierra">
                     <param id="0" name="Visibility">1</param>

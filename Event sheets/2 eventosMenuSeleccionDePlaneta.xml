@@ -411,7 +411,7 @@
                             <param id="0" name="Speed">2Sol.Rotate.Speed * 2controladorDeVelocidad.Value</param>
                         </action>
                         <action id="0" name="Set text" sid="511134229228864" type="2speedValue">
-                            <param id="0" name="Text">2controladorDeVelocidad.Value</param>
+                            <param id="0" name="Text">&quot;Velocidad de los planetas:&quot; &amp; 2controladorDeVelocidad.Value</param>
                         </action>
                         <action id="13" name="Set acceleration" sid="146637486975640" type="2Estrellas">
                             <param id="0" name="Acceleration">2controladorDeVelocidad.Value</param>
@@ -446,5 +446,15 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="238006177521168">
+            <conditions>
+                <condition id="3" name="On touched object" sid="935227850403928" type="Touch">
+                    <param id="0" name="Object">1btnSalir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="613193043623080" type="Browser" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

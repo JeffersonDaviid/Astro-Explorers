@@ -428,7 +428,7 @@
                 </instance>
                 <instance type="2speedValue" uid="33">
                     <properties>
-                        <text>Velocidad planetas:</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-16,400,0</font>
                         <color>255,255,255</color>
@@ -444,7 +444,7 @@
                         <x>227</x>
                         <y>18</y>
                         <z>0</z>
-                        <width>229</width>
+                        <width>340</width>
                         <height>34</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -546,8 +546,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>427</x>
-                        <y>960</y>
+                        <x>426</x>
+                        <y>959</y>
                         <z>0</z>
                         <width>960</width>
                         <height>850</height>
@@ -622,6 +622,31 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="1btnSalir" uid="179">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>684</x>
+                        <y>430</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503937006</hotspotX>
+                        <hotspotY>0.510204077</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

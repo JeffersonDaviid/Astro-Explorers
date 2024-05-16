@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Controles</name>
+    <events>
+        <event-block sid="367723703173989">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="319210848914569" type="Touch">
+                    <param id="0" name="Object">3controlIzq</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="964203306735044" type="3player">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="478473524286170">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="767884112750488" type="Touch">
+                    <param id="0" name="Object">3controlDer</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="149615718749536" type="3player">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="317875837494974">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="786247669516385" type="Touch">
+                    <param id="0" name="Object">3controlArrb</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="947672259220336" type="3player">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="300535800672021">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="752666029492169" type="Touch">
+                    <param id="0" name="Object">3controlAbj</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="459643395060190" type="3player">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

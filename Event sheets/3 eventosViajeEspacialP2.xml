@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 eventosViajeEspacialP2</name>
     <events>
+        <include>Controles</include>
         <event-block sid="240638852678422">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="416360086052698" type="System" />
@@ -234,6 +235,37 @@
             <actions>
                 <action id="-9" name="Destroy" sid="693053988825945" type="3meteoro_xl" />
                 <action id="-9" name="Destroy" sid="103832751837329" type="3meteoro_n" />
+            </actions>
+        </event-block>
+        <event-block sid="912840502279880">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="660737938580545" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="564255591372542" type="3controler">
+                    <param id="0" name="Pin to">3player</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="308098561394750" type="3controler">
+                    <param id="0" name="Pin to">3Contenedor</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="694467673827683" type="3controlAbj">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="937974526004487" type="3controlArrb">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="427543053385748" type="3controlDer">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="889013684359886" type="3controlIzq">
+                    <param id="0" name="Pin to">3controler</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
             </actions>
         </event-block>
     </events>
