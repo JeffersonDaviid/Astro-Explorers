@@ -18,7 +18,7 @@
                 <action behavior="8Direction" id="7" name="Simulate control" sid="568996474088503" type="6creditosJuego">
                     <param id="0" name="Control">2</param>
                 </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="433650955935563" type="6z">
+                <action behavior="8Direction" id="7" name="Simulate control" sid="433650955935563" type="6IGM">
                     <param id="0" name="Control">2</param>
                 </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="624476067550411" type="6FIS">
@@ -48,7 +48,7 @@
         </event-block>
         <event-block sid="308453563255702">
             <conditions>
-                <condition id="-4" name="Is outside layout" sid="134062829868153" type="6z" />
+                <condition id="-4" name="Is outside layout" sid="134062829868153" type="6IGM" />
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="352009932672933" type="System">
