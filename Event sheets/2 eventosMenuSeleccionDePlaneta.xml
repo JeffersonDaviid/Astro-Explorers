@@ -173,6 +173,14 @@
                             <param id="0" name="Width">100</param>
                             <param id="1" name="Height">100</param>
                         </action>
+                        <action id="-7" name="Set size" sid="877772915923230" type="2Tierra">
+                            <param id="0" name="Width">100</param>
+                            <param id="1" name="Height">100</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="155574655526326" type="2Mercurio">
+                            <param id="0" name="Width">100</param>
+                            <param id="1" name="Height">100</param>
+                        </action>
                         <action behavior="Pin" id="0" name="Pin to object" sid="327438490068009" type="2Mercurio">
                             <param id="0" name="Pin to">2rotador</param>
                             <param id="1" name="Mode">0</param>
@@ -189,13 +197,13 @@
                             <param id="0" name="X">900</param>
                             <param id="1" name="Y">100</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="877838950936566" type="2botonVenus">
+                        <action id="-15" name="Set visible" sid="877838950936566" type="2botonMercurio">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="728643418712765" type="2botonJupiter">
+                        <action id="-15" name="Set visible" sid="728643418712765" type="2botonVenus">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="155089678462042" type="2botonSaturno">
+                        <action id="-15" name="Set visible" sid="155089678462042" type="2botonTierra">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -207,20 +215,20 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
-                        <action id="-7" name="Set size" sid="936355183183349" type="2Venus">
+                        <action behavior="Pin" id="1" name="Unpin" sid="294828618586068" type="2Mercurio" />
+                        <action id="-7" name="Set size" sid="567980733064763" type="2Mercurio">
                             <param id="0" name="Width">125</param>
                             <param id="1" name="Height">125</param>
                         </action>
-                        <action id="-3" name="Set position" sid="827373537347950" type="2Mercurio">
-                            <param id="0" name="X">2Mercurio.posX</param>
-                            <param id="1" name="Y">2Mercurio.posY</param>
+                        <action id="-3" name="Set position" sid="658515236528130" type="2Mercurio">
+                            <param id="0" name="X">238</param>
+                            <param id="1" name="Y">268</param>
                         </action>
-                        <action id="-3" name="Set position" sid="741289082314218" type="2botonVenus">
+                        <action id="-3" name="Set position" sid="741289082314218" type="2botonMercurio">
                             <param id="0" name="X">2Mercurio.X</param>
                             <param id="1" name="Y">2Mercurio.Y+150</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonVenus">
+                        <action id="-15" name="Set visible" sid="114553693503723" type="2botonMercurio">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="0" name="Play" sid="516083873541921" type="Audio">
@@ -238,15 +246,20 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="649706687893882" type="2Venus">
-                            <param id="0" name="X">2Venus.posX</param>
-                            <param id="1" name="Y">2Venus.posY</param>
+                        <action behavior="Pin" id="1" name="Unpin" sid="548544974578250" type="2Venus" />
+                        <action id="-7" name="Set size" sid="806237788281519" type="2Venus">
+                            <param id="0" name="Width">125</param>
+                            <param id="1" name="Height">125</param>
                         </action>
-                        <action id="-3" name="Set position" sid="568388261226013" type="2botonJupiter">
+                        <action id="-3" name="Set position" sid="649706687893882" type="2Venus">
+                            <param id="0" name="X">466</param>
+                            <param id="1" name="Y">253</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="568388261226013" type="2botonVenus">
                             <param id="0" name="X">2Venus.X</param>
                             <param id="1" name="Y">2Venus.Y+150</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonJupiter">
+                        <action id="-15" name="Set visible" sid="244588779089909" type="2botonVenus">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="0" name="Play" sid="507618454601227" type="Audio">
@@ -264,15 +277,20 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="492115366636054" type="2Tierra">
-                            <param id="0" name="X">2Tierra.posX</param>
-                            <param id="1" name="Y">2Tierra.posY</param>
+                        <action behavior="Pin" id="1" name="Unpin" sid="925081103659159" type="2Tierra" />
+                        <action id="-7" name="Set size" sid="308477692123263" type="2Tierra">
+                            <param id="0" name="Width">125</param>
+                            <param id="1" name="Height">125</param>
                         </action>
-                        <action id="-3" name="Set position" sid="179083884103279" type="2botonSaturno">
+                        <action id="-3" name="Set position" sid="623544772536625" type="2Tierra">
+                            <param id="0" name="X">696</param>
+                            <param id="1" name="Y">245</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="179083884103279" type="2botonTierra">
                             <param id="0" name="X">2Tierra.X</param>
                             <param id="1" name="Y">2Tierra.Y+150</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonSaturno">
+                        <action id="-15" name="Set visible" sid="814749860076269" type="2botonTierra">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="0" name="Play" sid="236904979204375" type="Audio">
@@ -314,7 +332,7 @@
                 <event-block sid="684469922729953">
                     <conditions>
                         <condition id="17" name="On tap object" sid="432166313836270" type="Touch">
-                            <param id="0" name="Object">2botonVenus</param>
+                            <param id="0" name="Object">2botonMercurio</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -331,7 +349,7 @@
                 <event-block sid="450379982377274">
                     <conditions>
                         <condition id="17" name="On tap object" sid="365620984674419" type="Touch">
-                            <param id="0" name="Object">2botonJupiter</param>
+                            <param id="0" name="Object">2botonVenus</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -348,7 +366,7 @@
                 <event-block sid="614546096847162">
                     <conditions>
                         <condition id="17" name="On tap object" sid="902469979685582" type="Touch">
-                            <param id="0" name="Object">2botonSaturno</param>
+                            <param id="0" name="Object">2botonTierra</param>
                         </condition>
                     </conditions>
                     <actions>

@@ -933,7 +933,7 @@
                 </behavior-type>
             </behaviors>
         </object-type>
-        <object-type name="2botonVenus" sid="596410334431237">
+        <object-type name="2botonMercurio" sid="596410334431237">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634536550343526" speed="5">
@@ -952,7 +952,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2botonJupiter" sid="676724334723881">
+        <object-type name="2botonVenus" sid="676724334723881">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729092020216251" speed="5">
@@ -971,7 +971,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2botonSaturno" sid="886903980516622">
+        <object-type name="2botonTierra" sid="886903980516622">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893619213757686" speed="5">
@@ -2181,9 +2181,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Button" sid="676232418810921">
-            <plugin id="Button" />
         </object-type>
         <object-type name="1btnSalir" sid="337517978330033">
             <plugin id="Sprite" />
