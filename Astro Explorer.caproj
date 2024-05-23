@@ -2210,8 +2210,8 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="346576255927362" speed="60">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\screencapture-localhost-50000-2024-05-04-21_16_14.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\frame3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\OneDrive - Escuela Politécnica Nacional\Imágenes\Capturas de pantalla\Captura de pantalla 2024-05-23 100131.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\OneDrive - Escuela Politécnica Nacional\Imágenes\Capturas de pantalla\Captura de pantalla 2024-05-23 100023.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2222,8 +2222,8 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="269291908072803" speed="60">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\screencapture-localhost-50000-2024-05-04-21_27_47.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500539" original-source="C:\Users\KealPetu\Downloads\frame4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\OneDrive - Escuela Politécnica Nacional\Imágenes\Capturas de pantalla\Captura de pantalla 2024-05-23 100303.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\KealPetu\OneDrive - Escuela Politécnica Nacional\Imágenes\Capturas de pantalla\Captura de pantalla 2024-05-23 100052.png" />
                 </animation>
             </animation-folder>
         </object-type>
