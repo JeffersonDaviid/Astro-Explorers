@@ -3,10 +3,11 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>6 creditos</name>
     <events>
-        <variable constant="0" name="Creditos" sid="906279789007884" static="0" type="number">0</variable>
         <event-block sid="261241614287273">
             <conditions>
-                <condition id="-1" name="Every tick" sid="733771948520279" type="System" />
+                <condition id="-6" name="Every X seconds" sid="733771948520279" type="System">
+                    <param id="0" name="Interval (seconds)">dt</param>
+                </condition>
             </conditions>
             <actions>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="309051010322106" type="6creditosJuego2">
@@ -29,31 +30,13 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="438688627424012">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="836705487689820" type="System">
-                    <param id="0" name="Variable">Creditos</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="203131000330683" type="System">
-                    <param id="0" name="Layout">1 menuPrincipal</param>
-                </action>
-                <action id="6" name="Stop" sid="283314824591252" type="Audio">
-                    <param id="0" name="Tag">&quot;creditos&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="308453563255702">
             <conditions>
                 <condition id="-4" name="Is outside layout" sid="134062829868153" type="6IGM" />
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="352009932672933" type="System">
-                    <param id="0" name="Variable">Creditos</param>
-                    <param id="1" name="Value">1</param>
+                <action id="-2" name="Go to layout" sid="486421175276546" type="System">
+                    <param id="0" name="Layout">1 menuPrincipal</param>
                 </action>
             </actions>
         </event-block>
@@ -67,6 +50,21 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;creditos&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="123240280314274">
+            <conditions>
+                <condition id="3" name="On touched object" sid="343861395459074" type="Touch">
+                    <param id="0" name="Object">5play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="648251556035182" type="System">
+                    <param id="0" name="Layout">1 menuPrincipal</param>
+                </action>
+                <action id="6" name="Stop" sid="134279261647247" type="Audio">
+                    <param id="0" name="Tag">&quot;creditos&quot;</param>
                 </action>
             </actions>
         </event-block>

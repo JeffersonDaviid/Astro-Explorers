@@ -66,8 +66,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
-                                <acceleration>200</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -111,7 +111,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -156,7 +156,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -175,7 +175,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>428</x>
-                        <y>525</y>
+                        <y>521</y>
                         <z>0</z>
                         <width>360</width>
                         <height>95</height>
@@ -201,7 +201,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -220,7 +220,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>97</x>
-                        <y>583</y>
+                        <y>586</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -246,7 +246,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -265,7 +265,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>429</x>
-                        <y>589</y>
+                        <y>586</y>
                         <z>0</z>
                         <width>360</width>
                         <height>95</height>
@@ -291,7 +291,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -310,7 +310,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>98</x>
-                        <y>658</y>
+                        <y>651</y>
                         <z>0</z>
                         <width>311</width>
                         <height>95</height>
@@ -336,7 +336,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -355,7 +355,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>430</x>
-                        <y>657</y>
+                        <y>651</y>
                         <z>0</z>
                         <width>360</width>
                         <height>95</height>
@@ -381,7 +381,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -426,7 +426,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -471,7 +471,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -516,8 +516,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -561,7 +561,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -606,7 +606,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -651,7 +651,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -696,7 +696,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -741,7 +741,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -786,8 +786,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -831,7 +831,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -876,8 +876,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -921,7 +921,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -966,8 +966,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1011,7 +1011,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1056,7 +1056,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1101,7 +1101,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1146,8 +1146,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1191,7 +1191,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1236,7 +1236,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1281,7 +1281,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1326,7 +1326,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1371,8 +1371,8 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>60</max-speed>
-                                <acceleration>600</acceleration>
+                                <max-speed>65</max-speed>
+                                <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
@@ -1416,7 +1416,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1461,7 +1461,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1479,8 +1479,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>171</x>
-                        <y>1731</y>
+                        <x>136</x>
+                        <y>1622</y>
                         <z>0</z>
                         <width>622</width>
                         <height>95</height>
@@ -1506,7 +1506,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1551,7 +1551,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1570,7 +1570,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>435</x>
-                        <y>1444</y>
+                        <y>1435</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1596,7 +1596,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1615,7 +1615,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>442</x>
-                        <y>1607</y>
+                        <y>1540</y>
                         <z>0</z>
                         <width>433</width>
                         <height>41</height>
@@ -1636,7 +1636,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1654,8 +1654,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>467</x>
-                        <y>1922</y>
+                        <x>461</x>
+                        <y>1788</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -1676,7 +1676,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1689,8 +1689,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>706</x>
-                        <y>1927</y>
+                        <x>700</x>
+                        <y>1793</y>
                         <z>0</z>
                         <width>130</width>
                         <height>150</height>
@@ -1716,7 +1716,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1735,7 +1735,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>437</x>
-                        <y>1493</y>
+                        <y>1470</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1761,7 +1761,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1780,7 +1780,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>435</x>
-                        <y>1550</y>
+                        <y>1505</y>
                         <z>0</z>
                         <width>311</width>
                         <height>41</height>
@@ -1806,7 +1806,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1846,7 +1846,7 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>40</max-speed>
+                                <max-speed>65</max-speed>
                                 <acceleration>150</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
@@ -1859,14 +1859,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>230</x>
-                        <y>1916</y>
+                        <x>224</x>
+                        <y>1782</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="5play" uid="236">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>52</x>
+                        <y>61</y>
+                        <z>0</z>
+                        <width>111</width>
+                        <height>51</height>
+                        <depth>0</depth>
+                        <hotspotX>0.468468457</hotspotX>
+                        <hotspotY>0.80392158</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

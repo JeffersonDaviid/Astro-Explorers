@@ -662,7 +662,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type global="1" name="1nueva" sid="291890038403708">
+        <object-type name="1nueva" sid="291890038403708">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Pin" sid="528552618792560">
