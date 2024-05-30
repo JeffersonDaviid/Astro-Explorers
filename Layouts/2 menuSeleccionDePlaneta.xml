@@ -282,8 +282,8 @@
                         <x>466</x>
                         <y>253</y>
                         <z>0</z>
-                        <width>100.199996948</width>
-                        <height>100.222221375</height>
+                        <width>100</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.50248754</hotspotX>
                         <hotspotY>0.50248754</hotspotY>
@@ -453,7 +453,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2botonVenus" uid="41">
+                <instance type="2botonMercurio" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -466,8 +466,8 @@
                         <x>1470.5</x>
                         <y>453</y>
                         <z>0</z>
-                        <width>201</width>
-                        <height>82</height>
+                        <width>200</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -475,7 +475,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2botonJupiter" uid="42">
+                <instance type="2botonVenus" uid="42">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -488,8 +488,8 @@
                         <x>1468</x>
                         <y>552.5</y>
                         <z>0</z>
-                        <width>206</width>
-                        <height>83</height>
+                        <width>200</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -497,7 +497,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2botonSaturno" uid="43">
+                <instance type="2botonTierra" uid="43">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -510,8 +510,8 @@
                         <x>1465.5</x>
                         <y>654.5</y>
                         <z>0</z>
-                        <width>211</width>
-                        <height>79</height>
+                        <width>200</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
