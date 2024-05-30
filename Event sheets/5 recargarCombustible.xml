@@ -41,12 +41,12 @@
                 <event-block sid="213502558332565">
                     <conditions>
                         <condition id="17" name="On tap object" sid="257587242655339" type="Touch">
-                            <param id="0" name="Object">5play</param>
+                            <param id="0" name="Object">6regresar</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="617664105746818" type="5cuadro_inf" />
-                        <action id="-9" name="Destroy" sid="411479115629396" type="5play" />
+                        <action id="-9" name="Destroy" sid="411479115629396" type="6regresar" />
                         <action id="-9" name="Set value" sid="471912418653747" type="System">
                             <param id="0" name="Variable">cuadro_informacion</param>
                             <param id="1" name="Value">1</param>

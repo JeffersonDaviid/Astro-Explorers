@@ -56,7 +56,7 @@
         <event-block sid="123240280314274">
             <conditions>
                 <condition id="3" name="On touched object" sid="343861395459074" type="Touch">
-                    <param id="0" name="Object">5play</param>
+                    <param id="0" name="Object">6regresar</param>
                 </condition>
             </conditions>
             <actions>

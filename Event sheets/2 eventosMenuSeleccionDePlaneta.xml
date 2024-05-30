@@ -445,5 +445,17 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="777632530741724">
+            <conditions>
+                <condition id="3" name="On touched object" sid="840736864292745" type="Touch">
+                    <param id="0" name="Object">2Regresar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="882949754367047" type="System">
+                    <param id="0" name="Layout">1 menuPrincipal</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

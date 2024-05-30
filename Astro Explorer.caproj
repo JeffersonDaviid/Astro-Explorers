@@ -1456,11 +1456,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="5play" sid="492314158900709">
+        <object-type name="6regresar" sid="492314158900709">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689343651280004" speed="5">
-                    <frame duration="1" hotspotX="0.468468" hotspotY="0.803922" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\Actualizado\btn_continuar.png">
+                    <frame duration="1" hotspotX="0.464567" hotspotY="0.8125" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\creditos.png">
                         <collision-poly>
                             <point x="0.0768025" y="0.00318471" />
                             <point x="0.866771" y="0.00318471" />
@@ -2505,6 +2505,25 @@
                             <point x="0.5" y="1" />
                             <point x="0.146667" y="0.853333" />
                             <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2Regresar" sid="221949303172830">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829238269883805" speed="5">
+                    <frame duration="1" hotspotX="0.534884" hotspotY="0.509804" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\salir.png">
+                        <collision-poly>
+                            <point x="0.0620155" y="0.156863" />
+                            <point x="0.496124" y="0.0196078" />
+                            <point x="0.945736" y="0.137255" />
+                            <point x="0.984496" y="0.490196" />
+                            <point x="0.945736" y="0.862745" />
+                            <point x="0.496124" y="0.960784" />
+                            <point x="0.0465116" y="0.882353" />
+                            <point x="0.0155039" y="0.490196" />
                         </collision-poly>
                     </frame>
                 </animation>
