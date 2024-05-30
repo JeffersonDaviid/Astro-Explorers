@@ -113,6 +113,22 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="372380466600859">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="480199520904545" type="4Nave">
+                    <param id="0" name="Object">4Superficie</param>
+                </condition>
+                <condition id="-13" inverted="1" name="Is between angles" sid="176711037813478" type="4Nave">
+                    <param id="0" name="First angle">-45</param>
+                    <param id="1" name="Second angle">45</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="215232619288418" type="System">
+                    <param id="0" name="Layout">3 Failed</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="232256486906443">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="263677716777231" type="System">
