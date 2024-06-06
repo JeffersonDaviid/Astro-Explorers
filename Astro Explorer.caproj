@@ -1460,7 +1460,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689343651280004" speed="5">
-                    <frame duration="1" hotspotX="0.464567" hotspotY="0.8125" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\creditos.png">
+                    <frame duration="1" hotspotX="0.464481" hotspotY="0.811594" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\continuar.png">
                         <collision-poly>
                             <point x="0.0768025" y="0.00318471" />
                             <point x="0.866771" y="0.00318471" />
