@@ -231,6 +231,33 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="5TextoFinal" uid="22">
+                    <properties>
+                        <text>¡Juego Terminado!Gracias por jugar. Por favor, selecciona otro planeta para continuar tu aventura.</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-22.4,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>238</x>
+                        <y>74</y>
+                        <z>0</z>
+                        <width>426</width>
+                        <height>276</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -260,11 +287,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>435.163513184</x>
-                        <y>202.616287231</y>
+                        <x>444.905181885</x>
+                        <y>202.616409302</y>
                         <z>0</z>
-                        <width>478.550109863</width>
-                        <height>342.874969482</height>
+                        <width>498</width>
+                        <height>343</height>
                         <depth>0</depth>
                         <hotspotX>0.500860572</hotspotX>
                         <hotspotY>0.501113594</hotspotY>
@@ -295,7 +322,7 @@
                 </instance>
                 <instance type="5InfoPg1" uid="136">
                     <properties>
-                        <text>Mercurio es el planeta más pequeño de nuestro sistema solar y más cercano al Sol Simplemente, pero no es realmente el más cálido; Venus es el más cálido; es uno de los planetas rocosos.</text>
+                        <text>Mercurio es el planeta más pequeño y cercano al Sol en nuestro sistema solar. Tiene una superficie sólida llena de cráteres, una atmósfera delgada y no tiene lunas. Su rotación dura 59 días terrestres y su año es muy corto, por lo que en Mercurio tendrías una fiesta de cumpleaños cada tres meses.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21.6,700,0</font>
                         <color>255,255,255</color>
@@ -308,36 +335,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>216.827575684</x>
-                        <y>58.605224609</y>
+                        <x>212</x>
+                        <y>69</y>
                         <z>0</z>
                         <width>434.277648926</width>
                         <height>267.506896973</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5dosDer" uid="137">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>517.205200195</x>
-                        <y>316.506225586</y>
-                        <z>0</z>
-                        <width>30.882019043</width>
-                        <height>32.041381836</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -388,55 +393,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="5InfoPg2" uid="144">
-                    <properties>
-                        <text> Tiene una superficie sólida que está cubierta de cráteres. Tiene una atmósfera delgada y no tiene ninguna luna.A Mercurio le lleva 59 días de la Tierra hacer una rotación completa, un año en Mercurio pasa rápido.¡Si vivieras en Mercurio, tendrías una fiesta de cumpleaños cada tres meses!https://spaceplace.nasa.gov/menu/solar-system/sp/</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-18.4,700,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>211.141921997</x>
-                        <y>69.431274414</y>
-                        <z>0</z>
-                        <width>454.450469971</width>
-                        <height>278.110931396</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5uno" uid="146">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>346.804718018</x>
-                        <y>317.607269287</y>
-                        <z>0</z>
-                        <width>32.721374512</width>
-                        <height>31.882019043</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="5exit" uid="147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -447,11 +403,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>616.547607422</x>
-                        <y>69.243347168</y>
+                        <x>648</x>
+                        <y>102</y>
                         <z>0</z>
-                        <width>30</width>
-                        <height>29</height>
+                        <width>40</width>
+                        <height>40</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

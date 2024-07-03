@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 eventosViajeEspacialP2</name>
     <events>
+        <variable constant="0" name="Vidas" sid="692231962908629" static="0" type="number">3</variable>
         <include>Controles</include>
         <event-block sid="240638852678422">
             <conditions>
@@ -33,6 +34,9 @@
                 <action behavior="Pin" id="0" name="Pin to object" sid="862305021977968" type="3controlDer">
                     <param id="0" name="Pin to">3controler</param>
                     <param id="1" name="Mode">0</param>
+                </action>
+                <action id="0" name="Set text" sid="875637954583570" type="3vidas">
+                    <param id="0" name="Text">&quot;Vidas: &quot; &amp; Vidas</param>
                 </action>
             </actions>
             <sub-events>
@@ -216,6 +220,10 @@
                 <action id="-2" name="Go to layout" sid="616333699553306" type="System">
                     <param id="0" name="Layout">3 Failed</param>
                 </action>
+                <action id="-11" name="Subtract from" sid="700350404428482" type="System">
+                    <param id="0" name="Variable">Vidas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block any="1" sid="491536230906611">
@@ -263,6 +271,10 @@
                 <action id="-3" name="Set position" sid="567796628683352" type="3controler">
                     <param id="0" name="X">3player.X - 345</param>
                     <param id="1" name="Y">3player.Y + 160</param>
+                </action>
+                <action id="-3" name="Set position" sid="163747147854239" type="3vidas">
+                    <param id="0" name="X">3player.X + 105</param>
+                    <param id="1" name="Y">3player.Y - 55</param>
                 </action>
             </actions>
         </event-block>

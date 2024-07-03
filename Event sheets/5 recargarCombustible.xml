@@ -87,60 +87,10 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="695162686934436">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="566394286562665" type="Touch">
-                            <param id="0" name="Object">5dosDer</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="338526555733955" type="System">
-                            <param id="0" name="Variable">no_pg</param>
-                            <param id="1" name="Value">2</param>
-                        </action>
-                        <action id="3" name="Set progress" sid="889560552789247" type="5ProgressBar">
-                            <param id="0" name="Value">100</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="538821755525462" type="5InfoPg1">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="376682168194717" type="5cuadro_inf_pg1">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="709254147663669" type="5dosDer">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="475165907447631" title="Int-pg02">
             <sub-events>
-                <event-block sid="308597204710352">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="960270069550609" type="Touch">
-                            <param id="0" name="Object">5uno</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="819558333180989" type="System">
-                            <param id="0" name="Variable">no_pg</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="3" name="Set progress" sid="105689735677862" type="5ProgressBar">
-                            <param id="0" name="Value">50</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="437941391547260" type="5InfoPg1">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="284051341118308" type="5cuadro_inf_pg1">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="286257022994918" type="5dosDer">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block sid="985481208145242">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="335558551082906" type="System">
@@ -189,6 +139,9 @@
                         <action id="-9" name="Set value" sid="834453069388414" type="System">
                             <param id="0" name="Variable">no_pg</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="996845401826410" type="5TextoFinal">
+                            <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -244,10 +197,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="362234058304388" type="5InfoPg1">
-                    <param id="0" name="Text">&quot;Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico.&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="582775700914627" type="5InfoPg2">
-                    <param id="0" name="Text">&quot;Los gases atrapan el calor y mantienen a Venus bien calientito. De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido.&#x0D;&#x0A;En Venus, el Sol sale cada 117 días terrestres. Así que el Sol sale dos veces por año. https://spaceplace.nasa.gov/menu/solar-system/sp/&quot;</param>
+                    <param id="0" name="Text">&quot;Venus, aunque no es el planeta más cercano al Sol, es el más caliente debido a su densa atmósfera de dióxido de carbono y nubes de ácido sulfúrico, que generan un fuerte efecto invernadero. Hace tanto calor que el plomo se fundiría. En Venus, el Sol sale cada 117 días terrestres, por lo que amanece dos veces al año.&quot;</param>
                 </action>
                 <action id="-15" name="Set visible" sid="492673689414681" type="4ImagenVenus">
                     <param id="0" name="Visibility">1</param>
@@ -264,10 +214,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="454524475597169" type="5InfoPg1">
-                    <param id="0" name="Text">&quot;Tiene una superficie sólida y activa, con montañas, valles, cañones, llanuras y mucho más. La Tierra es especial porque es un planeta océano, ya que el agua cubre el 70% de su superficie.&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="871238779014103" type="5InfoPg2">
-                    <param id="0" name="Text">&quot;Nuestra atmósfera está compuesta, en gran parte, por nitrógeno. También tiene mucho oxígeno, que nos permite respirar.&#x0D;&#x0A;La atmósfera, nos protege de los meteoroides que se acercan a la Tierra, la mayoría de los cuales se desintegran en nuestra atmósfera antes de llegar a la superficie en forma de meteoritos.&#x0D;&#x0A;https://spaceplace.nasa.gov/menu/solar-system/sp/&quot;</param>
+                    <param id="0" name="Text">&quot;La Tierra tiene una superficie sólida con montañas, valles, cañones y llanuras. Es un planeta azul, ya que el agua cubre el 70% de su superficie. Su atmósfera, compuesta principalmente de nitrógeno y oxígeno, nos permite respirar y nos protege de meteoroides, la mayoría de los cuales se desintegran antes de llegar a la superficie terrestre.&quot;</param>
                 </action>
                 <action id="-15" name="Set visible" sid="244662329591353" type="4ImagenTierra">
                     <param id="0" name="Visibility">1</param>

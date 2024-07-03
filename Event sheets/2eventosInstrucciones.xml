@@ -6,7 +6,9 @@
         <variable constant="0" name="instruccionActual" sid="219772034656245" static="0" type="number">0</variable>
         <event-block sid="289004183339915">
             <conditions>
-                <condition id="0" name="On clicked" sid="964960118446773" type="2BotonSiguiente" />
+                <condition id="3" name="On touched object" sid="964960118446773" type="Touch">
+                    <param id="0" name="Object">2ContinuarBtn</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="383412532421538" type="2Captura1">
@@ -19,7 +21,7 @@
                     <param id="0" name="Text">&quot;Muevete a traves de la estrellas con las flechas de tu teclado!&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="214265834589796" type="2instruccion2">
-                    <param id="0" name="Text">&quot;Intenta llegar al combustible de tu nave. No dejes que caiga mal!&quot;</param>
+                    <param id="0" name="Text">&quot;Intenta llegar a la plataforma de carga de combustible evitando que tu nave choque en otro lugar&quot;</param>
                 </action>
                 <action id="-10" name="Add to" sid="514765786673395" type="System">
                     <param id="0" name="Variable">instruccionActual</param>

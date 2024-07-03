@@ -686,30 +686,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="1cargar" sid="460028762412459">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="890802556306361">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="561775660801359" speed="5">
-                    <frame duration="1" hotspotX="0.502222" hotspotY="0.5" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\btn2.png">
-                        <collision-poly>
-                            <point x="0.0412979" y="0.153846" />
-                            <point x="0.498525" y="0" />
-                            <point x="0.961652" y="0.142857" />
-                            <point x="1" y="0.494505" />
-                            <point x="0.964602" y="0.868132" />
-                            <point x="0.498525" y="1" />
-                            <point x="0.0294985" y="0.89011" />
-                            <point x="0.00294985" y="0.494505" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Mouse" sid="141378628703072">
             <plugin id="Mouse" />
         </object-type>
@@ -1528,47 +1504,6 @@
                             <point x="0.547022" y="0.958599" />
                             <point x="0.396552" y="0.958599" />
                             <point x="0.0203762" y="0.805732" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="5dosDer" sid="672143444591045">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433709139137064" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\2.png">
-                        <collision-poly>
-                            <point x="0.2125" y="0.2125" />
-                            <point x="0.5" y="0.0875" />
-                            <point x="0.7875" y="0.2125" />
-                            <point x="0.9125" y="0.5" />
-                            <point x="0.7875" y="0.7875" />
-                            <point x="0.5" y="0.9125" />
-                            <point x="0.2125" y="0.7875" />
-                            <point x="0.0875" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="5InfoPg2" sid="256161247299446">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="5uno" sid="795993276585211">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212832513717055" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Camila\Pictures\1.png">
-                        <collision-poly>
-                            <point x="0.2125" y="0.2125" />
-                            <point x="0.5" y="0.0875" />
-                            <point x="0.7875" y="0.2125" />
-                            <point x="0.9125" y="0.5" />
-                            <point x="0.7875" y="0.7875" />
-                            <point x="0.5" y="0.9125" />
-                            <point x="0.2125" y="0.7875" />
-                            <point x="0.0875" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2528,6 +2463,39 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="5TextoFinal" sid="445156944051848">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="2ContinuarBtn" sid="660257668882232">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344188777380065" speed="5">
+                    <frame duration="1" hotspotX="0.504505" hotspotY="0.509804" original-source="C:\Users\DETPC\Pictures\Imagenes del Juego\Actualizado\btn_continuar.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.117647" />
+                            <point x="0.495495" y="0" />
+                            <point x="0.954955" y="0.0980392" />
+                            <point x="1" y="0.490196" />
+                            <point x="0.954955" y="0.901961" />
+                            <point x="0.495495" y="1" />
+                            <point x="0.045045" y="0.901961" />
+                            <point x="0.00900901" y="0.490196" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="847578634902833">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300786499390313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="3vidas" sid="235533376386912">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

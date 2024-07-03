@@ -82,28 +82,12 @@
                 </action>
             </actions>
         </event-block>
-        <event-block any="1" sid="154259673477107">
-            <conditions>
-                <condition id="17" name="On tap object" sid="485415810381491" type="Touch">
-                    <param id="0" name="Object">1cargar</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-37" name="Load" sid="558959957983014" type="System">
-                    <param id="0" name="Slot">&quot;mysave&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="593079026828538">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="438776922276014" type="System" />
             </conditions>
             <actions>
                 <action behavior="Pin" id="0" name="Pin to object" sid="288391612527200" type="1nueva">
-                    <param id="0" name="Pin to">1contenedor</param>
-                    <param id="1" name="Mode">0</param>
-                </action>
-                <action behavior="Pin" id="0" name="Pin to object" sid="779550812166019" type="1cargar">
                     <param id="0" name="Pin to">1contenedor</param>
                     <param id="1" name="Mode">0</param>
                 </action>

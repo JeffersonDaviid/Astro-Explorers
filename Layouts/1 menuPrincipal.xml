@@ -715,31 +715,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="1cargar" uid="22">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>1</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>171</x>
-                        <y>394</y>
-                        <z>0</z>
-                        <width>224</width>
-                        <height>85</height>
-                        <depth>0</depth>
-                        <hotspotX>0.50222224</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.007148836</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="1z" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
