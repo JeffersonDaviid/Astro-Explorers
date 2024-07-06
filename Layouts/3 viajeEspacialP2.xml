@@ -1830,33 +1830,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3vidas" uid="144">
-                    <properties>
-                        <text>Vidas:</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21.6,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>530</x>
-                        <y>185</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -2504,7 +2477,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>736</x>
+                        <x>735</x>
                         <y>103</y>
                         <z>0</z>
                         <width>237.513549805</width>
@@ -2591,6 +2564,58 @@
                         <hotspotX>0.77290839</hotspotX>
                         <hotspotY>0.840163946</hotspotY>
                         <angle>0.17453292</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3Lives" uid="146">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>614</x>
+                        <y>196</y>
+                        <z>0</z>
+                        <width>61</width>
+                        <height>16</height>
+                        <depth>0</depth>
+                        <hotspotX>0.508196712</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="3vidas" uid="144">
+                    <properties>
+                        <text>Vidas:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21.6,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>510</x>
+                        <y>183</y>
+                        <z>0</z>
+                        <width>66</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

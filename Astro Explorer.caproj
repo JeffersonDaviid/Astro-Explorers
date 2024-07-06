@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
@@ -2497,6 +2498,65 @@
         <object-type name="3vidas" sid="235533376386912">
             <plugin id="Text" />
         </object-type>
+        <object-type name="3Lives" sid="170793881058649">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="420600549725288">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="455613338335348" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\DETPC\Downloads\Art\Art\1.png">
+                        <collision-poly>
+                            <point x="0.0327869" y="0.125" />
+                            <point x="0.967213" y="0.125" />
+                            <point x="0.983607" y="0.5" />
+                            <point x="0.934426" y="0.75" />
+                            <point x="0.491803" y="1" />
+                            <point x="0.0655738" y="0.75" />
+                            <point x="0.0163934" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\DETPC\Downloads\Art\Art\2.png">
+                        <collision-poly>
+                            <point x="0.0327869" y="0.125" />
+                            <point x="0.967213" y="0.125" />
+                            <point x="0.983607" y="0.5" />
+                            <point x="0.934426" y="0.75" />
+                            <point x="0.491803" y="1" />
+                            <point x="0.0655738" y="0.75" />
+                            <point x="0.0163934" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\DETPC\Downloads\Art\Art\3.png">
+                        <collision-poly>
+                            <point x="0.0327869" y="0.125" />
+                            <point x="0.967213" y="0.125" />
+                            <point x="0.983607" y="0.5" />
+                            <point x="0.934426" y="0.75" />
+                            <point x="0.491803" y="1" />
+                            <point x="0.0655738" y="0.75" />
+                            <point x="0.0163934" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\DETPC\Downloads\Art\Art\4.png">
+                        <collision-poly>
+                            <point x="0.0327869" y="0.125" />
+                            <point x="0.967213" y="0.125" />
+                            <point x="0.983607" y="0.5" />
+                            <point x="0.934426" y="0.75" />
+                            <point x="0.491803" y="1" />
+                            <point x="0.0655738" y="0.75" />
+                            <point x="0.0163934" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="235532418648029">
+            <plugin id="Function" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2546,6 +2606,7 @@
             </properties>
         </global-instance>
         <global-instance type="Browser" uid="232" />
+        <global-instance type="Function" uid="174" />
     </global-instances>
     <sounds-folder>
         <file name="3sfxExplosion.ogg" />

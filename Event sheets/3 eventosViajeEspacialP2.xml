@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>3 eventosViajeEspacialP2</name>
     <events>
-        <variable constant="0" name="Vidas" sid="692231962908629" static="0" type="number">3</variable>
+        <variable constant="0" name="Muertes" sid="287353598478854" static="0" type="number">0</variable>
         <include>Controles</include>
         <event-block sid="240638852678422">
             <conditions>
@@ -34,9 +34,6 @@
                 <action behavior="Pin" id="0" name="Pin to object" sid="862305021977968" type="3controlDer">
                     <param id="0" name="Pin to">3controler</param>
                     <param id="1" name="Mode">0</param>
-                </action>
-                <action id="0" name="Set text" sid="875637954583570" type="3vidas">
-                    <param id="0" name="Text">&quot;Vidas: &quot; &amp; Vidas</param>
                 </action>
             </actions>
             <sub-events>
@@ -177,16 +174,20 @@
                 </action>
             </actions>
         </event-block>
-        <event-block any="1" sid="194943068196167">
+        <event-block sid="966353188206575">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="841203063913011" type="3player">
-                    <param id="0" name="Object">3meteoro_xl</param>
-                </condition>
-                <condition id="0" name="On collision with another object" sid="982229744011286" type="3player">
-                    <param id="0" name="Object">3meteoro_n</param>
-                </condition>
-                <condition id="0" name="On collision with another object" sid="376484787411583" type="3player">
-                    <param id="0" name="Object">3blackHole</param>
+                <condition id="-1" name="Every tick" sid="334984377973531" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="525465614565213" type="3Lives">
+                    <param id="0" name="Frame number">Muertes</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="737757356184758">
+            <conditions>
+                <condition id="0" name="On function" sid="358468943642549" type="Function">
+                    <param id="0" name="Name">&quot;OnDeath&quot;</param>
                 </condition>
             </conditions>
             <actions>
@@ -195,6 +196,9 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="575698712052263" type="Audio">
+                    <param id="0" name="Tag">&quot;musicaViajeEspacial&quot;</param>
                 </action>
                 <action id="-7" name="Set size" sid="132608130249362" type="3player">
                     <param id="0" name="Width">250</param>
@@ -210,19 +214,59 @@
                 <action behavior="8Direction" id="2" name="Set ignoring input" sid="965473449941344" type="3player">
                     <param id="0" name="Input">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="810937382234291" type="System">
+                <action id="-9" name="Destroy" sid="505509088576326" type="3player" />
+                <action id="-15" name="Set visible" sid="850897552196673" type="3controler">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="969012502068290" type="System">
+                    <param id="0" name="Variable">Muertes</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="567343207876549" type="System">
                     <param id="0" name="Seconds">3</param>
                 </action>
-                <action id="-9" name="Destroy" sid="505509088576326" type="3player" />
-                <action id="6" name="Stop" sid="575698712052263" type="Audio">
+                <action id="-26" name="Restart layout" sid="920527998515586" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="880104845344953">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="183978261709275" type="System">
+                    <param id="0" name="Variable">Muertes</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="799264069890537" type="Audio">
+                    <param id="0" name="Audio file">3sonidoExposion</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="445185873439679" type="Audio">
                     <param id="0" name="Tag">&quot;musicaViajeEspacial&quot;</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="616333699553306" type="System">
+                <action id="-2" name="Go to layout" sid="419849713139777" type="System">
                     <param id="0" name="Layout">3 Failed</param>
                 </action>
-                <action id="-11" name="Subtract from" sid="700350404428482" type="System">
-                    <param id="0" name="Variable">Vidas</param>
-                    <param id="1" name="Value">1</param>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="194943068196167">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="841203063913011" type="3player">
+                    <param id="0" name="Object">3meteoro_xl</param>
+                </condition>
+                <condition id="0" name="On collision with another object" sid="982229744011286" type="3player">
+                    <param id="0" name="Object">3meteoro_n</param>
+                </condition>
+                <condition id="0" name="On collision with another object" sid="376484787411583" type="3player">
+                    <param id="0" name="Object">3blackHole</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="675869238465103" type="Function">
+                    <param id="0" name="Name">&quot;OnDeath&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -275,6 +319,10 @@
                 <action id="-3" name="Set position" sid="163747147854239" type="3vidas">
                     <param id="0" name="X">3player.X + 105</param>
                     <param id="1" name="Y">3player.Y - 55</param>
+                </action>
+                <action id="-3" name="Set position" sid="721827391541693" type="3Lives">
+                    <param id="0" name="X">3player.X + 210</param>
+                    <param id="1" name="Y">3player.Y - 44</param>
                 </action>
             </actions>
         </event-block>

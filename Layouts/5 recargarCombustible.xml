@@ -175,8 +175,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>590.082702637</x>
-                        <y>21.638671875</y>
+                        <x>597</x>
+                        <y>22</y>
                         <z>0</z>
                         <width>178.73147583</width>
                         <height>69</height>
@@ -231,33 +231,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5TextoFinal" uid="22">
-                    <properties>
-                        <text>¡Juego Terminado!Gracias por jugar. Por favor, selecciona otro planeta para continuar tu aventura.</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-22.4,700,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>238</x>
-                        <y>74</y>
-                        <z>0</z>
-                        <width>426</width>
-                        <height>276</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -301,8 +274,8 @@
                 </instance>
                 <instance type="5ProgressBar" uid="135">
                     <properties>
-                        <value>50</value>
-                        <maximum>100</maximum>
+                        <value>100</value>
+                        <maximum>0</maximum>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional></id-optional>
@@ -335,11 +308,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>212</x>
-                        <y>69</y>
+                        <x>220</x>
+                        <y>73</y>
                         <z>0</z>
-                        <width>434.277648926</width>
-                        <height>267.506896973</height>
+                        <width>439</width>
+                        <height>260</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -347,52 +320,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5cuadro_inf_pg1" uid="138">
-                    <properties>
-                        <text>¡No té rindas, hay más cosas por descubrir !</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-13,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>580</x>
-                        <y>25</y>
-                        <z>0</z>
-                        <width>178.73147583</width>
-                        <height>69</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0.003041688</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="pg_02" sid="110482276298353">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
                 <instance type="5exit" uid="147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -403,42 +330,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>648</x>
-                        <y>102</y>
+                        <x>666</x>
+                        <y>340</y>
                         <z>0</z>
-                        <width>40</width>
-                        <height>40</height>
+                        <width>44</width>
+                        <height>43</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="5cuadro_inf_pg2" uid="148">
-                    <properties>
-                        <text>¡Felicidades lograsté llenar el combustible de tú nave!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Consolas,-13,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>586.72265625</x>
-                        <y>15.757293701</y>
-                        <z>0</z>
-                        <width>206.491638184</width>
-                        <height>79.838989258</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0.003041688</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -483,11 +383,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="5Fin" uid="150">
+                <instance type="5TextoFinal" uid="22">
                     <properties>
-                        <text>¡Puedes viajar a otros planetas !</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Bahnschrift,-16,700,0</font>
+                        <text>¡Juego Terminado!. Gracias por jugar. Por favor, selecciona otro planeta para continuar tu aventura.</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-22.4,700,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -498,11 +398,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>595.963378906</x>
-                        <y>12.394668579</y>
+                        <x>223</x>
+                        <y>76</y>
                         <z>0</z>
-                        <width>189.840805054</width>
-                        <height>83.58354187</height>
+                        <width>426</width>
+                        <height>276</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

@@ -51,40 +51,9 @@
                             <param id="0" name="Variable">cuadro_informacion</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="165599703417464" title="Int-Pg01">
-            <sub-events>
-                <event-block sid="479633873187441">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="216510662825366" type="System">
-                            <param id="0" name="Variable">no_pg</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="902335144994834" type="System">
-                            <param id="0" name="Layer">&quot;pg_02&quot;</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="862195500262448">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="911795509588701" type="System">
-                            <param id="0" name="Variable">no_pg</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="546723587634254" type="System">
-                            <param id="0" name="Layer">&quot;pg_02&quot;</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
+                        <action id="-9" name="Destroy" sid="163594048650261" type="5alien" />
+                        <action id="-9" name="Destroy" sid="488280072465436" type="5text" />
+                        <action id="-9" name="Destroy" sid="950667161997478" type="5cuadro_inf" />
                     </actions>
                 </event-block>
             </sub-events>
