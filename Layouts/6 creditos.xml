@@ -1815,7 +1815,7 @@
                 </instance>
                 <instance type="6creditosJuego3" uid="235">
                     <properties>
-                        <text>Dr. Rosa Cuesta</text>
+                        <text>Dra. Rosa Cuesta</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-29,700,0</font>
                         <color>0,204,255</color>

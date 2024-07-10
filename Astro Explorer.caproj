@@ -1893,7 +1893,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589154789110327" speed="5">
-                    <frame duration="1" hotspotX="0.503937" hotspotY="0.5" original-source="D:\Users\Usuario\Desktop\AstroExplorers\Ilustraciones\Nueva carpeta\creditos.png">
+                    <frame duration="1" hotspotX="0.503937" hotspotY="0.5" original-source="D:\Users\Usuario\Pictures\Recursos del juego\Recurso 44.png\Recurso 44.png">
                         <collision-poly>
                             <point x="0.0551181" y="0.145833" />
                             <point x="0.496063" y="0" />
@@ -2556,6 +2556,25 @@
         </object-type>
         <object-type name="Function" sid="235532418648029">
             <plugin id="Function" />
+        </object-type>
+        <object-type name="3RegresarMenu" sid="411933462360033">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="166378792237221" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Usuario\Pictures\Recursos del juego\Recurso 45.png\Recurso 45.png">
+                        <collision-poly>
+                            <point x="0.049569" y="0.130682" />
+                            <point x="0.5" y="0" />
+                            <point x="0.954741" y="0.119318" />
+                            <point x="1" y="0.5" />
+                            <point x="0.959052" y="0.892045" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0344828" y="0.909091" />
+                            <point x="0.00215517" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

@@ -119,7 +119,7 @@
                 </instance>
                 <instance type="2instruccion1" uid="173">
                     <properties>
-                        <text>Escoge el planeta al que quieras viajar tocandolo. Puedes obtener puntos extra destruyendo los meteoritos!</text>
+                        <text>Escoge el planeta al que quieras viajar tocándolo. Puedes obtener puntos extra destruyendo los meteoritos!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-16,400,0</font>
                         <color>255,255,255</color>
@@ -168,7 +168,7 @@
                 </instance>
                 <instance type="2instruccion2" uid="1">
                     <properties>
-                        <text>Viaja a los planetas usando las flechas de tu teclado y destruye los meteoros con tu mouse</text>
+                        <text>Viaja a los planetas usando las flechas de tu teclado y destruye los meteoros con tu mouse o la barra espaciadora.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-16,400,0</font>
                         <color>255,255,255</color>

@@ -63,6 +63,9 @@
         <event-block any="1" sid="375124393273349">
             <conditions>
                 <condition id="2" name="Is in touch" sid="837162802424393" type="Touch" />
+                <condition id="0" name="On key pressed" sid="394497385550854" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
             </conditions>
             <actions />
             <sub-events>

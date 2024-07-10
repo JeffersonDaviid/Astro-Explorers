@@ -217,7 +217,7 @@
                 </instance>
                 <instance type="Text5" uid="121">
                     <properties>
-                        <text>Aterriza cerca de la estacion de carga!</text>
+                        <text>Aterriza cerca de la estación de carga!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Black,-19,900,0</font>
                         <color>255,255,255</color>

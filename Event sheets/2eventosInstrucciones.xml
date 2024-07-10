@@ -18,7 +18,7 @@
                     <param id="0" name="Frame number">0</param>
                 </action>
                 <action id="0" name="Set text" sid="570480854791578" type="2instruccion1">
-                    <param id="0" name="Text">&quot;Muevete a traves de la estrellas con las flechas de tu teclado!&quot;</param>
+                    <param id="0" name="Text">&quot;Muévete a través de las estrellas con las flechas de tu teclado!&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="214265834589796" type="2instruccion2">
                     <param id="0" name="Text">&quot;Intenta llegar a la plataforma de carga de combustible evitando que tu nave choque en otro lugar&quot;</param>

@@ -876,8 +876,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>428</x>
-                        <y>268</y>
+                        <x>426</x>
+                        <y>273</y>
                         <z>0</z>
                         <width>844</width>
                         <height>504.945831299</height>
@@ -915,7 +915,7 @@
                 </instance>
                 <instance type="1indicaciones" uid="120">
                     <properties>
-                        <text>¡Ahora puedes viajar por el espacio libremente. Despegamos!</text>
+                        <text>¡Ahora puedes conocer las constelaciones, usa el curso para desplazarte!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Black,-18.4,900,0</font>
                         <color>255,255,255</color>
