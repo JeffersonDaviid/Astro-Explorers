@@ -915,7 +915,7 @@
                 </instance>
                 <instance type="1indicaciones" uid="120">
                     <properties>
-                        <text>¡Ahora puedes conocer las constelaciones, usa el curso para desplazarte!</text>
+                        <text>¡Ahora puedes conocer las constelaciones, usa el cursor para desplazarte!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Black,-18.4,900,0</font>
                         <color>255,255,255</color>
