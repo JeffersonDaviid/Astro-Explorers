@@ -327,11 +327,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>110</x>
-                        <y>401</y>
+                        <x>106.5</x>
+                        <y>408</y>
                         <z>0</z>
-                        <width>28</width>
-                        <height>32</height>
+                        <width>31</width>
+                        <height>49</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -352,11 +352,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>175</x>
-                        <y>404</y>
+                        <x>180</x>
+                        <y>407</y>
                         <z>0</z>
                         <width>30</width>
-                        <height>30</height>
+                        <height>49</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
