@@ -163,6 +163,9 @@
                     <param id="2" name="Image point">0</param>
                 </action>
                 <action id="-9" name="Destroy" sid="608477994378626" type="3MeteoroMarron" />
+                <action id="6" name="Stop" sid="813260424128272" type="Audio">
+                    <param id="0" name="Tag">&quot;universalCollapse&quot;</param>
+                </action>
                 <action id="0" name="Play" sid="483588873503604" type="Audio">
                     <param id="0" name="Audio file">3sfxExplosion</param>
                     <param id="2" name="Loop">0</param>
