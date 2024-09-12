@@ -42,23 +42,6 @@
                     <param id="0" name="Slot">&quot;mysave&quot;</param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="552106138549897">
-                    <conditions>
-                        <condition id="-20" name="Is on mobile device" sid="137010495934319" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Set position" sid="819114152737183" type="3controlDer">
-                            <param id="0" name="X">800</param>
-                            <param id="1" name="Y">400</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="946833012288378" type="3controlIzq">
-                            <param id="0" name="X">60</param>
-                            <param id="1" name="Y">400</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block any="1" sid="375124393273349">
             <conditions>
@@ -211,6 +194,7 @@
                     <param id="2" name="X">floor(random(64, 640))</param>
                     <param id="3" name="Y">-60</param>
                 </action>
+                <action id="-25" name="Move to bottom" sid="768435778281918" type="3MeteoroMarron" />
                 <action id="-10" name="Add to" sid="906011600489067" type="System">
                     <param id="0" name="Variable">timeShip</param>
                     <param id="1" name="Value">1</param>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Astro Explorer</name>
-    <description></description>
+    <description>juego de Exploracion espacial</description>
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://google.com</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <app-id>astroEsxplorers.epn.edu.ec</app-id>
     <unique-id>3u9lpr5py2huh</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
